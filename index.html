@@ -57,14 +57,22 @@
     <!-- Chi tiết bài học (ẩn ban đầu) -->
     <div id="detail-view" class="hidden bg-white rounded-2xl shadow-xl overflow-hidden mt-6"></div>
 
-    <!-- Footer với tác giả nổi bật -->
+    <!-- Footer với tác giả và cảnh báo 115 nổi bật -->
     <footer class="mt-12 text-center border-t border-gray-200 pt-6">
         <div class="bg-white/60 backdrop-blur-sm rounded-2xl p-4 max-w-2xl mx-auto shadow-sm">
             <p class="text-gray-500 text-sm">© 2023 – Demo 2026 | Biên soạn bởi</p>
             <p class="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-blue-600">Phạm Duy Thanh</p>
             <p class="font-medium text-gray-700">Thành viên Trung tâm Phổ cập Kỹ năng Sơ cấp cứu – ĐHYD TP.HCM</p>
-            <p class="text-xs text-gray-400 mt-2">Tài liệu tham khảo: AHA 2020-2025, Bộ Y tế Việt Nam, Tổ chức Y tế Thế giới (WHO).</p>
-            <p class="text-xs mt-1">🚨 Trong trường hợp khẩn cấp, hãy gọi <strong class="text-red-600 text-base">115</strong> ngay lập tức.</p>
+            
+            <!-- Dòng cảnh báo khẩn cấp được làm nổi bật -->
+            <div class="mt-4 p-3 bg-red-50 border-l-4 border-red-600 rounded-lg shadow-sm">
+                <p class="text-red-700 font-bold text-lg flex items-center justify-center gap-2">
+                    <i class="fas fa-phone-alt text-red-600 text-xl"></i>
+                    🚨 Trong trường hợp khẩn cấp, hãy gọi <span class="text-2xl bg-red-600 text-white px-3 py-1 rounded-full mx-1">115</span> ngay lập tức.
+                </p>
+            </div>
+
+            <p class="text-xs text-gray-400 mt-3">Tài liệu tham khảo: AHA 2020-2025, Bộ Y tế Việt Nam, Tổ chức Y tế Thế giới (WHO).</p>
         </div>
     </footer>
 </div>

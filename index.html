@@ -20,24 +20,29 @@
 <body class="bg-gradient-to-br from-blue-50 to-gray-100 bg-pattern">
 
 <div id="root" class="max-w-7xl mx-auto px-4 py-6">
-    <!-- Header với logo và thông tin - căn chỉnh đẹp -->
+    <!-- Header với logo và thông tin - căn chỉnh đẹp, đồng bộ màu (theo đúng code bạn đã cung cấp) -->
     <div class="text-center mb-10">
-        <!-- Logo Trung tâm -->
+        <!-- Logo Trung tâm - kích thước vừa phải, bo tròn, bóng nhẹ, màu phù hợp -->
         <div class="flex justify-center mb-4">
             <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-3 shadow-md inline-block border border-blue-100">
-                <i class="fas fa-hand-holding-heart text-red-500 text-5xl"></i>
-                <!-- Nếu có logo ảnh thật, thay bằng <img> -->
+                <img src="images/logo-trung-tam.jpg" alt="Trung tâm Sơ cấp cứu ĐHYD TP.HCM" class="h-20 w-auto object-contain">
             </div>
         </div>
+
+        <!-- Dòng chữ Trung tâm (đồng bộ màu xanh chủ đạo) -->
         <div class="inline-flex items-center gap-2 bg-blue-50/80 backdrop-blur-sm rounded-full px-5 py-2 shadow-sm mb-3 border border-blue-200">
-            <i class="fas fa-university text-blue-600"></i>
+            <i class="fas fa-hand-holding-heart text-red-500 text-lg"></i>
             <span class="text-blue-800 font-semibold">Trung tâm Phổ cập Kỹ năng Sơ cấp cứu</span>
-            <i class="fas fa-hand-holding-heart text-red-500"></i>
+            <i class="fas fa-university text-blue-600"></i>
         </div>
+
+        <!-- Tiêu đề chính -->
         <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800 tracking-tight">
             🚑 Cẩm nang <span class="text-red-600">Sơ cấp cứu</span> cộng đồng
         </h1>
         <p class="text-gray-600 text-lg mt-2 max-w-2xl mx-auto">Kiến thức đúng – Kỹ năng kịp thời – Vì một cộng đồng an toàn</p>
+        
+        <!-- Ảnh minh họa banner nhỏ -->
         <div class="mt-4 flex justify-center gap-4 flex-wrap">
             <img src="https://cdn-icons-png.flaticon.com/512/2942/2942807.png" class="w-10 h-10 opacity-60" alt="first aid">
             <img src="https://cdn-icons-png.flaticon.com/512/3080/3080598.png" class="w-10 h-10 opacity-60" alt="bone">
@@ -46,7 +51,7 @@
         <p class="text-gray-500 text-sm mt-2">Chọn một chủ đề để xem hướng dẫn chi tiết (kèm hình minh họa)</p>
     </div>
 
-    <!-- Grid danh sách bài học -->
+    <!-- Danh sách bài học (grid) -->
     <div id="lessons-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
 
     <!-- Chi tiết bài học (ẩn ban đầu) -->
@@ -66,7 +71,7 @@
 
 <script>
     // --------------------------------------------------------------
-    // DỮ LIỆU 21 BÀI HỌC CHI TIẾT, CẬP NHẬT Y VĂN, NHIỀU HÌNH MINH HỌA
+    // DỮ LIỆU 21 BÀI HỌC CHI TIẾT, CẬP NHẬT Y VĂN, NHIỀU HÌNH MINH HỌA (giữ nguyên nội dung đã được viết)
     // --------------------------------------------------------------
     const lessons = [
         {
@@ -157,47 +162,261 @@
                 illustration: `<div class="schema-svg"><svg width="200" height="130" viewBox="0 0 200 130"><rect x="30" y="20" width="140" height="90" fill="#fee2e2" stroke="#ef4444" stroke-width="2" rx="8"/><circle cx="100" cy="65" r="15" fill="#dc2626"/><text x="100" y="70" text-anchor="middle" fill="white" font-size="11">Ép</text><text x="100" y="115" text-anchor="middle" font-size="10">Ép trực tiếp + nâng cao chi</text></svg><p class="text-xs text-gray-500 mt-1">Cầm máu bằng ép trực tiếp và băng ép</p></div>`
             }
         },
-        // Các bài khác (sốc, bong gân, trật khớp, dị ứng, chó cắn, rắn cắn, ong đốt, đột quỵ, đuối nước, bỏng, điện giật, CPR, hạ thân nhiệt, ngộ độc thực phẩm, co giật, chấn thương cột sống, nhồi máu cơ tim, hạ đường huyết, vết thương phần mềm) được viết với mức độ chi tiết tương tự.
-        // Vì giới hạn độ dài, tôi sẽ viết các bài còn lại với cấu trúc đầy đủ, nhưng ẩn bớt phần chi tiết siêu dài để code vừa vặn. Trong sản phẩm thực tế, bạn có thể mở rộng.
-        // Dưới đây tôi cung cấp đủ 21 bài với nội dung chi tiết, nhưng để code gọn tôi sẽ dùng cách viết tinh gọn nhưng vẫn đảm bảo tính chuyên sâu.
-        
-        { id:"soc-giam-the-tich", title:"Sốc giảm thể tích", icon:"⚠️", color:"dark",
-          content:{ dauHieuChacChan:[], dauHieuNghiVan:["Nhịp tim nhanh (>100), thở nhanh", "Da xanh, tái, lạnh, vã mồ hôi", "Tụt huyết áp, lơ mơ, mất ý thức"], phanLoai:[], quyTrinh:["Gọi 115 ngay, cầm máu nếu có", "Nạn nhân nằm, nâng chân cao hơn đầu (30-45°)", "Đắp chăn giữ ấm, không cho ăn uống", "Theo dõi ABC, sẵn sàng CPR"], luuY:"Sốc mất máu có thể tử vong trong vài phút. Ưu tiên cầm máu và gọi 115." ,
-            illustration: `<div class="schema-svg"><svg width="200" height="120" viewBox="0 0 200 120"><path d="M60 20 L140 20 L160 60 L140 100 L60 100 L40 60 Z" fill="#d1d5db" stroke="#4b5563"/><polygon points="100,30 120,60 80,60" fill="#dc2626"/><text x="100" y="90" text-anchor="middle" font-size="10">Nâng chân cao hơn tim</text></svg><p class="text-xs text-gray-500">Tư thế chống sốc (Trendelenburg)</p></div>` } },
-        { id:"bong-gan", title:"Bong gân", icon:"🦵", color:"teal",
-          content:{ dauHieuChacChan:[], dauHieuNghiVan:["Đau nhói đột ngột tại điểm dây chằng", "Sưng nề, bầm tím nhanh", "Hạn chế cử động khớp, không thể chịu lực"], phanLoai:[{ten:"Độ 1 (nhẹ)",moTa:"Dây chằng giãn, đau ít",color:"green"},{ten:"Độ 2 (vừa)",moTa:"Rách một phần, sưng bầm",color:"yellow"},{ten:"Độ 3 (nặng)",moTa:"Đứt hoàn toàn, khớp mất vững",color:"red"}], quyTrinh:["R (Rest): nghỉ ngơi, không vận động","I (Ice): chườm lạnh bọc vải 15-20p/ lần, cách 2-3h","C (Compress): băng ép băng thun, không quá chặt","E (Elevate): kê cao chi bị thương"], luuY:"Sau 48h có thể chườm ấm. Nếu không cải thiện sau 3-5 ngày, đi khám chuyên khoa.",
-            illustration: `<div class="schema-svg"><img src="https://cdn-icons-png.flaticon.com/512/2785/2785811.png" class="w-16 h-16 mx-auto"><p class="text-xs text-gray-500">R.I.C.E - Nghỉ, chườm, băng, kê cao</p></div>` } },
-        { id:"trat-khop", title:"Trật khớp", icon:"🦾", color:"indigo",
-          content:{ dauHieuChacChan:["Biến dạng rõ tại khớp (khác bên lành)", "Sờ thấy ổ khớp rỗng", "Dấu hiệu lò xo (cố nắn thì bật lại)"], dauHieuNghiVan:["Đau dữ dội, không cử động được khớp", "Sưng nề vùng khớp"], phanLoai:[], quyTrinh:["Trấn an, không cố nắn khớp","Gọi 115 ngay","Bất động khớp ở tư thế hiện tại bằng nẹp hoặc địu","Chườm lạnh giảm đau, chờ xe cấp cứu"], luuY:"Tuyệt đối không tự nắn, có thể gây gãy xương hoặc tổn thương mạch máu. Trật khớp vai dễ tái phát, cần theo dõi chuyên khoa.",
-            illustration: `<div class="schema-svg"><svg width="180" height="120" viewBox="0 0 180 120"><circle cx="60" cy="60" r="20" fill="#e5e7eb" stroke="#4b5563"/><circle cx="120" cy="60" r="20" fill="#fca5a5" stroke="#dc2626"/><path d="M80 60 L100 60" stroke="#dc2626" stroke-width="3" stroke-dasharray="4"/><text x="90" y="100" text-anchor="middle" font-size="9">Khớp bên trật (không khớp)</text></svg><p class="text-xs text-gray-500">Biến dạng khớp – không tự nắn</p></div>` } },
-        { id:"di-ung", title:"Dị ứng / Sốc phản vệ", icon:"🤧", color:"pink",
-          content:{ dauHieuChacChan:[], dauHieuNghiVan:["Mề đay, ngứa, phù mạch (môi, mí, thanh quản)", "Khó thở, thở rít, khàn tiếng, nuốt vướng", "Tụt huyết áp, mạch nhanh nhỏ, choáng, ngất", "Buồn nôn, đau bụng, tiêu chảy"], phanLoai:[{ten:"Độ 1",moTa:"Da, niêm mạc",color:"yellow"},{ten:"Độ 2",moTa:"Nhiều cơ quan mức độ nhẹ - vừa",color:"orange"},{ten:"Độ 3",moTa:"Đe dọa tính mạng, tụt HA, khó thở",color:"red"}], quyTrinh:["Ngừng ngay tiếp xúc dị nguyên (thuốc, thức ăn, nọc côn trùng)","Gọi 115 ngay lập tức","Đặt nạn nhân nằm, nâng chân nếu tụt HA; nếu khó thở thì nâng đầu hoặc ngồi","Nếu có bơm epinephrine tự động, tiêm vào mặt ngoài đùi","Theo dõi ABC, sẵn sàng CPR"], luuY:"Sốc phản vệ tiến triển rất nhanh. Người có cơ địa dị ứng nặng cần mang theo ống tiêm epinephrine và cài đặt cảnh báo y tế.",
-            illustration: `<div class="schema-svg"><img src="https://cdn-icons-png.flaticon.com/512/1998/1998636.png" class="w-16 h-16 mx-auto"><p class="text-xs text-gray-500">Dùng epinephrine tiêm bắp ngay khi có dấu hiệu</p></div>` } },
-        { id:"cho-can", title:"Chó cắn", icon:"🐕", color:"brown",
-          content:{ dauHieuChacChan:[], dauHieuNghiVan:["Vết rách da, chảy máu, sưng đau", "Nguy cơ nhiễm trùng cao (Pasteurella, tụ cầu)", "Nguy cơ bệnh dại và uốn ván"], phanLoai:[{ten:"Cắn độ 1",moTa:"Tiếp xúc da lành (không nguy cơ)",color:"green"},{ten:"Độ 2",moTa:"Vết xước nhẹ, trầy da, chảy máu ít",color:"yellow"},{ten:"Độ 3",moTa:"Vết cắn sâu, thủng da, chảy máu nhiều, có thể tổn thương cơ",color:"red"}], quyTrinh:["Rửa vết thương dưới vòi nước chảy + xà phòng liên tục 15 phút","Sát khuẩn bằng cồn 70° hoặc povidone-iodine","Đến cơ sở y tế ngay để tiêm phòng dại và uốn ván (ngay cả vết xước nhẹ)","Theo dõi con chó trong 10 ngày (nếu có thể) để phát hiện dấu hiệu dại"], luuY:"Không nặn máu, không băng kín vết thương, không đắp lá. Tiêm vắc-xin dại càng sớm càng tốt, không chờ đến khi có triệu chứng (vì khi lên cơn dại thì tỉ lệ tử vong gần như 100%).",
-            illustration: `<div class="schema-svg"><img src="https://cdn-icons-png.flaticon.com/512/1998/1998636.png" class="w-16 h-16 mx-auto"><p class="text-xs text-gray-500">Rửa kỹ vết thương với xà phòng 15 phút</p></div>` } },
-        { id:"ran-can", title:"Rắn cắn", icon:"🐍", color:"green",
-          content:{ dauHieuChacChan:[], dauHieuNghiVan:["Hai vết răng nanh cách nhau 1-2cm (rắn độc)", "Sưng nề, bầm tím lan nhanh, đau tăng dần", "Rối loạn đông máu (chảy máu chân răng, bầm da, nôn ra máu)", "Liệt cơ (sụp mi, nói khó, nuốt khó, suy hô hấp)"], phanLoai:[{ten:"Rắn hổ (Elapidae)",moTa:"Độc tố thần kinh: liệt, suy hô hấp.",color:"blue"},{ten:"Rắn lục (Viperidae)",moTa:"Độc tố gây rối loạn đông máu, hoại tử.",color:"red"}], quyTrinh:["Di chuyển nạn nhân ra xa khu vực rắn, trấn an","Gọi 115 ngay, để vết cắn thấp hơn tim","Tháo trang sức, quần áo chật","Rắn hổ: có thể băng ép bất động chi (không garo). Rắn lục: không băng ép, chỉ bất động chi","Chuyển đến bệnh viện có sẵn huyết thanh kháng nọc càng sớm càng tốt"], luuY:"Không garo (có thể gây hoại tử chi), không rạch hút nọc độc, không đắp lá, không chườm đá. Cố gắng nhận dạng rắn (chụp ảnh) nhưng đảm bảo an toàn.",
-            illustration: `<div class="schema-svg"><svg width="200" height="120" viewBox="0 0 200 120"><path d="M40 40 L160 40 L140 80 L60 80 Z" fill="#e2e8f0" stroke="#475569"/><circle cx="100" cy="60" r="10" fill="#dc2626"/><text x="100" y="100" text-anchor="middle" font-size="10">Bất động, để vết cắn thấp hơn tim</text></svg><p class="text-xs text-gray-500">Sơ cứu rắn cắn: bất động chi, vận chuyển nhanh</p></div>` } },
-        { id:"ong-dot", title:"Ong đốt", icon:"🐝", color:"yellow",
-          content:{ dauHieuChacChan:[], dauHieuNghiVan:["Đau chói, sưng đỏ, ngứa tại chỗ","Nhiều vết đốt hoặc có dị ứng: nổi mề đay toàn thân, khó thở, tụt HA, phù thanh quản"], phanLoai:[{ten:"Phản ứng tại chỗ",moTa:"Sưng đỏ dưới 10cm, tự hết sau vài giờ",color:"green"},{ten:"Phản ứng toàn thân",moTa:"Sốc phản vệ, nguy hiểm",color:"red"}], quyTrinh:["Di chuyển nạn nhân đến nơi an toàn","Loại bỏ ngòi (nếu ong mật) bằng cách cạo nhẹ, không nặn","Rửa vết đốt bằng xà phòng và nước lạnh","Chườm lạnh bọc vải 20 phút, nâng chi bị đốt","Theo dõi dấu hiệu dị ứng; nếu khó thở, nổi mề đay toàn thân, gọi 115 ngay và chuẩn bị epinephrine"], luuY:"Không bôi vôi, kem đánh răng, dầu gió. Không gãi, không xoa bóp. Nếu ong bắp cày hoặc ong vò vẽ đốt, có thể gây hoại tử, cần rửa bằng nước muối và đến bệnh viện.",
-            illustration: `<div class="schema-svg"><img src="https://cdn-icons-png.flaticon.com/512/2932/2932555.png" class="w-16 h-16 mx-auto"><p class="text-xs text-gray-500">Cạo ngòi, chườm lạnh</p></div>` } },
-        { id:"dot-quy", title:"Đột quỵ", icon:"🧠", color:"pink",
-          content:{ dauHieuChacChan:[], dauHieuNghiVan:["Mặt méo (cười lệch, nhân trung lệch)","Yếu liệt tay chân một bên (thử giơ hai tay, một tay rơi xuống)","Nói khó, nói ngọng, không nói được","Đau đầu dữ dội đột ngột, chóng mặt, mất thăng bằng, nhìn mờ một bên"], phanLoai:[{ten:"Nhồi máu não",moTa:"Tắc mạch, chiếm 85%, có thể dùng thuốc tiêu sợi huyết trong 4,5 giờ",color:"blue"},{ten:"Xuất huyết não",moTa:"Vỡ mạch, chiếm 15%, nguy hiểm hơn, cần phẫu thuật sớm",color:"red"}], quyTrinh:["Gọi 115 ngay lập tức – ghi nhớ thời điểm khởi phát (giờ vàng 3-4,5h)","Đặt nạn nhân nằm nghiêng an toàn nếu nôn, đầu cao 30° nếu tỉnh và không có chấn thương cột sống","Nới lỏng quần áo, không cho ăn uống bất kỳ thứ gì (kể cả thuốc)","Ghi nhận các triệu chứng và thời gian để cung cấp cho nhân viên y tế","Nếu ngưng thở, ngưng tim, bắt đầu CPR ngay"], luuY:"Không tự ý cho uống aspirin, không chích lể, cạo gió, không tự lái xe đến bệnh viện. Đột quỵ cần can thiệp chuyên khoa càng sớm càng tốt.",
-            illustration: `<div class="schema-svg"><svg width="220" height="130" viewBox="0 0 220 130"><rect x="20" y="20" width="180" height="90" fill="#fce7f3" stroke="#ec4899" rx="10"/><text x="70" y="50" font-size="14" font-weight="bold">B.E. F.A.S.T</text><text x="50" y="70" font-size="10">Mặt méo - Yếu tay - Nói khó - Gọi 115</text><text x="110" y="100" text-anchor="middle" font-size="10">Mỗi phút trôi qua, 2 triệu tế bào não chết</text></svg><p class="text-xs text-gray-500">Nhận biết sớm đột quỵ theo BE FAST</p></div>` } },
-        // Tiếp tục các bài khác với đầy đủ nội dung (đuối nước, bỏng, điện giật, CPR, hạ thân nhiệt, ngộ độc thực phẩm, co giật, chấn thương cột sống, nhồi máu cơ tim, hạ đường huyết, vết thương phần mềm)
-        // Do giới hạn ký tự, tôi sẽ viết nốt 11 bài còn lại với cấu trúc chi tiết, nhưng cô đọng trong một dòng (vẫn đảm bảo thông tin). Thực tế bạn có thể mở rộng.
-        { id:"duoi-nuoc", title:"Đuối nước", icon:"🏊", color:"blue", content:{ dauHieuChacChan:[], dauHieuNghiVan:["Ngừng thở, ngừng tim, da tím tái, bụng chướng", "Mất ý thức"], phanLoai:[], quyTrinh:["Đưa lên khỏi mặt nước an toàn, đặt nằm ngửa trên mặt phẳng cứng","Gọi 115","Mở đường thở, nếu không thở → thổi ngạt 2 cái ngay","Nếu không mạch → ép tim 30:2","Tiếp tục CPR đến khi nạn nhân tỉnh hoặc có cấp cứu"], luuY:"Không dốc nước bằng cách xốc chân, không lãng phí thời gian. Ưu tiên thổi ngạt và ép tim ngay." } },
-        { id:"bong", title:"Bỏng / Phỏng", icon:"🔥", color:"orange", content:{ dauHieuChacChan:[], dauHieuNghiVan:["Đỏ da, phồng rộp, đau rát, da có thể cháy đen", "Bỏng hóa chất có thể không đau ngay nhưng tiến triển nặng"], phanLoai:[{ten:"Độ 1",moTa:"Đỏ, đau, không phồng nước",color:"yellow"},{ten:"Độ 2",moTa:"Phồng nước, nền hồng, đau nhiều",color:"orange"},{ten:"Độ 3",moTa:"Da cháy đen/trắng, không đau, tổn thương sâu",color:"red"}], quyTrinh:["Loại bỏ nguồn nhiệt, ngắt điện","Làm mát dưới vòi nước sạch, mát 20 phút","Che phủ vết bỏng bằng gạc ẩm hoặc khăn sạch, không bôi gì","Gọi 115 nếu bỏng nặng (sâu, mặt, bộ phận sinh dục, diện rộng >10% cơ thể)","Bù nước, điện giải (oresol)"], luuY:"Không đắp kem đánh răng, vôi, dầu cá, không làm vỡ nốt phỏng, không dùng cồn rửa." } },
-        { id:"dien-giat", title:"Điện giật", icon:"⚡", color:"yellow", content:{ dauHieuChacChan:[], dauHieuNghiVan:["Bất tỉnh, co giật, ngừng thở, ngừng tim","Vết bỏng sâu tại điểm tiếp xúc"], phanLoai:[], quyTrinh:["Ngắt nguồn điện ngay (cầu dao, dùng gậy khô hất dây)","Không chạm trực tiếp","Gọi 115, nếu ngưng thở ngưng tim → CPR ngay","Xử lý vết bỏng như bỏng thường"], luuY:"Sau điện giật, dù tỉnh vẫn cần đến bệnh viện kiểm tra tim mạch (rối loạn nhịp muộn)." } },
-        { id:"cpr", title:"CPR (Hồi sinh tim phổi)", icon:"🫀", color:"red", content:{ dauHieuChacChan:["Ngừng tim (không bắt mạch cảnh, mạch bẹn)","Ngừng thở (lồng ngực không di động)","Mất ý thức"], dauHieuNghiVan:[], phanLoai:[], quyTrinh:["Đảm bảo an toàn, gọi 115","Đặt nạn nhân nằm ngửa trên mặt phẳng cứng, cởi áo","Vị trí ép: 1/3 dưới xương ức, 2 tay đan chồng, ép thẳng, sâu 5-6 cm, tần số 100-120 lần/phút","Thổi ngạt: mở đường thở (ngửa đầu nâng cằm), bịt mũi, thổi 2 cái (1 giây/cái) làm lồng ngực nổi","Tỉ lệ 30:2, lặp lại cho đến khi nạn nhân tỉnh hoặc xe cấp cứu đến"], luuY:"Nếu không được đào tạo, chỉ ép tay không (hands-only). Kiên trì, thay người mỗi 2 phút nếu mệt." } },
-        { id:"ha-than-nhiet", title:"Hạ thân nhiệt", icon:"❄️", color:"blue", content:{ dauHieuChacChan:[], dauHieuNghiVan:["Rét run không kiểm soát, nói lắp bắp, lơ mơ", "Nhiệt độ dưới 35°C, mạch chậm, da lạnh"], phanLoai:[], quyTrinh:["Đưa vào nơi khô ráo, tránh gió","Thay quần áo ướt bằng khô, ấm, ủ ấm vùng ngực, cổ, đầu","Cho uống nước ấm, đường nếu tỉnh","Gọi 115 nếu hôn mê hoặc run nặng không dứt"], luuY:"Không xoa bóp chân tay, không tắm nước nóng hoặc chườm nóng quá nhanh (gây sốc tim)." } },
-        { id:"ngo-doc-thuc-pham", title:"Ngộ độc thực phẩm", icon:"🍲", color:"orange", content:{ dauHieuChacChan:[], dauHieuNghiVan:["Buồn nôn, nôn, tiêu chảy, đau bụng, sốt", "Mất nước (khô miệng, tiểu ít)", "Nhìn mờ, nói khó, yếu cơ, khó thở (ngộ độc nặng)"], phanLoai:[], quyTrinh:["Ngưng ăn thực phẩm nghi ngờ","Bù nước và điện giải (Oresol)","Nghỉ ngơi, ăn lỏng dễ tiêu","Đến viện nếu nôn/tiêu chảy nhiều, mất nước, sốt cao, hoặc có dấu hiệu thần kinh"], luuY:"Không tự ý dùng thuốc chống nôn hoặc cầm tiêu chảy khi chưa có chỉ định." } },
-        { id:"co-giat-dong-kinh", title:"Co giật / Động kinh", icon:"⚡", color:"purple", content:{ dauHieuChacChan:["Mất ý thức đột ngột, co cứng rồi giật nhịp nhàng toàn thân","Mắt trợn ngược, sùi bọt mép","Cắn lưỡi, tiểu tiện không tự chủ"], dauHieuNghiVan:["Cơn khu trú (một chi, một bên mặt)","Cảm giác bất thường trước cơn (hồi hộp, ù tai, nhìn mờ)"], phanLoai:[{ten:"Toàn thể",moTa:"Co giật toàn thân, mất ý thức",color:"red"},{ten:"Vắng ý thức",moTa:"Mất ý thức vài giây",color:"yellow"}], quyTrinh:["Đặt nạn nhân nằm an toàn, kê mềm dưới đầu, nới lỏng quần áo","Nghiêng đầu sang bên để chất nôn hoặc bọt chảy ra","Ghi nhận thời gian cơn, nếu >5 phút hoặc nhiều cơn liên tiếp → gọi 115","Sau cơn, đặt tư thế hồi phục, không cho ăn uống ngay","Không nhét bất cứ thứ gì vào miệng"], luuY:"Không ghì chặt nạn nhân, không cố ngừng cơn. Hầu hết cơn tự hết trong 1-3 phút." } },
-        { id:"cham-thuong-cot-song", title:"Chấn thương cột sống", icon:"🦴", color:"gray", content:{ dauHieuChacChan:[], dauHieuNghiVan:["Sau tai nạn giao thông, ngã cao, chấn thương thể thao","Đau chói vùng cổ/lưng", "Tê bì, yếu hoặc liệt tay chân","Mất kiểm soát cơ vòng"], phanLoai:[], quyTrinh:["Không cử động, lay, xoay đầu/cổ nạn nhân","Giữ đầu và cơ thể thẳng hàng","Chỉ di chuyển khi thực sự cần thiết (khu vực nguy hiểm)","Cố định nẹp cột sống nếu có, gọi 115 ngay"], luuY:"Ngay cả khi nạn nhân tỉnh táo và không đau, vẫn phải nghi ngờ chấn thương cột sống vì có thể trì hoãn biểu hiện." } },
-        { id:"nhoi-mau-co-tim", title:"Nhồi máu cơ tim", icon:"❤️", color:"red", content:{ dauHieuChacChan:[], dauHieuNghiVan:["Đau thắt ngực dữ dội, cảm giác bóp nghẹt, đè ép giữa ngực, lan lên vai trái, cổ, hàm","Khó thở, vã mồ hôi lạnh, buồn nôn, choáng"], phanLoai:[], quyTrinh:["Gọi 115 ngay lập tức","Cho nạn nhân ngồi nghỉ ở tư thế thoải mái nhất (thường là nửa nằm nửa ngồi)","Nới lỏng quần áo","Nếu nạn nhân tỉnh và không dị ứng, hỗ trợ nhai viên Aspirin 300mg (nếu có sẵn)","Không cho ăn uống trừ khi được hướng dẫn"], luuY:"Không tự lái xe đến bệnh viện, không để nạn nhân nằm nếu họ khó thở." } },
-        { id:"ha-duong-huyet", title:"Hạ đường huyết", icon:"🩸", color:"yellow", content:{ dauHieuChacChan:[], dauHieuNghiVan:["Run tay, đói cồn cào, tim đập nhanh, vã mồ hôi, choáng váng, nói khó, lú lẫn"], phanLoai:[], quyTrinh:["Nếu còn tỉnh: cho uống/ăn 15-20g đường hấp thu nhanh (3-4 viên đường, 1/2 lon nước ngọt, 2 thìa mật ong)","Sau 15 phút kiểm tra lại, nếu không đỡ thì lặp lại","Khi tỉnh táo hoàn toàn, cho ăn thêm thức ăn tinh bột (bánh mì, cơm)","Nếu hôn mê hoặc không tỉnh: đặt tư thế an toàn, không đổ bất cứ thứ gì vào miệng, gọi 115"], luuY:"Người bệnh đái tháo đường nên luôn mang theo kẹo, nước đường bên mình." } },
-        { id:"vet-thuong-phan-mem", title:"Vết thương phần mềm, bầm tím", icon:"🩹", color:"teal", content:{ dauHieuChacChan:[], dauHieuNghiVan:["Sưng, bầm tím (chấn thương kín)","Vết thương hở, rách da, chảy máu"], phanLoai:[], quyTrinh:["Bầm tím: chườm lạnh trong 24h đầu (bọc đá trong khăn, chườm 15-20 phút mỗi lần, cách 2-3h), nâng cao chi","Vết thương hở: rửa sạch dưới vòi nước chảy, rửa vùng da quanh bằng xà phòng (tránh xà phòng vào sâu vết thương)","Băng ép cầm máu, nếu vết thương lớn hoặc do động vật cắn, đến cơ sở y tế","Sau 48h có thể chườm ấm giúp tan máu bầm"], luuY:"Không dùng oxy già, cồn mạnh trực tiếp vào vết thương hở vì gây tổn thương mô, làm chậm lành." } }
+        {
+            id: "soc-giam-the-tich",
+            title: "Sốc giảm thể tích",
+            icon: "⚠️",
+            color: "dark",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: ["Nhịp tim nhanh (>100), thở nhanh", "Da xanh, tái, lạnh, vã mồ hôi", "Tụt huyết áp, lơ mơ, mất ý thức"],
+                phanLoai: [],
+                quyTrinh: ["Gọi 115 ngay, cầm máu nếu có", "Nạn nhân nằm, nâng chân cao hơn đầu (30-45°)", "Đắp chăn giữ ấm, không cho ăn uống", "Theo dõi ABC, sẵn sàng CPR"],
+                luuY: "Sốc mất máu có thể tử vong trong vài phút. Ưu tiên cầm máu và gọi 115.",
+                illustration: `<div class="schema-svg"><svg width="200" height="120" viewBox="0 0 200 120"><path d="M60 20 L140 20 L160 60 L140 100 L60 100 L40 60 Z" fill="#d1d5db" stroke="#4b5563"/><polygon points="100,30 120,60 80,60" fill="#dc2626"/><text x="100" y="90" text-anchor="middle" font-size="10">Nâng chân cao hơn tim</text></svg><p class="text-xs text-gray-500">Tư thế chống sốc (Trendelenburg)</p></div>`
+            }
+        },
+        {
+            id: "bong-gan",
+            title: "Bong gân",
+            icon: "🦵",
+            color: "teal",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: ["Đau nhói đột ngột tại điểm dây chằng", "Sưng nề, bầm tím nhanh", "Hạn chế cử động khớp, không thể chịu lực"],
+                phanLoai: [{ten:"Độ 1 (nhẹ)",moTa:"Dây chằng giãn, đau ít",color:"green"},{ten:"Độ 2 (vừa)",moTa:"Rách một phần, sưng bầm",color:"yellow"},{ten:"Độ 3 (nặng)",moTa:"Đứt hoàn toàn, khớp mất vững",color:"red"}],
+                quyTrinh: ["R (Rest): nghỉ ngơi, không vận động","I (Ice): chườm lạnh bọc vải 15-20p/ lần, cách 2-3h","C (Compress): băng ép băng thun, không quá chặt","E (Elevate): kê cao chi bị thương"],
+                luuY: "Sau 48h có thể chườm ấm. Nếu không cải thiện sau 3-5 ngày, đi khám chuyên khoa.",
+                illustration: `<div class="schema-svg"><img src="https://cdn-icons-png.flaticon.com/512/2785/2785811.png" class="w-16 h-16 mx-auto"><p class="text-xs text-gray-500">R.I.C.E - Nghỉ, chườm, băng, kê cao</p></div>`
+            }
+        },
+        {
+            id: "trat-khop",
+            title: "Trật khớp",
+            icon: "🦾",
+            color: "indigo",
+            content: {
+                dauHieuChacChan: ["Biến dạng rõ tại khớp (khác bên lành)", "Sờ thấy ổ khớp rỗng", "Dấu hiệu lò xo (cố nắn thì bật lại)"],
+                dauHieuNghiVan: ["Đau dữ dội, không cử động được khớp", "Sưng nề vùng khớp"],
+                phanLoai: [],
+                quyTrinh: ["Trấn an, không cố nắn khớp","Gọi 115 ngay","Bất động khớp ở tư thế hiện tại bằng nẹp hoặc địu","Chườm lạnh giảm đau, chờ xe cấp cứu"],
+                luuY: "Tuyệt đối không tự nắn, có thể gây gãy xương hoặc tổn thương mạch máu. Trật khớp vai dễ tái phát, cần theo dõi chuyên khoa.",
+                illustration: `<div class="schema-svg"><svg width="180" height="120" viewBox="0 0 180 120"><circle cx="60" cy="60" r="20" fill="#e5e7eb" stroke="#4b5563"/><circle cx="120" cy="60" r="20" fill="#fca5a5" stroke="#dc2626"/><path d="M80 60 L100 60" stroke="#dc2626" stroke-width="3" stroke-dasharray="4"/><text x="90" y="100" text-anchor="middle" font-size="9">Khớp bên trật (không khớp)</text></svg><p class="text-xs text-gray-500">Biến dạng khớp – không tự nắn</p></div>`
+            }
+        },
+        {
+            id: "di-ung",
+            title: "Dị ứng / Sốc phản vệ",
+            icon: "🤧",
+            color: "pink",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: ["Mề đay, ngứa, phù mạch (môi, mí, thanh quản)", "Khó thở, thở rít, khàn tiếng, nuốt vướng", "Tụt huyết áp, mạch nhanh nhỏ, choáng, ngất", "Buồn nôn, đau bụng, tiêu chảy"],
+                phanLoai: [{ten:"Độ 1",moTa:"Da, niêm mạc",color:"yellow"},{ten:"Độ 2",moTa:"Nhiều cơ quan mức độ nhẹ - vừa",color:"orange"},{ten:"Độ 3",moTa:"Đe dọa tính mạng, tụt HA, khó thở",color:"red"}],
+                quyTrinh: ["Ngừng ngay tiếp xúc dị nguyên (thuốc, thức ăn, nọc côn trùng)","Gọi 115 ngay lập tức","Đặt nạn nhân nằm, nâng chân nếu tụt HA; nếu khó thở thì nâng đầu hoặc ngồi","Nếu có bơm epinephrine tự động, tiêm vào mặt ngoài đùi","Theo dõi ABC, sẵn sàng CPR"],
+                luuY: "Sốc phản vệ tiến triển rất nhanh. Người có cơ địa dị ứng nặng cần mang theo ống tiêm epinephrine và cài đặt cảnh báo y tế.",
+                illustration: `<div class="schema-svg"><img src="https://cdn-icons-png.flaticon.com/512/1998/1998636.png" class="w-16 h-16 mx-auto"><p class="text-xs text-gray-500">Dùng epinephrine tiêm bắp ngay khi có dấu hiệu</p></div>`
+            }
+        },
+        {
+            id: "cho-can",
+            title: "Chó cắn",
+            icon: "🐕",
+            color: "brown",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: ["Vết rách da, chảy máu, sưng đau", "Nguy cơ nhiễm trùng cao (Pasteurella, tụ cầu)", "Nguy cơ bệnh dại và uốn ván"],
+                phanLoai: [{ten:"Cắn độ 1",moTa:"Tiếp xúc da lành (không nguy cơ)",color:"green"},{ten:"Độ 2",moTa:"Vết xước nhẹ, trầy da, chảy máu ít",color:"yellow"},{ten:"Độ 3",moTa:"Vết cắn sâu, thủng da, chảy máu nhiều, có thể tổn thương cơ",color:"red"}],
+                quyTrinh: ["Rửa vết thương dưới vòi nước chảy + xà phòng liên tục 15 phút","Sát khuẩn bằng cồn 70° hoặc povidone-iodine","Đến cơ sở y tế ngay để tiêm phòng dại và uốn ván (ngay cả vết xước nhẹ)","Theo dõi con chó trong 10 ngày (nếu có thể) để phát hiện dấu hiệu dại"],
+                luuY: "Không nặn máu, không băng kín vết thương, không đắp lá. Tiêm vắc-xin dại càng sớm càng tốt, không chờ đến khi có triệu chứng (vì khi lên cơn dại thì tỉ lệ tử vong gần như 100%).",
+                illustration: `<div class="schema-svg"><img src="https://cdn-icons-png.flaticon.com/512/1998/1998636.png" class="w-16 h-16 mx-auto"><p class="text-xs text-gray-500">Rửa kỹ vết thương với xà phòng 15 phút</p></div>`
+            }
+        },
+        {
+            id: "ran-can",
+            title: "Rắn cắn",
+            icon: "🐍",
+            color: "green",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: ["Hai vết răng nanh cách nhau 1-2cm (rắn độc)", "Sưng nề, bầm tím lan nhanh, đau tăng dần", "Rối loạn đông máu (chảy máu chân răng, bầm da, nôn ra máu)", "Liệt cơ (sụp mi, nói khó, nuốt khó, suy hô hấp)"],
+                phanLoai: [{ten:"Rắn hổ (Elapidae)",moTa:"Độc tố thần kinh: liệt, suy hô hấp.",color:"blue"},{ten:"Rắn lục (Viperidae)",moTa:"Độc tố gây rối loạn đông máu, hoại tử.",color:"red"}],
+                quyTrinh: ["Di chuyển nạn nhân ra xa khu vực rắn, trấn an","Gọi 115 ngay, để vết cắn thấp hơn tim","Tháo trang sức, quần áo chật","Rắn hổ: có thể băng ép bất động chi (không garo). Rắn lục: không băng ép, chỉ bất động chi","Chuyển đến bệnh viện có sẵn huyết thanh kháng nọc càng sớm càng tốt"],
+                luuY: "Không garo (có thể gây hoại tử chi), không rạch hút nọc độc, không đắp lá, không chườm đá. Cố gắng nhận dạng rắn (chụp ảnh) nhưng đảm bảo an toàn.",
+                illustration: `<div class="schema-svg"><svg width="200" height="120" viewBox="0 0 200 120"><path d="M40 40 L160 40 L140 80 L60 80 Z" fill="#e2e8f0" stroke="#475569"/><circle cx="100" cy="60" r="10" fill="#dc2626"/><text x="100" y="100" text-anchor="middle" font-size="10">Bất động, để vết cắn thấp hơn tim</text></svg><p class="text-xs text-gray-500">Sơ cứu rắn cắn: bất động chi, vận chuyển nhanh</p></div>`
+            }
+        },
+        {
+            id: "ong-dot",
+            title: "Ong đốt",
+            icon: "🐝",
+            color: "yellow",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: ["Đau chói, sưng đỏ, ngứa tại chỗ","Nhiều vết đốt hoặc có dị ứng: nổi mề đay toàn thân, khó thở, tụt HA, phù thanh quản"],
+                phanLoai: [{ten:"Phản ứng tại chỗ",moTa:"Sưng đỏ dưới 10cm, tự hết sau vài giờ",color:"green"},{ten:"Phản ứng toàn thân",moTa:"Sốc phản vệ, nguy hiểm",color:"red"}],
+                quyTrinh: ["Di chuyển nạn nhân đến nơi an toàn","Loại bỏ ngòi (nếu ong mật) bằng cách cạo nhẹ, không nặn","Rửa vết đốt bằng xà phòng và nước lạnh","Chườm lạnh bọc vải 20 phút, nâng chi bị đốt","Theo dõi dấu hiệu dị ứng; nếu khó thở, nổi mề đay toàn thân, gọi 115 ngay và chuẩn bị epinephrine"],
+                luuY: "Không bôi vôi, kem đánh răng, dầu gió. Không gãi, không xoa bóp. Nếu ong bắp cày hoặc ong vò vẽ đốt, có thể gây hoại tử, cần rửa bằng nước muối và đến bệnh viện.",
+                illustration: `<div class="schema-svg"><img src="https://cdn-icons-png.flaticon.com/512/2932/2932555.png" class="w-16 h-16 mx-auto"><p class="text-xs text-gray-500">Cạo ngòi, chườm lạnh</p></div>`
+            }
+        },
+        {
+            id: "dot-quy",
+            title: "Đột quỵ",
+            icon: "🧠",
+            color: "pink",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: ["Mặt méo (cười lệch, nhân trung lệch)","Yếu liệt tay chân một bên (thử giơ hai tay, một tay rơi xuống)","Nói khó, nói ngọng, không nói được","Đau đầu dữ dội đột ngột, chóng mặt, mất thăng bằng, nhìn mờ một bên"],
+                phanLoai: [{ten:"Nhồi máu não",moTa:"Tắc mạch, chiếm 85%, có thể dùng thuốc tiêu sợi huyết trong 4,5 giờ",color:"blue"},{ten:"Xuất huyết não",moTa:"Vỡ mạch, chiếm 15%, nguy hiểm hơn, cần phẫu thuật sớm",color:"red"}],
+                quyTrinh: ["Gọi 115 ngay lập tức – ghi nhớ thời điểm khởi phát (giờ vàng 3-4,5h)","Đặt nạn nhân nằm nghiêng an toàn nếu nôn, đầu cao 30° nếu tỉnh và không có chấn thương cột sống","Nới lỏng quần áo, không cho ăn uống bất kỳ thứ gì (kể cả thuốc)","Ghi nhận các triệu chứng và thời gian để cung cấp cho nhân viên y tế","Nếu ngưng thở, ngưng tim, bắt đầu CPR ngay"],
+                luuY: "Không tự ý cho uống aspirin, không chích lể, cạo gió, không tự lái xe đến bệnh viện. Đột quỵ cần can thiệp chuyên khoa càng sớm càng tốt.",
+                illustration: `<div class="schema-svg"><svg width="220" height="130" viewBox="0 0 220 130"><rect x="20" y="20" width="180" height="90" fill="#fce7f3" stroke="#ec4899" rx="10"/><text x="70" y="50" font-size="14" font-weight="bold">B.E. F.A.S.T</text><text x="50" y="70" font-size="10">Mặt méo - Yếu tay - Nói khó - Gọi 115</text><text x="110" y="100" text-anchor="middle" font-size="10">Mỗi phút trôi qua, 2 triệu tế bào não chết</text></svg><p class="text-xs text-gray-500">Nhận biết sớm đột quỵ theo BE FAST</p></div>`
+            }
+        },
+        {
+            id: "duoi-nuoc",
+            title: "Đuối nước",
+            icon: "🏊",
+            color: "blue",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: ["Ngừng thở, ngừng tim, da tím tái, bụng chướng", "Mất ý thức"],
+                phanLoai: [],
+                quyTrinh: ["Đưa lên khỏi mặt nước an toàn, đặt nằm ngửa trên mặt phẳng cứng","Gọi 115","Mở đường thở, nếu không thở → thổi ngạt 2 cái ngay","Nếu không mạch → ép tim 30:2","Tiếp tục CPR đến khi nạn nhân tỉnh hoặc có cấp cứu"],
+                luuY: "Không dốc nước bằng cách xốc chân, không lãng phí thời gian. Ưu tiên thổi ngạt và ép tim ngay."
+            }
+        },
+        {
+            id: "bong",
+            title: "Bỏng / Phỏng",
+            icon: "🔥",
+            color: "orange",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: ["Đỏ da, phồng rộp, đau rát, da có thể cháy đen", "Bỏng hóa chất có thể không đau ngay nhưng tiến triển nặng"],
+                phanLoai: [{ten:"Độ 1",moTa:"Đỏ, đau, không phồng nước",color:"yellow"},{ten:"Độ 2",moTa:"Phồng nước, nền hồng, đau nhiều",color:"orange"},{ten:"Độ 3",moTa:"Da cháy đen/trắng, không đau, tổn thương sâu",color:"red"}],
+                quyTrinh: ["Loại bỏ nguồn nhiệt, ngắt điện","Làm mát dưới vòi nước sạch, mát 20 phút","Che phủ vết bỏng bằng gạc ẩm hoặc khăn sạch, không bôi gì","Gọi 115 nếu bỏng nặng (sâu, mặt, bộ phận sinh dục, diện rộng >10% cơ thể)","Bù nước, điện giải (oresol)"],
+                luuY: "Không đắp kem đánh răng, vôi, dầu cá, không làm vỡ nốt phỏng, không dùng cồn rửa."
+            }
+        },
+        {
+            id: "dien-giat",
+            title: "Điện giật",
+            icon: "⚡",
+            color: "yellow",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: ["Bất tỉnh, co giật, ngừng thở, ngừng tim","Vết bỏng sâu tại điểm tiếp xúc"],
+                phanLoai: [],
+                quyTrinh: ["Ngắt nguồn điện ngay (cầu dao, dùng gậy khô hất dây)","Không chạm trực tiếp","Gọi 115, nếu ngưng thở ngưng tim → CPR ngay","Xử lý vết bỏng như bỏng thường"],
+                luuY: "Sau điện giật, dù tỉnh vẫn cần đến bệnh viện kiểm tra tim mạch (rối loạn nhịp muộn)."
+            }
+        },
+        {
+            id: "cpr",
+            title: "CPR (Hồi sinh tim phổi)",
+            icon: "🫀",
+            color: "red",
+            content: {
+                dauHieuChacChan: ["Ngừng tim (không bắt mạch cảnh, mạch bẹn)","Ngừng thở (lồng ngực không di động)","Mất ý thức"],
+                dauHieuNghiVan: [],
+                phanLoai: [],
+                quyTrinh: ["Đảm bảo an toàn, gọi 115","Đặt nạn nhân nằm ngửa trên mặt phẳng cứng, cởi áo","Vị trí ép: 1/3 dưới xương ức, 2 tay đan chồng, ép thẳng, sâu 5-6 cm, tần số 100-120 lần/phút","Thổi ngạt: mở đường thở (ngửa đầu nâng cằm), bịt mũi, thổi 2 cái (1 giây/cái) làm lồng ngực nổi","Tỉ lệ 30:2, lặp lại cho đến khi nạn nhân tỉnh hoặc xe cấp cứu đến"],
+                luuY: "Nếu không được đào tạo, chỉ ép tay không (hands-only). Kiên trì, thay người mỗi 2 phút nếu mệt."
+            }
+        },
+        {
+            id: "ha-than-nhiet",
+            title: "Hạ thân nhiệt",
+            icon: "❄️",
+            color: "blue",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: ["Rét run không kiểm soát, nói lắp bắp, lơ mơ", "Nhiệt độ dưới 35°C, mạch chậm, da lạnh"],
+                phanLoai: [],
+                quyTrinh: ["Đưa vào nơi khô ráo, tránh gió","Thay quần áo ướt bằng khô, ấm, ủ ấm vùng ngực, cổ, đầu","Cho uống nước ấm, đường nếu tỉnh","Gọi 115 nếu hôn mê hoặc run nặng không dứt"],
+                luuY: "Không xoa bóp chân tay, không tắm nước nóng hoặc chườm nóng quá nhanh (gây sốc tim)."
+            }
+        },
+        {
+            id: "ngo-doc-thuc-pham",
+            title: "Ngộ độc thực phẩm",
+            icon: "🍲",
+            color: "orange",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: ["Buồn nôn, nôn, tiêu chảy, đau bụng, sốt", "Mất nước (khô miệng, tiểu ít)", "Nhìn mờ, nói khó, yếu cơ, khó thở (ngộ độc nặng)"],
+                phanLoai: [],
+                quyTrinh: ["Ngưng ăn thực phẩm nghi ngờ","Bù nước và điện giải (Oresol)","Nghỉ ngơi, ăn lỏng dễ tiêu","Đến viện nếu nôn/tiêu chảy nhiều, mất nước, sốt cao, hoặc có dấu hiệu thần kinh"],
+                luuY: "Không tự ý dùng thuốc chống nôn hoặc cầm tiêu chảy khi chưa có chỉ định."
+            }
+        },
+        {
+            id: "co-giat-dong-kinh",
+            title: "Co giật / Động kinh",
+            icon: "⚡",
+            color: "purple",
+            content: {
+                dauHieuChacChan: ["Mất ý thức đột ngột, co cứng rồi giật nhịp nhàng toàn thân","Mắt trợn ngược, sùi bọt mép","Cắn lưỡi, tiểu tiện không tự chủ"],
+                dauHieuNghiVan: ["Cơn khu trú (một chi, một bên mặt)","Cảm giác bất thường trước cơn (hồi hộp, ù tai, nhìn mờ)"],
+                phanLoai: [{ten:"Toàn thể",moTa:"Co giật toàn thân, mất ý thức",color:"red"},{ten:"Vắng ý thức",moTa:"Mất ý thức vài giây",color:"yellow"}],
+                quyTrinh: ["Đặt nạn nhân nằm an toàn, kê mềm dưới đầu, nới lỏng quần áo","Nghiêng đầu sang bên để chất nôn hoặc bọt chảy ra","Ghi nhận thời gian cơn, nếu >5 phút hoặc nhiều cơn liên tiếp → gọi 115","Sau cơn, đặt tư thế hồi phục, không cho ăn uống ngay","Không nhét bất cứ thứ gì vào miệng"],
+                luuY: "Không ghì chặt nạn nhân, không cố ngừng cơn. Hầu hết cơn tự hết trong 1-3 phút."
+            }
+        },
+        {
+            id: "cham-thuong-cot-song",
+            title: "Chấn thương cột sống",
+            icon: "🦴",
+            color: "gray",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: ["Sau tai nạn giao thông, ngã cao, chấn thương thể thao","Đau chói vùng cổ/lưng", "Tê bì, yếu hoặc liệt tay chân","Mất kiểm soát cơ vòng"],
+                phanLoai: [],
+                quyTrinh: ["Không cử động, lay, xoay đầu/cổ nạn nhân","Giữ đầu và cơ thể thẳng hàng","Chỉ di chuyển khi thực sự cần thiết (khu vực nguy hiểm)","Cố định nẹp cột sống nếu có, gọi 115 ngay"],
+                luuY: "Ngay cả khi nạn nhân tỉnh táo và không đau, vẫn phải nghi ngờ chấn thương cột sống vì có thể trì hoãn biểu hiện."
+            }
+        },
+        {
+            id: "nhoi-mau-co-tim",
+            title: "Nhồi máu cơ tim",
+            icon: "❤️",
+            color: "red",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: ["Đau thắt ngực dữ dội, cảm giác bóp nghẹt, đè ép giữa ngực, lan lên vai trái, cổ, hàm","Khó thở, vã mồ hôi lạnh, buồn nôn, choáng"],
+                phanLoai: [],
+                quyTrinh: ["Gọi 115 ngay lập tức","Cho nạn nhân ngồi nghỉ ở tư thế thoải mái nhất (thường là nửa nằm nửa ngồi)","Nới lỏng quần áo","Nếu nạn nhân tỉnh và không dị ứng, hỗ trợ nhai viên Aspirin 300mg (nếu có sẵn)","Không cho ăn uống trừ khi được hướng dẫn"],
+                luuY: "Không tự lái xe đến bệnh viện, không để nạn nhân nằm nếu họ khó thở."
+            }
+        },
+        {
+            id: "ha-duong-huyet",
+            title: "Hạ đường huyết",
+            icon: "🩸",
+            color: "yellow",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: ["Run tay, đói cồn cào, tim đập nhanh, vã mồ hôi, choáng váng, nói khó, lú lẫn"],
+                phanLoai: [],
+                quyTrinh: ["Nếu còn tỉnh: cho uống/ăn 15-20g đường hấp thu nhanh (3-4 viên đường, 1/2 lon nước ngọt, 2 thìa mật ong)","Sau 15 phút kiểm tra lại, nếu không đỡ thì lặp lại","Khi tỉnh táo hoàn toàn, cho ăn thêm thức ăn tinh bột (bánh mì, cơm)","Nếu hôn mê hoặc không tỉnh: đặt tư thế an toàn, không đổ bất cứ thứ gì vào miệng, gọi 115"],
+                luuY: "Người bệnh đái tháo đường nên luôn mang theo kẹo, nước đường bên mình."
+            }
+        },
+        {
+            id: "vet-thuong-phan-mem",
+            title: "Vết thương phần mềm, bầm tím",
+            icon: "🩹",
+            color: "teal",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: ["Sưng, bầm tím (chấn thương kín)","Vết thương hở, rách da, chảy máu"],
+                phanLoai: [],
+                quyTrinh: ["Bầm tím: chườm lạnh trong 24h đầu (bọc đá trong khăn, chườm 15-20 phút mỗi lần, cách 2-3h), nâng cao chi","Vết thương hở: rửa sạch dưới vòi nước chảy, rửa vùng da quanh bằng xà phòng (tránh xà phòng vào sâu vết thương)","Băng ép cầm máu, nếu vết thương lớn hoặc do động vật cắn, đến cơ sở y tế","Sau 48h có thể chườm ấm giúp tan máu bầm"],
+                luuY: "Không dùng oxy già, cồn mạnh trực tiếp vào vết thương hở vì gây tổn thương mô, làm chậm lành."
+            }
+        }
     ];
 
     // Hàm gradient màu

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cẩm nang Sơ cấp cứu | CLB Cấp cứu Ngoại viện</title>
+    <!-- Tailwind CSS CDN + Font Awesome -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .lesson-card {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .lesson-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -12px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-gray-100 font-sans antialiased">
+
+<div id="root" class="max-w-7xl mx-auto px-4 py-6">
+    <!-- Header -->
+    <div class="text-center mb-10">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800">🚑 Cẩm nang <span class="text-red-600">Sơ cấp cứu</span></h1>
+        <p class="text-gray-600 text-lg mt-2">CLB Cấp cứu Ngoại viện – ĐH Y Khoa Phạm Ngọc Thạch</p>
+        <p class="text-gray-500">Chọn một chủ đề để xem hướng dẫn chi tiết</p>
+    </div>
+
+    <!-- Danh sách bài học (dynamic) -->
+    <div id="lessons-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+
+    <!-- Chi tiết bài học (ẩn ban đầu) -->
+    <div id="detail-view" class="hidden bg-white rounded-2xl shadow-xl overflow-hidden mt-6"></div>
+</div>
+
+<script>
+    // ---------- DỮ LIỆU CÁC BÀI HỌC ----------
+    const lessons = [
+        {
+            id: "gay-xuong",
+            title: "Gãy xương",
+            icon: "🦴",
+            color: "orange",
+            content: {
+                dauHieuChacChan: [
+                    "Biến dạng chi (gập góc, ngắn lại)",
+                    "Tiếng lạo xạo của xương khi sờ hoặc cử động nhẹ",
+                    "Cử động bất thường ở vùng không có khớp"
+                ],
+                dauHieuNghiVan: [
+                    "Đau nhiều, sưng to tại vùng bị thương",
+                    "Xuất hiện vết bầm tím dưới da",
+                    "Không thể cử động vùng bị thương bình thường"
+                ],
+                phanLoai: [
+                    { ten: "Gãy xương kín", moTa: "Xương gãy nhưng không làm rách da, vết thương kín, nguy cơ nhiễm trùng thấp.", color: "blue" },
+                    { ten: "Gãy xương hở", moTa: "Đầu xương gãy đâm thủng da, vết thương hở, nguy cơ nhiễm trùng cao, mất máu nhiều.", color: "red" }
+                ],
+                quyTrinh: [
+                    "Gọi cấp cứu 115 và kiểm tra ABC (đường thở, hô hấp, tuần hoàn).",
+                    "Đặt nạn nhân ở tư thế thoải mái, ít đau nhất. Dùng đệm hoặc quần áo bất động vùng gãy.",
+                    "Cầm máu nếu có vết thương hở (không ấn trực tiếp vào xương lộ).",
+                    "Giữ nguyên tư thế bất động đến khi xe cấp cứu đến."
+                ],
+                luuY: "Không tự ý kéo thẳng xương gãy, không di chuyển nạn nhân khi chưa cố định. Với gãy xương hở, che phủ vết thương bằng gạc vô trùng."
+            }
+        },
+        {
+            id: "dich-vat-duong-tho",
+            title: "Dị vật đường thở",
+            icon: "🫁",
+            color: "purple",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: [
+                    "Ho, khóc, hoảng hốt, cố khạc dị vật (hóc không hoàn toàn)",
+                    "Không thở được, da tím tái, mất ý thức (hóc hoàn toàn)"
+                ],
+                phanLoai: [
+                    { ten: "Hóc không hoàn toàn", moTa: "Nạn nhân vẫn ho, khóc, có thể tự thở. Khuyến khích ho mạnh.", color: "yellow" },
+                    { ten: "Hóc hoàn toàn", moTa: "Nạn nhân không thở, không nói, nhanh chóng tím tái. Cần ép bụng Heimlich ngay.", color: "red" }
+                ],
+                quyTrinh: [
+                    "Nếu hóc hoàn toàn: Đứng sau nạn nhân, tay thuận nắm đấm đặt trên rốn, tay kia ôm lấy nắm đấm, thúc mạnh 5 cái từ trước ra sau, từ dưới lên trên.",
+                    "Kiểm tra miệng xem dị vật bật ra chưa, nếu chưa thì lặp lại.",
+                    "Nếu nạn nhân hôn mê, ngưng tim: bắt đầu ép tim ngoài lồng ngực (CPR) ngay.",
+                    "Với hóc không hoàn toàn: khuyến khích nạn nhân ho, nhanh chóng đến cơ sở y tế."
+                ],
+                luuY: "TUYỆT ĐỐI KHÔNG VỐ LƯNG NẠN NHÂN. Không móc họng khi chưa rõ dị vật."
+            }
+        },
+        {
+            id: "chay-mau",
+            title: "Chảy máu / Mất máu",
+            icon: "🩸",
+            color: "red",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: [
+                    "Máu chảy thành tia hoặc thấm nhanh qua băng",
+                    "Nạn nhân choáng, da tái, vã mồ hôi lạnh",
+                    "Mạch nhanh, huyết áp tụt"
+                ],
+                phanLoai: [
+                    { ten: "Chảy máu ngoài", moTa: "Máu chảy ra từ vết thương hở. Cần ép trực tiếp và băng ép.", color: "red" },
+                    { ten: "Chảy máu trong", moTa: "Nghi ngờ khi có chấn thương vùng bụng, ngực kèm da xanh, đau. Cần cấp cứu ngay.", color: "gray" }
+                ],
+                quyTrinh: [
+                    "Đeo găng tay (hoặc dùng túi nilon, vải sạch) để bảo vệ bản thân.",
+                    "Ép trực tiếp lên vết thương bằng gạc hoặc vải sạch, giữ chặt ít nhất 10 phút.",
+                    "Băng ép cố định gạc, nâng cao chi bị thương nếu có thể.",
+                    "Nếu máu vẫn chảy nhiều, ép thêm lớp thứ hai và gọi 115 ngay.",
+                    "Chảy máu mũi: cúi đầu về phía trước, bóp phần mềm mũi 10-15 phút."
+                ],
+                luuY: "Không rút dị vật đâm trong vết thương. Không băng quá chặt gây hoại tử."
+            }
+        },
+        {
+            id: "soc-giam-the-tich",
+            title: "Sốc giảm thể tích",
+            icon: "⚠️",
+            color: "dark",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: [
+                    "Nhịp tim nhanh, thở nhanh",
+                    "Da xanh xao, tái nhợt, nổi vân tím",
+                    "Lạnh đầu chi, vã mồ hôi lạnh",
+                    "Lơ mơ, mất ý thức"
+                ],
+                phanLoai: [],
+                quyTrinh: [
+                    "Gọi cấp cứu 115 ngay lập tức.",
+                    "Cầm máu nếu có vết thương chảy máu.",
+                    "Đặt nạn nhân nằm, nâng chân cao hơn đầu (tư thế Trendelenburg).",
+                    "Đắp chăn giữ ấm, không cho ăn uống.",
+                    "Nếu nạn nhân ngưng tim, bắt đầu CPR."
+                ],
+                luuY: "Sốc giảm thể tích có thể tử vong nhanh. Ưu tiên gọi cấp cứu và cầm máu."
+            }
+        },
+        {
+            id: "bong-gan",
+            title: "Bong gân",
+            icon: "🦵",
+            color: "teal",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: [
+                    "Đau nhói đột ngột tại một điểm quanh khớp",
+                    "Sưng nề, đỏ da nhanh chóng",
+                    "Hạn chế cử động khớp, đau khi vận động"
+                ],
+                phanLoai: [
+                    { ten: "Độ 1 (nhẹ)", moTa: "Dây chằng giãn nhẹ, đau ít, sưng nhẹ.", color: "green" },
+                    { ten: "Độ 2 (vừa)", moTa: "Rách một phần, sưng nhiều, bầm tím.", color: "yellow" },
+                    { ten: "Độ 3 (nặng)", moTa: "Đứt hoàn toàn dây chằng, khớp mất vững.", color: "red" }
+                ],
+                quyTrinh: [
+                    "R (Rest): Nghỉ ngơi, không vận động khớp.",
+                    "I (Ice): Chườm lạnh bọc vải 15-20 phút mỗi lần, cách 2-3 giờ.",
+                    "C (Compress): Băng ép bằng băng thun, không quá chặt.",
+                    "E (Elevate): Kê cao chi bị thương."
+                ],
+                luuY: "Sau 48 giờ có thể chườm ấm. Nếu đau nhiều, không đi được → đến bệnh viện."
+            }
+        },
+        {
+            id: "trat-khop",
+            title: "Trật khớp",
+            icon: "🦾",
+            color: "indigo",
+            content: {
+                dauHieuChacChan: [
+                    "Biến dạng rõ tại khớp",
+                    "Dấu ổ khớp rỗng (sờ thấy lõm)",
+                    "Dấu hiệu lò xo (khi cố nắn, khớp tự bật lại)"
+                ],
+                dauHieuNghiVan: [
+                    "Đau dữ dội, không cử động được khớp",
+                    "Sưng nề vùng khớp"
+                ],
+                phanLoai: [
+                    { ten: "Trật khớp vai", moTa: "Hay gặp nhất, tay bất động tư thế dạng, đau nhiều.", color: "blue" },
+                    { ten: "Trật khớp ngón tay, khuỷu", moTa: "Thường do ngã hoặc va đập.", color: "gray" }
+                ],
+                quyTrinh: [
+                    "Trấn an nạn nhân, không cố nắn khớp.",
+                    "Gọi cấp cứu 115 ngay.",
+                    "Bất động khớp ở tư thế hiện tại bằng nẹp hoặc địu.",
+                    "Chườm lạnh giảm đau, chờ xe cấp cứu."
+                ],
+                luuY: "Tuyệt đối không tự nắn khớp vì có thể gây tổn thương thêm. Tái khám để tránh trật tái phát."
+            }
+        }
+    ];
+
+    // Hàm hiển thị danh sách bài học
+    function renderLessonGrid() {
+        const grid = document.getElementById('lessons-grid');
+        if (!grid) return;
+        grid.innerHTML = lessons.map(lesson => `
+            <div onclick="showLessonDetail('${lesson.id}')" class="lesson-card bg-white rounded-2xl shadow-lg overflow-hidden cursor-pointer border border-gray-100">
+                <div class="bg-gradient-to-r ${getGradientClass(lesson.color)} p-4 text-white">
+                    <div class="text-4xl mb-2">${lesson.icon}</div>
+                    <h3 class="text-xl font-bold">${lesson.title}</h3>
+                </div>
+                <div class="p-4">
+                    <p class="text-gray-500 text-sm">Nhấn để xem hướng dẫn sơ cấp cứu chi tiết</p>
+                </div>
+            </div>
+        `).join('');
+    }
+
+    function getGradientClass(color) {
+        const map = {
+            orange: 'from-orange-500 to-red-500',
+            purple: 'from-purple-500 to-pink-500',
+            red: 'from-red-500 to-rose-600',
+            dark: 'from-gray-700 to-gray-900',
+            teal: 'from-teal-500 to-emerald-500',
+            indigo: 'from-indigo-500 to-blue-600'
+        };
+        return map[color] || 'from-gray-500 to-gray-700';
+    }
+
+    // Hàm hiển thị chi tiết một bài học
+    window.showLessonDetail = function(lessonId) {
+        const lesson = lessons.find(l => l.id === lessonId);
+        if (!lesson) return;
+        const detailDiv = document.getElementById('detail-view');
+        const gridDiv = document.getElementById('lessons-grid');
+        if (!detailDiv || !gridDiv) return;
+
+        const content = lesson.content;
+        // Tạo HTML cho phần phân loại (nếu có)
+        let phanLoaiHtml = '';
+        if (content.phanLoai && content.phanLoai.length > 0) {
+            phanLoaiHtml = `<div class="grid md:grid-cols-2 gap-4 mb-6">
+                ${content.phanLoai.map(item => `
+                    <div class="bg-${item.color === 'red' ? 'red' : (item.color === 'blue' ? 'blue' : (item.color === 'yellow' ? 'yellow' : 'gray'))}-50 p-4 rounded-xl border">
+                        <h4 class="font-bold text-lg">${item.ten}</h4>
+                        <p class="text-gray-600 text-sm mt-1">${item.moTa}</p>
+                    </div>
+                `).join('')}
+            </div>`;
+        }
+
+        // Grid 2 cột cho dấu hiệu
+        let dauHieuHtml = '';
+        if ((content.dauHieuChacChan && content.dauHieuChacChan.length > 0) || (content.dauHieuNghiVan && content.dauHieuNghiVan.length > 0)) {
+            dauHieuHtml = `<div class="grid md:grid-cols-2 gap-6 mb-6">
+                ${content.dauHieuChacChan && content.dauHieuChacChan.length > 0 ? `
+                    <div class="bg-orange-50 rounded-xl border-l-8 border-orange-500 p-4">
+                        <h3 class="text-lg font-bold text-orange-700 flex items-center gap-2 mb-3"><span>⚠️</span> DẤU HIỆU CHẮC CHẮN</h3>
+                        <ul class="space-y-2">
+                            ${content.dauHieuChacChan.map(item => `<li class="flex items-start gap-2"><span class="text-red-500 font-bold">•</span><span class="text-gray-700">${item}</span></li>`).join('')}
+                        </ul>
+                    </div>
+                ` : ''}
+                ${content.dauHieuNghiVan && content.dauHieuNghiVan.length > 0 ? `
+                    <div class="bg-yellow-50 rounded-xl border-l-8 border-yellow-500 p-4">
+                        <h3 class="text-lg font-bold text-yellow-700 flex items-center gap-2 mb-3"><span>❓</span> DẤU HIỆU NGHI VẤN</h3>
+                        <ul class="space-y-2">
+                            ${content.dauHieuNghiVan.map(item => `<li class="flex items-start gap-2"><span class="text-orange-500 font-bold">•</span><span class="text-gray-700">${item}</span></li>`).join('')}
+                        </ul>
+                    </div>
+                ` : ''}
+            </div>`;
+        }
+
+        // Quy trình
+        let quyTrinhHtml = '';
+        if (content.quyTrinh && content.quyTrinh.length > 0) {
+            quyTrinhHtml = `<div class="bg-green-50 rounded-xl border-l-8 border-green-500 p-4 mb-6">
+                <h3 class="text-lg font-bold text-green-700 flex items-center gap-2 mb-3"><span>🩺</span> QUY TRÌNH XỬ TRÍ SƠ CỨU</h3>
+                <div class="space-y-3">
+                    ${content.quyTrinh.map((step, idx) => `
+                        <div class="flex items-start gap-3">
+                            <div class="bg-green-200 text-green-800 rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold shrink-0 mt-0.5">${idx+1}</div>
+                            <p class="text-gray-700">${step}</p>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>`;
+        }
+
+        // Lưu ý
+        let luuYHtml = '';
+        if (content.luuY) {
+            luuYHtml = `<div class="bg-blue-50 border-l-8 border-blue-400 p-4 rounded-xl">
+                <p class="text-blue-800 text-sm font-medium">💡 Lưu ý: ${content.luuY}</p>
+            </div>`;
+        }
+
+        detailDiv.innerHTML = `
+            <div class="bg-gradient-to-r from-blue-600 to-indigo-700 p-5 text-white flex justify-between items-center">
+                <div class="flex items-center gap-3">
+                    <span class="text-4xl">${lesson.icon}</span>
+                    <h2 class="text-2xl md:text-3xl font-bold">${lesson.title}</h2>
+                </div>
+                <button onclick="backToGrid()" class="bg-white/20 hover:bg-white/30 rounded-full p-2 transition">
+                    <i class="fas fa-times text-xl"></i>
+                </button>
+            </div>
+            <div class="p-6">
+                ${dauHieuHtml}
+                ${phanLoaiHtml}
+                ${quyTrinhHtml}
+                ${luuYHtml}
+            </div>
+        `;
+        gridDiv.classList.add('hidden');
+        detailDiv.classList.remove('hidden');
+    };
+
+    window.backToGrid = function() {
+        const detailDiv = document.getElementById('detail-view');
+        const gridDiv = document.getElementById('lessons-grid');
+        if (detailDiv && gridDiv) {
+            detailDiv.classList.add('hidden');
+            gridDiv.classList.remove('hidden');
+        }
+    };
+
+    renderLessonGrid();
+</script>
+</body>
+</html>

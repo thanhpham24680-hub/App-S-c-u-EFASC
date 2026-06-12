@@ -27,7 +27,7 @@
         <p class="text-gray-500">Chọn một chủ đề để xem hướng dẫn chi tiết</p>
     </div>
 
-    <!-- Danh sách bài học (dynamic) -->
+    <!-- Danh sách bài học -->
     <div id="lessons-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
 
     <!-- Chi tiết bài học (ẩn ban đầu) -->
@@ -35,7 +35,7 @@
 </div>
 
 <script>
-    // ---------- DỮ LIỆU CÁC BÀI HỌC ----------
+    // ---------- DỮ LIỆU BÀI HỌC (đầy đủ từ file PDF) ----------
     const lessons = [
         {
             id: "gay-xuong",
@@ -193,17 +193,262 @@
                 ],
                 luuY: "Tuyệt đối không tự nắn khớp vì có thể gây tổn thương thêm. Tái khám để tránh trật tái phát."
             }
+        },
+        {
+            id: "di-ung",
+            title: "Dị ứng (Sốc phản vệ)",
+            icon: "🤧",
+            color: "pink",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: [
+                    "Mề đay, ngứa da, phù mạch (môi, mí mắt)",
+                    "Khó thở, thở rít, khàn tiếng",
+                    "Tụt huyết áp, choáng, mạch nhanh nhỏ",
+                    "Rối loạn tiêu hóa: buồn nôn, đau bụng"
+                ],
+                phanLoai: [
+                    { ten: "Sốc phản vệ độ 1", moTa: "Chỉ có triệu chứng da, niêm mạc.", color: "yellow" },
+                    { ten: "Sốc phản vệ độ 2", moTa: "Có nhiều cơ quan, nhẹ.", color: "orange" },
+                    { ten: "Sốc phản vệ độ 3", moTa: "Nặng, đe dọa tính mạng, tụt HA, khó thở.", color: "red" }
+                ],
+                quyTrinh: [
+                    "Ngừng ngay tiếp xúc với dị nguyên (thức ăn, thuốc, côn trùng).",
+                    "Gọi cấp cứu 115 ngay lập tức.",
+                    "Đặt nạn nhân nằm, nâng chân nếu tụt huyết áp.",
+                    "Nếu có thuốc epinephrine (bơm kim tiêm tự động) thì tiêm ngay vào bắp đùi.",
+                    "Theo dõi ABC, sẵn sàng CPR nếu ngưng tim."
+                ],
+                luuY: "Không cho nạn nhân uống bất cứ thứ gì nếu khó thở hoặc nuốt khó. Nếu có tiền sử dị ứng nặng, luôn mang theo ống tiêm epinephrine."
+            }
+        },
+        {
+            id: "cho-can",
+            title: "Chó cắn",
+            icon: "🐕",
+            color: "brown",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: [
+                    "Vết rách, chảy máu, sưng đau",
+                    "Nguy cơ nhiễm trùng, uốn ván, dại"
+                ],
+                phanLoai: [
+                    { ten: "Vết cắn nông", moTa: "Trầy xước da nhẹ.", color: "yellow" },
+                    { ten: "Vết cắn sâu", moTa: "Tổn thương cơ, mạch máu, dây thần kinh.", color: "red" }
+                ],
+                quyTrinh: [
+                    "Rửa vết thương dưới vòi nước chảy + xà phòng liên tục 15 phút.",
+                    "Sát khuẩn bằng cồn 70° hoặc povidone-iodine.",
+                    "Đến cơ sở y tế ngay để tiêm phòng dại và uốn ván.",
+                    "Theo dõi con chó trong 10 ngày (nếu có)."
+                ],
+                luuY: "KHÔNG nặn máu, KHÔNG băng kín, KHÔNG đắp lá. Tiêm phòng càng sớm càng tốt, kể cả vết cắn nhỏ."
+            }
+        },
+        {
+            id: "ran-can",
+            title: "Rắn cắn",
+            icon: "🐍",
+            color: "green",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: [
+                    "Hai vết răng nanh cách nhau 1-2cm (rắn độc)",
+                    "Sưng nề, bầm tím, đau lan nhanh",
+                    "Rối loạn đông máu, liệt cơ, khó thở"
+                ],
+                phanLoai: [
+                    { ten: "Rắn hổ (Elapidae)", moTa: "Độc tố thần kinh: gây liệt, suy hô hấp.", color: "blue" },
+                    { ten: "Rắn lục (Viperidae)", moTa: "Độc tố gây rối loạn đông máu, hoại tử.", color: "red" }
+                ],
+                quyTrinh: [
+                    "Di chuyển nạn nhân ra xa khu vực rắn, trấn an.",
+                    "Gọi 115 ngay, để vết cắn thấp hơn tim.",
+                    "Tháo trang sức, quần áo chật.",
+                    "Đối với rắn hổ: có thể băng ép bất động chi (không garo). Đối với rắn lục: không băng ép, chỉ bất động chi.",
+                    "Chuyển nạn nhân đến bệnh viện càng sớm càng tốt."
+                ],
+                luuY: "Không garo, không rạch hút nọc, không đắp thuốc, không chườm đá. Cố gắng nhận dạng rắn (chụp ảnh) nhưng đảm bảo an toàn."
+            }
+        },
+        {
+            id: "ong-dot",
+            title: "Ong đốt / chích",
+            icon: "🐝",
+            color: "yellow",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: [
+                    "Đau chói, sưng đỏ tại chỗ",
+                    "Ngứa, nổi mề đay",
+                    "Nếu nhiều vết đốt hoặc dị ứng: khó thở, tụt HA, phù nề lan nhanh"
+                ],
+                phanLoai: [
+                    { ten: "Đốt đơn lẻ, không dị ứng", moTa: "Tự khỏi sau vài ngày.", color: "green" },
+                    { ten: "Đốt nhiều hoặc có dị ứng", moTa: "Nguy cơ sốc phản vệ, suy thận.", color: "red" }
+                ],
+                quyTrinh: [
+                    "Di chuyển nạn nhân đến nơi an toàn.",
+                    "Loại bỏ ngòi (nếu ong mật) bằng cách cạo nhẹ, không nặn.",
+                    "Rửa vết đốt bằng xà phòng và nước lạnh.",
+                    "Chườm lạnh bọc vải 20 phút, nâng chi bị đốt cao hơn tim.",
+                    "Theo dõi dấu hiệu dị ứng; nếu khó thở, nổi mề đay toàn thân → gọi 115 ngay."
+                ],
+                luuY: "Không bôi vôi, kem đánh răng hay các phương pháp dân gian. Không gãi, không xoa bóp."
+            }
+        },
+        {
+            id: "dot-quy",
+            title: "Đột quỵ",
+            icon: "🧠",
+            color: "pink",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: [
+                    "Mặt méo (cười lệch)",
+                    "Yếu liệt tay/chân một bên",
+                    "Nói khó, nói ngọng bất thường",
+                    "Đau đầu dữ dội, chóng mặt, mất thăng bằng"
+                ],
+                phanLoai: [
+                    { ten: "Nhồi máu não", moTa: "Tắc mạch máu não – chiếm 85%.", color: "blue" },
+                    { ten: "Xuất huyết não", moTa: "Vỡ mạch máu não – nguy hiểm hơn.", color: "red" }
+                ],
+                quyTrinh: [
+                    "Gọi 115 ngay lập tức – ghi nhớ 'giờ vàng' 3-4.5 giờ đầu.",
+                    "Đặt nạn nhân nằm nghiêng nếu nôn, đầu cao 30 độ (nếu tỉnh).",
+                    "Nới lỏng quần áo, không cho ăn uống bất kỳ thứ gì.",
+                    "Ghi nhận thời điểm khởi phát triệu chứng để báo với bác sĩ.",
+                    "Nếu ngưng thở, ngưng tim → bắt đầu CPR."
+                ],
+                luuY: "Không tự ý cho uống thuốc, chích lể, hay cạo gió. Đột quỵ cần can thiệp y tế chuyên sâu."
+            }
+        },
+        {
+            id: "duoi-nuoc",
+            title: "Đuối nước",
+            icon: "🏊",
+            color: "blue",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: [
+                    "Nạn nhân vớt lên trong tình trạng bất tỉnh",
+                    "Ngừng thở, ngừng tim",
+                    "Môi, da tím tái, lồng ngực không di động"
+                ],
+                phanLoai: [],
+                quyTrinh: [
+                    "Đưa nạn nhân lên khỏi mặt nước an toàn, đặt nằm ngửa trên mặt phẳng cứng.",
+                    "Gọi 115 hoặc nhờ người gọi cấp cứu.",
+                    "Mở đường thở (ngửa đầu nâng cằm, nếu nghi ngờ chấn thương cột sống thì dùng kỹ thuật nâng hàm).",
+                    "Kiểm tra hô hấp: nếu không thở → thổi ngạt 2 cái ngay lập tức.",
+                    "Nếu không có mạch → bắt đầu ép tim ngoài lồng ngực (CPR) theo tỉ lệ 30:2.",
+                    "Tiếp tục CPR cho đến khi nạn nhân tỉnh hoặc xe cấp cứu đến."
+                ],
+                luuY: "Không dốc nước bằng cách xốc chân hoặc vác vai vì có thể gây tắc nghẽn đường thở thứ phát. Ưu tiên thổi ngạt và ép tim."
+            }
+        },
+        {
+            id: "bong",
+            title: "Bỏng / Phỏng",
+            icon: "🔥",
+            color: "orange",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: [
+                    "Đỏ da, phồng rộp",
+                    "Đau rát dữ dội",
+                    "Da có thể cháy đen, mất cảm giác nếu sâu"
+                ],
+                phanLoai: [
+                    { ten: "Bỏng độ 1", moTa: "Đỏ da, đau, không phồng rộp.", color: "yellow" },
+                    { ten: "Bỏng độ 2", moTa: "Phồng rộp nước, nền hồng, đau nhiều.", color: "orange" },
+                    { ten: "Bỏng độ 3", moTa: "Da cháy đen hoặc trắng, không đau, tổn thương sâu.", color: "red" }
+                ],
+                quyTrinh: [
+                    "Loại bỏ nguồn nhiệt, ngắt điện (nếu do điện).",
+                    "Làm mát vết bỏng dưới vòi nước sạch, mát trong 20 phút.",
+                    "Che phủ vết bỏng bằng gạc ẩm hoặc khăn sạch, không bôi bất kỳ thứ gì.",
+                    "Gọi cấp cứu 115 nếu bỏng nặng (sâu, vùng mặt, bộ phận sinh dục, diện rộng >10% cơ thể).",
+                    "Bù nước, điện giải (cho uống oresol nếu tỉnh)."
+                ],
+                luuY: "Không đắp kem đánh răng, vôi, dầu cá, không làm vỡ nốt phỏng, không dùng cồn rửa vết bỏng."
+            }
+        },
+        {
+            id: "dien-giat",
+            title: "Điện giật",
+            icon: "⚡",
+            color: "yellow",
+            content: {
+                dauHieuChacChan: [],
+                dauHieuNghiVan: [
+                    "Nạn nhân bất tỉnh, co giật",
+                    "Ngừng thở, ngừng tim",
+                    "Vết bỏng sâu tại điểm tiếp xúc"
+                ],
+                phanLoai: [],
+                quyTrinh: [
+                    "Ngắt nguồn điện ngay lập tức (cầu dao, dùng gậy khô hất dây điện).",
+                    "Không chạm trực tiếp vào nạn nhân khi chưa cắt điện.",
+                    "Gọi 115. Nếu nạn nhân ngưng thở, ngưng tim → CPR ngay.",
+                    "Xử lý vết bỏng như bỏng thường."
+                ],
+                luuY: "Sau điện giật, dù nạn nhân tỉnh vẫn cần đưa đến bệnh viện kiểm tra tim mạch."
+            }
+        },
+        {
+            id: "cpr",
+            title: "CPR (Hồi sinh tim phổi)",
+            icon: "🫀",
+            color: "red",
+            content: {
+                dauHieuChacChan: [
+                    "Ngừng tim: không bắt được mạch cảnh, mạch bẹn",
+                    "Ngừng thở: lồng ngực không di động",
+                    "Mất ý thức"
+                ],
+                dauHieuNghiVan: [],
+                phanLoai: [],
+                quyTrinh: [
+                    "Đảm bảo an toàn hiện trường, gọi 115 hoặc nhờ người gọi cấp cứu.",
+                    "Đặt nạn nhân nằm ngửa trên mặt phẳng cứng, cởi bỏ áo.",
+                    "Ép tim: 2 tay đan chồng, ép thẳng vào 1/3 dưới xương ức, độ sâu 5-6 cm, tốc độ 100-120 lần/phút.",
+                    "Thổi ngạt: ngửa đầu nâng cằm, bịt mũi, thổi 2 cái (mỗi cái 1 giây) làm lồng ngực nổi lên.",
+                    "Tỉ lệ ép:thổi = 30:2, lặp lại cho tới khi nạn nhân tỉnh hoặc xe cấp cứu đến."
+                ],
+                luuY: "Nếu không được đào tạo, hãy chỉ ép tim tay không (hands-only CPR). Kiên trì, đổi người sau mỗi 2 phút nếu mệt."
+            }
         }
     ];
 
-    // Hàm hiển thị danh sách bài học
+    // Hàm lấy gradient màu
+    function getGradientClass(color) {
+        const map = {
+            orange: 'from-orange-500 to-red-500',
+            purple: 'from-purple-500 to-pink-500',
+            red: 'from-red-500 to-rose-600',
+            dark: 'from-gray-700 to-gray-900',
+            teal: 'from-teal-500 to-emerald-500',
+            indigo: 'from-indigo-500 to-blue-600',
+            pink: 'from-pink-500 to-rose-500',
+            brown: 'from-amber-700 to-amber-900',
+            green: 'from-green-600 to-teal-600',
+            yellow: 'from-yellow-500 to-orange-500',
+            blue: 'from-blue-600 to-cyan-600'
+        };
+        return map[color] || 'from-gray-500 to-gray-700';
+    }
+
+    // Hiển thị danh sách bài học
     function renderLessonGrid() {
         const grid = document.getElementById('lessons-grid');
         if (!grid) return;
         grid.innerHTML = lessons.map(lesson => `
             <div onclick="showLessonDetail('${lesson.id}')" class="lesson-card bg-white rounded-2xl shadow-lg overflow-hidden cursor-pointer border border-gray-100">
-                <div class="bg-gradient-to-r ${getGradientClass(lesson.color)} p-4 text-white">
-                    <div class="text-4xl mb-2">${lesson.icon}</div>
+                <div class="bg-gradient-to-r ${getGradientClass(lesson.color)} p-4 text-white text-center">
+                    <div class="text-5xl mb-2">${lesson.icon}</div>
                     <h3 class="text-xl font-bold">${lesson.title}</h3>
                 </div>
                 <div class="p-4">
@@ -213,19 +458,7 @@
         `).join('');
     }
 
-    function getGradientClass(color) {
-        const map = {
-            orange: 'from-orange-500 to-red-500',
-            purple: 'from-purple-500 to-pink-500',
-            red: 'from-red-500 to-rose-600',
-            dark: 'from-gray-700 to-gray-900',
-            teal: 'from-teal-500 to-emerald-500',
-            indigo: 'from-indigo-500 to-blue-600'
-        };
-        return map[color] || 'from-gray-500 to-gray-700';
-    }
-
-    // Hàm hiển thị chi tiết một bài học
+    // Hiển thị chi tiết bài học
     window.showLessonDetail = function(lessonId) {
         const lesson = lessons.find(l => l.id === lessonId);
         if (!lesson) return;
@@ -233,50 +466,47 @@
         const gridDiv = document.getElementById('lessons-grid');
         if (!detailDiv || !gridDiv) return;
 
-        const content = lesson.content;
-        // Tạo HTML cho phần phân loại (nếu có)
-        let phanLoaiHtml = '';
-        if (content.phanLoai && content.phanLoai.length > 0) {
-            phanLoaiHtml = `<div class="grid md:grid-cols-2 gap-4 mb-6">
-                ${content.phanLoai.map(item => `
-                    <div class="bg-${item.color === 'red' ? 'red' : (item.color === 'blue' ? 'blue' : (item.color === 'yellow' ? 'yellow' : 'gray'))}-50 p-4 rounded-xl border">
-                        <h4 class="font-bold text-lg">${item.ten}</h4>
-                        <p class="text-gray-600 text-sm mt-1">${item.moTa}</p>
-                    </div>
-                `).join('')}
-            </div>`;
-        }
-
-        // Grid 2 cột cho dấu hiệu
+        const c = lesson.content;
+        
         let dauHieuHtml = '';
-        if ((content.dauHieuChacChan && content.dauHieuChacChan.length > 0) || (content.dauHieuNghiVan && content.dauHieuNghiVan.length > 0)) {
+        if ((c.dauHieuChacChan && c.dauHieuChacChan.length) || (c.dauHieuNghiVan && c.dauHieuNghiVan.length)) {
             dauHieuHtml = `<div class="grid md:grid-cols-2 gap-6 mb-6">
-                ${content.dauHieuChacChan && content.dauHieuChacChan.length > 0 ? `
+                ${c.dauHieuChacChan && c.dauHieuChacChan.length ? `
                     <div class="bg-orange-50 rounded-xl border-l-8 border-orange-500 p-4">
                         <h3 class="text-lg font-bold text-orange-700 flex items-center gap-2 mb-3"><span>⚠️</span> DẤU HIỆU CHẮC CHẮN</h3>
-                        <ul class="space-y-2">
-                            ${content.dauHieuChacChan.map(item => `<li class="flex items-start gap-2"><span class="text-red-500 font-bold">•</span><span class="text-gray-700">${item}</span></li>`).join('')}
-                        </ul>
+                        <ul class="space-y-2">${c.dauHieuChacChan.map(i => `<li class="flex items-start gap-2"><span class="text-red-500 font-bold">•</span><span class="text-gray-700">${i}</span></li>`).join('')}</ul>
                     </div>
                 ` : ''}
-                ${content.dauHieuNghiVan && content.dauHieuNghiVan.length > 0 ? `
+                ${c.dauHieuNghiVan && c.dauHieuNghiVan.length ? `
                     <div class="bg-yellow-50 rounded-xl border-l-8 border-yellow-500 p-4">
                         <h3 class="text-lg font-bold text-yellow-700 flex items-center gap-2 mb-3"><span>❓</span> DẤU HIỆU NGHI VẤN</h3>
-                        <ul class="space-y-2">
-                            ${content.dauHieuNghiVan.map(item => `<li class="flex items-start gap-2"><span class="text-orange-500 font-bold">•</span><span class="text-gray-700">${item}</span></li>`).join('')}
-                        </ul>
+                        <ul class="space-y-2">${c.dauHieuNghiVan.map(i => `<li class="flex items-start gap-2"><span class="text-orange-500 font-bold">•</span><span class="text-gray-700">${i}</span></li>`).join('')}</ul>
                     </div>
                 ` : ''}
             </div>`;
         }
 
-        // Quy trình
+        let phanLoaiHtml = '';
+        if (c.phanLoai && c.phanLoai.length) {
+            phanLoaiHtml = `<div class="grid md:grid-cols-2 gap-4 mb-6">
+                ${c.phanLoai.map(p => {
+                    let bgClass = 'bg-gray-50';
+                    if (p.color === 'red') bgClass = 'bg-red-50';
+                    else if (p.color === 'blue') bgClass = 'bg-blue-50';
+                    else if (p.color === 'yellow') bgClass = 'bg-yellow-50';
+                    else if (p.color === 'green') bgClass = 'bg-green-50';
+                    else if (p.color === 'orange') bgClass = 'bg-orange-50';
+                    return `<div class="${bgClass} p-4 rounded-xl border"><h4 class="font-bold text-lg">${p.ten}</h4><p class="text-gray-600 text-sm mt-1">${p.moTa}</p></div>`;
+                }).join('')}
+            </div>`;
+        }
+
         let quyTrinhHtml = '';
-        if (content.quyTrinh && content.quyTrinh.length > 0) {
+        if (c.quyTrinh && c.quyTrinh.length) {
             quyTrinhHtml = `<div class="bg-green-50 rounded-xl border-l-8 border-green-500 p-4 mb-6">
                 <h3 class="text-lg font-bold text-green-700 flex items-center gap-2 mb-3"><span>🩺</span> QUY TRÌNH XỬ TRÍ SƠ CỨU</h3>
                 <div class="space-y-3">
-                    ${content.quyTrinh.map((step, idx) => `
+                    ${c.quyTrinh.map((step, idx) => `
                         <div class="flex items-start gap-3">
                             <div class="bg-green-200 text-green-800 rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold shrink-0 mt-0.5">${idx+1}</div>
                             <p class="text-gray-700">${step}</p>
@@ -286,18 +516,12 @@
             </div>`;
         }
 
-        // Lưu ý
-        let luuYHtml = '';
-        if (content.luuY) {
-            luuYHtml = `<div class="bg-blue-50 border-l-8 border-blue-400 p-4 rounded-xl">
-                <p class="text-blue-800 text-sm font-medium">💡 Lưu ý: ${content.luuY}</p>
-            </div>`;
-        }
+        let luuYHtml = c.luuY ? `<div class="bg-blue-50 border-l-8 border-blue-400 p-4 rounded-xl"><p class="text-blue-800 text-sm font-medium">💡 Lưu ý: ${c.luuY}</p></div>` : '';
 
         detailDiv.innerHTML = `
             <div class="bg-gradient-to-r from-blue-600 to-indigo-700 p-5 text-white flex justify-between items-center">
                 <div class="flex items-center gap-3">
-                    <span class="text-4xl">${lesson.icon}</span>
+                    <span class="text-5xl">${lesson.icon}</span>
                     <h2 class="text-2xl md:text-3xl font-bold">${lesson.title}</h2>
                 </div>
                 <button onclick="backToGrid()" class="bg-white/20 hover:bg-white/30 rounded-full p-2 transition">
@@ -313,6 +537,7 @@
         `;
         gridDiv.classList.add('hidden');
         detailDiv.classList.remove('hidden');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
     window.backToGrid = function() {

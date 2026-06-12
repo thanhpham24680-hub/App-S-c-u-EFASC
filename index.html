@@ -23,25 +23,36 @@
 <img src="images/logo-trung-tam.jpg" alt="Trung tâm Sơ cấp cứu ĐHYD TP.HCM" class="h-16 mx-auto mb-3 rounded-lg shadow-sm">
 
     <div id="root" class="max-w-7xl mx-auto px-4 py-6">
-    <!-- Header với ảnh minh họa và thông tin nổi bật -->
-    <div class="text-center mb-8">
-        <div class="inline-flex items-center gap-2 bg-white/80 backdrop-blur rounded-full px-5 py-2 shadow-sm mb-4">
-            <i class="fas fa-hand-holding-heart text-red-500 text-xl"></i>
-            <span class="text-blue-800 font-semibold">Trung tâm Phổ cập Kỹ năng Sơ cấp cứu</span>
-            <i class="fas fa-university text-blue-600"></i>
+   <!-- Header với logo và thông tin - căn chỉnh đẹp, đồng bộ màu -->
+<div class="text-center mb-10">
+    <!-- Logo Trung tâm - kích thước vừa phải, bo tròn, bóng nhẹ, màu phù hợp -->
+    <div class="flex justify-center mb-4">
+        <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-3 shadow-md inline-block border border-blue-100">
+            <img src="logo.png" alt="Logo Trung tâm Sơ cấp cứu ĐHYD TP.HCM" class="h-20 w-auto object-contain">
         </div>
-        <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800 tracking-tight">
-            🚑 Cẩm nang <span class="text-red-600">Sơ cấp cứu</span> cộng đồng
-        </h1>
-        <p class="text-gray-600 text-lg mt-2 max-w-2xl mx-auto">Kiến thức đúng – Kỹ năng kịp thời – Vì một cộng đồng an toàn</p>
-        <!-- Ảnh minh họa banner -->
-        <div class="mt-4 flex justify-center gap-4 flex-wrap">
-            <img src="https://cdn-icons-png.flaticon.com/512/2942/2942807.png" class="w-12 h-12 opacity-70" alt="first aid">
-            <img src="https://cdn-icons-png.flaticon.com/512/3080/3080598.png" class="w-12 h-12 opacity-70" alt="bone">
-            <img src="https://cdn-icons-png.flaticon.com/512/2596/2596517.png" class="w-12 h-12 opacity-70" alt="cpr">
-        </div>
-        <p class="text-gray-500 text-sm mt-2">Chọn một chủ đề để xem hướng dẫn chi tiết (kèm hình minh họa)</p>
     </div>
+
+    <!-- Dòng chữ Trung tâm (đồng bộ màu xanh chủ đạo) -->
+    <div class="inline-flex items-center gap-2 bg-blue-50/80 backdrop-blur-sm rounded-full px-5 py-2 shadow-sm mb-3 border border-blue-200">
+        <i class="fas fa-hand-holding-heart text-red-500 text-lg"></i>
+        <span class="text-blue-800 font-semibold">Trung tâm Phổ cập Kỹ năng Sơ cấp cứu</span>
+        <i class="fas fa-university text-blue-600"></i>
+    </div>
+
+    <!-- Tiêu đề chính -->
+    <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800 tracking-tight">
+        🚑 Cẩm nang <span class="text-red-600">Sơ cấp cứu</span> cộng đồng
+    </h1>
+    <p class="text-gray-600 text-lg mt-2 max-w-2xl mx-auto">Kiến thức đúng – Kỹ năng kịp thời – Vì một cộng đồng an toàn</p>
+    
+    <!-- Ảnh minh họa banner nhỏ (giữ nguyên hoặc bỏ) -->
+    <div class="mt-4 flex justify-center gap-4 flex-wrap">
+        <img src="https://cdn-icons-png.flaticon.com/512/2942/2942807.png" class="w-10 h-10 opacity-60" alt="first aid">
+        <img src="https://cdn-icons-png.flaticon.com/512/3080/3080598.png" class="w-10 h-10 opacity-60" alt="bone">
+        <img src="https://cdn-icons-png.flaticon.com/512/2596/2596517.png" class="w-10 h-10 opacity-60" alt="cpr">
+    </div>
+    <p class="text-gray-500 text-sm mt-2">Chọn một chủ đề để xem hướng dẫn chi tiết (kèm hình minh họa)</p>
+</div>
 
     <!-- Danh sách bài học grid -->
     <div id="lessons-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>

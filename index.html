@@ -384,5 +384,16 @@
 
     initFromUrl();
 </script>
+<script>
+    // Tối ưu tải ảnh: lazy load + giải mã async
+    document.addEventListener('DOMContentLoaded', function() {
+        const allImages = document.querySelectorAll('img');
+        allImages.forEach(img => {
+            // Chỉ thêm nếu chưa có
+            if (!img.hasAttribute('loading')) img.setAttribute('loading', 'lazy');
+            if (!img.hasAttribute('decoding')) img.setAttribute('decoding', 'async');
+        });
+    });
+</script>
 </body>
 </html>

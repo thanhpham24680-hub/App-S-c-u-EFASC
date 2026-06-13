@@ -13,12 +13,53 @@
         .lesson-card:hover { transform: translateY(-5px); box-shadow: 0 20px 25px -12px rgba(0,0,0,0.15); }
         .bg-pattern { background-image: radial-gradient(circle at 1px 1px, rgba(0,0,0,0.02) 1px, transparent 1px); background-size: 24px 24px; }
         .schema-svg { background: #f9fafb; border-radius: 20px; padding: 12px; margin: 16px 0; text-align: center; border: 1px solid #e5e7eb; }
-        .schema-svg svg { max-width: 100%; height: auto; }
-        /* Sidebar style */
-        .lessons-sidebar {
-            max-height: calc(100vh - 220px);
+        .illustration-img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            border-radius: 1rem;
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1);
+            margin: 1rem auto;
+            display: block;
+        }
+        /* Sidebar overlay */
+        .sidebar-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 40;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+        .sidebar-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: -320px;
+            width: 280px;
+            max-width: 85%;
+            height: 100%;
+            background: white;
+            z-index: 50;
+            box-shadow: 2px 0 12px rgba(0,0,0,0.15);
+            transition: left 0.3s ease;
+            display: flex;
+            flex-direction: column;
             overflow-y: auto;
-            scrollbar-width: thin;
+        }
+        .sidebar.open {
+            left: 0;
+        }
+        .sidebar-item {
+            transition: all 0.2s;
+            border-left-width: 3px;
         }
         .sidebar-item.active {
             background: #e0f2fe;
@@ -26,95 +67,86 @@
             color: #1e40af;
             font-weight: 600;
         }
-        .sidebar-item {
-            transition: all 0.2s;
-            border-left-width: 3px;
-        }
         .sidebar-item:hover {
             background: #f1f5f9;
         }
-        @media (max-width: 768px) {
-            .lessons-sidebar {
-                max-height: 280px;
-                overflow-x: auto;
-                white-space: nowrap;
-                display: flex;
-                flex-wrap: nowrap;
-                gap: 0.5rem;
-                padding-bottom: 0.5rem;
-            }
-            .lessons-sidebar .sidebar-item {
-                display: inline-flex;
-                white-space: normal;
-                min-width: 150px;
-                flex-shrink: 0;
-            }
+        /* Ẩn grid khi ở chế độ detail */
+        .hidden-layout {
+            display: none;
         }
         .detail-content a { color: #2563eb; }
-        .illustration-img {
-            width: 100%;
-            max-width: 100%;
-            height: auto;
-            border-radius: 1rem;
-            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1);
-            margin: 0 auto;
+        /* Nút mở sidebar */
+        .menu-btn {
+            transition: background 0.2s;
+        }
+        .menu-btn:hover {
+            background: #e2e8f0;
         }
     </style>
 </head>
 <body class="bg-gradient-to-br from-blue-50 to-gray-100 bg-pattern">
 
 <div id="root" class="max-w-7xl mx-auto px-4 py-6">
-    <!-- Header (giữ nguyên) -->
-    <div class="text-center mb-10">
-        <div class="flex justify-center mb-4">
-            <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-3 shadow-md inline-block border border-blue-100">
-                <img src="images/logo-trung-tam.jpg" alt="Trung tâm Sơ cấp cứu ĐHYD TP.HCM" class="h-20 w-auto object-contain" onerror="this.onerror=null; this.src='https://placehold.co/80x80?text=Logo'">
+    <!-- Header với nút menu -->
+    <div class="relative mb-8">
+        <div class="flex items-center justify-between">
+            <button id="openSidebarBtn" class="menu-btn bg-white/80 backdrop-blur-sm p-2 rounded-full shadow-md text-gray-700 hover:bg-gray-100 transition md:hidden">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+            <div class="flex-1 text-center">
+                <div class="flex justify-center mb-2">
+                    <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-2 shadow-md inline-block border border-blue-100">
+                        <img src="images/logo-trung-tam.jpg" alt="Trung tâm Sơ cấp cứu ĐHYD TP.HCM" class="h-14 w-auto object-contain" onerror="this.onerror=null; this.src='https://placehold.co/80x80?text=Logo'">
+                    </div>
+                </div>
+                <div class="inline-flex items-center gap-2 bg-blue-50/80 backdrop-blur-sm rounded-full px-4 py-1 shadow-sm mb-2 border border-blue-200">
+                    <i class="fas fa-hand-holding-heart text-red-500 text-sm"></i>
+                    <span class="text-blue-800 font-semibold text-sm">Trung tâm Phổ cập Kỹ năng Sơ cấp cứu</span>
+                    <i class="fas fa-university text-blue-600 text-sm"></i>
+                </div>
+                <h1 class="text-3xl md:text-4xl font-extrabold text-gray-800 tracking-tight">
+                    🚑 Cẩm nang <span class="text-red-600">Sơ cấp cứu</span> cộng đồng
+                </h1>
+                <p class="text-gray-600 text-sm mt-1 max-w-2xl mx-auto">Sơ cứu chuyên nghiệp – Thông điệp tương lai</p>
             </div>
+            <div class="w-10 md:hidden"></div> <!-- đối trọng cho cân bằng -->
         </div>
-        <div class="inline-flex items-center gap-2 bg-blue-50/80 backdrop-blur-sm rounded-full px-5 py-2 shadow-sm mb-3 border border-blue-200">
-            <i class="fas fa-hand-holding-heart text-red-500 text-lg"></i>
-            <span class="text-blue-800 font-semibold">Trung tâm Phổ cập Kỹ năng Sơ cấp cứu</span>
-            <i class="fas fa-university text-blue-600"></i>
+        <div class="hidden md:flex justify-end mt-2">
+            <button id="openSidebarBtnDesktop" class="bg-white/70 hover:bg-white text-blue-700 px-3 py-1.5 rounded-lg shadow text-sm font-medium transition flex items-center gap-2">
+                <i class="fas fa-list-ul"></i> Danh mục bài học
+            </button>
         </div>
-        <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800 tracking-tight">
-            🚑 Cẩm nang <span class="text-red-600">Sơ cấp cứu</span> cộng đồng
-        </h1>
-        <p class="text-gray-600 text-lg mt-2 max-w-2xl mx-auto">Sơ cứu chuyên nghiệp – Thông điệp tương lai</p>
-        <div class="mt-4 flex justify-center gap-4 flex-wrap">
-            <img src="https://cdn-icons-png.flaticon.com/512/2942/2942807.png" class="w-10 h-10 opacity-60" alt="first aid">
-            <img src="https://cdn-icons-png.flaticon.com/512/3080/3080598.png" class="w-10 h-10 opacity-60" alt="bone">
-            <img src="https://cdn-icons-png.flaticon.com/512/2596/2596517.png" class="w-10 h-10 opacity-60" alt="cpr">
-        </div>
-        <p class="text-gray-500 text-sm mt-2">Chọn một chủ đề để xem hướng dẫn chi tiết (kèm hình minh họa) – Có danh sách bên cạnh và nút chuyển bài.</p>
     </div>
 
-    <!-- Danh sách bài học dạng lưới (ban đầu) -->
+    <!-- Sidebar overlay và sidebar -->
+    <div id="sidebarOverlay" class="sidebar-overlay"></div>
+    <div id="sidebar" class="sidebar">
+        <div class="p-4 border-b border-gray-200 flex justify-between items-center sticky top-0 bg-white z-10">
+            <h3 class="font-bold text-gray-800"><i class="fas fa-book-open mr-2 text-blue-500"></i>Danh mục bài học</h3>
+            <button id="closeSidebarBtn" class="text-gray-500 hover:text-gray-800 p-1 rounded-full"><i class="fas fa-times text-xl"></i></button>
+        </div>
+        <div id="lessons-sidebar-container" class="flex-1 overflow-y-auto p-2 space-y-1">
+            <!-- JS sẽ render danh sách bài học dạng sidebar -->
+        </div>
+        <div class="p-3 border-t border-gray-200 text-center text-xs text-gray-400">
+            Nhấn vào bài để xem chi tiết
+        </div>
+    </div>
+
+    <!-- Danh sách bài học dạng lưới (trang chủ) -->
     <div id="lessons-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
 
-    <!-- Layout chi tiết 2 cột: Sidebar + Nội dung (ẩn ban đầu) -->
+    <!-- Layout chi tiết 2 cột: ẩn ban đầu -->
     <div id="detail-layout" class="hidden bg-white rounded-2xl shadow-xl overflow-hidden mt-6">
         <div class="flex flex-col md:flex-row">
-            <!-- Sidebar trái -->
-            <div class="md:w-80 bg-gray-50 border-r border-gray-200 p-4">
-                <div class="flex justify-between items-center mb-3 pb-2 border-b border-gray-200">
-                    <h3 class="font-bold text-gray-700"><i class="fas fa-list-ul mr-2 text-blue-500"></i>Danh mục bài học</h3>
-                    <button onclick="backToGrid()" class="md:hidden bg-gray-200 hover:bg-gray-300 rounded-full p-1 px-3 text-sm transition"><i class="fas fa-arrow-left mr-1"></i> Quay lại</button>
-                </div>
-                <div id="lessons-sidebar-container" class="lessons-sidebar space-y-1 md:space-y-1.5">
-                    <!-- JS sẽ render danh sách bài học dạng sidebar -->
-                </div>
-                <div class="mt-4 pt-3 border-t border-gray-200 hidden md:block">
-                    <button onclick="backToGrid()" class="w-full bg-white border border-gray-300 text-gray-700 hover:bg-gray-100 rounded-lg py-2 text-sm font-medium transition flex items-center justify-center gap-2"><i class="fas fa-th-large"></i> Xem tất cả dạng lưới</button>
-                </div>
-            </div>
-            <!-- Nội dung chi tiết bên phải -->
+            <!-- Nội dung chi tiết bên phải (full width, không có sidebar cố định bên trái) -->
             <div id="detail-content-area" class="flex-1 p-5 md:p-6 overflow-auto detail-content">
                 <!-- Nội dung động sẽ được render ở đây -->
             </div>
         </div>
     </div>
 
-    <!-- Footer (giữ nguyên) -->
+    <!-- Footer -->
     <footer class="mt-12 text-center border-t border-gray-200 pt-6">
         <div class="bg-white/60 backdrop-blur-sm rounded-2xl p-4 max-w-2xl mx-auto shadow-sm">
             <p class="text-gray-500 text-sm">© 2023 – Demo 2026 | Biên soạn bởi</p>
@@ -133,58 +165,58 @@
 
 <script>
     // --------------------------------------------------------------
-    // TOÀN BỘ 23 BÀI HỌC - CẬP NHẬT ẢNH MỚI TỪ LINK BẠN CUNG CẤP
+    // TOÀN BỘ BÀI HỌC - CẬP NHẬT ẢNH MỚI THEO FILE LINK
     // --------------------------------------------------------------
     const lessons = [
-        // 1. Tiếp cận nạn nhân - DRs. ABC
+        // 1. Tiếp cận nạn nhân - DRs. ABC (giữ ảnh cũ)
         { id: "drs-abc", title: "Tiếp cận nạn nhân - DRs. ABC", icon: "🆘", color: "red", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Quy trình DRs. ABC là bộ công cụ giúp xác định nhanh và can thiệp kịp thời các tình trạng đe dọa tính mạng.","Nguyên tắc: Giải quyết triệt để từng bước theo thứ tự trước khi chuyển sang bước tiếp theo.","Đặc biệt: Nếu nghi ngờ chấn thương cột sống (tai nạn giao thông, ngã cao, đau vùng cổ/lưng, tê bì chân tay) → KHÔNG ngửa đầu, chỉ dùng kỹ thuật nâng hàm."], phanLoai: [{ ten: "D - Danger (Nguy hiểm)", moTa: "Đảm bảo hiện trường an toàn (điện, cháy nổ, xe cộ). Không mạo hiểm sự an toàn của bản thân. Nếu có nguy cơ, di chuyển nạn nhân ra xa (chỉ khi an toàn).", color: "red" },{ ten: "R - Response (Đáp ứng)", moTa: "Kiểm tra nạn nhân có tỉnh không bằng cách lay gọi 'Bạn có ổn không?' hoặc kích thích đau (véo vào mặt trong cánh tay). Nếu không đáp ứng → bất tỉnh.", color: "orange" },{ ten: "S - Send for help (Kêu gọi)", moTa: "Gọi ngay tổng đài 115, hô hoán người xung quanh đến giúp đỡ. Càng sớm càng tốt.", color: "yellow" },{ ten: "A - Airway (Đường thở)", moTa: "Khai thông đường thở: nếu nạn nhân bất tỉnh, dùng kỹ thuật ngửa đầu nâng cằm (trừ khi nghi ngờ chấn thương cột sống cổ thì dùng nâng hàm). Loại bỏ dị vật nếu có.", color: "blue" },{ ten: "B - Breathing (Hô hấp)", moTa: "Nhìn, nghe, cảm nhận hơi thở trong 5-10 giây. Nếu không thở → bắt đầu CPR ngay lập tức (ép tim 30:2).", color: "green" },{ ten: "C - Circulation (Tuần hoàn)", moTa: "Đánh giá màu da (hồng hào hay tái nhợt), nhiệt độ chi, kiểm tra thời gian đổ đầy mao mạch (ấn đầu ngón tay, thả ra, nếu lâu hơn 2 giây → tưới máu kém). Kiểm soát chảy máu nếu có.", color: "teal" }], quyTrinh: ["1. D (Danger): Quan sát hiện trường, loại bỏ nguy cơ (tắt cầu dao điện, dẹp xe cộ, dập lửa...). Bảo vệ bản thân trước khi tiếp cận.","2. R (Response): Lay gọi nạn nhân. Nếu không trả lời, hãy kích thích đau ở vùng da mỏng (mặt trong cánh tay).","3. S (Send for help): Gọi 115 hoặc nhờ người khác gọi. Báo rõ địa điểm, tình trạng nạn nhân.","4. A (Airway): Đặt nạn nhân nằm ngửa. Nếu không nghi chấn thương cột sống, một tay đặt lên trán ấn nhẹ, tay kia nâng cằm. Nếu nghi chấn thương cột sống, dùng hai tay nâng hàm (không ngửa đầu).","5. B (Breathing): Áp tai sát miệng nạn nhân, nhìn lồng ngực. Nếu không thở → thổi ngạt 2 cái (mỗi cái 1 giây).","6. C (Circulation): Bắt mạch cảnh (nếu không có mạch và nạn nhân bất tỉnh → ép tim). Nếu có chảy máu ngoài → ép trực tiếp cầm máu."], luuY: "Quy trình này cần hoàn thành trong vòng 5 phút đầu. Nếu ở bất kỳ bước nào phát hiện vấn đề đe dọa tính mạng (như ngưng thở, ngưng tim), hãy can thiệp ngay trước khi chuyển bước tiếp theo. Ghi nhớ: DRs. ABC = Cứu người trong 'phút vàng'.", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/85KsFpGk/Quy-trinh-so-cuu-DRs-ABC.png" class="illustration-img" alt="DRs. ABC" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=DRs.+ABC'"><p class="text-xs text-gray-500 mt-1">Sơ đồ tiếp cận nạn nhân DRs. ABC</p></div>` } },
-        // 2. Gãy xương (ảnh mới)
+        // 2. Gãy xương (giữ ảnh cũ)
         { id: "gay-xuong", title: "Gãy xương", icon: "🦴", color: "orange", content: { dauHieuChacChan: ["Biến dạng chi (gập góc, ngắn lại, xoay bất thường)", "Tiếng lạo xạo của xương khi sờ hoặc cử động nhẹ", "Cử động bất thường ở vùng không có khớp (cử động như khớp giả)"], dauHieuNghiVan: ["Đau dữ dội, sưng to tại vùng bị thương", "Bầm tím rộng, có thể kèm vết thương hở (gãy hở)", "Nạn nhân không thể cử động hoặc chịu lực lên chi bị thương"], phanLoai: [{ten:"Gãy kín",moTa:"Xương gãy nhưng không rách da, nguy cơ nhiễm trùng thấp, nhưng có thể mất máu trong vùng gãy.",color:"blue"},{ten:"Gãy hở",moTa:"Đầu xương gãy đâm thủng da, vết thương hở, nguy cơ nhiễm trùng cao, mất máu nhiều. Cần che phủ vết thương sạch, không ấn trực tiếp vào xương lộ.",color:"red"}], quyTrinh: ["1. Gọi 115 ngay sau khi sơ cứu ban đầu, đồng thời kiểm tra ABC (đường thở, hô hấp, tuần hoàn).","2. Đặt nạn nhân ở tư thế thoải mái, ít đau nhất. Không cố gắng nắn hoặc kéo thẳng xương gãy.","3. Bất động vùng gãy bằng nẹp tạm (que, báo cuộn) hoặc đệm quần áo, cố định ít nhất hai khớp trên và dưới vị trí gãy.","4. Nếu gãy hở, dùng gạc vô trùng hoặc vải sạch che phủ vết thương, không ấn trực tiếp vào xương lộ. Cầm máu nhẹ nhàng xung quanh.","5. Giữ ấm nạn nhân, nâng cao chi bị thương nếu không gây đau thêm, chờ xe cấp cứu."], luuY: "Tuyệt đối không tự ý kéo thẳng xương gãy, không di chuyển nạn nhân khi chưa cố định. Với nghi ngờ gãy xương đùi, xương chậu, đa chấn thương, ưu tiên bất động toàn thân và chống sốc.", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/XqrqdRN8/Huong-dan-so-cuu-gay-xuong.png" class="illustration-img" alt="Sơ cứu gãy xương" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=G%C3%A3y+x%C6%B0%C6%A1ng'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn sơ cứu gãy xương</p></div>` } },
-        // 3. Dị vật đường thở (ảnh mới)
+        // 3. Dị vật đường thở (giữ cũ)
         { id: "dich-vat-duong-tho", title: "Dị vật đường thở", icon: "🫁", color: "purple", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Hóc không hoàn toàn: nạn nhân vẫn thở được, ho dữ dội, kích thích, có thể nói được.","Hóc hoàn toàn: nạn nhân không thở, không ho, không nói được, hai tay ôm cổ, nhanh chóng tím tái, mất ý thức."], phanLoai: [{ten:"Hóc không hoàn toàn",moTa:"Còn thở, khuyến khích ho mạnh, không can thiệp vỗ lưng hay ép bụng nếu ho hiệu quả. Theo dõi sát.",color:"yellow"},{ten:"Hóc hoàn toàn",moTa:"Cần thực hiện thủ thuật Heimlich ngay lập tức. Nếu nạn nhân bất tỉnh, bắt đầu CPR ngay.",color:"red"}], quyTrinh: ["1. Đối với hóc hoàn toàn ở người tỉnh: Đứng sau nạn nhân, một chân đặt giữa hai chân họ. Nắm đấm tay thuận đặt vào vùng thượng vị (trên rốn, dưới mũi ức). Tay kia ôm lấy nắm đấm. Thúc mạnh 5 cái theo hướng từ trước ra sau, từ dưới lên trên.","2. Sau mỗi 5 cái, kiểm tra xem dị vật đã bật ra chưa. Nếu chưa, lặp lại.","3. Nếu nạn nhân hôn mê, đặt nằm ngửa, thực hiện ép bụng bằng cách quỳ rạp người, đặt gót bàn tay lên vùng thượng vị, tay kia đè lên và ấn mạnh 5 cái. Sau đó kiểm tra miệng.","4. Nếu nạn nhân ngưng thở, ngưng tim, bắt đầu CPR ngay với tỉ lệ 30:2 (ép tim – thổi ngạt).","5. Với hóc không hoàn toàn: khuyến khích ho, không làm gì thêm nhưng theo dõi, nếu chuyển sang nặng thì xử trí như trên."], luuY: "Tuyệt đối không vỗ lưng khi hóc hoàn toàn vì có thể làm dị vật tụt sâu hơn. Không móc họng khi chưa nhìn thấy dị vật. Trẻ em dưới 1 tuổi không ép bụng mà dùng vỗ lưng 5 cái + ấn ngực 5 cái.", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/W4cZj1N6/So-cuu-hoc-di-vat.png" class="illustration-img" alt="Dị vật đường thở" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=D%E1%BB%8B+v%E1%BA%ADt+%C4%91%C6%B0%E1%BB%9Dng+th%E1%BB%9F'"><p class="text-xs text-gray-500 mt-1">Sơ cứu dị vật đường thở – thủ thuật Heimlich</p></div>` } },
-        // 4. Chảy máu / Mất máu (ảnh mới)
+        // 4. Chảy máu / Mất máu (giữ cũ)
         { id: "chay-mau", title: "Chảy máu / Mất máu", icon: "🩸", color: "red", content: { dauHieuChacChan: ["Máu chảy thành tia (động mạch) hoặc chảy ồ ạt, thấm nhanh qua băng","Nạn nhân có dấu hiệu sốc giảm thể tích: da xanh, vã mồ hôi lạnh, mạch nhanh nhỏ, huyết áp tụt."], dauHieuNghiVan: ["Chảy máu chậm hơn từ tĩnh mạch, máu đỏ sẫm, chảy đều.","Chảy máu trong: sau chấn thương bụng/ngực, nạn nhân đau, bụng chướng, da xanh, không có vết thương ngoài."], phanLoai: [{ten:"Chảy máu ngoài (động mạch)",moTa:"Máu đỏ tươi, phun thành tia, nguy cơ mất máu nhanh. Cần ép trực tiếp và garo nếu cần thiết.",color:"red"},{ten:"Chảy máu ngoài (tĩnh mạch)",moTa:"Máu đỏ sẫm, chảy đều, có thể cầm bằng ép trực tiếp và băng ép.",color:"orange"},{ten:"Chảy máu trong",moTa:"Nghi ngờ khi có chấn thương vùng bụng/ngực, nạn nhân sốc không rõ nguyên nhân, cần cấp cứu ngay.",color:"gray"}], quyTrinh: ["1. Đảm bảo an toàn: đeo găng tay (hoặc dùng túi nilon, vải sạch).","2. Ép trực tiếp lên vết thương bằng gạc hoặc vải sạch, giữ chặt ít nhất 10 phút không gián đoạn. Nếu gạc thấm máu, đặt thêm lớp mới lên trên, không bỏ lớp cũ ra.","3. Nâng cao chi bị thương (nếu không có gãy xương) để giảm chảy máu.","4. Băng ép cố định gạc, nhưng không quá chặt gây hoại tử đầu chi.","5. Nếu máu vẫn chảy nhiều, ép thêm điểm ép động mạch phía trên vết thương (cánh tay, bẹn). Trường hợp đe dọa tính mạng có thể dùng garo (ga-rô) nhưng phải ghi rõ thời gian và thông báo cho nhân viên y tế.","6. Chảy máu mũi: cúi đầu về phía trước, bóp phần mềm mũi 10-15 phút, chườm lạnh sống mũi."], luuY: "Không rút dị vật đâm trong vết thương (dao, mảnh thủy tinh) vì có thể gây chảy máu ồ ạt. Không băng quá chặt. Gọi 115 ngay nếu chảy máu nhiều hoặc nghi ngờ chảy máu trong.", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/mDXhcL4r/So-cuu-cam-mau-dung-cach.png" class="illustration-img" alt="Cầm máu" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Ch%E1%BA%A3y+m%C3%A1u'"><p class="text-xs text-gray-500 mt-1">Sơ cứu cầm máu đúng cách</p></div>` } },
-        // 5. Sốc giảm thể tích (giữ nguyên)
-        { id: "soc-giam-the-tich", title: "Sốc giảm thể tích", icon: "⚠️", color: "dark", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Nhịp tim nhanh (>100), thở nhanh", "Da xanh, tái, lạnh, vã mồ hôi", "Tụt huyết áp, lơ mơ, mất ý thức"], phanLoai: [], quyTrinh: ["Gọi 115 ngay, cầm máu nếu có", "Nạn nhân nằm, nâng chân cao hơn đầu (30-45°)", "Đắp chăn giữ ấm, không cho ăn uống", "Theo dõi ABC, sẵn sàng CPR"], luuY: "Sốc mất máu có thể tử vong trong vài phút. Ưu tiên cầm máu và gọi 115.", illustration: `<div class="schema-svg"><svg width="200" height="120" viewBox="0 0 200 120"><path d="M60 20 L140 20 L160 60 L140 100 L60 100 L40 60 Z" fill="#d1d5db" stroke="#4b5563"/><polygon points="100,30 120,60 80,60" fill="#dc2626"/><text x="100" y="90" text-anchor="middle" font-size="10">Nâng chân cao hơn tim</text></svg><p class="text-xs text-gray-500">Tư thế chống sốc (Trendelenburg)</p></div>` } },
-        // 6. Bong gân (dùng ảnh chung với trật khớp)
+        // 5. Sốc giảm thể tích (CẬP NHẬT ẢNH MỚI)
+        { id: "soc-giam-the-tich", title: "Sốc giảm thể tích", icon: "⚠️", color: "dark", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Nhịp tim nhanh (>100), thở nhanh", "Da xanh, tái, lạnh, vã mồ hôi", "Tụt huyết áp, lơ mơ, mất ý thức"], phanLoai: [], quyTrinh: ["Gọi 115 ngay, cầm máu nếu có", "Nạn nhân nằm, nâng chân cao hơn đầu (30-45°)", "Đắp chăn giữ ấm, không cho ăn uống", "Theo dõi ABC, sẵn sàng CPR"], luuY: "Sốc mất máu có thể tử vong trong vài phút. Ưu tiên cầm máu và gọi 115.", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/bNLYHRHG/Soc-giam-the-tich-mau.png" class="illustration-img" alt="Sốc giảm thể tích" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=S%E1%BB%91c+gi%E1%BA%A3m+th%E1%BB%83+t%C3%ADch'"><p class="text-xs text-gray-500 mt-1">Sơ cứu sốc giảm thể tích – nâng chân cao hơn tim</p></div>` } },
+        // 6. Bong gân (giữ cũ nhưng ảnh chung)
         { id: "bong-gan", title: "Bong gân", icon: "🦵", color: "teal", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Đau nhói đột ngột tại điểm dây chằng", "Sưng nề, bầm tím nhanh", "Hạn chế cử động khớp, không thể chịu lực"], phanLoai: [{ten:"Độ 1 (nhẹ)",moTa:"Dây chằng giãn, đau ít",color:"green"},{ten:"Độ 2 (vừa)",moTa:"Rách một phần, sưng bầm",color:"yellow"},{ten:"Độ 3 (nặng)",moTa:"Đứt hoàn toàn, khớp mất vững",color:"red"}], quyTrinh: ["R (Rest): nghỉ ngơi, không vận động","I (Ice): chườm lạnh bọc vải 15-20p/ lần, cách 2-3h","C (Compress): băng ép băng thun, không quá chặt","E (Elevate): kê cao chi bị thương"], luuY: "Sau 48h có thể chườm ấm. Nếu không cải thiện sau 3-5 ngày, đi khám chuyên khoa.", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/NMJLystj/So-cuu-bong-gan-trat-khop.png" class="illustration-img" alt="Bong gân và trật khớp" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Bong+g%C3%A2n+tr%E1%BA%ADt+kh%E1%BB%9Bp'"><p class="text-xs text-gray-500 mt-1">Sơ cứu bong gân – trật khớp</p></div>` } },
-        // 7. Trật khớp (dùng chung ảnh)
+        // 7. Trật khớp (giữ chung ảnh)
         { id: "trat-khop", title: "Trật khớp", icon: "🦾", color: "indigo", content: { dauHieuChacChan: ["Biến dạng rõ tại khớp (khác bên lành)", "Sờ thấy ổ khớp rỗng", "Dấu hiệu lò xo (cố nắn thì bật lại)"], dauHieuNghiVan: ["Đau dữ dội, không cử động được khớp", "Sưng nề vùng khớp"], phanLoai: [], quyTrinh: ["Trấn an, không cố nắn khớp","Gọi 115 ngay","Bất động khớp ở tư thế hiện tại bằng nẹp hoặc địu","Chườm lạnh giảm đau, chờ xe cấp cứu"], luuY: "Tuyệt đối không tự nắn, có thể gây gãy xương hoặc tổn thương mạch máu. Trật khớp vai dễ tái phát, cần theo dõi chuyên khoa.", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/NMJLystj/So-cuu-bong-gan-trat-khop.png" class="illustration-img" alt="Trật khớp" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Tr%E1%BA%ADt+kh%E1%BB%9Bp'"><p class="text-xs text-gray-500 mt-1">Sơ cứu trật khớp</p></div>` } },
-        // 8. Dị ứng / Sốc phản vệ (giữ nguyên)
-        { id: "di-ung", title: "Dị ứng / Sốc phản vệ", icon: "🤧", color: "pink", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Mề đay, ngứa, phù mạch (môi, mí, thanh quản)", "Khó thở, thở rít, khàn tiếng, nuốt vướng", "Tụt huyết áp, mạch nhanh nhỏ, choáng, ngất", "Buồn nôn, đau bụng, tiêu chảy"], phanLoai: [{ten:"Độ 1",moTa:"Da, niêm mạc",color:"yellow"},{ten:"Độ 2",moTa:"Nhiều cơ quan mức độ nhẹ - vừa",color:"orange"},{ten:"Độ 3",moTa:"Đe dọa tính mạng, tụt HA, khó thở",color:"red"}], quyTrinh: ["Ngừng ngay tiếp xúc dị nguyên (thuốc, thức ăn, nọc côn trùng)","Gọi 115 ngay lập tức","Đặt nạn nhân nằm, nâng chân nếu tụt HA; nếu khó thở thì nâng đầu hoặc ngồi","Nếu có bơm epinephrine tự động, tiêm vào mặt ngoài đùi","Theo dõi ABC, sẵn sàng CPR"], luuY: "Sốc phản vệ tiến triển rất nhanh. Người có cơ địa dị ứng nặng cần mang theo ống tiêm epinephrine và cài đặt cảnh báo y tế.", illustration: `<div class="schema-svg"><img src="https://cdn-icons-png.flaticon.com/512/1998/1998636.png" class="w-16 h-16 mx-auto"><p class="text-xs text-gray-500">Dùng epinephrine tiêm bắp ngay khi có dấu hiệu</p></div>` } },
-        // 9. Chó cắn (ảnh mới)
+        // 8. Dị ứng / Sốc phản vệ (CẬP NHẬT ẢNH MỚI)
+        { id: "di-ung", title: "Dị ứng / Sốc phản vệ", icon: "🤧", color: "pink", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Mề đay, ngứa, phù mạch (môi, mí, thanh quản)", "Khó thở, thở rít, khàn tiếng, nuốt vướng", "Tụt huyết áp, mạch nhanh nhỏ, choáng, ngất", "Buồn nôn, đau bụng, tiêu chảy"], phanLoai: [{ten:"Độ 1",moTa:"Da, niêm mạc",color:"yellow"},{ten:"Độ 2",moTa:"Nhiều cơ quan mức độ nhẹ - vừa",color:"orange"},{ten:"Độ 3",moTa:"Đe dọa tính mạng, tụt HA, khó thở",color:"red"}], quyTrinh: ["Ngừng ngay tiếp xúc dị nguyên (thuốc, thức ăn, nọc côn trùng)","Gọi 115 ngay lập tức","Đặt nạn nhân nằm, nâng chân nếu tụt HA; nếu khó thở thì nâng đầu hoặc ngồi","Nếu có bơm epinephrine tự động, tiêm vào mặt ngoài đùi","Theo dõi ABC, sẵn sàng CPR"], luuY: "Sốc phản vệ tiến triển rất nhanh. Người có cơ địa dị ứng nặng cần mang theo ống tiêm epinephrine và cài đặt cảnh báo y tế.", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/8PwkBbd0/Xu-tri-soc-phan-ve.png" class="illustration-img" alt="Sốc phản vệ" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=S%E1%BB%91c+ph%E1%BA%A3n+v%E1%BB%87'"><p class="text-xs text-gray-500 mt-1">Xử trí sốc phản vệ</p></div>` } },
+        // 9. Chó cắn (giữ ảnh cũ)
         { id: "cho-can", title: "Chó cắn", icon: "🐕", color: "brown", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Vết rách da, chảy máu, sưng đau", "Nguy cơ nhiễm trùng cao (Pasteurella, tụ cầu)", "Nguy cơ bệnh dại và uốn ván"], phanLoai: [{ten:"Cắn độ 1",moTa:"Tiếp xúc da lành (không nguy cơ)",color:"green"},{ten:"Độ 2",moTa:"Vết xước nhẹ, trầy da, chảy máu ít",color:"yellow"},{ten:"Độ 3",moTa:"Vết cắn sâu, thủng da, chảy máu nhiều, có thể tổn thương cơ",color:"red"}], quyTrinh: ["Rửa vết thương dưới vòi nước chảy + xà phòng liên tục 15 phút","Sát khuẩn bằng cồn 70° hoặc povidone-iodine","Đến cơ sở y tế ngay để tiêm phòng dại và uốn ván (ngay cả vết xước nhẹ)","Theo dõi con chó trong 10 ngày (nếu có thể) để phát hiện dấu hiệu dại"], luuY: "Không nặn máu, không băng kín vết thương, không đắp lá. Tiêm vắc-xin dại càng sớm càng tốt, không chờ đến khi có triệu chứng (vì khi lên cơn dại thì tỉ lệ tử vong gần như 100%).", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/3NkNmsrZ/Huong-dan-xu-tri-cho-can.png" class="illustration-img" alt="Sơ cứu chó cắn" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Ch%C3%B3+c%E1%BA%AFn'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn xử trí khi bị chó cắn</p></div>` } },
-        // 10. Rắn cắn (giữ nguyên)
-        { id: "ran-can", title: "Rắn cắn", icon: "🐍", color: "green", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Hai vết răng nanh cách nhau 1-2cm (rắn độc)", "Sưng nề, bầm tím lan nhanh, đau tăng dần", "Rối loạn đông máu (chảy máu chân răng, bầm da, nôn ra máu)", "Liệt cơ (sụp mi, nói khó, nuốt khó, suy hô hấp)"], phanLoai: [{ten:"Rắn hổ (Elapidae)",moTa:"Độc tố thần kinh: liệt, suy hô hấp.",color:"blue"},{ten:"Rắn lục (Viperidae)",moTa:"Độc tố gây rối loạn đông máu, hoại tử.",color:"red"}], quyTrinh: ["Di chuyển nạn nhân ra xa khu vực rắn, trấn an","Gọi 115 ngay, để vết cắn thấp hơn tim","Tháo trang sức, quần áo chật","Rắn hổ: có thể băng ép bất động chi (không garo). Rắn lục: không băng ép, chỉ bất động chi","Chuyển đến bệnh viện có sẵn huyết thanh kháng nọc càng sớm càng tốt"], luuY: "Không garo (có thể gây hoại tử chi), không rạch hút nọc độc, không đắp lá, không chườm đá. Cố gắng nhận dạng rắn (chụp ảnh) nhưng đảm bảo an toàn.", illustration: `<div class="schema-svg"><svg width="200" height="120" viewBox="0 0 200 120"><path d="M40 40 L160 40 L140 80 L60 80 Z" fill="#e2e8f0" stroke="#475569"/><circle cx="100" cy="60" r="10" fill="#dc2626"/><text x="100" y="100" text-anchor="middle" font-size="10">Bất động, để vết cắn thấp hơn tim</text></svg><p class="text-xs text-gray-500">Sơ cứu rắn cắn: bất động chi, vận chuyển nhanh</p></div>` } },
-        // 11. Ong đốt (giữ nguyên)
-        { id: "ong-dot", title: "Ong đốt", icon: "🐝", color: "yellow", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Đau chói, sưng đỏ, ngứa tại chỗ","Nhiều vết đốt hoặc có dị ứng: nổi mề đay toàn thân, khó thở, tụt HA, phù thanh quản"], phanLoai: [{ten:"Phản ứng tại chỗ",moTa:"Sưng đỏ dưới 10cm, tự hết sau vài giờ",color:"green"},{ten:"Phản ứng toàn thân",moTa:"Sốc phản vệ, nguy hiểm",color:"red"}], quyTrinh: ["Di chuyển nạn nhân đến nơi an toàn","Loại bỏ ngòi (nếu ong mật) bằng cách cạo nhẹ, không nặn","Rửa vết đốt bằng xà phòng và nước lạnh","Chườm lạnh bọc vải 20 phút, nâng chi bị đốt","Theo dõi dấu hiệu dị ứng; nếu khó thở, nổi mề đay toàn thân, gọi 115 ngay và chuẩn bị epinephrine"], luuY: "Không bôi vôi, kem đánh răng, dầu gió. Không gãi, không xoa bóp. Nếu ong bắp cày hoặc ong vò vẽ đốt, có thể gây hoại tử, cần rửa bằng nước muối và đến bệnh viện.", illustration: `<div class="schema-svg"><img src="https://cdn-icons-png.flaticon.com/512/2932/2932555.png" class="w-16 h-16 mx-auto"><p class="text-xs text-gray-500">Cạo ngòi, chườm lạnh</p></div>` } },
-        // 12. Đột quỵ (ảnh mới)
+        // 10. Rắn cắn (CẬP NHẬT ẢNH MỚI)
+        { id: "ran-can", title: "Rắn cắn", icon: "🐍", color: "green", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Hai vết răng nanh cách nhau 1-2cm (rắn độc)", "Sưng nề, bầm tím lan nhanh, đau tăng dần", "Rối loạn đông máu (chảy máu chân răng, bầm da, nôn ra máu)", "Liệt cơ (sụp mi, nói khó, nuốt khó, suy hô hấp)"], phanLoai: [{ten:"Rắn hổ (Elapidae)",moTa:"Độc tố thần kinh: liệt, suy hô hấp.",color:"blue"},{ten:"Rắn lục (Viperidae)",moTa:"Độc tố gây rối loạn đông máu, hoại tử.",color:"red"}], quyTrinh: ["Di chuyển nạn nhân ra xa khu vực rắn, trấn an","Gọi 115 ngay, để vết cắn thấp hơn tim","Tháo trang sức, quần áo chật","Rắn hổ: có thể băng ép bất động chi (không garo). Rắn lục: không băng ép, chỉ bất động chi","Chuyển đến bệnh viện có sẵn huyết thanh kháng nọc càng sớm càng tốt"], luuY: "Không garo (có thể gây hoại tử chi), không rạch hút nọc độc, không đắp lá, không chườm đá. Cố gắng nhận dạng rắn (chụp ảnh) nhưng đảm bảo an toàn.", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/RVGCQTQW/Huong-dan-so-cuu-ran-can.png" class="illustration-img" alt="Rắn cắn" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=R%E1%BA%AFn+c%E1%BA%AFn'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn sơ cứu rắn cắn</p></div>` } },
+        // 11. Ong đốt (CẬP NHẬT ẢNH MỚI)
+        { id: "ong-dot", title: "Ong đốt", icon: "🐝", color: "yellow", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Đau chói, sưng đỏ, ngứa tại chỗ","Nhiều vết đốt hoặc có dị ứng: nổi mề đay toàn thân, khó thở, tụt HA, phù thanh quản"], phanLoai: [{ten:"Phản ứng tại chỗ",moTa:"Sưng đỏ dưới 10cm, tự hết sau vài giờ",color:"green"},{ten:"Phản ứng toàn thân",moTa:"Sốc phản vệ, nguy hiểm",color:"red"}], quyTrinh: ["Di chuyển nạn nhân đến nơi an toàn","Loại bỏ ngòi (nếu ong mật) bằng cách cạo nhẹ, không nặn","Rửa vết đốt bằng xà phòng và nước lạnh","Chườm lạnh bọc vải 20 phút, nâng chi bị đốt","Theo dõi dấu hiệu dị ứng; nếu khó thở, nổi mề đay toàn thân, gọi 115 ngay và chuẩn bị epinephrine"], luuY: "Không bôi vôi, kem đánh răng, dầu gió. Không gãi, không xoa bóp. Nếu ong bắp cày hoặc ong vò vẽ đốt, có thể gây hoại tử, cần rửa bằng nước muối và đến bệnh viện.", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/cHVhzYRw/Huong-dan-so-cuu-ong-dot.png" class="illustration-img" alt="Ong đốt" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Ong+%C4%91%E1%BB%91t'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn sơ cứu ong đốt</p></div>` } },
+        // 12. Đột quỵ (giữ ảnh cũ)
         { id: "dot-quy", title: "Đột quỵ", icon: "🧠", color: "pink", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Mặt méo (cười lệch, nhân trung lệch)","Yếu liệt tay chân một bên (thử giơ hai tay, một tay rơi xuống)","Nói khó, nói ngọng, không nói được","Đau đầu dữ dội đột ngột, chóng mặt, mất thăng bằng, nhìn mờ một bên"], phanLoai: [{ten:"Nhồi máu não",moTa:"Tắc mạch, chiếm 85%, có thể dùng thuốc tiêu sợi huyết trong 4,5 giờ",color:"blue"},{ten:"Xuất huyết não",moTa:"Vỡ mạch, chiếm 15%, nguy hiểm hơn, cần phẫu thuật sớm",color:"red"}], quyTrinh: ["Gọi 115 ngay lập tức – ghi nhớ thời điểm khởi phát (giờ vàng 3-4,5h)","Đặt nạn nhân nằm nghiêng an toàn nếu nôn, đầu cao 30° nếu tỉnh và không có chấn thương cột sống","Nới lỏng quần áo, không cho ăn uống bất kỳ thứ gì (kể cả thuốc)","Ghi nhận các triệu chứng và thời gian để cung cấp cho nhân viên y tế","Nếu ngưng thở, ngưng tim, bắt đầu CPR ngay"], luuY: "Không tự ý cho uống aspirin, không chích lể, cạo gió, không tự lái xe đến bệnh viện. Đột quỵ cần can thiệp chuyên khoa càng sớm càng tốt.", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/SRHsrgJ0/Cap-cuu-dot-quy.png" class="illustration-img" alt="Đột quỵ" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=%C4%90%E1%BB%99t+qu%E1%BB%B5'"><p class="text-xs text-gray-500 mt-1">Cấp cứu đột quỵ – nhận biết sớm</p></div>` } },
-        // 13. Đuối nước (ảnh mới)
+        // 13. Đuối nước (giữ cũ)
         { id: "duoi-nuoc", title: "Đuối nước", icon: "🏊", color: "blue", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Ngừng thở, ngừng tim, da tím tái, bụng chướng", "Mất ý thức"], phanLoai: [], quyTrinh: ["Đưa lên khỏi mặt nước an toàn, đặt nằm ngửa trên mặt phẳng cứng","Gọi 115","Mở đường thở, nếu không thở → thổi ngạt 2 cái ngay","Nếu không mạch → ép tim 30:2","Tiếp tục CPR đến khi nạn nhân tỉnh hoặc có cấp cứu"], luuY: "Không dốc nước bằng cách xốc chân, không lãng phí thời gian. Ưu tiên thổi ngạt và ép tim ngay.", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/d1HD7sF1/So-cuu-duoi-nuoc-DRSABC.png" class="illustration-img" alt="Sơ cứu đuối nước" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=%C4%90u%E1%BB%91i+n%C6%B0%E1%BB%9Bc'"><p class="text-xs text-gray-500 mt-1">Sơ cứu đuối nước theo quy trình DRs. ABC</p></div>` } },
-        // 14. Bỏng / Phỏng (ảnh mới)
+        // 14. Bỏng / Phỏng (giữ cũ)
         { id: "bong", title: "Bỏng / Phỏng", icon: "🔥", color: "orange", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Đỏ da, phồng rộp, đau rát, da có thể cháy đen", "Bỏng hóa chất có thể không đau ngay nhưng tiến triển nặng"], phanLoai: [{ten:"Độ 1",moTa:"Đỏ, đau, không phồng nước",color:"yellow"},{ten:"Độ 2",moTa:"Phồng nước, nền hồng, đau nhiều",color:"orange"},{ten:"Độ 3",moTa:"Da cháy đen/trắng, không đau, tổn thương sâu",color:"red"}], quyTrinh: ["Loại bỏ nguồn nhiệt, ngắt điện","Làm mát dưới vòi nước sạch, mát 20 phút","Che phủ vết bỏng bằng gạc ẩm hoặc khăn sạch, không bôi gì","Gọi 115 nếu bỏng nặng (sâu, mặt, bộ phận sinh dục, diện rộng >10% cơ thể)","Bù nước, điện giải (oresol)"], luuY: "Không đắp kem đánh răng, vôi, dầu cá, không làm vỡ nốt phỏng, không dùng cồn rửa.", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/x8X8Mwj4/Huong-dan-so-cuu-bong.png" class="illustration-img" alt="Sơ cứu bỏng" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=B%E1%BB%8Fng'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn sơ cứu bỏng</p></div>` } },
-        // 15. Điện giật (ảnh mới)
+        // 15. Điện giật (giữ cũ)
         { id: "dien-giat", title: "Điện giật", icon: "⚡", color: "yellow", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Bất tỉnh, co giật, ngừng thở, ngừng tim","Vết bỏng sâu tại điểm tiếp xúc"], phanLoai: [], quyTrinh: ["Ngắt nguồn điện ngay (cầu dao, dùng gậy khô hất dây)","Không chạm trực tiếp","Gọi 115, nếu ngưng thở ngưng tim → CPR ngay","Xử lý vết bỏng như bỏng thường"], luuY: "Sau điện giật, dù tỉnh vẫn cần đến bệnh viện kiểm tra tim mạch (rối loạn nhịp muộn).", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/br4JTmdH/Huong-dan-so-cuu-dien-giat.png" class="illustration-img" alt="Sơ cứu điện giật" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=%C4%90i%E1%BB%87n+gi%E1%BA%ADt'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn sơ cứu điện giật</p></div>` } },
-        // 16. CPR (ảnh mới)
+        // 16. CPR (giữ cũ)
         { id: "cpr", title: "CPR (Hồi sinh tim phổi)", icon: "🫀", color: "red", content: { dauHieuChacChan: ["Ngừng tim (không bắt mạch cảnh, mạch bẹn)","Ngừng thở (lồng ngực không di động)","Mất ý thức"], dauHieuNghiVan: [], phanLoai: [], quyTrinh: ["Đảm bảo an toàn, gọi 115","Đặt nạn nhân nằm ngửa trên mặt phẳng cứng, cởi áo","Vị trí ép: 1/3 dưới xương ức, 2 tay đan chồng, ép thẳng, sâu 5-6 cm, tần số 100-120 lần/phút","Thổi ngạt: mở đường thở (ngửa đầu nâng cằm), bịt mũi, thổi 2 cái (1 giây/cái) làm lồng ngực nổi","Tỉ lệ 30:2, lặp lại cho đến khi nạn nhân tỉnh hoặc xe cấp cứu đến"], luuY: "Nếu không được đào tạo, chỉ ép tay không (hands-only). Kiên trì, thay người mỗi 2 phút nếu mệt.", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/fy1LK8kP/Huong-dan-hoi-sinh-tim-phoi.png" class="illustration-img" alt="CPR" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=CPR'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn hồi sinh tim phổi (CPR)</p></div>` } },
-        // 17. Hạ thân nhiệt (giữ nguyên)
-        { id: "ha-than-nhiet", title: "Hạ thân nhiệt", icon: "❄️", color: "blue", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Rét run không kiểm soát, nói lắp bắp, lơ mơ", "Nhiệt độ dưới 35°C, mạch chậm, da lạnh"], phanLoai: [], quyTrinh: ["Đưa vào nơi khô ráo, tránh gió","Thay quần áo ướt bằng khô, ấm, ủ ấm vùng ngực, cổ, đầu","Cho uống nước ấm, đường nếu tỉnh","Gọi 115 nếu hôn mê hoặc run nặng không dứt"], luuY: "Không xoa bóp chân tay, không tắm nước nóng hoặc chườm nóng quá nhanh (gây sốc tim)." } },
-        // 18. Ngộ độc thực phẩm (giữ nguyên)
-        { id: "ngo-doc-thuc-pham", title: "Ngộ độc thực phẩm", icon: "🍲", color: "orange", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Buồn nôn, nôn, tiêu chảy, đau bụng, sốt", "Mất nước (khô miệng, tiểu ít)", "Nhìn mờ, nói khó, yếu cơ, khó thở (ngộ độc nặng)"], phanLoai: [], quyTrinh: ["Ngưng ăn thực phẩm nghi ngờ","Bù nước và điện giải (Oresol)","Nghỉ ngơi, ăn lỏng dễ tiêu","Đến viện nếu nôn/tiêu chảy nhiều, mất nước, sốt cao, hoặc có dấu hiệu thần kinh"], luuY: "Không tự ý dùng thuốc chống nôn hoặc cầm tiêu chảy khi chưa có chỉ định." } },
-        // 19. Co giật / Động kinh (giữ nguyên)
-        { id: "co-giat-dong-kinh", title: "Co giật / Động kinh", icon: "⚡", color: "purple", content: { dauHieuChacChan: ["Mất ý thức đột ngột, co cứng rồi giật nhịp nhàng toàn thân","Mắt trợn ngược, sùi bọt mép","Cắn lưỡi, tiểu tiện không tự chủ"], dauHieuNghiVan: ["Cơn khu trú (một chi, một bên mặt)","Cảm giác bất thường trước cơn (hồi hộp, ù tai, nhìn mờ)"], phanLoai: [{ten:"Toàn thể",moTa:"Co giật toàn thân, mất ý thức",color:"red"},{ten:"Vắng ý thức",moTa:"Mất ý thức vài giây",color:"yellow"}], quyTrinh: ["Đặt nạn nhân nằm an toàn, kê mềm dưới đầu, nới lỏng quần áo","Nghiêng đầu sang bên để chất nôn hoặc bọt chảy ra","Ghi nhận thời gian cơn, nếu >5 phút hoặc nhiều cơn liên tiếp → gọi 115","Sau cơn, đặt tư thế hồi phục, không cho ăn uống ngay","Không nhét bất cứ thứ gì vào miệng"], luuY: "Không ghì chặt nạn nhân, không cố ngừng cơn. Hầu hết cơn tự hết trong 1-3 phút." } },
-        // 20. Chấn thương cột sống (giữ nguyên)
-        { id: "cham-thuong-cot-song", title: "Chấn thương cột sống", icon: "🦴", color: "gray", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Sau tai nạn giao thông, ngã cao, chấn thương thể thao","Đau chói vùng cổ/lưng", "Tê bì, yếu hoặc liệt tay chân","Mất kiểm soát cơ vòng"], phanLoai: [], quyTrinh: ["Không cử động, lay, xoay đầu/cổ nạn nhân","Giữ đầu và cơ thể thẳng hàng","Chỉ di chuyển khi thực sự cần thiết (khu vực nguy hiểm)","Cố định nẹp cột sống nếu có, gọi 115 ngay"], luuY: "Ngay cả khi nạn nhân tỉnh táo và không đau, vẫn phải nghi ngờ chấn thương cột sống vì có thể trì hoãn biểu hiện." } },
-        // 21. Nhồi máu cơ tim (giữ nguyên)
-        { id: "nhoi-mau-co-tim", title: "Nhồi máu cơ tim", icon: "❤️", color: "red", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Đau thắt ngực dữ dội, cảm giác bóp nghẹt, đè ép giữa ngực, lan lên vai trái, cổ, hàm","Khó thở, vã mồ hôi lạnh, buồn nôn, choáng"], phanLoai: [], quyTrinh: ["Gọi 115 ngay lập tức","Cho nạn nhân ngồi nghỉ ở tư thế thoải mái nhất (thường là nửa nằm nửa ngồi)","Nới lỏng quần áo","Nếu nạn nhân tỉnh và không dị ứng, hỗ trợ nhai viên Aspirin 300mg (nếu có sẵn)","Không cho ăn uống trừ khi được hướng dẫn"], luuY: "Không tự lái xe đến bệnh viện, không để nạn nhân nằm nếu họ khó thở." } },
-        // 22. Hạ đường huyết (giữ nguyên)
-        { id: "ha-duong-huyet", title: "Hạ đường huyết", icon: "🩸", color: "yellow", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Run tay, đói cồn cào, tim đập nhanh, vã mồ hôi, choáng váng, nói khó, lú lẫn"], phanLoai: [], quyTrinh: ["Nếu còn tỉnh: cho uống/ăn 15-20g đường hấp thu nhanh (3-4 viên đường, 1/2 lon nước ngọt, 2 thìa mật ong)","Sau 15 phút kiểm tra lại, nếu không đỡ thì lặp lại","Khi tỉnh táo hoàn toàn, cho ăn thêm thức ăn tinh bột (bánh mì, cơm)","Nếu hôn mê hoặc không tỉnh: đặt tư thế an toàn, không đổ bất cứ thứ gì vào miệng, gọi 115"], luuY: "Người bệnh đái tháo đường nên luôn mang theo kẹo, nước đường bên mình." } },
-        // 23. Vết thương phần mềm, bầm tím (giữ nguyên)
-        { id: "vet-thuong-phan-mem", title: "Vết thương phần mềm, bầm tím", icon: "🩹", color: "teal", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Sưng, bầm tím (chấn thương kín)","Vết thương hở, rách da, chảy máu"], phanLoai: [], quyTrinh: ["Bầm tím: chườm lạnh trong 24h đầu (bọc đá trong khăn, chườm 15-20 phút mỗi lần, cách 2-3h), nâng cao chi","Vết thương hở: rửa sạch dưới vòi nước chảy, rửa vùng da quanh bằng xà phòng (tránh xà phòng vào sâu vết thương)","Băng ép cầm máu, nếu vết thương lớn hoặc do động vật cắn, đến cơ sở y tế","Sau 48h có thể chườm ấm giúp tan máu bầm"], luuY: "Không dùng oxy già, cồn mạnh trực tiếp vào vết thương hở vì gây tổn thương mô, làm chậm lành." } }
+        // 17. Hạ thân nhiệt (CÓ 2 ẢNH)
+        { id: "ha-than-nhiet", title: "Hạ thân nhiệt", icon: "❄️", color: "blue", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Rét run không kiểm soát, nói lắp bắp, lơ mơ", "Nhiệt độ dưới 35°C, mạch chậm, da lạnh"], phanLoai: [], quyTrinh: ["Đưa vào nơi khô ráo, tránh gió","Thay quần áo ướt bằng khô, ấm, ủ ấm vùng ngực, cổ, đầu","Cho uống nước ấm, đường nếu tỉnh","Gọi 115 nếu hôn mê hoặc run nặng không dứt"], luuY: "Không xoa bóp chân tay, không tắm nước nóng hoặc chườm nóng quá nhanh (gây sốc tim).", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/65z6LhVg/So-cuu-ha-than-nhiet.png" class="illustration-img" alt="Hạ thân nhiệt 1" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=H%E1%BA%A1+th%C3%A2n+nhi%E1%BB%87t+1'"><p class="text-xs text-gray-500 mt-1">Sơ cứu hạ thân nhiệt (1)</p></div><div class="my-4 text-center"><img src="https://i.postimg.cc/KvQcr57V/So-cuu-ha-than-nhiet-dung.png" class="illustration-img" alt="Hạ thân nhiệt 2" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=H%E1%BA%A1+th%C3%A2n+nhi%E1%BB%87t+2'"><p class="text-xs text-gray-500 mt-1">Sơ cứu hạ thân nhiệt đúng cách (2)</p></div>` } },
+        // 18. Ngộ độc thực phẩm (CÓ 2 ẢNH)
+        { id: "ngo-doc-thuc-pham", title: "Ngộ độc thực phẩm", icon: "🍲", color: "orange", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Buồn nôn, nôn, tiêu chảy, đau bụng, sốt", "Mất nước (khô miệng, tiểu ít)", "Nhìn mờ, nói khó, yếu cơ, khó thở (ngộ độc nặng)"], phanLoai: [], quyTrinh: ["Ngưng ăn thực phẩm nghi ngờ","Bù nước và điện giải (Oresol)","Nghỉ ngơi, ăn lỏng dễ tiêu","Đến viện nếu nôn/tiêu chảy nhiều, mất nước, sốt cao, hoặc có dấu hiệu thần kinh"], luuY: "Không tự ý dùng thuốc chống nôn hoặc cầm tiêu chảy khi chưa có chỉ định.", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/fTHC46fw/So-cuu-khi-ngo-doc.png" class="illustration-img" alt="Ngộ độc thực phẩm 1" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Ng%E1%BB%99+%C4%91%E1%BB%99c+1'"><p class="text-xs text-gray-500 mt-1">Sơ cứu khi ngộ độc (1)</p></div><div class="my-4 text-center"><img src="https://i.postimg.cc/Z5RbfVy/Cam-nang-so-cuu-ngo-doc.png" class="illustration-img" alt="Ngộ độc thực phẩm 2" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Ng%E1%BB%99+%C4%91%E1%BB%99c+2'"><p class="text-xs text-gray-500 mt-1">Cẩm nang sơ cứu ngộ độc (2)</p></div>` } },
+        // 19. Co giật / Động kinh (CẬP NHẬT ẢNH MỚI)
+        { id: "co-giat-dong-kinh", title: "Co giật / Động kinh", icon: "⚡", color: "purple", content: { dauHieuChacChan: ["Mất ý thức đột ngột, co cứng rồi giật nhịp nhàng toàn thân","Mắt trợn ngược, sùi bọt mép","Cắn lưỡi, tiểu tiện không tự chủ"], dauHieuNghiVan: ["Cơn khu trú (một chi, một bên mặt)","Cảm giác bất thường trước cơn (hồi hộp, ù tai, nhìn mờ)"], phanLoai: [{ten:"Toàn thể",moTa:"Co giật toàn thân, mất ý thức",color:"red"},{ten:"Vắng ý thức",moTa:"Mất ý thức vài giây",color:"yellow"}], quyTrinh: ["Đặt nạn nhân nằm an toàn, kê mềm dưới đầu, nới lỏng quần áo","Nghiêng đầu sang bên để chất nôn hoặc bọt chảy ra","Ghi nhận thời gian cơn, nếu >5 phút hoặc nhiều cơn liên tiếp → gọi 115","Sau cơn, đặt tư thế hồi phục, không cho ăn uống ngay","Không nhét bất cứ thứ gì vào miệng"], luuY: "Không ghì chặt nạn nhân, không cố ngừng cơn. Hầu hết cơn tự hết trong 1-3 phút.", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/3J9rCZC3/So-cuu-co-giat-an-toan.png" class="illustration-img" alt="Co giật an toàn" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Co+gi%E1%BA%ADt'"><p class="text-xs text-gray-500 mt-1">Sơ cứu co giật an toàn</p></div>` } },
+        // 20. Chấn thương cột sống (CẬP NHẬT ẢNH MỚI)
+        { id: "cham-thuong-cot-song", title: "Chấn thương cột sống", icon: "🦴", color: "gray", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Sau tai nạn giao thông, ngã cao, chấn thương thể thao","Đau chói vùng cổ/lưng", "Tê bì, yếu hoặc liệt tay chân","Mất kiểm soát cơ vòng"], phanLoai: [], quyTrinh: ["Không cử động, lay, xoay đầu/cổ nạn nhân","Giữ đầu và cơ thể thẳng hàng","Chỉ di chuyển khi thực sự cần thiết (khu vực nguy hiểm)","Cố định nẹp cột sống nếu có, gọi 115 ngay"], luuY: "Ngay cả khi nạn nhân tỉnh táo và không đau, vẫn phải nghi ngờ chấn thương cột sống vì có thể trì hoãn biểu hiện.", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/tCrk0LNC/Huong-dan-so-cuu-cot-song.png" class="illustration-img" alt="Chấn thương cột sống" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Ch%E1%BA%A5n+th%C6%B0%C6%A1ng+c%E1%BB%99t+s%E1%BB%91ng'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn sơ cứu chấn thương cột sống</p></div>` } },
+        // 21. Nhồi máu cơ tim (CẬP NHẬT ẢNH MỚI)
+        { id: "nhoi-mau-co-tim", title: "Nhồi máu cơ tim", icon: "❤️", color: "red", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Đau thắt ngực dữ dội, cảm giác bóp nghẹt, đè ép giữa ngực, lan lên vai trái, cổ, hàm","Khó thở, vã mồ hôi lạnh, buồn nôn, choáng"], phanLoai: [], quyTrinh: ["Gọi 115 ngay lập tức","Cho nạn nhân ngồi nghỉ ở tư thế thoải mái nhất (thường là nửa nằm nửa ngồi)","Nới lỏng quần áo","Nếu nạn nhân tỉnh và không dị ứng, hỗ trợ nhai viên Aspirin 300mg (nếu có sẵn)","Không cho ăn uống trừ khi được hướng dẫn"], luuY: "Không tự lái xe đến bệnh viện, không để nạn nhân nằm nếu họ khó thở.", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/pLTW0nqX/Cap-cuu-nhoi-mau-tim.png" class="illustration-img" alt="Nhồi máu cơ tim" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Nh%E1%BB%93i+m%C3%A1u+c%C6%A1+tim'"><p class="text-xs text-gray-500 mt-1">Cấp cứu nhồi máu cơ tim</p></div>` } },
+        // 22. Hạ đường huyết (CẬP NHẬT ẢNH MỚI)
+        { id: "ha-duong-huyet", title: "Hạ đường huyết", icon: "🩸", color: "yellow", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Run tay, đói cồn cào, tim đập nhanh, vã mồ hôi, choáng váng, nói khó, lú lẫn"], phanLoai: [], quyTrinh: ["Nếu còn tỉnh: cho uống/ăn 15-20g đường hấp thu nhanh (3-4 viên đường, 1/2 lon nước ngọt, 2 thìa mật ong)","Sau 15 phút kiểm tra lại, nếu không đỡ thì lặp lại","Khi tỉnh táo hoàn toàn, cho ăn thêm thức ăn tinh bột (bánh mì, cơm)","Nếu hôn mê hoặc không tỉnh: đặt tư thế an toàn, không đổ bất cứ thứ gì vào miệng, gọi 115"], luuY: "Người bệnh đái tháo đường nên luôn mang theo kẹo, nước đường bên mình.", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/fT5Wjvjb/So-cuu-cap-toc.png" class="illustration-img" alt="Hạ đường huyết" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=H%E1%BA%A1+%C4%91%C6%B0%E1%BB%9Dng+huy%E1%BA%BFt'"><p class="text-xs text-gray-500 mt-1">Sơ cứu cấp tốc hạ đường huyết</p></div>` } },
+        // 23. Vết thương phần mềm, bầm tím (CÓ 2 ẢNH)
+        { id: "vet-thuong-phan-mem", title: "Vết thương phần mềm, bầm tím", icon: "🩹", color: "teal", content: { dauHieuChacChan: [], dauHieuNghiVan: ["Sưng, bầm tím (chấn thương kín)","Vết thương hở, rách da, chảy máu"], phanLoai: [], quyTrinh: ["Bầm tím: chườm lạnh trong 24h đầu (bọc đá trong khăn, chườm 15-20 phút mỗi lần, cách 2-3h), nâng cao chi","Vết thương hở: rửa sạch dưới vòi nước chảy, rửa vùng da quanh bằng xà phòng (tránh xà phòng vào sâu vết thương)","Băng ép cầm máu, nếu vết thương lớn hoặc do động vật cắn, đến cơ sở y tế","Sau 48h có thể chườm ấm giúp tan máu bầm"], luuY: "Không dùng oxy già, cồn mạnh trực tiếp vào vết thương hở vì gây tổn thương mô, làm chậm lành.", illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/SN02nVQf/Cach-so-cuu-chan-thuong.png" class="illustration-img" alt="Vết thương phần mềm 1" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=V%E1%BA%BFt+th%C6%B0%C6%A1ng+1'"><p class="text-xs text-gray-500 mt-1">Cách sơ cứu chấn thương (1)</p></div><div class="my-4 text-center"><img src="https://i.postimg.cc/4Nw4b1vr/Tri-chan-thuong-the-thao.png" class="illustration-img" alt="Vết thương phần mềm 2" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=V%E1%BA%BFt+th%C6%B0%C6%A1ng+2'"><p class="text-xs text-gray-500 mt-1">Phòng tránh chấn thương thể thao (2)</p></div>` } }
     ];
 
-    // Hàm gradient màu
+    // Helper: gradient màu cho card
     function getGradientClass(color) {
         const map = {
             orange:'from-orange-500 to-red-500', purple:'from-purple-500 to-pink-500', red:'from-red-500 to-rose-600', dark:'from-gray-700 to-gray-900',
@@ -194,7 +226,7 @@
         return map[color] || 'from-gray-500 to-gray-700';
     }
 
-    // Render danh sách dạng lưới ban đầu
+    // Render lưới
     function renderLessonGrid() {
         const grid = document.getElementById('lessons-grid');
         if (!grid) return;
@@ -211,7 +243,7 @@
         `).join('');
     }
 
-    // Render sidebar danh sách bài học
+    // Render sidebar danh sách bài
     function renderSidebar(activeId) {
         const container = document.getElementById('lessons-sidebar-container');
         if (!container) return;
@@ -223,7 +255,7 @@
         `).join('');
     }
 
-    // Render nội dung chi tiết của một bài
+    // Render nội dung chi tiết bài
     function renderDetailContent(lessonId) {
         const lesson = lessons.find(l => l.id === lessonId);
         if (!lesson) return;
@@ -245,7 +277,7 @@
         }
         let illustrationHtml = c.illustration ? `<div class="my-6">${c.illustration}</div>` : `<div class="my-4 p-4 bg-gray-100 rounded-xl text-center text-gray-500"><i class="fas fa-image mr-2"></i> Hình minh họa đang được cập nhật</div>`;
         
-        // Tìm bài trước / sau
+        // Nút trước/sau
         const currentIndex = lessons.findIndex(l => l.id === lessonId);
         const prevLesson = currentIndex > 0 ? lessons[currentIndex-1] : null;
         const nextLesson = currentIndex < lessons.length-1 ? lessons[currentIndex+1] : null;
@@ -274,9 +306,13 @@
         renderSidebar(lessonId);
     }
 
-    // Chuyển đổi giữa các bài
+    // Chuyển bài (vẫn ở chế độ detail)
     window.switchToLesson = function(id) {
         renderDetailContent(id);
+        // Đóng sidebar sau khi chọn bài
+        closeSidebar();
+        // Cập nhật URL state
+        history.pushState({ view: 'detail', id: id }, '', `?id=${id}`);
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
@@ -285,16 +321,68 @@
         document.getElementById('lessons-grid').classList.add('hidden');
         document.getElementById('detail-layout').classList.remove('hidden');
         renderDetailContent(id);
+        // Thêm state vào history
+        history.pushState({ view: 'detail', id: id }, '', `?id=${id}`);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        closeSidebar();
     };
 
-    // Quay lại danh sách lưới
+    // Quay lại lưới (trang chủ)
     window.backToGrid = function() {
         document.getElementById('detail-layout').classList.add('hidden');
         document.getElementById('lessons-grid').classList.remove('hidden');
+        // Xóa query param, thay thế state hiện tại để khi back không quay lại detail
+        history.replaceState({ view: 'grid' }, '', window.location.pathname);
         window.scrollTo({ top: 0, behavior: 'smooth' });
+        closeSidebar();
     };
 
-    renderLessonGrid();
+    // Xử lý sidebar
+    function openSidebar() {
+        document.getElementById('sidebar').classList.add('open');
+        document.getElementById('sidebarOverlay').classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+    function closeSidebar() {
+        document.getElementById('sidebar').classList.remove('open');
+        document.getElementById('sidebarOverlay').classList.remove('active');
+        document.body.style.overflow = '';
+    }
+    document.getElementById('openSidebarBtn')?.addEventListener('click', openSidebar);
+    document.getElementById('openSidebarBtnDesktop')?.addEventListener('click', openSidebar);
+    document.getElementById('closeSidebarBtn')?.addEventListener('click', closeSidebar);
+    document.getElementById('sidebarOverlay')?.addEventListener('click', closeSidebar);
+
+    // Xử lý back/forward trình duyệt (popstate)
+    window.addEventListener('popstate', function(event) {
+        const state = event.state;
+        if (state && state.view === 'detail' && state.id) {
+            // Hiển thị bài chi tiết tương ứng
+            document.getElementById('lessons-grid').classList.add('hidden');
+            document.getElementById('detail-layout').classList.remove('hidden');
+            renderDetailContent(state.id);
+        } else {
+            // Mặc định quay về grid
+            document.getElementById('detail-layout').classList.add('hidden');
+            document.getElementById('lessons-grid').classList.remove('hidden');
+        }
+        closeSidebar();
+    });
+
+    // Kiểm tra nếu URL có ?id=... khi load lần đầu
+    function initFromUrl() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const idParam = urlParams.get('id');
+        if (idParam && lessons.find(l => l.id === idParam)) {
+            showLessonDetail(idParam);
+        } else {
+            renderLessonGrid();
+            // Đảm bảo state grid
+            history.replaceState({ view: 'grid' }, '', window.location.pathname);
+        }
+    }
+
+    initFromUrl();
 </script>
 </body>
 </html>

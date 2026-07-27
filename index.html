@@ -1225,6 +1225,226 @@
     font-size: 1.2rem;
   }
 }
+/* ===== SỬA LAYOUT TRANG CHI TIẾT TRÊN MOBILE ===== */
+
+@media (max-width: 768px) {
+  /* 1. TỐI ƯU TOC - chuyển từ sticky sang inline, ẩn trên mobile nhỏ */
+  .toc-sticky {
+    position: relative !important;
+    top: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    margin-bottom: 16px !important;
+    padding: 12px 16px !important;
+    border-radius: var(--radius-md) !important;
+    background: var(--bg-primary) !important;
+    border: 1px solid var(--border-color) !important;
+  }
+  .toc-sticky h4 {
+    font-size: 0.8rem !important;
+    margin-bottom: 6px !important;
+  }
+  .toc-sticky ul {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 4px 8px !important;
+  }
+  .toc-sticky ul li {
+    margin: 0 !important;
+  }
+  .toc-sticky ul li a {
+    font-size: 0.65rem !important;
+    padding: 2px 8px !important;
+    background: var(--bg-card) !important;
+    border-radius: 20px !important;
+    border: 1px solid var(--border-color) !important;
+    display: inline-block !important;
+  }
+  .toc-sticky ul li a:hover {
+    background: var(--accent-light) !important;
+    color: var(--accent) !important;
+  }
+
+  /* 2. FLEX CONTAINER TRONG DETAIL - chuyển sang column */
+  #detail-content-area > div[style*="display:flex"] {
+    flex-direction: column !important;
+  }
+
+  /* 3. BREADCRUMB */
+  .breadcrumb {
+    font-size: 0.7rem !important;
+    gap: 4px !important;
+    flex-wrap: wrap !important;
+  }
+  .breadcrumb a,
+  .breadcrumb span {
+    font-size: 0.7rem !important;
+  }
+
+  /* 4. TITLE + BUTTONS */
+  #detail-content-area > div[style*="display:flex"] > div[style*="display:flex;align-items:center;gap:16px;margin-bottom:16px"] {
+    flex-wrap: wrap !important;
+    gap: 10px !important;
+  }
+  #detail-content-area h1 {
+    font-size: 1.2rem !important;
+    width: 100% !important;
+    order: 0 !important;
+  }
+  #detail-content-area > div[style*="display:flex"] > div[style*="display:flex;align-items:center;gap:16px;margin-bottom:16px"] .btn-primary {
+    padding: 8px 16px !important;
+    font-size: 0.8rem !important;
+  }
+  #detail-content-area > div[style*="display:flex"] > div[style*="display:flex;align-items:center;gap:16px;margin-bottom:16px"] button[onclick*="toggleBookmark"] {
+    font-size: 1.4rem !important;
+    order: 0 !important;
+  }
+
+  /* 5. OVERVIEW - 2 cột đều nhau */
+  .detail-overview {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8px !important;
+    padding: 12px 14px !important;
+    margin-bottom: 16px !important;
+  }
+  .detail-overview .stat-item {
+    padding: 4px 0 !important;
+  }
+  .detail-overview .stat-item .label {
+    font-size: 0.55rem !important;
+  }
+  .detail-overview .stat-item .value {
+    font-size: 0.75rem !important;
+    word-break: break-word !important;
+  }
+
+  /* 6. ACCORDION - tối ưu padding */
+  .accordion-header {
+    padding: 10px 14px !important;
+    font-size: 0.85rem !important;
+  }
+  .accordion-body {
+    padding: 0 14px 14px !important;
+    font-size: 0.85rem !important;
+  }
+
+  /* 7. INFOBOX - chống tràn text */
+  .infobox {
+    padding: 12px 14px !important;
+    gap: 8px !important;
+    font-size: 0.85rem !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+  }
+  .infobox .icon {
+    font-size: 1.2rem !important;
+    flex-shrink: 0 !important;
+  }
+  .infobox .content {
+    font-size: 0.85rem !important;
+  }
+  .infobox ul {
+    padding-left: 16px !important;
+  }
+  .infobox ul li {
+    font-size: 0.82rem !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+  }
+
+  /* 8. CLASS GRID (Phân loại) - 1 cột */
+  .class-grid {
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+  }
+  .class-card {
+    padding: 12px 14px !important;
+  }
+  .class-card .class-header h4 {
+    font-size: 0.85rem !important;
+  }
+  .class-card .class-desc {
+    font-size: 0.8rem !important;
+    word-break: break-word !important;
+  }
+
+  /* 9. FLOW TIMELINE - tối ưu */
+  .flow-step {
+    gap: 12px !important;
+    padding-bottom: 14px !important;
+  }
+  .flow-step .line {
+    width: 26px !important;
+  }
+  .flow-step .line .dot {
+    width: 26px !important;
+    height: 26px !important;
+    font-size: 0.7rem !important;
+  }
+  .flow-step .content {
+    font-size: 0.85rem !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+  }
+
+  /* 10. ẢNH MINH HỌA - fit màn hình */
+  .illustration-img,
+  .img-viewer {
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: var(--radius-sm) !important;
+  }
+  .detail-content .my-4.text-center {
+    padding: 0 4px !important;
+  }
+
+  /* 11. NÚT ACTION (Danh sách, PDF, Flashcard, Quiz) - xếp dọc */
+  #detail-content-area > div > div:last-child {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 8px !important;
+  }
+  #detail-content-area > div > div:last-child .btn-secondary {
+    width: 100% !important;
+    justify-content: center !important;
+    padding: 12px 20px !important;
+    font-size: 0.85rem !important;
+  }
+
+  /* 12. CHỐNG TRÀN TEXT TỔNG THỂ */
+  #detail-content-area * {
+    max-width: 100% !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+  }
+  #detail-content-area .flex-wrap {
+    flex-wrap: wrap !important;
+  }
+}
+
+/* ===== MÀN HÌNH RẤT NHỎ (dưới 400px) ===== */
+@media (max-width: 400px) {
+  .detail-overview {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 4px !important;
+    padding: 8px 10px !important;
+  }
+  .detail-overview .stat-item .value {
+    font-size: 0.7rem !important;
+  }
+  .accordion-header {
+    font-size: 0.8rem !important;
+    padding: 8px 12px !important;
+  }
+  .accordion-body {
+    font-size: 0.8rem !important;
+    padding: 0 12px 12px !important;
+  }
+  .toc-sticky ul li a {
+    font-size: 0.55rem !important;
+    padding: 2px 6px !important;
+  }
+}
   </style>
 </head>
 <body class="bg-pattern">

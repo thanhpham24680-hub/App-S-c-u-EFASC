@@ -755,6 +755,476 @@
       .dark .section-block.dau-hieu, .dark .section-block.dau-hieu-nghi, .dark .section-block.quy-trinh, .dark .section-block.luu-y { background:#f5f5f5 !important; }
       .dark .section-block.dau-hieu h3, .dark .section-block.dau-hieu-nghi h3, .dark .section-block.quy-trinh h3, .dark .section-block.luu-y h3 { color:#222 !important; }
     }
+/* ===== CẢI THIỆN RESPONSIVE CHO ĐIỆN THOẠI ===== */
+
+/* Tăng kích thước chữ cơ bản trên mobile */
+@media (max-width: 768px) {
+  body {
+    font-size: calc(1rem * var(--font-scale) * 1.05);
+  }
+  
+  /* Header - thu nhỏ logo và padding */
+  .header-wrap {
+    padding: 6px 0;
+  }
+  .header-inner {
+    padding: 0 12px;
+    gap: 8px;
+  }
+  .header-logo img {
+    height: 34px;
+  }
+  .header-brand .name {
+    font-size: 0.7rem;
+  }
+  .header-brand .sub {
+    font-size: 0.5rem;
+  }
+  .header-center {
+    margin: 4px 0 0;
+    order: 3;
+    flex: 1 1 100%;
+  }
+  .search-wrap input {
+    padding: 8px 34px 8px 34px;
+    font-size: 0.85rem;
+    border-radius: 30px;
+  }
+  
+  /* Hero section */
+  .hero-section {
+    padding: 24px 0 16px;
+  }
+  .hero-title {
+    font-size: clamp(2rem, 8vw, 2.6rem);
+    padding: 0 12px;
+  }
+  .hero-sub {
+    font-size: clamp(0.9rem, 3.5vw, 1.1rem);
+    padding: 0 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Hero CTA buttons - xếp dọc trên mobile */
+  .hero-cta {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0 16px;
+  }
+  .hero-cta .btn-primary,
+  .hero-cta .btn-secondary,
+  .hero-cta .btn-outline {
+    width: 100%;
+    max-width: 320px;
+    justify-content: center;
+    padding: 14px 20px;
+    font-size: 0.95rem;
+    border-radius: 50px;
+  }
+  
+  /* Stats grid - 2 cột */
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0 12px;
+    max-width: 100%;
+  }
+  .stat-card {
+    padding: 14px 10px;
+  }
+  .stat-card .number {
+    font-size: 1.5rem;
+  }
+  .stat-card .label {
+    font-size: 0.6rem;
+  }
+  
+  /* Features grid - 2 cột */
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0 12px;
+  }
+  .feature-item {
+    padding: 14px 16px;
+    gap: 10px;
+  }
+  .feature-item .icon-wrap {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+  .feature-item .info h4 {
+    font-size: 0.8rem;
+  }
+  .feature-item .info p {
+    font-size: 0.65rem;
+  }
+  
+  /* Quick categories - wrap tốt hơn */
+  .quick-categories {
+    gap: 8px;
+    padding: 0 8px;
+  }
+  .quick-categories .cat-tag {
+    padding: 6px 14px;
+    font-size: 0.7rem;
+  }
+  
+  /* Continue sections */
+  .continue-section {
+    padding: 14px 16px;
+    margin: 12px 0 16px;
+    border-radius: var(--radius-md);
+  }
+  .continue-header h3 {
+    font-size: 0.95rem;
+  }
+  .continue-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .continue-item {
+    padding: 10px 14px;
+  }
+  .continue-item .icon {
+    font-size: 1.4rem;
+  }
+  .continue-item .info .title {
+    font-size: 0.8rem;
+  }
+  
+  /* ===== LESSONS GRID ===== */
+  #lessons-grid {
+    padding: 8px 0;
+  }
+  .lessons-grid-container {
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+    padding: 0 4px;
+  }
+  
+  /* Lesson Card */
+  .lesson-card {
+    border-radius: var(--radius-md);
+  }
+  .lesson-card .card-header {
+    padding: 14px 16px 10px;
+    gap: 10px;
+  }
+  .lesson-card .card-header .icon {
+    font-size: 2rem;
+  }
+  .lesson-card .card-header .title {
+    font-size: 0.9rem;
+  }
+  .lesson-card .card-body {
+    padding: 10px 16px 8px;
+    font-size: 0.8rem;
+  }
+  .lesson-card .card-tags {
+    padding: 0 16px 8px;
+  }
+  .lesson-card .card-tags .tag {
+    font-size: 0.55rem;
+    padding: 2px 8px;
+  }
+  .lesson-card .card-progress {
+    padding: 0 16px 10px;
+    gap: 10px;
+  }
+  .lesson-card .card-progress .progress-ring {
+    width: 28px;
+    height: 28px;
+  }
+  .lesson-card .card-progress .progress-ring svg {
+    width: 28px;
+    height: 28px;
+  }
+  .lesson-card .card-progress .progress-label {
+    font-size: 0.65rem;
+  }
+  .lesson-card .card-footer {
+    padding: 6px 16px 12px;
+  }
+  .lesson-card .card-footer .meta {
+    font-size: 0.65rem;
+  }
+  .lesson-card .card-footer .badge {
+    font-size: 0.55rem;
+    padding: 2px 10px;
+  }
+  
+  /* ===== CATEGORY FILTER ===== */
+  .category-filter-bar {
+    padding: 8px 12px;
+    gap: 6px 8px;
+    margin-bottom: 14px;
+    border-radius: var(--radius-md);
+  }
+  .category-filter-bar .filter-label {
+    font-size: 0.7rem;
+  }
+  .category-filter-bar .filter-btn {
+    font-size: 0.6rem;
+    padding: 4px 10px;
+    border-radius: 20px;
+  }
+  
+  /* ===== DETAIL PAGE ===== */
+  #detail-layout {
+    border-radius: var(--radius-md);
+    margin-top: 12px;
+  }
+  #detail-content-area {
+    padding: 14px 16px !important;
+  }
+  
+  .breadcrumb {
+    font-size: 0.7rem;
+    gap: 4px;
+    margin-bottom: 12px;
+  }
+  
+  .detail-overview {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    padding: 12px 14px;
+    margin-bottom: 16px;
+  }
+  .detail-overview .stat-item .label {
+    font-size: 0.55rem;
+  }
+  .detail-overview .stat-item .value {
+    font-size: 0.75rem;
+  }
+  
+  /* Accordion */
+  .accordion-header {
+    padding: 10px 14px;
+    font-size: 0.85rem;
+  }
+  .accordion-body {
+    padding: 0 14px 14px;
+    font-size: 0.85rem;
+  }
+  
+  /* Infobox */
+  .infobox {
+    padding: 12px 14px;
+    gap: 8px;
+    font-size: 0.85rem;
+  }
+  .infobox .icon {
+    font-size: 1.2rem;
+  }
+  
+  /* Class grid */
+  .class-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .class-card {
+    padding: 12px 14px;
+  }
+  .class-card .class-header h4 {
+    font-size: 0.85rem;
+  }
+  .class-card .class-desc {
+    font-size: 0.8rem;
+  }
+  
+  /* Flow timeline */
+  .flow-step {
+    gap: 12px;
+    padding-bottom: 14px;
+  }
+  .flow-step .line {
+    width: 26px;
+  }
+  .flow-step .line .dot {
+    width: 26px;
+    height: 26px;
+    font-size: 0.7rem;
+  }
+  .flow-step .content {
+    font-size: 0.85rem;
+  }
+  
+  /* Detail action buttons */
+  .detail-content .flex-wrap.justify-between.items-center.gap-3 {
+    flex-direction: column;
+    align-items: stretch !important;
+    gap: 8px !important;
+  }
+  .detail-content .flex-wrap.justify-between.items-center.gap-3 .btn-secondary {
+    width: 100%;
+    justify-content: center;
+    padding: 12px 20px;
+    font-size: 0.85rem;
+  }
+  
+  /* ===== ABOUT PAGE ===== */
+  .about-container {
+    padding: 10px 4px;
+  }
+  .about-container h1 {
+    font-size: 1.5rem;
+  }
+  .about-container h2 {
+    font-size: 1.1rem;
+  }
+  .about-container h3 {
+    font-size: 0.95rem;
+  }
+  .about-container p,
+  .about-container ul li {
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+  .about-container .highlight-box {
+    padding: 14px 16px;
+    font-size: 0.85rem;
+  }
+  .about-container .contact-card {
+    padding: 16px;
+    gap: 10px;
+  }
+  .about-container .contact-card .item {
+    min-width: 100%;
+    padding: 10px 14px;
+  }
+  .about-container .contact-card .item i {
+    font-size: 1.2rem;
+    width: 30px;
+  }
+  .about-container .contact-card .item .info .value {
+    font-size: 0.8rem;
+  }
+  
+  /* ===== FOOTER ===== */
+  .footer-wrap {
+    margin-top: 24px;
+    padding-top: 16px;
+  }
+  .footer-inner .glass {
+    padding: 16px !important;
+  }
+  .footer-inner .author {
+    font-size: 1.2rem;
+  }
+  .footer-inner .emergency {
+    padding: 10px 14px;
+    font-size: 0.8rem;
+  }
+  .footer-inner .emergency .phone {
+    font-size: 1.2rem;
+    padding: 2px 12px;
+  }
+  
+  /* ===== MODALS (Flashcard, Quiz, Image) ===== */
+  .image-modal img {
+    max-width: 95vw;
+    max-height: 60vh;
+  }
+  .image-modal .zoom-controls {
+    padding: 6px 14px;
+    gap: 10px;
+  }
+  .image-modal .zoom-controls button {
+    font-size: 1.2rem;
+    padding: 2px 6px;
+  }
+  #flashcardModal > div,
+  #quizModal > div {
+    padding: 20px 16px !important;
+    margin: 10px;
+  }
+  #flashcardModal .flashcard-front {
+    min-height: 140px;
+    padding: 20px 16px !important;
+    font-size: 0.95rem;
+  }
+  #quizModal #quizQuestion {
+    font-size: 0.95rem !important;
+  }
+  #quizModal .quiz-option {
+    padding: 10px 14px !important;
+    font-size: 0.85rem !important;
+  }
+  
+  /* ===== TOAST ===== */
+  .toast-container {
+    bottom: 12px;
+    right: 12px;
+  }
+  .toast {
+    padding: 10px 16px;
+    font-size: 0.8rem;
+    max-width: 300px;
+  }
+  
+  /* ===== FONT CONTROLS ===== */
+  .font-controls .font-size-label {
+    min-width: 22px;
+    font-size: 0.5rem;
+  }
+  .font-controls button {
+    width: 24px;
+    height: 24px;
+    font-size: 0.65rem;
+  }
+}
+
+/* ===== MÀN HÌNH RẤT NHỎ (dưới 400px) ===== */
+@media (max-width: 400px) {
+  .hero-title {
+    font-size: 1.8rem;
+  }
+  .hero-cta .btn-primary,
+  .hero-cta .btn-secondary,
+  .hero-cta .btn-outline {
+    font-size: 0.85rem;
+    padding: 12px 16px;
+  }
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+  }
+  .stat-card {
+    padding: 10px 6px;
+  }
+  .stat-card .number {
+    font-size: 1.2rem;
+  }
+  .features-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .feature-item {
+    padding: 10px 12px;
+  }
+  .feature-item .info h4 {
+    font-size: 0.7rem;
+  }
+  .feature-item .info p {
+    font-size: 0.6rem;
+  }
+  .lesson-card .card-header .title {
+    font-size: 0.8rem;
+  }
+  .category-filter-bar .filter-btn {
+    font-size: 0.55rem;
+    padding: 3px 8px;
+  }
+  #detail-content-area {
+    padding: 10px 12px !important;
+  }
+  .about-container h1 {
+    font-size: 1.2rem;
+  }
+}
   </style>
 </head>
 <body class="bg-pattern">

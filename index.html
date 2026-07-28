@@ -526,6 +526,11 @@
     .lesson-card .card-progress .progress-ring svg { transform:rotate(-90deg); width:32px; height:32px; }
     .lesson-card .card-progress .progress-ring .bg { fill:none; stroke:var(--border-color); stroke-width:3; }
     .lesson-card .card-progress .progress-ring .fg { fill:none; stroke:var(--accent); stroke-width:3; stroke-linecap:round; transition:stroke-dashoffset 0.5s ease; }
+    .lesson-card .card-progress .progress-ring.progress-wave .fg { animation:progressPulse 2s ease-in-out infinite; }
+    @keyframes progressPulse {
+      0%, 100% { stroke-opacity:1; }
+      50% { stroke-opacity:0.7; }
+    }
     .lesson-card .card-progress .progress-label { font-size:0.7rem; font-weight:600; color:var(--text-muted); }
     .lesson-card .card-footer {
       padding:8px 20px 14px; display:flex; justify-content:space-between; align-items:center;
@@ -1600,6 +1605,307 @@
 }
 .pulse { animation:pulse 2s ease-in-out infinite; }
 
+    /* ===== IMAGE LOADING ===== */
+    .img-loading {
+      position:relative;
+      overflow:hidden;
+      background:var(--bg-primary);
+    }
+    .img-loading img {
+      transition:opacity 0.4s ease, filter 0.4s ease;
+    }
+    .img-loading img[src=""] {
+      opacity:0;
+      filter:blur(10px);
+    }
+    .img-loading img.loaded {
+      opacity:1;
+      filter:blur(0);
+    }
+    .img-loading::before {
+      content:''; position:absolute; top:0; left:0; width:100%; height:100%;
+      background:linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+      animation:shimmer 1.5s infinite;
+      z-index:1;
+      pointer-events:none;
+    }
+    .img-loading img.loaded + .img-placeholder,
+    .img-loading img.loaded::after {
+      opacity:0;
+    }
+    .dark .img-loading::before {
+      background:linear-gradient(90deg, transparent, rgba(255,255,255,0.05), transparent);
+    }
+
+    /* ===== ENHANCED FLASHCARD ===== */
+    .flashcard-modal {
+      background:linear-gradient(145deg, var(--bg-card), var(--bg-primary)) !important;
+      border:1px solid var(--border-color) !important;
+      box-shadow:var(--shadow-xl), 0 0 60px rgba(37,99,235,0.2) !important;
+    }
+    .flashcard-3d-container {
+      perspective:1200px;
+      width:100%;
+      min-height:200px;
+    }
+    .flashcard-3d-inner-enhanced {
+      position:relative;
+      width:100%;
+      min-height:200px;
+      transition:transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+      transform-style:preserve-3d;
+    }
+    .flashcard-3d-inner-enhanced.flipped {
+      transform:rotateY(180deg);
+    }
+    .flashcard-3d-face-enhanced {
+      position:absolute;
+      width:100%;
+      min-height:200px;
+      backface-visibility:hidden;
+      border-radius:var(--radius-lg);
+      padding:32px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      font-size:1.1rem;
+      line-height:1.7;
+      border:2px solid var(--border-color);
+      box-shadow:var(--shadow-md);
+    }
+    .flashcard-3d-front-enhanced {
+      background:linear-gradient(135deg, var(--bg-primary), var(--bg-secondary));
+      box-shadow:var(--shadow-md), inset 0 1px 0 rgba(255,255,255,0.5);
+    }
+    .flashcard-3d-back-enhanced {
+      background:linear-gradient(135deg, var(--color-cyan-bg), var(--bg-secondary));
+      border-color:var(--color-cyan);
+      transform:rotateY(180deg);
+      box-shadow:0 0 30px rgba(8,145,178,0.2);
+    }
+    .flashcard-progress {
+      display:flex;
+      align-items:center;
+      gap:8px;
+      margin-top:16px;
+    }
+    .flashcard-progress-bar {
+      flex:1;
+      height:6px;
+      background:var(--border-color);
+      border-radius:3px;
+      overflow:hidden;
+    }
+    .flashcard-progress-fill {
+      height:100%;
+      background:linear-gradient(90deg, var(--accent), var(--color-purple));
+      border-radius:3px;
+      transition:width 0.5s ease;
+    }
+
+    /* ===== ENHANCED QUIZ ===== */
+    .quiz-modal {
+      background:linear-gradient(145deg, var(--bg-card), var(--bg-primary)) !important;
+      border:1px solid var(--border-color) !important;
+      box-shadow:var(--shadow-xl), 0 0 60px rgba(124,58,237,0.2) !important;
+    }
+    .quiz-option-enhanced {
+      position:relative;
+      overflow:hidden;
+      padding:16px 20px !important;
+      border:2px solid var(--border-color) !important;
+      border-radius:var(--radius-md) !important;
+      background:linear-gradient(135deg, var(--bg-primary), var(--bg-secondary)) !important;
+      cursor:pointer !important;
+      text-align:left !important;
+      font-size:0.95rem !important;
+      transition:all 0.3s ease !important;
+      width:100% !important;
+      box-shadow:var(--shadow-sm) !important;
+    }
+    .quiz-option-enhanced:hover {
+      border-color:var(--accent) !important;
+      transform:translateX(4px);
+      box-shadow:var(--shadow-md) !important;
+    }
+    .quiz-option-enhanced.correct {
+      border-color:var(--color-green) !important;
+      background:linear-gradient(135deg, var(--color-green-bg), var(--bg-secondary)) !important;
+      animation:correctPulse 0.5s ease;
+    }
+    .quiz-option-enhanced.wrong {
+      border-color:var(--color-red) !important;
+      background:linear-gradient(135deg, var(--color-red-bg), var(--bg-secondary)) !important;
+      animation:shake 0.5s ease;
+    }
+    @keyframes correctPulse {
+      0%, 100% { transform:scale(1); }
+      50% { transform:scale(1.02); }
+    }
+    @keyframes shake {
+      0%, 100% { transform:translateX(0); }
+      25% { transform:translateX(-5px); }
+      75% { transform:translateX(5px); }
+    }
+    .quiz-progress {
+      display:flex;
+      align-items:center;
+      gap:8px;
+      margin-top:20px;
+      padding-top:16px;
+      border-top:1px solid var(--border-color);
+    }
+    .quiz-progress-bar {
+      flex:1;
+      height:8px;
+      background:var(--border-color);
+      border-radius:4px;
+      overflow:hidden;
+    }
+    .quiz-progress-fill {
+      height:100%;
+      background:linear-gradient(90deg, var(--color-purple), var(--color-pink), var(--color-red));
+      border-radius:4px;
+      transition:width 0.5s ease;
+    }
+    .quiz-score-display {
+      font-size:1.2rem;
+      font-weight:700;
+      background:linear-gradient(135deg, var(--accent), var(--color-purple));
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+      background-clip:text;
+    }
+@keyframes fadeInUp {
+  from { opacity:0; transform:translateY(30px); }
+  to { opacity:1; transform:translateY(0); }
+}
+@keyframes fadeInLeft {
+  from { opacity:0; transform:translateX(-30px); }
+  to { opacity:1; transform:translateX(0); }
+}
+@keyframes fadeInRight {
+  from { opacity:0; transform:translateX(30px); }
+  to { opacity:1; transform:translateX(0); }
+}
+@keyframes bounceIn {
+  0% { opacity:0; transform:scale(0.3); }
+  50% { opacity:1; transform:scale(1.05); }
+  70% { transform:scale(0.9); }
+  100% { transform:scale(1); }
+}
+@keyframes heartbeat {
+  0%, 100% { transform:scale(1); }
+  14% { transform:scale(1.3); }
+  28% { transform:scale(1); }
+  42% { transform:scale(1.3); }
+  70% { transform:scale(1); }
+}
+@keyframes glow {
+  0%, 100% { box-shadow:0 0 5px rgba(37,99,235,0.3); }
+  50% { box-shadow:0 0 20px rgba(37,99,235,0.6), 0 0 40px rgba(37,99,235,0.3); }
+}
+@keyframes wave {
+  0% { transform:translateX(-100%); }
+  100% { transform:translateX(100%); }
+}
+@keyframes ripple {
+  to { transform:scale(4); opacity:0; }
+}
+@keyframes shimmer {
+  0% { background-position:-200% 0; }
+  100% { background-position:200% 0; }
+}
+.anim-fade-in-up { animation:fadeInUp 0.6s ease forwards; }
+.anim-fade-in-left { animation:fadeInLeft 0.6s ease forwards; }
+.anim-fade-in-right { animation:fadeInRight 0.6s ease forwards; }
+.anim-bounce-in { animation:bounceIn 0.6s ease forwards; }
+.anim-heartbeat { animation:heartbeat 1.5s ease-in-out infinite; }
+.anim-glow { animation:glow 2s ease-in-out infinite; }
+.anim-float { animation:float 3s ease-in-out infinite; }
+
+.stagger-1 { animation-delay:0.1s; }
+.stagger-2 { animation-delay:0.2s; }
+.stagger-3 { animation-delay:0.3s; }
+.stagger-4 { animation-delay:0.4s; }
+.stagger-5 { animation-delay:0.5s; }
+.stagger-6 { animation-delay:0.6s; }
+
+/* Ripple effect */
+.ripple {
+  position:relative;
+  overflow:hidden;
+}
+.ripple::after {
+  content:''; position:absolute; top:50%; left:50%; width:20px; height:20px;
+  background:rgba(255,255,255,0.4); border-radius:50%;
+  transform:translate(-50%, -50%) scale(0); opacity:1;
+  pointer-events:none;
+}
+.ripple:active::after {
+  animation:ripple 0.6s ease-out;
+}
+
+/* 3D Flashcard */
+.flashcard-3d {
+  perspective:1000px;
+}
+.flashcard-3d-inner {
+  position:relative;
+  width:100%;
+  height:100%;
+  transition:transform 0.6s;
+  transform-style:preserve-3d;
+}
+.flashcard-3d-inner.flipped {
+  transform:rotateY(180deg);
+}
+.flashcard-3d-front, .flashcard-3d-back {
+  position:absolute;
+  width:100%;
+  height:100%;
+  backface-visibility:hidden;
+  border-radius:var(--radius-md);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:24px;
+}
+.flashcard-3d-back {
+  transform:rotateY(180deg);
+}
+
+/* Progress wave */
+.progress-wave {
+  position:relative;
+  overflow:hidden;
+}
+.progress-wave::after {
+  content:''; position:absolute; top:0; left:-100%; width:50%; height:100%;
+  background:linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+  animation:wave 2s linear infinite;
+}
+
+/* Hover glow for lesson cards */
+.lesson-card:hover {
+  box-shadow:var(--shadow-lg), 0 0 0 1px rgba(37,99,235,0.2), 0 0 30px rgba(37,99,235,0.1);
+}
+
+/* Icon heartbeat on hover */
+.icon-heartbeat:hover i {
+  animation:heartbeat 1s ease-in-out infinite;
+}
+
+/* Confetti celebration */
+.confetti-celebration {
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  z-index:9999;
+}
+
 .gradient-border {
   position:relative;
   border-radius:var(--radius-md);
@@ -1707,7 +2013,7 @@
           <div class="shape"></div>
         </div>
 
-        <div class="hero-badge">
+        <div class="hero-badge anim-float">
           <span class="logo-placeholder">
             <img src="https://i.postimg.cc/HL7rV6Sm/473696083-122233458776025387-106385360309955310-n.jpg" alt="Logo" />
           </span>
@@ -1721,40 +2027,40 @@
 
         <!-- CTA buttons - all in one row -->
         <div class="hero-cta">
-          <button class="btn-primary" id="startLearningBtn"><i class="fas fa-graduation-cap"></i> Bắt đầu học</button>
-          <button class="btn-secondary" onclick="showRandomLesson()"><i class="fas fa-shuffle"></i> Bài ngẫu nhiên</button>
-          <button class="btn-outline glass" onclick="showAbout()">
+          <button class="btn-primary ripple" id="startLearningBtn"><i class="fas fa-graduation-cap"></i> Bắt đầu học</button>
+          <button class="btn-secondary ripple" onclick="showRandomLesson()"><i class="fas fa-shuffle"></i> Bài ngẫu nhiên</button>
+          <button class="btn-outline glass ripple" onclick="showAbout()">
             <i class="fas fa-info-circle" style="color:var(--accent);"></i> Giới thiệu Trung tâm
           </button>
-          <button class="btn-outline facebook" onclick="openFacebook()">
+          <button class="btn-outline facebook ripple" onclick="openFacebook()">
             <i class="fab fa-facebook"></i> Liên hệ
           </button>
         </div>
 
         <div class="stats-grid">
-          <div class="stat-card shimmer gradient-border"><div class="number" style="color:var(--color-red);">25+</div><div class="label">Chủ đề</div></div>
-          <div class="stat-card shimmer gradient-border"><div class="number" style="color:var(--color-blue);">6</div><div class="label">Bước quy trình</div></div>
-          <div class="stat-card shimmer gradient-border"><div class="number" style="color:var(--color-green);">100%</div><div class="label">Miễn phí</div></div>
-          <div class="stat-card shimmer gradient-border"><div class="number" style="color:var(--color-purple);">24/7</div><div class="label">Luôn sẵn sàng</div></div>
+          <div class="stat-card shimmer gradient-border anim-fade-in-up stagger-1 anim-float"><div class="number" style="color:var(--color-red);">25+</div><div class="label">Chủ đề</div></div>
+          <div class="stat-card shimmer gradient-border anim-fade-in-up stagger-2 anim-float"><div class="number" style="color:var(--color-blue);">6</div><div class="label">Bước quy trình</div></div>
+          <div class="stat-card shimmer gradient-border anim-fade-in-up stagger-3 anim-float"><div class="number" style="color:var(--color-green);">100%</div><div class="label">Miễn phí</div></div>
+          <div class="stat-card shimmer gradient-border anim-fade-in-up stagger-4 anim-float"><div class="number" style="color:var(--color-purple);">24/7</div><div class="label">Luôn sẵn sàng</div></div>
         </div>
 
         <div class="features-grid">
-          <div class="feature-item shimmer gradient-border"><div class="icon-wrap" style="background:var(--color-rose-bg);color:var(--color-rose);"><i class="fas fa-ambulance"></i></div><div class="info"><h4>Cấp cứu khẩn cấp</h4><p>Hướng dẫn từng bước</p></div></div>
-          <div class="feature-item shimmer gradient-border"><div class="icon-wrap" style="background:var(--color-cyan-bg);color:var(--color-cyan);"><i class="fas fa-heartbeat"></i></div><div class="info"><h4>Hồi sinh tim phổi</h4><p>CPR chuẩn AHA 2025</p></div></div>
-          <div class="feature-item shimmer gradient-border"><div class="icon-wrap" style="background:var(--color-amber-bg);color:var(--color-amber);"><i class="fas fa-bone"></i></div><div class="info"><h4>Chấn thương cơ xương</h4><p>Gãy xương, bong gân</p></div></div>
-          <div class="feature-item shimmer gradient-border"><div class="icon-wrap" style="background:var(--color-green-bg);color:var(--color-green);"><i class="fas fa-thermometer-half"></i></div><div class="info"><h4>Môi trường</h4><p>Say nắng, sốc nhiệt</p></div></div>
+          <div class="feature-item shimmer gradient-border anim-fade-in-up stagger-1"><div class="icon-wrap anim-heartbeat" style="background:var(--color-rose-bg);color:var(--color-rose);"><i class="fas fa-ambulance"></i></div><div class="info"><h4>Cấp cứu khẩn cấp</h4><p>Hướng dẫn từng bước</p></div></div>
+          <div class="feature-item shimmer gradient-border anim-fade-in-up stagger-2"><div class="icon-wrap anim-heartbeat" style="background:var(--color-cyan-bg);color:var(--color-cyan);"><i class="fas fa-heartbeat"></i></div><div class="info"><h4>Hồi sinh tim phổi</h4><p>CPR chuẩn AHA 2025</p></div></div>
+          <div class="feature-item shimmer gradient-border anim-fade-in-up stagger-3"><div class="icon-wrap anim-heartbeat" style="background:var(--color-amber-bg);color:var(--color-amber);"><i class="fas fa-bone"></i></div><div class="info"><h4>Chấn thương cơ xương</h4><p>Gãy xương, bong gân</p></div></div>
+          <div class="feature-item shimmer gradient-border anim-fade-in-up stagger-4"><div class="icon-wrap anim-heartbeat" style="background:var(--color-green-bg);color:var(--color-green);"><i class="fas fa-thermometer-half"></i></div><div class="info"><h4>Môi trường</h4><p>Say nắng, sốc nhiệt</p></div></div>
         </div>
 
         <div class="quick-categories">
-          <span class="cat-tag" onclick="filterByCategory('cấp cứu')"><i class="fas fa-bolt" style="color:var(--color-red);"></i> Cấp cứu</span>
-          <span class="cat-tag" onclick="filterByCategory('chấn thương')"><i class="fas fa-bone" style="color:var(--color-orange);"></i> Chấn thương</span>
-          <span class="cat-tag" onclick="filterByCategory('tim mạch')"><i class="fas fa-heart" style="color:var(--color-rose);"></i> Tim mạch</span>
-          <span class="cat-tag" onclick="filterByCategory('môi trường')"><i class="fas fa-cloud-sun" style="color:var(--color-amber);"></i> Môi trường</span>
-          <span class="cat-tag" onclick="filterByCategory('dị ứng')"><i class="fas fa-allergies" style="color:var(--color-purple);"></i> Dị ứng</span>
-          <span class="cat-tag" onclick="filterByCategory('động vật')"><i class="fas fa-paw" style="color:var(--color-brown);"></i> Động vật</span>
+          <span class="cat-tag anim-fade-in-up stagger-1" onclick="filterByCategory('cấp cứu')"><i class="fas fa-bolt" style="color:var(--color-red);"></i> Cấp cứu</span>
+          <span class="cat-tag anim-fade-in-up stagger-2" onclick="filterByCategory('chấn thương')"><i class="fas fa-bone" style="color:var(--color-orange);"></i> Chấn thương</span>
+          <span class="cat-tag anim-fade-in-up stagger-3" onclick="filterByCategory('tim mạch')"><i class="fas fa-heart" style="color:var(--color-rose);"></i> Tim mạch</span>
+          <span class="cat-tag anim-fade-in-up stagger-4" onclick="filterByCategory('môi trường')"><i class="fas fa-cloud-sun" style="color:var(--color-amber);"></i> Môi trường</span>
+          <span class="cat-tag anim-fade-in-up stagger-5" onclick="filterByCategory('dị ứng')"><i class="fas fa-allergies" style="color:var(--color-purple);"></i> Dị ứng</span>
+          <span class="cat-tag anim-fade-in-up stagger-6" onclick="filterByCategory('động vật')"><i class="fas fa-paw" style="color:var(--color-brown);"></i> Động vật</span>
         </div>
 
-        <div class="continue-section no-print">
+        <div class="continue-section no-print anim-fade-in-up stagger-2">
           <div class="continue-header">
             <h3><i class="fas fa-clock" style="color:var(--accent);margin-right:8px;"></i> Tiếp tục học</h3>
             <span class="see-all" onclick="showGrid()">Xem tất cả →</span>
@@ -1762,21 +2068,21 @@
           <div class="continue-grid" id="continueGrid"></div>
         </div>
 
-        <div class="continue-section no-print" style="margin-top:12px;">
+        <div class="continue-section no-print" style="margin-top:12px;" anim-fade-in-up stagger-3">
           <div class="continue-header">
             <h3><i class="fas fa-history" style="color:var(--accent);margin-right:8px;"></i> Đã học gần đây</h3>
           </div>
           <div class="continue-grid" id="recentGrid"></div>
         </div>
 
-        <div class="continue-section no-print" style="margin-top:12px;">
+        <div class="continue-section no-print" style="margin-top:12px;" anim-fade-in-up stagger-4">
           <div class="continue-header">
             <h3><i class="fas fa-star" style="color:var(--color-amber);margin-right:8px;"></i> Yêu thích</h3>
           </div>
           <div class="continue-grid" id="bookmarkGrid"></div>
         </div>
 
-        <div class="continue-section no-print" style="margin-top:12px;">
+        <div class="continue-section no-print" style="margin-top:12px;" anim-fade-in-up stagger-5">
           <div class="continue-header">
             <h3><i class="fas fa-fire" style="color:var(--color-orange);margin-right:8px;"></i> Bài xem nhiều</h3>
           </div>
@@ -1887,6 +2193,12 @@
 
     <!-- ===== GRID ===== -->
     <div id="lessons-grid" class="hidden-layout">
+      <div class="floating-shapes" style="position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:0;">
+        <div class="shape" style="width:120px;height:120px;background:radial-gradient(circle, var(--color-cyan), transparent);top:10%;left:5%;animation-duration:18s;"></div>
+        <div class="shape" style="width:160px;height:160px;background:radial-gradient(circle, var(--color-purple), transparent);bottom:10%;right:5%;animation-duration:22s;animation-delay:-3s;"></div>
+        <div class="shape" style="width:100px;height:100px;background:radial-gradient(circle, var(--color-pink), transparent);top:50%;left:60%;animation-duration:16s;animation-delay:-6s;"></div>
+      </div>
+      <div style="position:relative;z-index:1;">
       <div class="category-filter-bar no-print" id="categoryFilterBar">
         <span class="filter-label"><i class="fas fa-tags"></i> Danh mục:</span>
         <button class="filter-btn active" data-category="all">📋 Tất cả</button>
@@ -1898,11 +2210,18 @@
         <button class="filter-btn" data-category="động vật">🐾 Động vật</button>
       </div>
       <div class="lessons-grid-container" id="lessonsGridContainer"></div>
+      </div>
     </div>
 
     <!-- ===== DETAIL ===== -->
     <div id="detail-layout" class="hidden-layout">
+      <div class="floating-shapes" style="position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:0;">
+        <div class="shape" style="width:100px;height:100px;background:radial-gradient(circle, var(--color-green), transparent);top:5%;right:10%;animation-duration:20s;"></div>
+        <div class="shape" style="width:140px;height:140px;background:radial-gradient(circle, var(--color-orange), transparent);bottom:15%;left:5%;animation-duration:24s;animation-delay:-5s;"></div>
+      </div>
+      <div style="position:relative;z-index:1;">
       <div id="detail-content-area" class="detail-content"></div>
+      </div>
     </div>
 
     <!-- ===== FOOTER ===== -->
@@ -1917,7 +2236,7 @@
           <p class="author">Phạm Duy Thanh</p>
           <p class="font-medium" style="color:var(--text-secondary);">Thành viên Trung tâm Phổ cập Kỹ năng Sơ cấp cứu – ĐHYD TP.HCM</p>
           <div class="emergency pulse">
-            <i class="fas fa-phone-alt" style="color:#dc2626;font-size:1.2rem;"></i>
+            <i class="fas fa-phone-alt anim-heartbeat" style="color:#dc2626;font-size:1.2rem;"></i>
             <span style="color:var(--text-secondary);">🚨 Trong trường hợp khẩn cấp, hãy gọi</span>
             <span class="phone">115</span>
             <span style="color:var(--text-secondary);">ngay lập tức.</span>
@@ -2053,7 +2372,7 @@
             "3. HÓC HOÀN TOÀN - Trẻ <1 tuổi (em bé):",
             "   a. Đặt em nằm sấp trên cánh tay, đầu thấp hơn ngực.",
             "   b. Vỗ lưng 5 cái giữa hai bả vai bằng lòng bàn tay.",
-            "   c. Nếu chưa ra, lật em nằm ngửa, ấn ngực 5 cái (2 ngón tay ở 1/3 dưới xương ức).",
+            "   c. Nếu chưa ra, lật em nằm ngửa, ấn ngực 5 cái (2 ngón tay ấn vào giữa ngực, ngay dưới đường nối hai núm vú).",
             "   d. Lặp lại vỗ lưng 5 + ấn ngực 5 cho đến khi dị vật ra hoặc em bất tỉnh.",
             "4. Nếu nạn nhân hôn mê: đặt nằm ngửa, bắt đầu CPR ngay với tỉ lệ 30:2. Kiểm tra miệng trước mỗi chu kỳ thổi ngạt."
           ],
@@ -2091,7 +2410,7 @@
             "5. Nếu máu vẫn chảy nhiều, ép thêm điểm ép động mạch phía trên vết thương (cánh tay, bẹn). Trường hợp đe dọa tính mạng có thể dùng garo (ga-rô) nhưng phải ghi rõ thời gian và thông báo cho nhân viên y tế.",
             "6. Chảy máu mũi: cúi đầu về phía trước, bóp phần mềm mũi 10-15 phút, chườm lạnh sống mũi."
           ],
-          luuY: "Không rút dị vật đâm trong vết thương (dao, mảnh thủy tinh) vì có thể gây chảy máu ồ ạt. Không băng quá chặt. Gọi 115 ngay nếu chảy máu nhiều hoặc nghi ngờ chảy máu trong.",
+          luuY: "Không rút dị vật đâm trong vết thương (dao, mảnh thủy tinh) vì có thể gây chảy máu ồ ạt. Không băng quá chặt. Gọi 115 ngay nếu chảy máu nhiều hoặc nghi ngờ chảy máu trong. Nếu buộc phải dùng garo tự chế, bắt buộc dùng dây bản to (vải rộng 3-5cm) và có thanh vặn (cành cây, bút to) xoắn chặt. Tuyệt đối không dùng dây thun nhỏ, dây giày hay dây thép để tránh hội chứng garo tĩnh mạch làm máu chảy ồ ạt hơn.",
           illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/mDXhcL4r/So-cuu-cam-mau-dung-cach.png" class="illustration-img img-viewer" alt="Cầm máu" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Ch%E1%BA%A3y+m%C3%A1u'"><p class="text-xs text-gray-500 mt-1">Sơ cứu cầm máu đúng cách</p></div>`
         }
       },
@@ -2296,7 +2615,7 @@
             "2. Gọi 115 ngay. Giữ nạn nhân nằm yên, bất động hoàn toàn.",
             "3. Tháo trang sức, quần áo chật ở vùng bị cắn.",
             "4. Bất động chi bị cắn bằng nẹp (que, báo cuộn). Đặt chi ở mức tim, không cao hơn tim.",
-            "5. Băng ép đều (pressure bandage) lên vết cắn: dùng băng rộng bắt đầu từ đầu chi, băng chặt vừa phải (như băng vết thương), không đến mức tắc mạch.",
+            "5. Không băng ép. Chỉ rửa vết thương, nẹp bất động lỏng lẻo chi bị cắn ở ngang mức tim và chuyển viện cấp tốc.",
             "6. Chuyển đến bệnh viện có sẵn huyết thanh kháng nọc càng sớm càng tốc.",
             "7. Nếu nạn nhân hôn mê, ngừng thở, ngừng tim → bắt đầu CPR ngay."
           ],
@@ -2427,7 +2746,7 @@
           ],
           quyTrinh: [
             "1. Loại bỏ nguồn nhiệt, ngắt điện. Cởi quần áo bị cháy (nếu không dính vào da).",
-            "2. Làm mát bằng nước chảy mát 15-25°C trong 20 phút. Có thể bắt đầu trong vòng 3 giờ sau bỏng.",
+            "2. Làm mát bằng nước chảy mát 15-25°C trong 20 phút. Phải thực hiện ngay lập tức, tối ưu nhất là trong 30 phút đầu tiên sau khi bị bỏng.",
             "3. Che phủ vết bỏng bằng gạc ẩm hoặc khăn sạch, không bôi gì (không dùng đá, không dùng dầu, không bôi kem đánh răng).",
             "4. Nếu bỏng hóa chất: rửa dưới vòi nước chảy 20 phút, cởi quần áo bị nhiễm hóa chất.",
             "5. Gọi 115 nếu bỏng nặng (sâu, mặt, bộ phận sinh dục, diện rộng >10% cơ thể, trẻ <5 tuổi hoặc người già).",
@@ -2489,7 +2808,7 @@
           quyTrinh: [
             "1. Đảm bảo an toàn, gọi 115 ngay hoặc nhờ người xung quanh gọi.",
             "2. Đặt nạn nhân nằm ngửa trên mặt phẳng cứng, cởi áo.",
-            "3. Vị trí ép: 1/3 dưới xương ức. Hai tay đan chồng, ép thẳng, sâu 5-6 cm, tần số 100-120 lần/phút.",
+            "3. Vị trí ép: Nửa dưới xương ức (đặt cườm tay vào giữa ngực, ngay trên đường nối hai núm vú). Hai tay đan chồng, ép thẳng, sâu 5-6 cm, tần số 100-120 lần/phút.",
             "4. Để lồng ngực nổi hoàn toàn sau mỗi cú ép (cho phép hồi phục hoàn toàn).",
             "5. Nếu được đào tạo: mở đường thở (ngửa đầu nâng cằm), bịt mũi, thổi 2 cái (1 giây/cái) làm lồng ngực nổi. Tỉ lệ 30:2.",
             "6. Nếu không được đào tạo: chỉ ép tim liên tục không cần thổi ngạt (hands-only CPR).",
@@ -3020,7 +3339,7 @@
         return;
       }
 
-      container.innerHTML = filtered.map(l => {
+      container.innerHTML = filtered.map((l, idx) => {
         const color = l.color || 'gray';
         const bg = getBgColor(color);
         const pct = getProgressPercent(l.id);
@@ -3029,8 +3348,9 @@
         const count = getLessonCount(l);
         const time = getReadingTime(l);
         const tags = (l.category || []).map(c => `<span class="tag">${c}</span>`).join('');
+        const staggerClass = `stagger-${(idx % 6) + 1}`;
         return `
-          <div class="lesson-card" onclick="showLessonDetail('${l.id}')">
+          <div class="lesson-card anim-fade-in-up gradient-border ${staggerClass}" onclick="showLessonDetail('${l.id}')">
             <div class="card-header" style="background:${bg};">
               <span class="icon">${l.icon}</span>
               <span class="title">${l.title}</span>
@@ -3041,7 +3361,7 @@
             </div>
             <div class="card-tags">${tags}</div>
             <div class="card-progress">
-              <div class="progress-ring" data-id="${l.id}">
+              <div class="progress-ring progress-wave" data-id="${l.id}">
                 <svg viewBox="0 0 32 32">
                   <circle class="bg" cx="16" cy="16" r="14" />
                   <circle class="fg" cx="16" cy="16" r="14" style="stroke-dasharray:${circumference};stroke-dashoffset:${offset};" />
@@ -3225,10 +3545,10 @@
             <div id="luu-y">${accordionItem('Lưu ý', luuYContent, 'fa-lightbulb', true)}</div>
             ${c.illustration ? `<div style="margin:20px 0;">${c.illustration}</div>` : ''}
             <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-top:24px;padding-top:20px;border-top:1px solid var(--border-color);">
-              <button onclick="showGrid()" class="btn-secondary" style="padding:10px 24px;"><i class="fas fa-th-large"></i> Danh sách</button>
-              <button onclick="window.print()" class="btn-secondary" style="padding:10px 24px;"><i class="fas fa-print"></i> Xuất PDF</button>
-              <button onclick="openFlashcard('${lesson.id}')" class="btn-secondary" style="padding:10px 24px;"><i class="fas fa-layer-group"></i> Flashcard</button>
-              <button onclick="openQuiz('${lesson.id}')" class="btn-secondary" style="padding:10px 24px;"><i class="fas fa-question-circle"></i> Quiz</button>
+              <button onclick="showGrid()" class="btn-secondary ripple" style="padding:10px 24px;"><i class="fas fa-th-large"></i> Danh sách</button>
+              <button onclick="window.print()" class="btn-secondary ripple" style="padding:10px 24px;"><i class="fas fa-print"></i> Xuất PDF</button>
+              <button onclick="openFlashcard('${lesson.id}')" class="btn-secondary ripple" style="padding:10px 24px;"><i class="fas fa-layer-group"></i> Flashcard</button>
+              <button onclick="openQuiz('${lesson.id}')" class="btn-secondary ripple" style="padding:10px 24px;"><i class="fas fa-question-circle"></i> Quiz</button>
             </div>
           </div>
           ${toc}
@@ -3413,22 +3733,33 @@
 
       const flashcardHtml = `
         <div style="position:fixed;inset:0;background:rgba(0,0,0,0.55);backdrop-filter:blur(12px);z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px;" id="flashcardModal" onclick="if(event.target===this) this.remove()">
-          <div style="background:linear-gradient(145deg, var(--bg-card), var(--bg-primary));border-radius:var(--radius-xl);max-width:560px;width:100%;padding:32px;box-shadow:var(--shadow-xl), 0 0 40px rgba(37,99,235,0.15);position:relative;transform:scale(0.95);animation:popIn 0.3s ease forwards;border:1px solid var(--border-color);">
+          <div class="anim-bounce-in" style="background:linear-gradient(145deg, var(--bg-card), var(--bg-primary));border-radius:var(--radius-xl);max-width:560px;width:100%;padding:32px;box-shadow:var(--shadow-xl), 0 0 40px rgba(37,99,235,0.15);position:relative;border:1px solid var(--border-color);">
             <style>
               @keyframes popIn { from { transform:scale(0.95); opacity:0; } to { transform:scale(1); opacity:1; } }
-              .flashcard-front { background:linear-gradient(135deg, var(--bg-primary), var(--bg-secondary)); border-radius:var(--radius-md); padding:32px 24px; min-height:180px; display:flex; align-items:center; justify-content:center; text-align:center; font-size:1.1rem; line-height:1.6; cursor:pointer; transition:all 0.3s; border:2px solid var(--border-color); position:relative; box-shadow:var(--shadow-sm); }
-              .flashcard-front.flipped { background:linear-gradient(135deg, var(--color-cyan-bg), var(--bg-secondary)); border-color:var(--color-cyan); box-shadow:0 0 20px rgba(8,145,178,0.15); }
+              .flashcard-3d { perspective:1000px; width:100%; min-height:180px; cursor:pointer; }
+              .flashcard-3d-inner { position:relative; width:100%; height:100%; transition:transform 0.8s cubic-bezier(0.22, 1, 0.36, 1); transform-style:preserve-3d; }
+              .flashcard-3d-inner.flipped { transform:rotateY(180deg); }
+              .flashcard-3d-face { position:absolute; width:100%; min-height:180px; backface-visibility:hidden; border-radius:var(--radius-md); padding:32px 24px; display:flex; align-items:center; justify-content:center; text-align:center; font-size:1.1rem; line-height:1.6; border:2px solid var(--border-color); }
+              .flashcard-3d-front { background:linear-gradient(135deg, var(--bg-primary), var(--bg-secondary)); box-shadow:var(--shadow-sm); }
+              .flashcard-3d-back { background:linear-gradient(135deg, var(--color-cyan-bg), var(--bg-secondary)); border-color:var(--color-cyan); transform:rotateY(180deg); box-shadow:0 0 20px rgba(8,145,178,0.15); }
             </style>
             <button onclick="document.getElementById('flashcardModal').remove()" style="position:absolute;top:16px;right:20px;background:var(--border-color);border:none;width:36px;height:36px;border-radius:50%;font-size:1.2rem;cursor:pointer;color:var(--text-muted);transition:all 0.2s;display:flex;align-items:center;justify-content:center;">&times;</button>
             <h3 style="font-family:var(--font-display);margin-bottom:4px;font-size:1.2rem;background:linear-gradient(135deg, var(--accent), var(--color-purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">📇 Flashcard</h3>
             <p style="color:var(--text-muted);font-size:0.8rem;margin-bottom:16px;">Nhấn vào thẻ để lật xem đáp án</p>
-            <div class="flashcard-front" id="flashcardFace" onclick="flipCard()">
-              <span id="flashcardQuestion">${cards[0].q}</span>
+            <div class="flashcard-3d" id="flashcardFace" onclick="flipCard()">
+              <div class="flashcard-3d-inner" id="flashcardInner">
+                <div class="flashcard-3d-face flashcard-3d-front">
+                  <span id="flashcardQuestion">${cards[0].q}</span>
+                </div>
+                <div class="flashcard-3d-face flashcard-3d-back">
+                  <span id="flashcardAnswer">${cards[0].a}</span>
+                </div>
+              </div>
             </div>
             <div style="display:flex;justify-content:space-between;margin-top:20px;gap:12px;">
-              <button class="btn-secondary" onclick="prevCard()" style="padding:8px 20px;font-size:0.9rem;"><i class="fas fa-arrow-left"></i> Trước</button>
+              <button class="btn-secondary ripple" onclick="prevCard()" style="padding:8px 20px;font-size:0.9rem;"><i class="fas fa-arrow-left"></i> Trước</button>
               <span style="display:flex;align-items:center;color:var(--text-muted);font-size:0.9rem;font-weight:500;" id="flashcardCounter">1/${cards.length}</span>
-              <button class="btn-secondary" onclick="nextCard()" style="padding:8px 20px;font-size:0.9rem;">Sau <i class="fas fa-arrow-right"></i></button>
+              <button class="btn-secondary ripple" onclick="nextCard()" style="padding:8px 20px;font-size:0.9rem;">Sau <i class="fas fa-arrow-right"></i></button>
             </div>
             <p style="font-size:0.7rem;color:var(--text-muted);margin-top:14px;text-align:center;">Tổng số thẻ: ${cards.length}</p>
           </div>
@@ -3437,17 +3768,18 @@
 
       document.body.insertAdjacentHTML('beforeend', flashcardHtml);
 
-      const face = document.getElementById('flashcardFace');
+      const inner = document.getElementById('flashcardInner');
       const qEl = document.getElementById('flashcardQuestion');
+      const aEl = document.getElementById('flashcardAnswer');
 
       window.flipCard = function() {
         if (!flipped) {
-          qEl.textContent = cards[current].a;
-          face.classList.add('flipped');
+          aEl.textContent = cards[current].a;
+          inner.classList.add('flipped');
           flipped = true;
         } else {
           qEl.textContent = cards[current].q;
-          face.classList.remove('flipped');
+          inner.classList.remove('flipped');
           flipped = false;
         }
       };
@@ -3457,7 +3789,7 @@
           current--;
           qEl.textContent = cards[current].q;
           document.getElementById('flashcardCounter').textContent = (current + 1) + '/' + cards.length;
-          face.classList.remove('flipped');
+          inner.classList.remove('flipped');
           flipped = false;
         } else {
           showToast('Đã đến thẻ đầu tiên.', 'info');
@@ -3469,7 +3801,7 @@
           current++;
           qEl.textContent = cards[current].q;
           document.getElementById('flashcardCounter').textContent = (current + 1) + '/' + cards.length;
-          face.classList.remove('flipped');
+          inner.classList.remove('flipped');
           flipped = false;
         } else {
           showToast('Đã đến thẻ cuối cùng.', 'info');
@@ -3522,7 +3854,7 @@
 
       const quizHtml = `
         <div style="position:fixed;inset:0;background:rgba(0,0,0,0.55);backdrop-filter:blur(12px);z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px;" id="quizModal" onclick="if(event.target===this) this.remove()">
-          <div style="background:linear-gradient(145deg, var(--bg-card), var(--bg-primary));border-radius:var(--radius-xl);max-width:600px;width:100%;padding:32px;box-shadow:var(--shadow-xl), 0 0 40px rgba(124,58,237,0.15);position:relative;max-height:90vh;overflow-y:auto;transform:scale(0.95);animation:popIn 0.3s ease forwards;border:1px solid var(--border-color);">
+          <div class="anim-bounce-in" style="background:linear-gradient(145deg, var(--bg-card), var(--bg-primary));border-radius:var(--radius-xl);max-width:600px;width:100%;padding:32px;box-shadow:var(--shadow-xl), 0 0 40px rgba(124,58,237,0.15);position:relative;max-height:90vh;overflow-y:auto;border:1px solid var(--border-color);">
             <style>
               @keyframes popIn { from { transform:scale(0.95); opacity:0; } to { transform:scale(1); opacity:1; } }
             </style>
@@ -3591,17 +3923,23 @@
             if (index < quizQuestions.length - 1) {
               setTimeout(() => loadQuestion(index + 1), 1500);
             } else {
-              setTimeout(() => {
-                const total = quizQuestions.length;
-                const pct = Math.round((score / total) * 100);
-                let msg = pct === 100 ? '🎉 Xuất sắc!' : pct >= 70 ? '👍 Tốt!' : '📖 Học lại nhé!';
-                showToast(`${msg} Bạn được ${score}/${total} (${pct}%)`, 'info');
-                if (pct === 100) launchConfetti();
-                const results = getData('quizResults', {});
-                results[lessonId] = { score, total, pct };
-                setData('quizResults', results);
-                setTimeout(() => { document.getElementById('quizModal')?.remove(); }, 3000);
-              }, 1500);
+               setTimeout(() => {
+                 const total = quizQuestions.length;
+                 const pct = Math.round((score / total) * 100);
+                 let msg = pct === 100 ? '🎉 Xuất sắc!' : pct >= 70 ? '👍 Tốt!' : '📖 Học lại nhé!';
+                 showToast(`${msg} Bạn được ${score}/${total} (${pct}%)`, 'info');
+                 if (pct === 100) {
+                   launchConfetti();
+                   launchConfetti();
+                   launchConfetti();
+                 } else if (pct >= 70) {
+                   launchConfetti();
+                 }
+                 const results = getData('quizResults', {});
+                 results[lessonId] = { score, total, pct };
+                 setData('quizResults', results);
+                 setTimeout(() => { document.getElementById('quizModal')?.remove(); }, 3000);
+               }, 1500);
             }
           };
         });
@@ -3876,6 +4214,19 @@
       document.querySelectorAll('img').forEach(img => {
         if (!img.hasAttribute('loading')) img.setAttribute('loading', 'lazy');
         if (!img.hasAttribute('decoding')) img.setAttribute('decoding', 'async');
+        
+        if (!img.complete) {
+          img.parentElement?.classList.add('img-loading');
+          img.addEventListener('load', () => {
+            img.classList.add('loaded');
+            img.parentElement?.classList.remove('img-loading');
+          });
+          img.addEventListener('error', () => {
+            img.parentElement?.classList.remove('img-loading');
+          });
+        } else {
+          img.classList.add('loaded');
+        }
       });
     });
   </script>

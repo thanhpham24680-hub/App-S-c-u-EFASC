@@ -1005,6 +1005,123 @@ a:hover { text-decoration: underline; }
 /* ===== Responsive: disable heavy animations on small screens ===== */
 @media (max-width: 768px) {
   .lesson-card:hover { transform: translateY(-4px) scale(1.01); }
+
+  /* === Mobile Performance Optimizations === */
+
+  /* Background: reduce particles, blobs, blur, opacity */
+  .ambient-orb { opacity: 0.06 !important; filter: blur(60px) !important; width: clamp(100px, 30vw, 200px) !important; }
+  .particle-layer { opacity: 0.1 !important; display: none; }
+  .ambient-blobs { transform: none !important; pointer-events: none; }
+  .ambient-noise { opacity: 0.01 !important; }
+  .ambient-background { display: none !important; }
+
+  /* Floating bubbles: reduce count, opacity, distance */
+  .hero-bubble { opacity: 0.22 !important; will-change: auto !important; }
+  .hero-bubble-blue { opacity: .18 !important; }
+  .hero-bubble-mint { opacity: .15 !important; }
+  .hero-bubble-lilac, .hero-bubble-peach, .hero-bubble-rose, .hero-bubble-cyan { display: none !important; }
+  #landing-page .stat-card, #landing-page .feature-item, #landing-page .quick-categories .cat-tag {
+    animation: none !important;
+    --float-distance: 2px !important;
+  }
+
+  /* Blur: reduce all backdrop-filter and filter blur on mobile */
+  .header-wrap { backdrop-filter: blur(4px) !important; }
+  .sidebar-overlay { backdrop-filter: blur(2px) !important; }
+  .image-modal { backdrop-filter: blur(4px) !important; }
+  .hero-badge { backdrop-filter: blur(4px) !important; }
+  .search-wrap input:focus { box-shadow: 0 0 0 2px var(--accent-light) !important; }
+
+  /* Shadows: reduce blur radius, spread, opacity */
+  .shadow-sm { box-shadow: 0 1px 2px rgba(0,0,0,0.03) !important; }
+  .lesson-card { box-shadow: 0 1px 3px rgba(0,0,0,0.04) !important; }
+  .lesson-card:hover { box-shadow: 0 4px 10px rgba(0,0,0,0.06) !important; }
+  .btn-primary { box-shadow: 0 2px 10px rgba(37,99,235,0.2) !important; }
+  .btn-primary:hover { box-shadow: 0 4px 14px rgba(37,99,235,0.25) !important; }
+  .btn-secondary:hover, .btn-outline:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.04) !important; }
+  .fc-card-face { box-shadow: 0 2px 8px rgba(0,0,0,0.06) !important; }
+  .quiz-card { box-shadow: 0 2px 8px rgba(0,0,0,0.06) !important; }
+  .search-result-item:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.05) !important; }
+  .class-card:hover { box-shadow: 0 3px 8px rgba(0,0,0,0.06) !important; }
+  .stat-card:hover { box-shadow: 0 4px 10px rgba(0,0,0,0.05) !important; }
+
+  /* Will-change: remove for non-animating elements */
+  .ambient-blobs, .ambient-orb { will-change: auto !important; }
+  .particle-layer { will-change: auto !important; }
+  .hero-bubble { will-change: transform !important; }
+  #landing-page .stat-card, #landing-page .feature-item { will-change: auto !important; }
+
+  /* Touch targets: increase for mobile */
+  .btn-primary, .btn-secondary, .btn-outline { min-height: 44px; padding: 12px 24px; }
+  .category-filter-bar .filter-btn { min-height: 40px; padding: 8px 14px; font-size: 0.7rem; }
+  .quick-categories .cat-tag { min-height: 40px; padding: 8px 16px; }
+  .continue-item { min-height: 44px; }
+  .sidebar-item { min-height: 44px; padding: 12px 14px; }
+  .accordion-header { min-height: 44px; padding: 14px 16px; }
+  .quiz-option { min-height: 48px; padding: 14px 16px; }
+  .btn-icon { min-width: 44px; min-height: 44px; }
+  .fc-toolbar button { min-height: 40px; padding: 8px 14px; }
+  .filter-btn { min-height: 40px; }
+  .search-result-item { min-height: 48px; padding: 14px 16px; }
+  .fc-list-item { min-height: 44px; padding: 14px 16px; }
+
+  /* Typography: use clamp() for fluid scaling */
+  body { font-size: clamp(0.85rem, 3.5vw, 1rem); }
+  .hero-title { font-size: clamp(2rem, 8vw, 3rem); }
+  .hero-sub { font-size: clamp(0.85rem, 3vw, 1.05rem); }
+  .stat-card .number { font-size: clamp(1.3rem, 4vw, 1.8rem); }
+  .feature-item .info h4 { font-size: clamp(0.78rem, 2.5vw, 0.95rem); }
+  .continue-item .info .title { font-size: clamp(0.75rem, 2vw, 0.85rem); }
+
+  /* Content visibility: skip rendering off-screen content */
+  .lessons-grid-container, .continue-grid { content-visibility: auto; contain-intrinsic-size: 400px; }
+  .detail-content-area { content-visibility: auto; contain-intrinsic-size: 600px; }
+  .about-container { content-visibility: auto; contain-intrinsic-size: 500px; }
+
+  /* Reduce animation durations significantly on mobile */
+  * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+
+  /* Landing card floats: only keep wave on 2 key cards */
+  #landing-page .stat-card:nth-child(1), #landing-page .stat-card:nth-child(3) { animation: landingCardWave 6s cubic-bezier(.37,0,.63,1) var(--float-delay,0s) infinite; }
+  #landing-page .feature-item:nth-child(1), #landing-page .feature-item:nth-child(3) { animation: landingCardWave 6s cubic-bezier(.37,0,.63,1) var(--float-delay,0s) infinite; }
+
+  /* Reduce scroll reveal distance on mobile */
+  .scroll-text-reveal { transform: translateY(8px); }
+  .scroll-icon-reveal { transform: translateY(6px) scale(.85); }
+  .landing-reveal { transform: translateY(8px); }
+  .detail-reveal { transform: translateY(8px); }
+  .detail-content .content-line { transform: translateY(6px); }
+
+  /* Reduce parallax intensity */
+  .ambient-blobs { transform: none !important; }
+
+  /* Simplify gradients */
+  .btn-primary { background: var(--accent); }
+  .btn-secondary { background: var(--bg-primary); }
+
+  /* Reduce modal blur */
+  .image-modal { backdrop-filter: none !important; }
+
+  /* Progress ring: faster transition on mobile */
+  .progress-ring .fg { transition-duration: 0.3s !important; }
+}
+
+/* ===== Enhanced prefers-reduced-motion ===== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+  .ambient-background, .particle-layer { display: none !important; }
+  #landing-page .stat-card, #landing-page .feature-item, #landing-page .quick-categories .cat-tag { animation: none !important; }
+  .landing-reveal, .detail-reveal, .scroll-text-reveal { opacity: 1 !important; transform: none !important; }
+  .progress-ring .fg { stroke-dashoffset: var(--target) !important; animation: none !important; transition: none !important; }
+  .hero-bubble { animation: none !important; }
+  .content-line { transition: none !important; opacity: 1 !important; transform: none !important; }
+  .floating-shapes, .ambient-blobs { display: none !important; }
+  .accordion-body { max-height: none !important; transition: none !important; }
 }
 @media (min-width: 769px) { .menu-btn-mobile { display: none; } }
 @media print {

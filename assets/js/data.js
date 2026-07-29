@@ -96,7 +96,7 @@ const lessons = [
         "6. C (Circulation): Bắt mạch cảnh (nếu không có mạch và nạn nhân bất tỉnh → ép tim). Nếu có chảy máu ngoài → ép trực tiếp cầm máu."
       ],
       luuY: "Quy trình này cần hoàn thành trong vòng 5 phút đầu. Nếu ở bất kỳ bước nào phát hiện vấn đề đe dọa tính mạng (như ngưng thở, ngưng tim), hãy can thiệp ngay trước khi chuyển bước tiếp theo. Ghi nhớ: DRs. ABC = Cứu người trong 'phút vàng'.",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/85KsFpGk/Quy-trinh-so-cuu-DRs-ABC.png" class="illustration-img img-viewer" alt="DRs. ABC" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=DRs.+ABC'"><p class="text-xs text-gray-500 mt-1">Sơ đồ tiếp cận nạn nhân DRs. ABC</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785296090/Quy-trinh-so-cuu-DRs-ABC_yl4srk.png" class="illustration-img img-viewer" alt="DRs. ABC" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=DRs.+ABC'"><p class="text-xs text-gray-500 mt-1">Sơ đồ tiếp cận nạn nhân DRs. ABC</p></div>`
     }
   },
   {
@@ -131,7 +131,7 @@ const lessons = [
         "6. Giữ ấm nạn nhân, nâng cao chi bị thương nếu không gây đau thêm, chờ xe cấp cứu."
       ],
       luuY: "Tuyệt đối không tự ý kéo thẳng xương gãy, không di chuyển nạn nhân khi chưa cố định. Với nghi ngờ gãy xương đùi, xương chậu, đa chấn thương, ưu tiên bất động toàn thân và chống sốc.",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/XqrqdRN8/Huong-dan-so-cuu-gay-xuong.png" class="illustration-img img-viewer" alt="Sơ cứu gãy xương" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=G%C3%A3y+x%C6%B0%C6%A1ng'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn sơ cứu gãy xương</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785296090/Huong-dan-so-cuu-gay-xuong_lsvlvd.png" class="illustration-img img-viewer" alt="Sơ cứu gãy xương" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=G%C3%A3y+x%C6%B0%C6%A1ng'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn sơ cứu gãy xương</p></div>`
     }
   },
   {
@@ -170,7 +170,7 @@ const lessons = [
         "4. Nếu nạn nhân hôn mê: đặt nằm ngửa, bắt đầu CPR ngay với tỉ lệ 30:2. Kiểm tra miệng trước mỗi chu kỳ thổi ngạt."
       ],
       luuY: "Tuyệt đối không vỗ lưng khi hóc hoàn toàn ở người lớn (có thể làm dị vật tụt sâu hơn). Không móc họng khi chưa nhìn thấy dị vật. Trẻ em dưới 1 tuổi: KHÔNG ép bụng (Heimlich), chỉ dùng vỗ lưng + ấn ngực.",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/W4cZj1N6/So-cuu-hoc-di-vat.png" class="illustration-img img-viewer" alt="Dị vật đường thở" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=D%E1%BB%8B+v%E1%BA%ADt+%C4%91%C6%B0%E1%BB%9Dng+th%E1%BB%9F'"><p class="text-xs text-gray-500 mt-1">Sơ cứu dị vật đường thở – thủ thuật Heimlich và vỗ lưng cho trẻ</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785295319/So-cuu-hoc-di-vat_uxlhya.png" class="illustration-img img-viewer" alt="Dị vật đường thở" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=D%E1%BB%8B+v%E1%BA%ADt+%C4%91%C6%B0%E1%BB%9Dng+th%E1%BB%9F'"><p class="text-xs text-gray-500 mt-1">Sơ cứu dị vật đường thở – thủ thuật Heimlich và vỗ lưng cho trẻ</p></div>`
     }
   },
   {
@@ -204,7 +204,7 @@ const lessons = [
         "6. Chảy máu mũi: cúi đầu về phía trước, bóp phần mềm mũi 10-15 phút, chườm lạnh sống mũi."
       ],
       luuY: "Không rút dị vật đâm trong vết thương (dao, mảnh thủy tinh) vì có thể gây chảy máu ồ ạt. Không băng quá chặt. Gọi 115 ngay nếu chảy máu nhiều hoặc nghi ngờ chảy máu trong. Nếu buộc phải dùng garo tự chế, bắt buộc dùng dây bản to (vải rộng 3-5cm) và có thanh vặn (cành cây, bút to) xoắn chặt. Tuyệt đối không dùng dây thun nhỏ, dây giày hay dây thép để tránh hội chứng garo tĩnh mạch làm máu chảy ồ ạt hơn.",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/mDXhcL4r/So-cuu-cam-mau-dung-cach.png" class="illustration-img img-viewer" alt="Cầm máu" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Ch%E1%BA%A3y+m%C3%A1u'"><p class="text-xs text-gray-500 mt-1">Sơ cứu cầm máu đúng cách</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785296090/So-cuu-cam-mau-dung-cach_tk7cmo.png" class="illustration-img img-viewer" alt="Cầm máu" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Ch%E1%BA%A3y+m%C3%A1u'"><p class="text-xs text-gray-500 mt-1">Sơ cứu cầm máu đúng cách</p></div>`
     }
   },
   {
@@ -237,7 +237,7 @@ const lessons = [
         "4. Theo dõi ABC, sẵn sàng CPR."
       ],
       luuY: "Sốc mất máu có thể tử vong trong vài phút. Ưu tiên cầm máu và gọi 115.",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/bNLYHRHG/Soc-giam-the-tich-mau.png" class="illustration-img img-viewer" alt="Sốc giảm thể tích" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=S%E1%BB%91c+gi%E1%BA%A3m+th%E1%BB%83+t%C3%ADch'"><p class="text-xs text-gray-500 mt-1">Sơ cứu sốc giảm thể tích – nâng chân cao hơn tim</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785296083/Soc-giam-the-tich-mau_ssdkft.png" class="illustration-img img-viewer" alt="Sốc giảm thể tích" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=S%E1%BB%91c+gi%E1%BA%A3m+th%E1%BB%83+t%C3%ADch'"><p class="text-xs text-gray-500 mt-1">Sơ cứu sốc giảm thể tích – nâng chân cao hơn tim</p></div>`
     }
   },
   {
@@ -274,7 +274,7 @@ const lessons = [
         "7. Nếu đau nhiều, sưng nặng, hoặc nghi ngờ độ 3: đến cơ sở y tế."
       ],
       luuY: "Sau 48h có thể chườm ấm. Nếu không cải thiện sau 3-5 ngày, đi khám chuyên khoa. Tránh HARM trong 72 giờ đầu.",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/NMJLystj/So-cuu-bong-gan-trat-khop.png" class="illustration-img img-viewer" alt="Bong gân và trật khớp" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Bong+g%C3%A2n+tr%E1%BA%ADt+kh%E1%BB%9Bp'"><p class="text-xs text-gray-500 mt-1">Sơ cứu bong gân – trật khớp</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785296088/So-cuu-bong-gan-trat-khop_ddgms9.png" class="illustration-img img-viewer" alt="Bong gân và trật khớp" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Bong+g%C3%A2n+tr%E1%BA%ADt+kh%E1%BB%9Bp'"><p class="text-xs text-gray-500 mt-1">Sơ cứu bong gân – trật khớp</p></div>`
     }
   },
   {
@@ -305,7 +305,7 @@ const lessons = [
         "6. Theo dõi mạch và cảm giác ở đầu chi trong khi chờ cấp cứu."
       ],
       luuY: "Tuyệt đối không tự nắn, có thể gây gãy xương hoặc tổn thương mạch máu, dây thần kinh. Trật khớp vai dễ tái phát, cần theo dõi chuyên khoa.",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/NMJLystj/So-cuu-bong-gan-trat-khop.png" class="illustration-img img-viewer" alt="Trật khớp" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Tr%E1%BA%ADt+kh%E1%BB%9Bp'"><p class="text-xs text-gray-500 mt-1">Sơ cứu trật khớp</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785296088/So-cuu-bong-gan-trat-khop_ddgms9.png" class="illustration-img img-viewer" alt="Trật khớp" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Tr%E1%BA%ADt+kh%E1%BB%9Bp'"><p class="text-xs text-gray-500 mt-1">Sơ cứu trật khớp</p></div>`
     }
   },
   {
@@ -341,7 +341,7 @@ const lessons = [
         "6. Theo dõi ABC, sẵn sàng CPR nếu ngừng tim."
       ],
       luuY: "Epinephrine (adrenaline) là thuốc số 1, tiêm càng sớm càng tốt. KHÔNG chờ triệu chứng nặng mới tiêm. Người có cơ địa dị ứng nặng cần mang theo ống tiêm epinephrine và cài đặt cảnh báo y tế. Nếu nạn nhân tỉnh sau tiêm epinephrine, vẫn cần theo dõi ít nhất 1 giờ (vì có thể tái phát).",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/8PwkBbd0/Xu-tri-soc-phan-ve.png" class="illustration-img img-viewer" alt="Sốc phản vệ" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=S%E1%BB%91c+ph%E1%BA%A3n+v%E1%BB%87'"><p class="text-xs text-gray-500 mt-1">Xử trí sốc phản vệ - tiêm epinephrine đùi ngay</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785296083/Xu-tri-soc-phan-ve_fvjk2r.png" class="illustration-img img-viewer" alt="Sốc phản vệ" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=S%E1%BB%91c+ph%E1%BA%A3n+v%E1%BB%87'"><p class="text-xs text-gray-500 mt-1">Xử trí sốc phản vệ - tiêm epinephrine đùi ngay</p></div>`
     }
   },
   {
@@ -376,7 +376,7 @@ const lessons = [
         "5. Theo dõi con chó trong 10 ngày (nếu có thể) để phát hiện dấu hiệu dại."
       ],
       luuY: "Không nặn máu, không băng kín vết thương, không đắp lá. Tiêm vắc-xin dại càng sớm càng tốt, không chờ đến khi có triệu chứng (vì khi lên cơn dại thì tỉ lệ tử vong gần như 100%).",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/3NkNmsrZ/Huong-dan-xu-tri-cho-can.png" class="illustration-img img-viewer" alt="Sơ cứu chó cắn" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Ch%C3%B3+c%E1%BA%AFn'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn xử trí khi bị chó cắn</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785296090/Huong-dan-xu-tri-cho-can_euswqh.png" class="illustration-img img-viewer" alt="Sơ cứu chó cắn" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Ch%C3%B3+c%E1%BA%AFn'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn xử trí khi bị chó cắn</p></div>`
     }
   },
   {
@@ -413,7 +413,7 @@ const lessons = [
         "7. Nếu nạn nhân hôn mê, ngừng thở, ngừng tim → bắt đầu CPR ngay."
       ],
       luuY: "KHÔNG dùng garo (tourniquet). KHÔNG rạch hút nọc độc. KHÔNG đắp lá, bôi thuốc. KHÔNG chườm đá. KHÔNG hút bằng miệng. Cố gắng nhận dạng rắn (chụp ảnh từ xa) nhưng đảm bảo an toàn. Paracetamol có thể dùng cho đau.",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/RVGCQTQW/Huong-dan-so-cuu-ran-can.png" class="illustration-img img-viewer" alt="Rắn cắn" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=R%E1%BA%AFn+c%E1%BA%AFn'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn sơ cứu rắn cắn theo WHO 2024</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785296086/Huong-dan-so-cuu-ran-can_ewpyn0.png" class="illustration-img img-viewer" alt="Rắn cắn" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=R%E1%BA%AFn+c%E1%BA%AFn'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn sơ cứu rắn cắn theo WHO 2024</p></div>`
     }
   },
   {
@@ -445,7 +445,7 @@ const lessons = [
         "5. Nếu có dị ứng toàn thân: gọi 115 ngay, tiêm epinephrine nếu có, chuẩn bị CPR."
       ],
       luuY: "Không bôi vôi, kem đánh răng, dầu gió. Không gãi, không xoa bóp. Nếu ong bắp cày hoặc ong vò vẽ đốt, có thể gây hoại tử, cần rửa bằng nước muối và đến bệnh viện.",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/cHVhzYRw/Huong-dan-so-cuu-ong-dot.png" class="illustration-img img-viewer" alt="Ong đốt" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Ong+%C4%91%E1%BB%91t'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn sơ cứu ong đốt</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785296084/Huong-dan-so-cuu-ong-dot_ehv6p6.png" class="illustration-img img-viewer" alt="Ong đốt" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Ong+%C4%91%E1%BB%91t'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn sơ cứu ong đốt</p></div>`
     }
   },
   {
@@ -480,7 +480,7 @@ const lessons = [
         "6. Nếu ngừng thở, ngưng tim, bắt đầu CPR ngay."
       ],
       luuY: "KHÔNG tự ý cho uống aspirin, không chích lể, cạo gió, không tự lái xe đến bệnh viện. Đột quỵ cần can thiệp chuyên khoa càng sớm càng tốt. 'Time is Brain' - mỗi phút trễ làm chết 1,9 triệu tế bào não.",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/SRHsrgJ0/Cap-cuu-dot-quy.png" class="illustration-img img-viewer" alt="Đột quỵ" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=%C4%90%E1%BB%99t+qu%E1%BB%B5'"><p class="text-xs text-gray-500 mt-1">Cấp cứu đột quỵ – nhận biết sớm bằng FAST</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785295326/Cap-cuu-dot-quy_scm1fk.png" class="illustration-img img-viewer" alt="Đột quỵ" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=%C4%90%E1%BB%99t+qu%E1%BB%B5'"><p class="text-xs text-gray-500 mt-1">Cấp cứu đột quỵ – nhận biết sớm bằng FAST</p></div>`
     }
   },
   {
@@ -512,7 +512,7 @@ const lessons = [
         "7. Cho CPR ngay cả khi nạn nhân đã ngừng thở lâu (người đuối nước có thể sống sót sau ngừng tim dài)."
       ],
       luuY: "KHÔNG dốc nước bằng cách xốc chân, không lãng phí thời gian. KHÔNG cố gắng làm sạch đường thở trước khi thổi ngạt. Ưu tiên thổi ngạt và ép tim ngay. Người đuối nước có thể sống sót ngay cả sau ngừng tim kéo dài.",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/d1HD7sF1/So-cuu-duoi-nuoc-DRSABC.png" class="illustration-img img-viewer" alt="Sơ cứu đuối nước" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=%C4%90u%E1%BB%91i+n%C6%B0%E1%BB%9Bc'"><p class="text-xs text-gray-500 mt-1">Sơ cứu đuối nước theo quy trình DRs. ABC</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785296088/So-cuu-duoi-nuoc-DRSABC_uj2rtq.png" class="illustration-img img-viewer" alt="Sơ cứu đuối nước" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=%C4%90u%E1%BB%91i+n%C6%B0%E1%BB%9Bc'"><p class="text-xs text-gray-500 mt-1">Sơ cứu đuối nước theo quy trình DRs. ABC</p></div>`
     }
   },
   {
@@ -546,7 +546,7 @@ const lessons = [
         "6. Bù nước, điện giải (oresol). Theo dõi dấu hiệu sốc."
       ],
       luuY: "KHÔNG dùng đá, nước đá, khăn ướp đá. KHÔNG bôi kem đánh răng, vôi, dầu cá, mật ong. KHÔNG làm vỡ nốt phỏng. KHÔNG dùng cồn rửa. Giữ ấm những phần không bị bỏng để tránh hạ thân nhiệt.",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/x8X8Mwj4/Huong-dan-so-cuu-bong.png" class="illustration-img img-viewer" alt="Sơ cứu bỏng" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=B%E1%BB%8Fng'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn sơ cứu bỏng – làm mát 20 phút</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785295321/Huong-dan-so-cuu-bong_spyn1i.png" class="illustration-img img-viewer" alt="Sơ cứu bỏng" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=B%E1%BB%8Fng'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn sơ cứu bỏng – làm mát 20 phút</p></div>`
     }
   },
   {
@@ -576,7 +576,7 @@ const lessons = [
         "6. Theo dõi dấu hiệu sốc."
       ],
       luuY: "Sau điện giật, dù tỉnh vẫn cần đến bệnh viện kiểm tra tim mạch (rối loạn nhịp muộn) và thận (hoại tử cơ). Có thể có chấn thương cột sống nếu ngã từ cao.",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/br4JTmdH/Huong-dan-so-cuu-dien-giat.png" class="illustration-img img-viewer" alt="Sơ cứu điện giật" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=%C4%90i%E1%BB%87n+gi%E1%BA%ADt'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn sơ cứu điện giật</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785296090/Huong-dan-so-cuu-dien-giat_k0xgac.png" class="illustration-img img-viewer" alt="Sơ cứu điện giật" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=%C4%90i%E1%BB%87n+gi%E1%BA%ADt'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn sơ cứu điện giật</p></div>`
     }
   },
   {
@@ -609,7 +609,7 @@ const lessons = [
         "8. Tiếp tục cho đến khi nạn nhân tỉnh hoặc xe cấp cứu đến."
       ],
       luuY: "Nếu không được đào tạo, chỉ ép tay không (hands-only). Giữ nhịp 100-120 lần/phút, ép sâu 5-6 cm. Cho phép lồng ngực hồi phục hoàn toàn. Kiên trì, thay người mỗi 2 phút.",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/fy1LK8kP/Huong-dan-hoi-sinh-tim-phoi.png" class="illustration-img img-viewer" alt="CPR" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=CPR'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn hồi sinh tim phổi (CPR) chuẩn AHA 2025</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785295320/Huong-dan-hoi-sinh-tim-phoi_geqxsg.png" class="illustration-img img-viewer" alt="CPR" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=CPR'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn hồi sinh tim phổi (CPR) chuẩn AHA 2025</p></div>`
     }
   },
   {
@@ -645,7 +645,7 @@ const lessons = [
         "7. Nếu ngừng tim: bắt đầu CPR ngay và tiếp tục cho đến khi nạn nhân ấm lên hoặc cấp cứu đến."
       ],
       luuY: "KHÔNG xoa bóp chân tay (gây sốc tim, rối loạn nhịp). KHÔNG tắm nước nóng, chườm nóng quá nhanh (gây giãn mạch ngoại vi, tụt HA). Hạ thân nhiệt nặng có thể hồi sinh ngay cả sau ngừng tim lâu.",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/65z6LhVg/So-cuu-ha-than-nhiet.png" class="illustration-img img-viewer" alt="Hạ thân nhiệt 1" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=H%E1%BA%A1+th%C3%A2n+nhi%E1%BB%87t+1'"><p class="text-xs text-gray-500 mt-1">Sơ cứu hạ thân nhiệt (1)</p></div><div class="my-4 text-center"><img src="https://i.postimg.cc/KvQcr57V/So-cuu-ha-than-nhiet-dung.png" class="illustration-img img-viewer" alt="Hạ thân nhiệt 2" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=H%E1%BA%A1+th%C3%A2n+nhi%E1%BB%87t+2'"><p class="text-xs text-gray-500 mt-1">Sơ cứu hạ thân nhiệt đúng cách (2)</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785296085/So-cuu-ha-than-nhiet_hmvydw.png" class="illustration-img img-viewer" alt="Hạ thân nhiệt 1" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=H%E1%BA%A1+th%C3%A2n+nhi%E1%BB%87t+1'"><p class="text-xs text-gray-500 mt-1">Sơ cứu hạ thân nhiệt (1)</p></div><div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785296083/So-cuu-ha-than-nhiet-dung_nsmkiw.png" class="illustration-img img-viewer" alt="Hạ thân nhiệt 2" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=H%E1%BA%A1+th%C3%A2n+nhi%E1%BB%87t+2'"><p class="text-xs text-gray-500 mt-1">Sơ cứu hạ thân nhiệt đúng cách (2)</p></div>`
     }
   },
   {
@@ -676,7 +676,7 @@ const lessons = [
         "6. Ghi nhận thời gian ăn, triệu chứng để thông báo cho bác sĩ."
       ],
       luuY: "Không tự ý dùng thuốc chống nôn hoặc cầm tiêu chảy khi chưa có chỉ định. KHÔNG cố gắng gây nôn (gây tổn thương thêm thực quản). Nếu nghi ngờ ngộ độc hóa chất, kim loại nặng: gọi 115 ngay.",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/fTHC46fw/So-cuu-khi-ngo-doc.png" class="illustration-img img-viewer" alt="Ngộ độc thực phẩm 1" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Ng%E1%BB%99+%C4%91%E1%BB%99c+1'"><p class="text-xs text-gray-500 mt-1">Sơ cứu khi ngộ độc (1)</p></div><div class="my-4 text-center"><img src="https://i.postimg.cc/Z5RbfyVy/Cam-nang-so-cuu-ngo-doc.png" class="illustration-img img-viewer" alt="Ngộ độc thực phẩm 2" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Ng%E1%BB%99+%C4%91%E1%BB%99c+2'"><p class="text-xs text-gray-500 mt-1">Cẩm nang sơ cứu ngộ độc (2)</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785296081/So-cuu-khi-ngo-doc_leqhsp.png" class="illustration-img img-viewer" alt="Ngộ độc thực phẩm 1" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Ng%E1%BB%99+%C4%91%E1%BB%99c+1'"><p class="text-xs text-gray-500 mt-1">Sơ cứu khi ngộ độc (1)</p></div><div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785296087/Cam-nang-so-cuu-ngo-doc_c8hbuk.png" class="illustration-img img-viewer" alt="Ngộ độc thực phẩm 2" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Ng%E1%BB%99+%C4%91%E1%BB%99c+2'"><p class="text-xs text-gray-500 mt-1">Cẩm nang sơ cứu ngộ độc (2)</p></div>`
     }
   },
   {
@@ -712,7 +712,7 @@ const lessons = [
         "7. Nếu trẻ sốt: hạ nhiệt (paracetamol sau cơn), gọi 115 nếu cơn kéo dài."
       ],
       luuY: "Không ghì chặt nạn nhân, không cố ngừng cơn. Hầu hết cơn tự hết trong 1-3 phút. Sau cơn nạn nhân thường buồn ngủ, mệt mỏi.",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/3J9rCZC3/So-cuu-co-giat-an-toan.png" class="illustration-img img-viewer" alt="Co giật an toàn" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Co+gi%E1%BA%ADt'"><p class="text-xs text-gray-500 mt-1">Sơ cứu co giật an toàn</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785296085/So-cuu-co-giat-an-toan_kdqwcr.png" class="illustration-img img-viewer" alt="Co giật an toàn" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Co+gi%E1%BA%ADt'"><p class="text-xs text-gray-500 mt-1">Sơ cứu co giật an toàn</p></div>`
     }
   },
   {
@@ -744,7 +744,7 @@ const lessons = [
         "6. Nếu nạn nhân bất tỉnh nhưng thở: đặt tư thế hồi phục, giữ đầu ổn định."
       ],
       luuY: "Ngay cả khi nạn nhân tỉnh táo và không đau, vẫn phải nghi ngờ chấn thương cột sống vì có thể trì hoãn biểu hiện. Khi nghi ngờ → bất động toàn bộ cột sống.",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/tCrk0LNC/Huong-dan-so-cuu-cot-song.png" class="illustration-img img-viewer" alt="Chấn thương cột sống" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Ch%E1%BA%A5n+th%C6%B0%C6%A1ng+c%E1%BB%99t+s%E1%BB%91ng'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn sơ cứu chấn thương cột sống - giữ đầu thẳng hàng</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785296082/Huong-dan-so-cuu-cot-song_we2jio.png" class="illustration-img img-viewer" alt="Chấn thương cột sống" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Ch%E1%BA%A5n+th%C6%B0%C6%A1ng+c%E1%BB%99t+s%E1%BB%91ng'"><p class="text-xs text-gray-500 mt-1">Hướng dẫn sơ cứu chấn thương cột sống - giữ đầu thẳng hàng</p></div>`
     }
   },
   {
@@ -774,7 +774,7 @@ const lessons = [
         "6. Nếu có thuốc nitroglycerin dưới lưỡi: cho dùng theo hướng dẫn."
       ],
       luuY: "Không tự lái xe đến bệnh viện. Không để nạn nhân nằm nếu họ khó thở. Không cho ăn uống. Ghi nhận thời gian khởi phát đau để báo cho bác sĩ.",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/pLTW0nqX/Cap-cuu-nhoi-mau-tim.png" class="illustration-img img-viewer" alt="Nhồi máu cơ tim" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Nh%E1%BB%93i+m%C3%A1u+c%C6%A1+tim'"><p class="text-xs text-gray-500 mt-1">Cấp cứu nhồi máu cơ tim</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785296088/Cap-cuu-nhoi-mau-tim_ltshbr.png" class="illustration-img img-viewer" alt="Nhồi máu cơ tim" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Nh%E1%BB%93i+m%C3%A1u+c%C6%A1+tim'"><p class="text-xs text-gray-500 mt-1">Cấp cứu nhồi máu cơ tim</p></div>`
     }
   },
   {
@@ -803,7 +803,7 @@ const lessons = [
         "4. Nếu hôn mê hoặc không tỉnh: đặt tư thế an toàn, không đổ bất cứ thứ gì vào miệng, gọi 115."
       ],
       luuY: "Người bệnh đái tháo đường nên luôn mang theo kẹo, nước đường bên mình. Nếu hôn mê do hạ đường huyết: tiêm glucagon nếu có, gọi 115.",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/fT5Wjvjb/So-cuu-cap-toc.png" class="illustration-img img-viewer" alt="Hạ đường huyết" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=H%E1%BA%A1+%C4%91%C6%B0%E1%BB%9Dng+huy%E1%BA%BFt'"><p class="text-xs text-gray-500 mt-1">Sơ cứu cấp tốc hạ đường huyết</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785296088/So-cuu-cap-toc_wdrnvj.png" class="illustration-img img-viewer" alt="Hạ đường huyết" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=H%E1%BA%A1+%C4%91%C6%B0%E1%BB%9Dng+huy%E1%BA%BFt'"><p class="text-xs text-gray-500 mt-1">Sơ cứu cấp tốc hạ đường huyết</p></div>`
     }
   },
   {
@@ -836,7 +836,7 @@ const lessons = [
         "7. Vết thương hở: rửa sạch dưới vòi nước chảy, rửa vùng da quanh bằng xà phòng (tránh xà phòng vào sâu vết thương), băng ép cầm máu."
       ],
       luuY: "Tránh HARM trong 72 giờ đầu: KHÔNG Heat (nóng), KHÔNG Alcohol (rượu), KHÔNG Running (chạy/vận động mạnh), KHÔNG Massage (xoa bóp). Không dùng oxy già, cồn mạnh trực tiếp vào vết thương hở vì gây tổn thương mô.",
-      illustration: `<div class="my-4 text-center"><img src="https://i.postimg.cc/SN02nVQf/Cach-so-cuu-chan-thuong.png" class="illustration-img img-viewer" alt="Vết thương phần mềm 1" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=V%E1%BA%BFt+th%C6%B0%C6%A1ng+1'"><p class="text-xs text-gray-500 mt-1">Cách sơ cứu chấn thương (1)</p></div><div class="my-4 text-center"><img src="https://i.postimg.cc/4Nw4b1vr/Tri-chan-thuong-the-thao.png" class="illustration-img img-viewer" alt="Vết thương phần mềm 2" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=V%E1%BA%BFt+th%C6%B0%C6%A1ng+2'"><p class="text-xs text-gray-500 mt-1">Phòng tránh chấn thương thể thao (2)</p></div>`
+      illustration: `<div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785296081/Cach-so-cuu-chan-thuong_qupdbr.png" class="illustration-img img-viewer" alt="Vết thương phần mềm 1" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=V%E1%BA%BFt+th%C6%B0%C6%A1ng+1'"><p class="text-xs text-gray-500 mt-1">Cách sơ cứu chấn thương (1)</p></div><div class="my-4 text-center"><img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785296086/Tri-chan-thuong-the-thao_bkx8ji.png" class="illustration-img img-viewer" alt="Vết thương phần mềm 2" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=V%E1%BA%BFt+th%C6%B0%C6%A1ng+2'"><p class="text-xs text-gray-500 mt-1">Phòng tránh chấn thương thể thao (2)</p></div>`
     }
   },
   {
@@ -873,11 +873,11 @@ const lessons = [
       ],
       luuY: "Mục tiêu: hạ nhiệt độ xuống dưới 39°C trong vòng 30 phút. Tuyệt đối không cho uống bất kỳ thứ gì nếu nạn nhân bất tỉnh hoặc nôn nhiều. Không dùng aspirin hay paracetamol để hạ nhiệt (không có tác dụng).",
       illustration: `<div class="my-4 text-center">
-            <img src="https://i.postimg.cc/zv4MXX3n/2a70bc64-45de-4c1b-bb0a-483dc11d0c47.png" class="illustration-img img-viewer" alt="Say nắng 1" style="max-width:100%;border-radius:var(--radius-md);" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Say+n%E1%BA%AFng'">
+            <img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785294538/2a70bc64-45de-4c1b-bb0a-483dc11d0c47_owwtuw.png" class="illustration-img img-viewer" alt="Say nắng 1" style="max-width:100%;border-radius:var(--radius-md);" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Say+n%E1%BA%AFng'">
             <p class="text-xs text-gray-500 mt-1">Cấp cứu say nắng – hạ nhiệt cấp tốc (1)</p>
           </div>
           <div class="my-4 text-center">
-            <img src="https://i.postimg.cc/C13XwxRf/f9edba99-9fd5-4b0e-a85e-757a782687c9.png" class="illustration-img img-viewer" alt="Say nắng 2" style="max-width:100%;border-radius:var(--radius-md);" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Say+n%E1%BA%AFng'">
+            <img src="https://res.cloudinary.com/ftfo5fyo/image/upload/v1785294466/f9edba99-9fd5-4b0e-a85e-757a782687c9_ljjpzz.png" class="illustration-img img-viewer" alt="Say nắng 2" style="max-width:100%;border-radius:var(--radius-md);" onerror="this.onerror=null; this.src='https://placehold.co/800x500?text=Say+n%E1%BA%AFng'">
             <p class="text-xs text-gray-500 mt-1">Cấp cứu say nắng – hạ nhiệt cấp tốc (2)</p>
           </div>`
     }

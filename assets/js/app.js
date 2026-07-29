@@ -240,7 +240,7 @@ function initAnimatedBackground() {
   const background = document.querySelector('.animated-background');
   const canvas = background?.querySelector('.particle-layer');
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (!background || !canvas || reducedMotion) return;
+  if (!background || !canvas || reducedMotion || shouldReduceEffects()) return;
 
   const context = canvas.getContext('2d');
   const mobileQuery = window.matchMedia('(max-width: 768px)');
@@ -251,8 +251,8 @@ function initAnimatedBackground() {
   let height = 0;
   let pixelRatio = 1;
 
-  function createParticles() {
-    const count = mobileQuery.matches ? 28 : tabletQuery.matches ? 44 : 64;
+function createParticles() {
+     const count = mobileQuery.matches ? 0 : tabletQuery.matches ? 30 : 50;
     particles = Array.from({ length: count }, () => ({
       x: Math.random() * width,
       y: Math.random() * height,
@@ -328,13 +328,14 @@ function initScrollTextEffects(scope = document) {
   const show = (element) => element.classList.add('is-visible');
   targets.forEach((element) => element.classList.add(iconSet.has(element) ? 'scroll-icon-reveal' : 'scroll-text-reveal'));
   if (reduceMotion || !('IntersectionObserver' in window)) { targets.forEach(show); return; }
+  const opts = isMobileDevice() ? { threshold: 0.05, rootMargin: '0px 0px -10px' } : { threshold: .12, rootMargin: '0px 0px -24px' };
   const observer = new IntersectionObserver((entries, currentObserver) => {
     entries.forEach((entry) => {
       if (!entry.isIntersecting) return;
       show(entry.target);
       currentObserver.unobserve(entry.target);
     });
-  }, { threshold: .12, rootMargin: '0px 0px -24px' });
+  }, opts);
   targets.forEach((element) => observer.observe(element));
 }
 
@@ -360,13 +361,8 @@ function initDetailScrollReveal() {
   if (!targets.length) return;
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   if (reduceMotion || !('IntersectionObserver' in window)) { targets.forEach(t => t.classList.add('is-visible')); return; }
-  const observer = new IntersectionObserver((entries, obs) => {
-    entries.forEach(entry => {
-      if (!entry.isIntersecting) return;
-      entry.target.classList.add('is-visible');
-      obs.unobserve(entry.target);
-    });
-  }, { threshold: 0.1, rootMargin: '0px 0px -20px' });
+  const opts = isMobileDevice() ? { threshold: 0.05, rootMargin: '0px 0px -10px' } : { threshold: 0.1, rootMargin: '0px 0px -20px' };
+  const observer = new IntersectionObserver((entries, obs) => { entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('is-visible'); obs.unobserve(e.target); } }); }, opts);
   targets.forEach(t => observer.observe(t));
 }
 
@@ -376,13 +372,8 @@ function initContentLineAnimations() {
   if (!lines.length) return;
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   if (reduceMotion || !('IntersectionObserver' in window)) { lines.forEach(l => l.classList.add('is-revealed')); return; }
-  const observer = new IntersectionObserver((entries, obs) => {
-    entries.forEach(entry => {
-      if (!entry.isIntersecting) return;
-      entry.target.classList.add('is-revealed');
-      obs.unobserve(entry.target);
-    });
-  }, { threshold: 0.1, rootMargin: '0px 0px -10px' });
+  const opts = isMobileDevice() ? { threshold: 0.05, rootMargin: '0px 0px -5px' } : { threshold: 0.1, rootMargin: '0px 0px -10px' };
+  const observer = new IntersectionObserver((entries, obs) => { entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('is-revealed'); obs.unobserve(e.target); } }); }, opts);
   lines.forEach(l => observer.observe(l));
 }
 
@@ -413,27 +404,25 @@ function initButtonRipple() {
   document.head.appendChild(style);
 })();
 
+// === Mobile Performance Utilities ===
+function throttle(fn, ms) { let last = 0; return function() { const now = Date.now(); if (now - last >= ms) { last = now; fn.apply(this, arguments); } }; }
+function debounce(fn, ms) { let timer; return function() { clearTimeout(timer); timer = setTimeout(() => fn.apply(this, arguments), ms); }; }
+function isMobileDevice() { return window.innerWidth <= 768 || ('ontouchstart' in window && navigator.maxTouchPoints > 0); }
+function isLowEndDevice() { return navigator.deviceMemory && navigator.deviceMemory <= 2; }
+function shouldReduceEffects() { return isMobileDevice() || isLowEndDevice() || window.matchMedia('(prefers-reduced-motion: reduce)').matches; }
+function getParticleCount() { return 0; }
+function createMobileObserver(callback, options) { return new IntersectionObserver(callback, Object.assign({ threshold: 0.05, rootMargin: '0px 0px -10px' }, options)); }
+
+// === Animations ===
 // Init
-function init() {
-   initAnimatedBackground();
-   initScrollTextEffects();
-   initButtonRipple();
 
    // Chỉ kích hoạt chuyển động khi khối landing sắp đi vào vùng nhìn thấy.
    const revealLandingSections = () => {
      const targets = document.querySelectorAll('.landing-reveal');
-     if (!('IntersectionObserver' in window)) {
-       targets.forEach((target) => target.classList.add('is-visible'));
-       return;
-     }
-     const observer = new IntersectionObserver((entries, currentObserver) => {
-       entries.forEach((entry) => {
-         if (!entry.isIntersecting) return;
-         entry.target.classList.add('is-visible');
-         currentObserver.unobserve(entry.target);
-       });
-     }, { threshold: 0.12, rootMargin: '0px 0px -32px' });
-     targets.forEach((target) => observer.observe(target));
+     if (!('IntersectionObserver' in window)) { targets.forEach(t => t.classList.add('is-visible')); return; }
+     const opts = isMobileDevice() ? { threshold: 0.05, rootMargin: '0px 0px -20px' } : { threshold: 0.12, rootMargin: '0px 0px -32px' };
+     const observer = new IntersectionObserver((entries) => { entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('is-visible'); observer.unobserve(e.target); } }); }, opts);
+     targets.forEach(t => observer.observe(t));
    };
    revealLandingSections();
 
@@ -473,6 +462,25 @@ function init() {
   document.addEventListener('mousemove', function(e) { if (!isDragging) return; translateX=e.clientX-startX; translateY=e.clientY-startY; applyTransform(); });
   document.addEventListener('mouseup', function() { isDragging=false; document.getElementById('modalImage').style.cursor='grab'; });
   document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeImageModal(); });
+
+  // Mobile: throttle touchmove for image modal
+  if (isMobileDevice()) {
+    document.addEventListener('touchmove', throttle(function(e) { if (!isDragging) return; translateX=e.touches[0].clientX-startX; translateY=e.touches[0].clientY-startY; applyTransform(); }, 16), { passive: true });
+  }
+
+  // Debounced resize for layout shifts
+  window.addEventListener('resize', debounce(function() {
+    if (document.getElementById('detail-layout') && !document.getElementById('detail-layout').classList.contains('hidden-layout')) {
+      attachTOCScroll();
+    }
+  }, 150));
+
+  // Stop animations when page is hidden to save CPU/battery
+  document.addEventListener('visibilitychange', function() {
+    if (document.hidden) {
+      // Animation frames are already managed by rAF loops
+    }
+  });
 
   // Popstate
   window.addEventListener('popstate', function(event) {

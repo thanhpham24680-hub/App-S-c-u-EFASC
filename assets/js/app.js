@@ -328,18 +328,14 @@ function createParticles() {
   window.addEventListener('pagehide', () => window.cancelAnimationFrame(animationFrame), { once: true });
 }
 
-// Reveal text and content icons only when they enter the viewport.
-function initScrollTextEffects(scope = document) {
-  const textTargets = scope.querySelectorAll('.about-container h1, .about-container h2, .about-container h3, .about-container p, .about-container li, .detail-content h1, .detail-content h2, .detail-content h3, .detail-content p, .detail-content li, .continue-section h3');
-  const iconTargets = scope.querySelectorAll('.detail-content .infobox .icon, .detail-content .flow-step .dot, .detail-content .class-card .dot, .detail-content .accordion-header > span > i');
-  const iconSet = new Set(iconTargets);
-  const targets = [...textTargets, ...iconTargets].filter((element) => !element.classList.contains('scroll-text-reveal') && !element.classList.contains('scroll-icon-reveal'));
+// Scroll reveal for about page sections
+function initAboutScrollReveal() {
+  const targets = document.querySelectorAll('.about-animate');
   if (!targets.length) return;
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const show = (element) => element.classList.add('is-visible');
-  targets.forEach((element) => element.classList.add(iconSet.has(element) ? 'scroll-icon-reveal' : 'scroll-text-reveal'));
   if (reduceMotion || !('IntersectionObserver' in window)) { targets.forEach(show); return; }
-  const opts = isMobileDevice() ? { threshold: 0.05, rootMargin: '0px 0px -10px' } : { threshold: .12, rootMargin: '0px 0px -24px' };
+  const opts = isMobileDevice() ? { threshold: 0.05, rootMargin: '0px 0px -10px' } : { threshold: 0.12, rootMargin: '0px 0px -32px' };
   const observer = new IntersectionObserver((entries, currentObserver) => {
     entries.forEach((entry) => {
       if (!entry.isIntersecting) return;
@@ -435,10 +431,11 @@ function init() {
      const observer = new IntersectionObserver((entries) => { entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('is-visible'); observer.unobserve(e.target); } }); }, opts);
      targets.forEach(t => observer.observe(t));
    };
-   revealLandingSections();
+revealLandingSections();
 
-   initDetailScrollReveal();
-   initContentLineAnimations();
+    initAboutScrollReveal();
+    initDetailScrollReveal();
+    initContentLineAnimations();
 
   // Sidebar
   document.getElementById('openSidebarBtn')?.addEventListener('click', openSidebar);

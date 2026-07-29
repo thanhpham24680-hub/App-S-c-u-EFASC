@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body class="bg-pattern">
-  <!-- Nền động nhẹ, chỉ trang trí và không chặn thao tác. -->
   <div class="animated-background ambient-background" aria-hidden="true">
     <div class="ambient-blobs">
       <span class="ambient-orb orb-one"></span>
@@ -19,6 +18,9 @@
       <span class="ambient-orb orb-four"></span>
       <span class="ambient-orb orb-five"></span>
       <span class="ambient-orb orb-six"></span>
+      <span class="ambient-depth depth-one"></span>
+      <span class="ambient-depth depth-two"></span>
+      <span class="ambient-depth depth-three"></span>
     </div>
     <canvas class="particle-layer"></canvas>
     <span class="ambient-noise"></span>
@@ -51,122 +53,178 @@
         <p class="subtitle">Trung tâm Phổ cập Kỹ năng Sơ cấp cứu – ĐHYD TP.HCM</p>
         <hr class="divider" />
 
-        <div class="video-wrapper">
+        <div class="video-wrapper about-animate">
           <iframe src="https://www.youtube.com/embed/JUMOmRPz1K0?si=laekMEzugIvBq1fZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
         </div>
 
-        <h2>I. Toàn cảnh về Trung tâm EFASC</h2>
-        <h3>1. Nguồn gốc và Sứ mệnh</h3>
-        <div class="highlight-box"><p><strong>🏆 Khởi nguồn:</strong> EFASC vươn mình mạnh mẽ từ dự án đạt ngôi vị <strong>Quán quân cuộc thi Sinh Viên thế hệ mới toàn quốc 2023</strong>.</p></div>
-        <div class="highlight-box green"><p><strong>🎯 Sứ mệnh:</strong> Trung tâm mang trên mình sứ mệnh phụng sự và trao quyền cho cộng đồng để tự bảo vệ sức khỏe bản thân.</p></div>
-        <div class="highlight-box purple"><p><strong>🌱 Biểu tượng:</strong> Chữ <strong>V</strong> được cách điệu như mầm cây vươn lên, tượng trưng cho sự hồi sinh từ bờ vực nguy hiểm.</p></div>
-        <div class="highlight-box orange"><p><strong>🚀 Tầm nhìn:</strong> Trở thành ngọn cờ đầu của sinh viên trong lĩnh vực phổ cập sơ cấp cứu, hướng tới mục tiêu <strong>"vì một Việt Nam khỏe mạnh và an toàn"</strong>.</p></div>
-
-        <h3>2. Cơ cấu tổ chức (Các Ban chức năng)</h3>
-        <p>Để hiện thực hóa mục tiêu, trung tâm vận hành với bộ máy gồm 6 ban chủ chốt:</p>
-        <ul>
-          <li><strong>Ban Cố vấn:</strong> Gồm các thầy cô giàu kinh nghiệm, tâm huyết và uy tín tại Đại học Y Dược Thành phố Hồ Chí Minh.</li>
-          <li><strong>Ban Điều hành:</strong> Đảm nhận vai trò quản lý tổng thể, lập kế hoạch, điều phối nguồn lực.</li>
-          <li><strong>Ban Chuyên môn:</strong> Nơi hội tụ tri thức, liên tục cập nhật thông tin y khoa hiện đại.</li>
-          <li><strong>Ban Hoạt động:</strong> Biến kiến thức chuyên môn thành hành động thực tiễn thông qua các buổi thực hành, tập huấn sáng tạo.</li>
-          <li><strong>Ban Truyền thông:</strong> Đóng vai trò cầu nối, quảng bá hình ảnh, lan tỏa thông điệp.</li>
-          <li><strong>Ban Đối ngoại:</strong> Xây dựng mạng lưới đối tác vững mạnh, mở rộng tầm ảnh hưởng của Trung tâm.</li>
-        </ul>
-
-        <h3>3. Những dấu ấn tiêu biểu</h3>
-        <ul>
-          <li>Cuộc thi <strong>First Aid First Action</strong> thu hút gần 1.000 sinh viên.</li>
-          <li>Chương trình <strong>Chủ động không chủ quan</strong> tại Đường sách, tiếp cận hàng trăm bạn trẻ.</li>
-          <li>Giảng dạy sơ cấp cứu cho hơn <strong>450 học sinh cấp 3</strong>.</li>
-        </ul>
-
-        <hr class="divider" />
-        <h2>📬 Liên hệ với Trung tâm</h2>
-        <div class="contact-card">
-          <a href="https://www.facebook.com/EFASCUMP" target="_blank" class="item facebook-item"><i class="fab fa-facebook"></i><div class="info"><span class="label">Facebook</span><span class="value">EFASCUMP</span></div></a>
-          <a href="mailto:vuc.faump@ump.edu.vn" class="item email-item"><i class="fas fa-envelope"></i><div class="info"><span class="label">Email 1</span><span class="value">vuc.faump@ump.edu.vn</span></div></a>
-          <a href="mailto:bandieuhanh2604@gmail.com" class="item email-item"><i class="fas fa-envelope"></i><div class="info"><span class="label">Email 2</span><span class="value">bandieuhanh2604@gmail.com</span></div></a>
+        <div class="intro-section-card about-animate">
+          <div class="card-header"><div class="card-icon" style="background:var(--color-red-bg);color:var(--color-red);"><i class="fas fa-flag"></i></div><div class="card-title">I. Toàn cảnh về Trung tâm EFASC</div></div>
+          <div class="goal-grid">
+            <div class="goal-card"><div class="goal-icon" style="background:var(--color-red-bg);color:var(--color-red);"><i class="fas fa-trophy"></i></div><div class="goal-content"><h4>Nguồn gốc</h4><p>EFASC vươn mình từ dự án đạt ngôi vị <strong>Quán quân cuộc thi Sinh Viên thế hệ mới toàn quốc 2023</strong>.</p></div></div>
+            <div class="goal-card"><div class="goal-icon" style="background:var(--color-green-bg);color:var(--color-green);"><i class="fas fa-bullseye"></i></div><div class="goal-content"><h4>Sứ mệnh</h4><p>Trung tâm mang trên mình sứ mệnh phụng sự và trao quyền cho cộng đồng để tự bảo vệ sức khỏe bản thân.</p></div></div>
+            <div class="goal-card"><div class="goal-icon" style="background:var(--color-purple-bg);color:var(--color-purple);"><i class="fas fa-seedling"></i></div><div class="goal-content"><h4>Biểu tượng</h4><p>Chữ <strong>V</strong> được cách điệu như mầm cây vươn lên, tượng trưng cho sự hồi sinh từ bờ vực nguy hiểm.</p></div></div>
+            <div class="goal-card"><div class="goal-icon" style="background:var(--color-orange-bg);color:var(--color-orange);"><i class="fas fa-rocket"></i></div><div class="goal-content"><h4>Tầm nhìn</h4><p>Trở thành ngọn cờ đầu của sinh viên trong lĩnh vực phổ cập sơ cấp cứu, hướng tới mục tiêu <strong>"vì một Việt Nam khỏe mạnh và an toàn"</strong>.</p></div></div>
+          </div>
         </div>
-        <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">
-          <i class="fas fa-heart" style="color:var(--color-red);"></i> Hãy kết nối với chúng tôi để cùng chung tay xây dựng cộng đồng an toàn!
-        </p>
+
+        <div class="intro-section-card about-animate">
+          <div class="card-header"><div class="card-icon" style="background:var(--color-cyan-bg);color:var(--color-cyan);"><i class="fas fa-sitemap"></i></div><div class="card-title">Cơ cấu tổ chức (Các Ban chức năng)</div></div>
+          <p>Để hiện thực hóa mục tiêu, trung tâm vận hành với bộ máy gồm 6 ban chủ chốt:</p>
+          <ul class="icon-list">
+            <li><i class="fas fa-user-tie"></i> <strong>Ban Cố vấn:</strong> Gồm các thầy cô giàu kinh nghiệm, tâm huyết và uy tín tại Đại học Y Dược Thành phố Hồ Chí Minh.</li>
+            <li><i class="fas fa-cogs"></i> <strong>Ban Điều hành:</strong> Đảm nhận vai trò quản lý tổng thể, lập kế hoạch, điều phối nguồn lực.</li>
+            <li><i class="fas fa-flask"></i> <strong>Ban Chuyên môn:</strong> Nơi hội tụ tri thức, liên tục cập nhật thông tin y khoa hiện đại.</li>
+            <li><i class="fas fa-hands-helping"></i> <strong>Ban Hoạt động:</strong> Biến kiến thức chuyên môn thành hành động thực tiễn thông qua các buổi thực hành, tập huấn sáng tạo.</li>
+            <li><i class="fas fa-bullhorn"></i> <strong>Ban Truyền thông:</strong> Đóng vai trò cầu nối, quảng bá hình ảnh, lan tỏa thông điệp.</li>
+            <li><i class="fas fa-handshake"></i> <strong>Ban Đối ngoại:</strong> Xây dựng mạng lưới đối tác vững mạnh, mở rộng tầm ảnh hưởng của Trung tâm.</li>
+          </ul>
+        </div>
+
+        <div class="intro-section-card about-animate">
+          <div class="card-header"><div class="card-icon" style="background:var(--color-amber-bg);color:var(--color-amber);"><i class="fas fa-medal"></i></div><div class="card-title">Những dấu ấn tiêu biểu</div></div>
+          <div class="step-list">
+            <div class="step-item"><span class="step-num">1</span><span><strong>Cuộc thi First Aid First Action</strong> — thu hút gần 1.000 sinh viên.</span></div>
+            <div class="step-item"><span class="step-num">2</span><span><strong>Chủ động không chủ quan</strong> — chương trình tại Đường sách, tiếp cận hàng trăm bạn trẻ.</span></div>
+            <div class="step-item"><span class="step-num">3</span><span><strong>Giảng dạy sơ cấp cứu cho hơn 450 học sinh cấp 3</strong> — phổ cập kiến thức từ sớm.</span></div>
+          </div>
+        </div>
 
         <hr class="divider" />
 
-        <h2>🌐 Giới thiệu Website</h2>
-        <div class="web-intro">
-          <h3>Chào mừng đến với Website Học tập và Phổ cập Kiến thức Sơ cấp cứu</h3>
-          <p>Chào mừng bạn đến với Website Học tập và Phổ cập Kiến thức Sơ cấp cứu – một dự án được xây dựng với mong muốn mang đến nguồn tài liệu học tập trực quan, dễ tiếp cận và miễn phí dành cho sinh viên, nhân viên y tế cũng như tất cả những ai quan tâm đến kỹ năng sơ cấp cứu.</p>
-          <p>Website được phát triển nhằm hệ thống hóa kiến thức theo từng chủ đề, giúp người học có thể tiếp cận, ôn tập và ghi nhớ một cách khoa học thông qua nội dung tóm tắt, hình ảnh minh họa, infographic, video hướng dẫn và nhiều công cụ hỗ trợ học tập khác.</p>
-          <p>Chúng tôi tin rằng, mỗi người đều nên được trang bị những kiến thức sơ cấp cứu cơ bản. Một hành động đúng trong vài phút đầu tiên có thể giúp giảm biến chứng, bảo vệ tính mạng người bệnh và tạo nên sự khác biệt trong nhiều tình huống khẩn cấp.</p>
+        <div class="intro-section-card about-animate">
+          <div class="card-header"><div class="card-icon" style="background:var(--color-blue-bg);color:var(--color-blue);"><i class="fas fa-envelope"></i></div><div class="card-title">📬 Liên hệ với Trung tâm</div></div>
+          <div class="contact-card">
+            <a href="https://www.facebook.com/EFASCUMP" target="_blank" class="item facebook-item"><i class="fab fa-facebook"></i><div class="info"><span class="label">Facebook</span><span class="value">EFASCUMP</span></div></a>
+            <a href="mailto:vuc.faump@ump.edu.vn" class="item email-item"><i class="fas fa-envelope"></i><div class="info"><span class="label">Email 1</span><span class="value">vuc.faump@ump.edu.vn</span></div></a>
+            <a href="mailto:bandieuhanh2604@gmail.com" class="item email-item"><i class="fas fa-envelope"></i><div class="info"><span class="label">Email 2</span><span class="value">bandieuhanh2604@gmail.com</span></div></a>
+          </div>
+          <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;margin-top:16px;"><i class="fas fa-heart" style="color:var(--color-red);"></i> Hãy kết nối với chúng tôi để cùng chung tay xây dựng cộng đồng an toàn!</p>
+        </div>
 
-          <h3>Mục tiêu của Website</h3>
-          <ul>
-            <li>Phổ cập kiến thức sơ cấp cứu đến cộng đồng bằng hình thức trực quan, dễ hiểu và dễ ghi nhớ.</li>
-            <li>Hỗ trợ sinh viên y khoa, nhân viên y tế và người học trong quá trình ôn tập kiến thức.</li>
-            <li>Cập nhật các kiến thức dựa trên y văn và khuyến cáo chuyên môn mới nhất.</li>
-            <li>Góp phần lan tỏa văn hóa học sơ cấp cứu trong cộng đồng.</li>
-            <li>Xây dựng kho tài liệu học tập miễn phí, hiện đại và có giá trị lâu dài.</li>
-          </ul>
+        <hr class="divider" />
 
-          <h3>Nguồn tài liệu</h3>
-          <p>Nội dung trên website được biên soạn, tổng hợp và đối chiếu từ nhiều nguồn tài liệu có độ tin cậy cao, bao gồm:</p>
-          <ul>
-            <li>Khuyến cáo của International Federation of Red Cross and Red Crescent Societies (IFRC).</li>
-            <li>Các hướng dẫn của American Heart Association (AHA), European Resuscitation Council (ERC), International Liaison Committee on Resuscitation (ILCOR) và các tổ chức chuyên môn quốc tế liên quan.</li>
-            <li>Hướng dẫn của Bộ Y tế Việt Nam khi có nội dung phù hợp.</li>
-            <li>Giáo trình và tài liệu đào tạo của Trường Đại học Y Dược Thành phố Hồ Chí Minh.</li>
-            <li>Các bài báo khoa học và y văn được công bố trên các cơ sở dữ liệu uy tín như PubMed, Springer, Elsevier, Wiley, BMJ, JAMA, NEJM và các tạp chí khoa học chuyên ngành.</li>
-          </ul>
-          <p>Trong quá trình biên soạn, nhóm phát triển luôn ưu tiên sử dụng những tài liệu có giá trị khoa học, được cập nhật và có mức độ bằng chứng cao nhằm đảm bảo tính chính xác của nội dung.</p>
+        <div class="about-hero about-animate">
+          <div class="about-hero-icon"><i class="fas fa-globe"></i></div>
+          <h3>Giới thiệu Website</h3>
+          <p>Chào mừng bạn đến với Website Học tập và Phổ cập Kiến thức Sơ cấp cứu — một dự án được xây dựng để mang đến nguồn tài liệu học tập trực quan, dễ tiếp cận và miễn phí dành cho sinh viên, nhân viên y tế cũng như tất cả những ai quan tâm đến kỹ năng sơ cấp cứu.</p>
+        </div>
 
-          <h3>Tác giả</h3>
-          <p>Website được thiết kế và phát triển bởi:</p>
-          <p><strong>Phạm Duy Thanh</strong></p>
-          <ul>
-            <li>Sinh viên ngành Bác sĩ Y học Dự phòng.</li>
-            <li>Đại học Y Dược Thành phố Hồ Chí Minh.</li>
-            <li>Phó trưởng Ban Điều hành Trung tâm Phổ cập Kỹ năng Sơ cấp cứu Đại học Y Dược Thành phố Hồ Chí Minh nhiệm kỳ 2024 - 2025</li>
-            <li>Trưởng Ban Điều hành Trung tâm Phổ cập Kỹ năng Sơ cấp cứu Đại học Y Dược Thành phố Hồ Chí Minh nhiệm kỳ 2025 - 2026</li>
-            <li>Trưởng Ban Đối ngoại Trung tâm Phổ cập Kỹ năng Sơ cấp cứu Đại học Y Dược Thành phố Hồ Chí Minh nhiệm kỳ 2026 - 2027</li>
-          </ul>
+        <div class="intro-section-card about-animate">
+          <div class="card-header"><div class="card-icon" style="background:var(--color-green-bg);color:var(--color-green);"><i class="fas fa-bullseye"></i></div><div class="card-title">Mục tiêu của Website</div></div>
+          <div class="goal-grid">
+            <div class="goal-card"><div class="goal-icon" style="background:var(--color-blue-bg);color:var(--color-blue);"><i class="fas fa-eye"></i></div><div class="goal-content"><h4>Phổ cập kiến thức</h4><p>Đến cộng đồng bằng hình thức trực quan, dễ hiểu và dễ ghi nhớ.</p></div></div>
+            <div class="goal-card"><div class="goal-icon" style="background:var(--color-cyan-bg);color:var(--color-cyan);"><i class="fas fa-graduation-cap"></i></div><div class="goal-content"><h4>Hỗ trợ người học</h4><p>Hỗ trợ sinh viên y khoa, nhân viên y tế và người học trong quá trình ôn tập kiến thức.</p></div></div>
+            <div class="goal-card"><div class="goal-icon" style="background:var(--color-amber-bg);color:var(--color-amber);"><i class="fas fa-book-medical"></i></div><div class="goal-content"><h4>Cập nhật y khoa</h4><p>Cập nhật các kiến thức dựa trên y văn và khuyến cáo chuyên môn mới nhất.</p></div></div>
+            <div class="goal-card"><div class="goal-icon" style="background:var(--color-purple-bg);color:var(--color-purple);"><i class="fas fa-people-group"></i></div><div class="goal-content"><h4>Văn hóa sơ cấp cứu</h4><p>Góp phần lan tỏa văn hóa học sơ cấp cứu trong cộng đồng.</p></div></div>
+            <div class="goal-card"><div class="goal-icon" style="background:var(--color-red-bg);color:var(--color-red);"><i class="fas fa-university"></i></div><div class="goal-content"><h4>Kho tài liệu miễn phí</h4><p>Xây dựng kho tài liệu học tập miễn phí, hiện đại và có giá trị lâu dài.</p></div></div>
+          </div>
+        </div>
 
-          <h3>Cam kết chất lượng</h3>
-          <ul>
-            <li>Đối chiếu nội dung từ các nguồn y văn và hướng dẫn chuyên môn uy tín.</li>
-            <li>Không sử dụng hoặc phổ biến các phương pháp sơ cấp cứu đã lỗi thời hoặc thiếu bằng chứng khoa học.</li>
-            <li>Thường xuyên rà soát và cập nhật nội dung khi có khuyến cáo hoặc hướng dẫn mới.</li>
-            <li>Tiếp thu ý kiến đóng góp từ chuyên gia, giảng viên, nhân viên y tế và người dùng để hoàn thiện website.</li>
-            <li>Không ngừng cải thiện giao diện, trải nghiệm người dùng và chất lượng tài liệu nhằm phục vụ tốt hơn cho việc học tập và phổ cập kiến thức.</li>
-          </ul>
+        <div class="intro-section-card about-animate">
+          <div class="card-header"><div class="card-icon" style="background:var(--color-amber-bg);color:var(--color-amber);"><i class="fas fa-book-open"></i></div><div class="card-title">Nguồn tài liệu</div></div>
+          <div class="source-list">
+            <div class="source-item"><i class="fas fa-globe"></i><span><strong>IFRC</strong> — International Federation of Red Cross and Red Crescent Societies</span></div>
+            <div class="source-item"><i class="fas fa-heartbeat"></i><span><strong>AHA, ERC, ILCOR</strong> — Các hướng dẫn quốc tế về hồi sức và cấp cứu</span></div>
+            <div class="source-item"><i class="fas fa-hospital"></i><span><strong>Bộ Y tế Việt Nam</strong> — Khi có nội dung phù hợp</span></div>
+            <div class="source-item"><i class="fas fa-graduation-cap"></i><span><strong>ĐHYD TP.HCM</strong> — Giáo trình và tài liệu đào tạo</span></div>
+            <div class="source-item"><i class="fas fa-file-medical"></i><span><strong>Cơ sở dữ liệu quốc tế:</strong> PubMed, Springer, Elsevier, Wiley, BMJ, JAMA, NEJM và các tạp chí khoa học chuyên ngành</span></div>
+          </div>
+          <p style="margin-top:12px;">Trong quá trình biên soạn, nhóm phát triển luôn ưu tiên sử dụng những tài liệu có giá trị khoa học, được cập nhật và có mức độ bằng chứng cao nhằm đảm bảo tính chính xác của nội dung.</p>
+        </div>
 
-          <h3>Góp ý và đóng góp</h3>
+        <div class="intro-section-card about-animate">
+          <div class="card-header"><div class="card-icon" style="background:var(--color-pink-bg);color:var(--color-pink);"><i class="fas fa-user-pen"></i></div><div class="card-title">Tác giả</div></div>
+          <div class="profile-card">
+            <div class="profile-avatar"><i class="fas fa-user"></i></div>
+            <div class="profile-name">Phạm Duy Thanh</div>
+            <div class="profile-role">Bác sĩ Y học Dự phòng</div>
+            <div class="profile-unit">Đại học Y Dược Thành phố Hồ Chí Minh</div>
+            <div class="profile-timeline">
+              <div class="profile-timeline-item"><div class="profile-timeline-dot"></div><div class="profile-timeline-content"><strong>2024 – 2025</strong><span>Phó trưởng Ban Điều hành Trung tâm Phổ cập Kỹ năng Sơ cấp cứu Đại học Y Dược Thành phố Hồ Chí Minh</span></div></div>
+              <div class="profile-timeline-item"><div class="profile-timeline-dot"></div><div class="profile-timeline-content"><strong>2025 – 2026</strong><span>Trưởng Ban Điều hành Trung tâm Phổ cập Kỹ năng Sơ cấp cứu Đại học Y Dược Thành phố Hồ Chí Minh</span></div></div>
+              <div class="profile-timeline-item"><div class="profile-timeline-dot"></div><div class="profile-timeline-content"><strong>2026 – 2027</strong><span>Trưởng Ban Đối ngoại Trung tâm Phổ cập Kỹ năng Sơ cấp cứu Đại học Y Dược Thành phố Hồ Chí Minh</span></div></div>
+            </div>
+            <div class="profile-badges">
+              <span class="profile-badge">Sinh viên</span>
+              <span class="profile-badge">EFASC</span>
+              <span class="profile-badge">Y học dự phòng</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="intro-section-card about-animate">
+          <div class="card-header"><div class="card-icon" style="background:var(--color-green-bg);color:var(--color-green);"><i class="fas fa-shield-halved"></i></div><div class="card-title">Cam kết chất lượng</div></div>
+          <div class="quality-grid">
+            <div class="quality-card"><div class="qc-icon check"><i class="fas fa-check"></i></div><span>Đối chiếu nội dung từ các nguồn y văn và hướng dẫn chuyên môn uy tín</span></div>
+            <div class="quality-card"><div class="qc-icon check"><i class="fas fa-check"></i></div><span>Không sử dụng hoặc phổ biến các phương pháp sơ cấp cứu đã lỗi thời hoặc thiếu bằng chứng khoa học</span></div>
+            <div class="quality-card"><div class="qc-icon star"><i class="fas fa-sync-alt"></i></div><span>Thường xuyên rà soát và cập nhật nội dung khi có khuyến cáo hoặc hướng dẫn mới</span></div>
+            <div class="quality-card"><div class="qc-icon star"><i class="fas fa-comments"></i></div><span>Tiếp thu ý kiến đóng góp từ chuyên gia, giảng viên, nhân viên y tế và người dùng</span></div>
+            <div class="quality-card"><div class="qc-icon shield"><i class="fas fa-globe"></i></div><span>Không ngừng cải thiện giao diện, trải nghiệm người dùng và chất lượng tài liệu</span></div>
+            <div class="quality-card"><div class="qc-icon heart"><i class="fas fa-heart"></i></div><span>Phục vụ tốt hơn cho việc học tập và phổ cập kiến thức</span></div>
+          </div>
+        </div>
+
+        <div class="feedback-cta about-animate">
+          <h3>🙏 Góp ý và đóng góp</h3>
           <p>Mặc dù đã dành nhiều thời gian nghiên cứu, tổng hợp và kiểm chứng thông tin, website vẫn có thể còn tồn tại những thiếu sót, sai sót hoặc một số nội dung chưa được cập nhật kịp thời theo các khuyến cáo mới.</p>
           <p>Chúng tôi luôn trân trọng và sẵn sàng tiếp nhận mọi ý kiến đóng góp từ quý thầy cô, bác sĩ, nhân viên y tế, sinh viên và cộng đồng.</p>
           <p>Nếu bạn phát hiện nội dung chưa chính xác, cần bổ sung, có góp ý về hình ảnh, giao diện hoặc trải nghiệm sử dụng, rất mong bạn liên hệ để chúng tôi xem xét và chỉnh sửa trong thời gian sớm nhất.</p>
           <p>Mỗi ý kiến đóng góp đều góp phần giúp website ngày càng hoàn thiện hơn, mang đến nguồn tài liệu chất lượng và hữu ích hơn cho cộng đồng.</p>
           <p>Xin chân thành cảm ơn sự đồng hành và những góp ý quý báu của tất cả mọi người.</p>
+          <button class="btn-primary" onclick="window.open('https://www.facebook.com/EFASCUMP','_blank')"><i class="fab fa-facebook"></i> Gửi góp ý</button>
+        </div>
 
-          <h3>Tuyên bố về video và bản quyền</h3>
-          <p>Website hiện có sử dụng một số video minh họa được nhúng (embed) từ nền tảng YouTube nhằm hỗ trợ người học dễ dàng tiếp cận kiến thức.</p>
-          <p>Các video này thuộc quyền sở hữu của các đơn vị, tổ chức hoặc cá nhân đã công bố công khai trên YouTube, bao gồm nhưng không giới hạn: Sinh viên Việt Nam (SSVN), Bệnh viện Đại học Y Dược TP. Hồ Chí Minh, Wellbeing Việt Nam, 1Life, Báo Sức khỏe & Đời sống, VNVC, Bệnh viện Đa khoa Tâm Anh, Vinmec, Bệnh viện Hoàn Mỹ Sài Gòn, AloBacsi, cùng nhiều đơn vị, tổ chức và chuyên gia uy tín khác.</p>
-          <p>Các video không thuộc quyền sở hữu của tác giả hoặc Trung tâm Phổ cập Kỹ năng Sơ cấp cứu Trường Đại học Y Dược TP. Hồ Chí Minh.</p>
-          <p>Website không sao chép, chỉnh sửa, lưu trữ hay phát hành lại các video này trên máy chủ riêng mà chỉ sử dụng tính năng nhúng chính thức từ YouTube nhằm phục vụ mục đích học tập, tham khảo và phổ cập kiến thức cho cộng đồng.</p>
-          <p>Việc sử dụng các video hoàn toàn không nhằm mục đích thương mại, không nhằm xâm phạm quyền tác giả hoặc quyền sở hữu trí tuệ của các đơn vị sản xuất nội dung, mà nhằm giúp người học có thêm nguồn tài liệu trực quan trong quá trình học tập.</p>
-          <p>Nếu bất kỳ đơn vị hoặc chủ sở hữu nội dung nào không mong muốn video của mình xuất hiện trên website, vui lòng liên hệ với chúng tôi. Chúng tôi sẽ nhanh chóng xem xét, gỡ bỏ hoặc thay thế nội dung theo yêu cầu.</p>
-          <p>Trong thời gian tới, Trung tâm Phổ cập Kỹ năng Sơ cấp cứu Trường Đại học Y Dược TP. Hồ Chí Minh sẽ từng bước xây dựng hệ thống video đào tạo chính thức của Trung tâm để thay thế các video hiện có, nhằm bảo đảm tính thống nhất, chất lượng chuyên môn và phục vụ cộng đồng ngày càng tốt hơn.</p>
+        <div class="info-card about-animate">
+          <div class="info-left">
+            <h4>🎥 Video và Bản quyền</h4>
+            <p>Website hiện có sử dụng một số video minh họa được nhúng (embed) từ nền tảng YouTube nhằm hỗ trợ người học dễ dàng tiếp cận kiến thức.</p>
+            <p>Các video này thuộc quyền sở hữu của các đơn vị, tổ chức hoặc cá nhân đã công bố công khai trên YouTube, bao gồm nhưng không giới hạn: Sinh viên Việt Nam (SSVN), Bệnh viện Đại học Y Dược TP. Hồ Chí Minh, Wellbeing Việt Nam, 1Life, Báo Sức khỏe & Đời sống, VNVC, Bệnh viện Đa khoa Tâm Anh, Vinmec, Bệnh viện Hoàn Mỹ Sài Gòn, AloBacsi, cùng nhiều đơn vị, tổ chức và chuyên gia uy tín khác.</p>
+            <p>Các video không thuộc quyền sở hữu của tác giả hoặc Trung tâm Phổ cập Kỹ năng Sơ cấp cứu Trường Đại học Y Dược TP. Hồ Chí Minh.</p>
+            <p>Website không sao chép, chỉnh sửa, lưu trữ hay phát hành lại các video này trên máy chủ riêng mà chỉ sử dụng tính năng nhúng chính thức từ YouTube nhằm phục vụ mục đích học tập, tham khảo và phổ cập kiến thức cho cộng đồng.</p>
+            <p>Việc sử dụng các video hoàn toàn không nhằm mục đích thương mại, không nhằm xâm phạm quyền tác giả hoặc quyền sở hữu trí tuệ của các đơn vị sản xuất nội dung, mà nhằm giúp người học có thêm nguồn tài liệu trực quan trong quá trình học tập.</p>
+            <p>Nếu bất kỳ đơn vị hoặc chủ sở hữu nội dung nào không mong muốn video của mình xuất hiện trên website, vui lòng liên hệ với chúng tôi. Chúng tôi sẽ nhanh chóng xem xét, gỡ bỏ hoặc thay thế nội dung theo yêu cầu.</p>
+            <p>Trong thời gian tới, Trung tâm Phổ cập Kỹ năng Sơ cấp cứu Trường Đại học Y Dược TP. Hồ Chí Minh sẽ từng bước xây dựng hệ thống video đào tạo chính thức của Trung tâm để thay thế các video hiện có, nhằm bảo đảm tính thống nhất, chất lượng chuyên môn và phục vụ cộng đồng ngày càng tốt hơn.</p>
+          </div>
+          <div class="info-right">
+            <h4><i class="fas fa-building"></i> Các đơn vị sản xuất</h4>
+            <div class="unit-badges">
+              <span class="unit-badge">VNVC</span>
+              <span class="unit-badge">Vinmec</span>
+              <span class="unit-badge">Bệnh viện ĐHYD</span>
+              <span class="unit-badge">SSVN</span>
+              <span class="unit-badge">Wellbeing</span>
+              <span class="unit-badge">1Life</span>
+              <span class="unit-badge">AloBacsi</span>
+              <span class="unit-badge">Báo Sức khỏe & Đời sống</span>
+              <span class="unit-badge">Bệnh viện Đa khoa Tâm Anh</span>
+              <span class="unit-badge">Bệnh viện Hoàn Mỹ Sài Gòn</span>
+            </div>
+          </div>
+        </div>
 
-          <h3>Tuyên bố miễn trừ trách nhiệm</h3>
-          <p>Website được xây dựng với mục đích giáo dục, học tập, nghiên cứu và phổ cập kiến thức sơ cấp cứu.</p>
-          <p>Nội dung trên website không thay thế cho việc khám bệnh, chẩn đoán, tư vấn hoặc điều trị của bác sĩ và nhân viên y tế.</p>
-          <p>Trong các tình huống cấp cứu thực tế, người dân cần nhanh chóng liên hệ hệ thống cấp cứu hoặc cơ sở y tế gần nhất và chỉ thực hiện sơ cấp cứu trong phạm vi kiến thức, kỹ năng của mình cho đến khi có sự hỗ trợ của nhân viên y tế.</p>
-          <p>Mặc dù nhóm phát triển luôn cố gắng đảm bảo tính chính xác của nội dung, website không thể cam kết bao quát toàn bộ mọi tình huống lâm sàng và không chịu trách nhiệm đối với các hậu quả phát sinh do việc áp dụng thông tin không phù hợp với từng trường hợp cụ thể.</p>
+        <div class="warning-card about-animate">
+          <div class="warning-icon"><i class="fas fa-exclamation-triangle"></i></div>
+          <div class="warning-content">
+            <h4>⚠️ Tuyên bố miễn trừ trách nhiệm</h4>
+            <p>Website được xây dựng với mục đích giáo dục, học tập, nghiên cứu và phổ cập kiến thức sơ cấp cứu.</p>
+            <p>Nội dung trên website không thay thế cho việc khám bệnh, chẩn đoán, tư vấn hoặc điều trị của bác sĩ và nhân viên y tế.</p>
+            <p>Trong các tình huống cấp cứu thực tế, người dân cần nhanh chóng liên hệ hệ thống cấp cứu hoặc cơ sở y tế gần nhất và chỉ thực hiện sơ cấp cứu trong phạm vi kiến thức, kỹ năng của mình cho đến khi có sự hỗ trợ của nhân viên y tế.</p>
+            <p>Mặc dù nhóm phát triển luôn cố gắng đảm bảo tính chính xác của nội dung, website không thể cam kết bao quát toàn bộ mọi tình huống lâm sàng và không chịu trách nhiệm đối với các hậu quả phát sinh do việc áp dụng thông tin không phù hợp với từng trường hợp cụ thể.</p>
+          </div>
+        </div>
 
-          <h3>Phiên bản</h3>
-          <p><strong>Website Học tập và Phổ cập Kiến thức Sơ cấp cứu</strong></p>
-          <p>Phiên bản: <strong>v11.6</strong></p>
-          <p>© 2026 Phạm Duy Thanh.</p>
-          <p>Mọi quyền đối với nội dung do tác giả và Trung tâm Phổ cập Kỹ năng Sơ cấp cứu Đại học Y Dược TP. Hồ Chí Minh biên soạn được bảo lưu theo quy định của pháp luật. Việc trích dẫn, chia sẻ hoặc sử dụng lại nội dung được khuyến khích với mục đích học tập và phi thương mại, với điều kiện ghi rõ nguồn và tôn trọng quyền tác giả.</p>
+        <div class="version-section about-animate">
+          <div class="version-title">Website Học tập và Phổ cập Kiến thức Sơ cấp cứu</div>
+          <div class="version-number">v11.6</div>
+          <div class="version-copyright">© 2026 Phạm Duy Thanh.</div>
+          <div class="version-license">Mọi quyền đối với nội dung do tác giả và Trung tâm Phổ cập Kỹ năng Sơ cấp cứu Đại học Y Dược TP. Hồ Chí Minh biên soạn được bảo lưu theo quy định của pháp luật. Việc trích dẫn, chia sẻ hoặc sử dụng lại nội dung được khuyến khích với mục đích học tập và phi thương mại, với điều kiện ghi rõ nguồn và tôn trọng quyền tác giả.</div>
+        </div>
+
+        <div class="thank-you-section about-animate">
+          <div class="thank-you-icon">🙏</div>
+          <h3>Cảm ơn bạn đã đồng hành cùng Trung tâm Phổ cập Kỹ năng Sơ cấp cứu.</h3>
+          <p>Trang bị kiến thức hôm nay — Có thể cứu một mạng người ngày mai.</p>
+          <div class="tagline">Trang bị kiến thức hôm nay – Có thể cứu một mạng người ngày mai.</div>
         </div>
       </div>
     </div>
@@ -187,6 +245,7 @@
             <span class="phone">115</span>
             <span style="color:var(--text-secondary);">ngay lập tức.</span>
           </div>
+          <p class="text-xs" style="color:var(--text-muted);margin-top:12px;">Tài liệu tham khảo: AHA 2020-2025, Bộ Y tế Việt Nam, WHO.</p>
         </div>
       </div>
     </footer>

@@ -4,6 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>Cẩm nang Sơ cấp cứu cộng đồng | ĐHYD TP.HCM</title>
+  <link rel="preconnect" href="https://i.postimg.cc" />
+  <link rel="preconnect" href="https://postimg.cc" />
+  <link rel="dns-prefetch" href="https://i.postimg.cc" />
+  <link rel="dns-prefetch" href="https://postimg.cc" />
   <script src="https://cdn.tailwindcss.com">
   </script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
@@ -210,22 +214,22 @@
 
     /* ===== Floating cards on landing ===== */
     .stat-card, .feature-item, .cat-tag {
-      animation: floatCard 4s ease-in-out infinite;
+      animation: fadeInUp 0.6s ease forwards, floatCard 4s ease-in-out infinite;
     }
-    .stat-card:nth-child(1) { animation-delay: 0s; }
-    .stat-card:nth-child(2) { animation-delay: 0.6s; }
-    .stat-card:nth-child(3) { animation-delay: 1.2s; }
-    .stat-card:nth-child(4) { animation-delay: 1.8s; }
-    .feature-item:nth-child(1) { animation-delay: 0.2s; }
-    .feature-item:nth-child(2) { animation-delay: 0.8s; }
-    .feature-item:nth-child(3) { animation-delay: 1.4s; }
-    .feature-item:nth-child(4) { animation-delay: 2.0s; }
-    .cat-tag:nth-child(1) { animation-delay: 0.1s; }
-    .cat-tag:nth-child(2) { animation-delay: 0.4s; }
-    .cat-tag:nth-child(3) { animation-delay: 0.7s; }
-    .cat-tag:nth-child(4) { animation-delay: 1.0s; }
-    .cat-tag:nth-child(5) { animation-delay: 1.3s; }
-    .cat-tag:nth-child(6) { animation-delay: 1.6s; }
+    .stat-card:nth-child(1) { animation-delay: 0s, 0s; }
+    .stat-card:nth-child(2) { animation-delay: 0.1s, 0.6s; }
+    .stat-card:nth-child(3) { animation-delay: 0.2s, 1.2s; }
+    .stat-card:nth-child(4) { animation-delay: 0.3s, 1.8s; }
+    .feature-item:nth-child(1) { animation-delay: 0.4s, 0.2s; }
+    .feature-item:nth-child(2) { animation-delay: 0.5s, 0.8s; }
+    .feature-item:nth-child(3) { animation-delay: 0.6s, 1.4s; }
+    .feature-item:nth-child(4) { animation-delay: 0.7s, 2.0s; }
+    .cat-tag:nth-child(1) { animation-delay: 0.8s, 0.1s; }
+    .cat-tag:nth-child(2) { animation-delay: 0.9s, 0.4s; }
+    .cat-tag:nth-child(3) { animation-delay: 1.0s, 0.7s; }
+    .cat-tag:nth-child(4) { animation-delay: 1.1s, 1.0s; }
+    .cat-tag:nth-child(5) { animation-delay: 1.2s, 1.3s; }
+    .cat-tag:nth-child(6) { animation-delay: 1.3s, 1.6s; }
     @keyframes floatCard {
       0% { transform: translateY(0px); }
       50% { transform: translateY(-8px); }
@@ -1473,6 +1477,7 @@
 .hero-badge {
   background:linear-gradient(135deg, var(--bg-glass), rgba(255,255,255,0.9));
   box-shadow:0 4px 20px rgba(37,99,235,0.1);
+  animation:fadeInUp 0.6s ease forwards, float 3s ease-in-out infinite;
 }
 
 .btn-primary {
@@ -1553,6 +1558,42 @@
   background:linear-gradient(135deg, var(--accent-light), var(--bg-card));
 }
 
+.infobox {
+  box-shadow:var(--shadow-sm);
+  transition:all var(--transition);
+}
+.infobox:hover {
+  transform:translateX(4px);
+  box-shadow:var(--shadow-md);
+}
+.infobox.anim-scale-in {
+  animation:scaleIn 0.5s ease forwards;
+}
+
+.class-card {
+  background:linear-gradient(145deg, var(--bg-card), var(--bg-primary));
+  box-shadow:var(--shadow-sm);
+  transition:all var(--transition);
+}
+.class-card:hover {
+  transform:translateY(-3px);
+  box-shadow:var(--shadow-md);
+}
+
+.flow-step {
+  transition:all var(--transition);
+}
+.flow-step:hover .content {
+  transform:translateX(4px);
+}
+
+.detail-overview .stat-item {
+  transition:all var(--transition);
+}
+.detail-overview .stat-item:hover {
+  transform:translateY(-2px);
+}
+
 .search-wrap input {
   box-shadow:var(--shadow-sm), inset 0 1px 2px rgba(0,0,0,0.03);
 }
@@ -1612,11 +1653,11 @@
       background:var(--bg-primary);
     }
     .img-loading img {
-      transition:opacity 0.4s ease, filter 0.4s ease;
+      transition:opacity 0.6s ease, filter 0.6s ease;
     }
     .img-loading img[src=""] {
       opacity:0;
-      filter:blur(10px);
+      filter:blur(20px);
     }
     .img-loading img.loaded {
       opacity:1;
@@ -1624,8 +1665,8 @@
     }
     .img-loading::before {
       content:''; position:absolute; top:0; left:0; width:100%; height:100%;
-      background:linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
-      animation:shimmer 1.5s infinite;
+      background:linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+      animation:shimmer 1.2s infinite;
       z-index:1;
       pointer-events:none;
     }
@@ -1635,6 +1676,24 @@
     }
     .dark .img-loading::before {
       background:linear-gradient(90deg, transparent, rgba(255,255,255,0.05), transparent);
+    }
+
+    /* ===== PERFORMANCE: Content Visibility ===== */
+    .accordion-body {
+      content-visibility: auto;
+      contain-intrinsic-size: 0 500px;
+    }
+    .detail-layout-img {
+      content-visibility: auto;
+      contain: layout style paint;
+    }
+    .illustration-img {
+      content-visibility: auto;
+      contain-intrinsic-size: 800px 500px;
+    }
+    .section-divider {
+      content-visibility: auto;
+      contain-intrinsic-size: 0 4px;
     }
 
     /* ===== ENHANCED FLASHCARD ===== */
@@ -1817,6 +1876,113 @@
   0% { background-position:-200% 0; }
   100% { background-position:200% 0; }
 }
+@keyframes slideInLeft {
+  from { opacity:0; transform:translateX(-20px); }
+  to { opacity:1; transform:translateX(0); }
+}
+@keyframes slideInRight {
+  from { opacity:0; transform:translateX(20px); }
+  to { opacity:1; transform:translateX(0); }
+}
+@keyframes scaleIn {
+  from { opacity:0; transform:scale(0.95); }
+  to { opacity:1; transform:scale(1); }
+}
+@keyframes popIn {
+  0% { opacity:0; transform:scale(0.8); }
+  60% { opacity:1; transform:scale(1.03); }
+  100% { transform:scale(1); }
+}
+@keyframes scoreBounce {
+  0%, 100% { transform:scale(1); }
+  50% { transform:scale(1.15); }
+}
+@keyframes flipIn {
+  0% { opacity:0; transform:rotateY(-30deg) scale(0.95); }
+  100% { opacity:1; transform:rotateY(0) scale(1); }
+}
+@keyframes progressGlow {
+  0%, 100% { box-shadow:0 0 4px rgba(37,99,235,0.3); }
+  50% { box-shadow:0 0 12px rgba(37,99,235,0.6); }
+}
+
+/* ===== ICON ANIMATIONS ===== */
+@keyframes flicker {
+  0%, 100% { transform:scale(1) rotate(0deg); filter:brightness(1); }
+  25% { transform:scale(1.1) rotate(-2deg); filter:brightness(1.2); }
+  50% { transform:scale(0.95) rotate(1deg); filter:brightness(0.9); }
+  75% { transform:scale(1.05) rotate(-1deg); filter:brightness(1.1); }
+}
+@keyframes wiggle {
+  0%, 100% { transform:rotate(0deg); }
+  25% { transform:rotate(-8deg); }
+  75% { transform:rotate(8deg); }
+}
+@keyframes pulse-glow {
+  0%, 100% { transform:scale(1); filter:drop-shadow(0 0 2px currentColor); }
+  50% { transform:scale(1.15); filter:drop-shadow(0 0 8px currentColor); }
+}
+@keyframes float-y {
+  0%, 100% { transform:translateY(0); }
+  50% { transform:translateY(-6px); }
+}
+@keyframes spin-slow {
+  from { transform:rotate(0deg); }
+  to { transform:rotate(360deg); }
+}
+@keyframes wave {
+  0%, 100% { transform:translateY(0) rotate(0deg); }
+  50% { transform:translateY(-4px) rotate(5deg); }
+}
+@keyframes flash {
+  0%, 100% { opacity:1; }
+  50% { opacity:0.4; }
+}
+@keyframes drip {
+  0%, 100% { transform:translateY(0) scaleY(1); }
+  50% { transform:translateY(3px) scaleY(1.1); }
+}
+@keyframes steam {
+  0%, 100% { transform:translateY(0) scaleX(1); opacity:0.8; }
+  50% { transform:translateY(-4px) scaleX(1.1); opacity:1; }
+}
+@keyframes breathe {
+  0%, 100% { transform:scale(1); }
+  50% { transform:scale(1.08); }
+}
+@keyframes bounce-small {
+  0%, 100% { transform:translateY(0); }
+  50% { transform:translateY(-5px); }
+}
+@keyframes shake-subtle {
+  0%, 100% { transform:translateX(0); }
+  25% { transform:translateX(-3px); }
+  75% { transform:translateX(3px); }
+}
+
+.icon-fire { animation:flicker 0.8s ease-in-out infinite; display:inline-block; }
+.icon-heart, .icon-heartbeat { animation:pulse-glow 1.2s ease-in-out infinite; display:inline-block; }
+.icon-bone { animation:shake-subtle 2s ease-in-out infinite; display:inline-block; }
+.icon-bolt { animation:pulse-glow 1s ease-in-out infinite; display:inline-block; }
+.icon-brain { animation:float-y 3s ease-in-out infinite; display:inline-block; }
+.icon-snake { animation:wiggle 2.5s ease-in-out infinite; display:inline-block; }
+.icon-bug { animation:wave 1.5s ease-in-out infinite; display:inline-block; }
+.icon-snowflake { animation:spin-slow 4s linear infinite; display:inline-block; }
+.icon-sun { animation:spin-slow 6s linear infinite; display:inline-block; }
+.icon-sos, .icon-alert { animation:flash 1s ease-in-out infinite; display:inline-block; }
+.icon-thermometer { animation:pulse-glow 2s ease-in-out infinite; display:inline-block; }
+.icon-paw { animation:bounce-small 1.5s ease-in-out infinite; display:inline-block; }
+.icon-dog { animation:bounce-small 1.2s ease-in-out infinite; display:inline-block; }
+.icon-blood { animation:drip 2s ease-in-out infinite; display:inline-block; }
+.icon-bandage { animation:pulse-glow 2s ease-in-out infinite; display:inline-block; }
+.icon-food { animation:steam 2s ease-in-out infinite; display:inline-block; }
+.icon-lung { animation:breathe 3s ease-in-out infinite; display:inline-block; }
+.icon-warning { animation:pulse-glow 1.5s ease-in-out infinite; display:inline-block; }
+.icon-medical { animation:pulse-glow 2s ease-in-out infinite; display:inline-block; }
+.icon-electric { animation:flash 0.8s ease-in-out infinite; display:inline-block; }
+.icon-pulse { animation:pulse-glow 1.5s ease-in-out infinite; display:inline-block; }
+.icon-wave { animation:wave 1.5s ease-in-out infinite; display:inline-block; }
+
 .anim-fade-in-up { animation:fadeInUp 0.6s ease forwards; }
 .anim-fade-in-left { animation:fadeInLeft 0.6s ease forwards; }
 .anim-fade-in-right { animation:fadeInRight 0.6s ease forwards; }
@@ -1824,6 +1990,11 @@
 .anim-heartbeat { animation:heartbeat 1.5s ease-in-out infinite; }
 .anim-glow { animation:glow 2s ease-in-out infinite; }
 .anim-float { animation:float 3s ease-in-out infinite; }
+.anim-slide-in-left { animation:slideInLeft 0.5s ease forwards; }
+.anim-slide-in-right { animation:slideInRight 0.5s ease forwards; }
+.anim-scale-in { animation:scaleIn 0.5s ease forwards; }
+.anim-pop-in { animation:popIn 0.4s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+.anim-flip-in { animation:flipIn 0.6s ease forwards; }
 
 .stagger-1 { animation-delay:0.1s; }
 .stagger-2 { animation-delay:0.2s; }
@@ -1831,6 +2002,8 @@
 .stagger-4 { animation-delay:0.4s; }
 .stagger-5 { animation-delay:0.5s; }
 .stagger-6 { animation-delay:0.6s; }
+.stagger-7 { animation-delay:0.7s; }
+.stagger-8 { animation-delay:0.8s; }
 
 /* Ripple effect */
 .ripple {
@@ -2013,20 +2186,20 @@
           <div class="shape"></div>
         </div>
 
-        <div class="hero-badge anim-float">
+        <div class="hero-badge">
           <span class="logo-placeholder">
             <img src="https://i.postimg.cc/HL7rV6Sm/473696083-122233458776025387-106385360309955310-n.jpg" alt="Logo" />
           </span>
           <span>Trung tâm Phổ cập Kỹ năng Sơ cấp cứu – ĐHYD TP.HCM</span>
         </div>
-        <h1 class="hero-title">
+        <h1 class="hero-title anim-fade-in-up stagger-1">
           Sẵn sàng cứu người<br />
           <span class="highlight">trong từng khoảnh khắc</span>
         </h1>
-        <p class="hero-sub">Sơ cứu chuyên nghiệp - thông điệp tương lai</p>
+        <p class="hero-sub anim-fade-in-up stagger-2">Sơ cứu chuyên nghiệp - thông điệp tương lai</p>
 
         <!-- CTA buttons - all in one row -->
-        <div class="hero-cta">
+        <div class="hero-cta anim-fade-in-up stagger-3">
           <button class="btn-primary ripple" id="startLearningBtn"><i class="fas fa-graduation-cap"></i> Bắt đầu học</button>
           <button class="btn-secondary ripple" onclick="showRandomLesson()"><i class="fas fa-shuffle"></i> Bài ngẫu nhiên</button>
           <button class="btn-outline glass ripple" onclick="showAbout()">
@@ -2038,26 +2211,26 @@
         </div>
 
         <div class="stats-grid">
-          <div class="stat-card shimmer gradient-border anim-fade-in-up stagger-1 anim-float"><div class="number" style="color:var(--color-red);">25+</div><div class="label">Chủ đề</div></div>
-          <div class="stat-card shimmer gradient-border anim-fade-in-up stagger-2 anim-float"><div class="number" style="color:var(--color-blue);">6</div><div class="label">Bước quy trình</div></div>
-          <div class="stat-card shimmer gradient-border anim-fade-in-up stagger-3 anim-float"><div class="number" style="color:var(--color-green);">100%</div><div class="label">Miễn phí</div></div>
-          <div class="stat-card shimmer gradient-border anim-fade-in-up stagger-4 anim-float"><div class="number" style="color:var(--color-purple);">24/7</div><div class="label">Luôn sẵn sàng</div></div>
+          <div class="stat-card shimmer gradient-border"><div class="number" style="color:var(--color-red);">25+</div><div class="label">Chủ đề</div></div>
+          <div class="stat-card shimmer gradient-border"><div class="number" style="color:var(--color-blue);">6</div><div class="label">Bước quy trình</div></div>
+          <div class="stat-card shimmer gradient-border"><div class="number" style="color:var(--color-green);">100%</div><div class="label">Miễn phí</div></div>
+          <div class="stat-card shimmer gradient-border"><div class="number" style="color:var(--color-purple);">24/7</div><div class="label">Luôn sẵn sàng</div></div>
         </div>
 
         <div class="features-grid">
-          <div class="feature-item shimmer gradient-border anim-fade-in-up stagger-1"><div class="icon-wrap anim-heartbeat" style="background:var(--color-rose-bg);color:var(--color-rose);"><i class="fas fa-ambulance"></i></div><div class="info"><h4>Cấp cứu khẩn cấp</h4><p>Hướng dẫn từng bước</p></div></div>
-          <div class="feature-item shimmer gradient-border anim-fade-in-up stagger-2"><div class="icon-wrap anim-heartbeat" style="background:var(--color-cyan-bg);color:var(--color-cyan);"><i class="fas fa-heartbeat"></i></div><div class="info"><h4>Hồi sinh tim phổi</h4><p>CPR chuẩn AHA 2025</p></div></div>
-          <div class="feature-item shimmer gradient-border anim-fade-in-up stagger-3"><div class="icon-wrap anim-heartbeat" style="background:var(--color-amber-bg);color:var(--color-amber);"><i class="fas fa-bone"></i></div><div class="info"><h4>Chấn thương cơ xương</h4><p>Gãy xương, bong gân</p></div></div>
-          <div class="feature-item shimmer gradient-border anim-fade-in-up stagger-4"><div class="icon-wrap anim-heartbeat" style="background:var(--color-green-bg);color:var(--color-green);"><i class="fas fa-thermometer-half"></i></div><div class="info"><h4>Môi trường</h4><p>Say nắng, sốc nhiệt</p></div></div>
+          <div class="feature-item shimmer gradient-border"><div class="icon-wrap anim-heartbeat" style="background:var(--color-rose-bg);color:var(--color-rose);"><i class="fas fa-ambulance"></i></div><div class="info"><h4>Cấp cứu khẩn cấp</h4><p>Hướng dẫn từng bước</p></div></div>
+          <div class="feature-item shimmer gradient-border"><div class="icon-wrap anim-heartbeat" style="background:var(--color-cyan-bg);color:var(--color-cyan);"><i class="fas fa-heartbeat"></i></div><div class="info"><h4>Hồi sinh tim phổi</h4><p>CPR chuẩn AHA 2025</p></div></div>
+          <div class="feature-item shimmer gradient-border"><div class="icon-wrap anim-heartbeat" style="background:var(--color-amber-bg);color:var(--color-amber);"><i class="fas fa-bone"></i></div><div class="info"><h4>Chấn thương cơ xương</h4><p>Gãy xương, bong gân</p></div></div>
+          <div class="feature-item shimmer gradient-border"><div class="icon-wrap anim-heartbeat" style="background:var(--color-green-bg);color:var(--color-green);"><i class="fas fa-thermometer-half"></i></div><div class="info"><h4>Môi trường</h4><p>Say nắng, sốc nhiệt</p></div></div>
         </div>
 
         <div class="quick-categories">
-          <span class="cat-tag anim-fade-in-up stagger-1" onclick="filterByCategory('cấp cứu')"><i class="fas fa-bolt" style="color:var(--color-red);"></i> Cấp cứu</span>
-          <span class="cat-tag anim-fade-in-up stagger-2" onclick="filterByCategory('chấn thương')"><i class="fas fa-bone" style="color:var(--color-orange);"></i> Chấn thương</span>
-          <span class="cat-tag anim-fade-in-up stagger-3" onclick="filterByCategory('tim mạch')"><i class="fas fa-heart" style="color:var(--color-rose);"></i> Tim mạch</span>
-          <span class="cat-tag anim-fade-in-up stagger-4" onclick="filterByCategory('môi trường')"><i class="fas fa-cloud-sun" style="color:var(--color-amber);"></i> Môi trường</span>
-          <span class="cat-tag anim-fade-in-up stagger-5" onclick="filterByCategory('dị ứng')"><i class="fas fa-allergies" style="color:var(--color-purple);"></i> Dị ứng</span>
-          <span class="cat-tag anim-fade-in-up stagger-6" onclick="filterByCategory('động vật')"><i class="fas fa-paw" style="color:var(--color-brown);"></i> Động vật</span>
+          <span class="cat-tag" onclick="filterByCategory('cấp cứu')"><i class="fas fa-bolt" style="color:var(--color-red);"></i> Cấp cứu</span>
+          <span class="cat-tag" onclick="filterByCategory('chấn thương')"><i class="fas fa-bone" style="color:var(--color-orange);"></i> Chấn thương</span>
+          <span class="cat-tag" onclick="filterByCategory('tim mạch')"><i class="fas fa-heart" style="color:var(--color-rose);"></i> Tim mạch</span>
+          <span class="cat-tag" onclick="filterByCategory('môi trường')"><i class="fas fa-cloud-sun" style="color:var(--color-amber);"></i> Môi trường</span>
+          <span class="cat-tag" onclick="filterByCategory('dị ứng')"><i class="fas fa-allergies" style="color:var(--color-purple);"></i> Dị ứng</span>
+          <span class="cat-tag" onclick="filterByCategory('động vật')"><i class="fas fa-paw" style="color:var(--color-brown);"></i> Động vật</span>
         </div>
 
         <div class="continue-section no-print anim-fade-in-up stagger-2">
@@ -2068,21 +2241,21 @@
           <div class="continue-grid" id="continueGrid"></div>
         </div>
 
-        <div class="continue-section no-print" style="margin-top:12px;" anim-fade-in-up stagger-3">
+        <div class="continue-section no-print anim-fade-in-up stagger-3" style="margin-top:12px;">
           <div class="continue-header">
             <h3><i class="fas fa-history" style="color:var(--accent);margin-right:8px;"></i> Đã học gần đây</h3>
           </div>
           <div class="continue-grid" id="recentGrid"></div>
         </div>
 
-        <div class="continue-section no-print" style="margin-top:12px;" anim-fade-in-up stagger-4">
+        <div class="continue-section no-print anim-fade-in-up stagger-4" style="margin-top:12px;">
           <div class="continue-header">
             <h3><i class="fas fa-star" style="color:var(--color-amber);margin-right:8px;"></i> Yêu thích</h3>
           </div>
           <div class="continue-grid" id="bookmarkGrid"></div>
         </div>
 
-        <div class="continue-section no-print" style="margin-top:12px;" anim-fade-in-up stagger-5">
+        <div class="continue-section no-print anim-fade-in-up stagger-5" style="margin-top:12px;">
           <div class="continue-header">
             <h3><i class="fas fa-fire" style="color:var(--color-orange);margin-right:8px;"></i> Bài xem nhiều</h3>
           </div>
@@ -2201,13 +2374,13 @@
       <div style="position:relative;z-index:1;">
       <div class="category-filter-bar no-print" id="categoryFilterBar">
         <span class="filter-label"><i class="fas fa-tags"></i> Danh mục:</span>
-        <button class="filter-btn active" data-category="all">📋 Tất cả</button>
-        <button class="filter-btn" data-category="cấp cứu">🚨 Cấp cứu</button>
-        <button class="filter-btn" data-category="chấn thương">🦴 Chấn thương</button>
-        <button class="filter-btn" data-category="tim mạch">❤️ Tim mạch</button>
-        <button class="filter-btn" data-category="môi trường">🌤️ Môi trường</button>
-        <button class="filter-btn" data-category="dị ứng">🤧 Dị ứng</button>
-        <button class="filter-btn" data-category="động vật">🐾 Động vật</button>
+        <button class="filter-btn active" data-category="all"><span class="icon-fire" style="display:inline-block;">📋</span> Tất cả</button>
+        <button class="filter-btn" data-category="cấp cứu"><span class="icon-alert" style="display:inline-block;">🚨</span> Cấp cứu</button>
+        <button class="filter-btn" data-category="chấn thương"><span class="icon-bone" style="display:inline-block;">🦴</span> Chấn thương</button>
+        <button class="filter-btn" data-category="tim mạch"><span class="icon-heartbeat" style="display:inline-block;">❤️</span> Tim mạch</button>
+        <button class="filter-btn" data-category="môi trường"><span class="icon-sun" style="display:inline-block;">🌤️</span> Môi trường</button>
+        <button class="filter-btn" data-category="dị ứng"><span class="icon-pulse" style="display:inline-block;">🤧</span> Dị ứng</button>
+        <button class="filter-btn" data-category="động vật"><span class="icon-paw" style="display:inline-block;">🐾</span> Động vật</button>
       </div>
       <div class="lessons-grid-container" id="lessonsGridContainer"></div>
       </div>
@@ -2263,6 +2436,64 @@
   </div>
   <script>
     // ================================================================
+    // CẤU HÌNH TỐI ƯU ẢNH
+    // ================================================================
+    const IMAGE_OPTIMIZATION = {
+      enabled: false,
+      proxy: 'https://images.weserv.nl/?url=',
+      width: 1200,
+      format: 'webp',
+      quality: 80,
+      fallbackToOriginal: true
+    };
+
+    function getOptimizedImageUrl(url) {
+      if (!IMAGE_OPTIMIZATION.enabled || !url || !url.includes('i.postimg.cc')) return url;
+      try {
+        const encoded = encodeURIComponent(url);
+        return `${IMAGE_OPTIMIZATION.proxy}${encoded}&w=${IMAGE_OPTIMIZATION.width}&format=${IMAGE_OPTIMIZATION.format}&quality=${IMAGE_OPTIMIZATION.quality}`;
+      } catch (e) {
+        return IMAGE_OPTIMIZATION.fallbackToOriginal ? url : url;
+      }
+    }
+
+    function processImageUrls(html) {
+      return html.replace(/src="(https:\/\/i\.postimg\.cc\/[^"]+)"/g, (match, url) => {
+        return `src="${url}" data-original-src="${url}" fetchpriority="low" loading="lazy" decoding="async" onerror="this.onerror=null; this.style.display='none'; this.insertAdjacentHTML('afterend', '<div style=\\'padding:40px;text-align:center;color:var(--text-muted);background:var(--bg-secondary);border-radius:var(--radius-md);\\'>Không tải được ảnh</div>');"`;
+      });
+    }
+
+    // ================================================================
+    // ICON ANIMATION MAP
+    // ================================================================
+    const ICON_ANIM_MAP = {
+      '🔥': 'icon-fire',
+      '❤️': 'icon-heart', '🫀': 'icon-heart', '🫁': 'icon-lung',
+      '🦴': 'icon-bone',
+      '⚡': 'icon-electric',
+      '🧠': 'icon-brain',
+      '🐍': 'icon-snake',
+      '🐝': 'icon-bug',
+      '❄️': 'icon-snowflake',
+      '☀️': 'icon-sun',
+      '🆘': 'icon-sos', '🚨': 'icon-alert',
+      '⚠️': 'icon-warning',
+      '🌡️': 'icon-thermometer',
+      '🐾': 'icon-paw',
+      '🐕': 'icon-dog',
+      '🩸': 'icon-blood',
+      '🩹': 'icon-bandage',
+      '🍲': 'icon-food',
+      '🩺': 'icon-medical', '💉': 'icon-medical',
+      '🏊': 'icon-wave',
+      '🦵': 'icon-pulse', '🦾': 'icon-pulse', '🤧': 'icon-pulse',
+    };
+
+    function getIconAnimClass(emoji) {
+      return ICON_ANIM_MAP[emoji] || '';
+    }
+
+    // ================================================================
     // DỮ LIỆU 24 BÀI HỌC (ĐẦY ĐỦ)
     // ================================================================
     const lessons = [
@@ -2279,7 +2510,7 @@
           dauHieuChacChan: [
             "Nạn nhân bất tỉnh, không phản ứng",
             "Không thở hoặc thở bất thường",
-            "Chảy máu nhiều, bầm tím lan rộng"
+            "Không bắt được mạch"
           ],
           dauHieuNghiVan: [
             "Quy trình DRs. ABC là bộ công cụ giúp xác định nhanh và can thiệp kịp thời các tình trạng đe dọa tính mạng.",
@@ -3178,6 +3409,15 @@
         yellow: 'var(--color-orange-bg)' };
       return map[color] || 'var(--bg-primary)';
     }
+    function getPlaceholderColor(color) {
+      const map = { red: '#fee2e2', orange: '#fef3c7',
+        green: '#dcfce7', blue: '#dbeafe',
+        purple: '#ede9fe', pink: '#fce7f3',
+        teal: '#ccfbf1', indigo: '#e0e7ff',
+        gray: '#f3f4f6', brown: '#fef3c7',
+        yellow: '#fef3c7' };
+      return map[color] || '#f6f9fc';
+    }
     function getColorCode(color) {
       const map = { red: 'var(--color-red)', orange: 'var(--color-orange)',
         green: 'var(--color-green)', blue: 'var(--color-blue)',
@@ -3207,7 +3447,7 @@
       }
       container.innerHTML = `
         <div class="continue-item" onclick="showLessonDetail('${cont.id}')">
-          <span class="icon">${cont.icon}</span>
+          <span class="icon ${getIconAnimClass(cont.icon)}">${cont.icon}</span>
           <div class="info">
             <div class="title">${cont.title}</div>
             <div class="sub">${getProgressPercent(cont.id)}% hoàn thành · ${getReadingTime(cont)} phút đọc</div>
@@ -3229,7 +3469,7 @@
         if (!l) return '';
         return `
           <div class="continue-item" onclick="showLessonDetail('${l.id}')">
-            <span class="icon">${l.icon}</span>
+            <span class="icon ${getIconAnimClass(l.icon)}">${l.icon}</span>
             <div class="info">
               <div class="title">${l.title}</div>
               <div class="sub">${getProgressPercent(l.id)}% hoàn thành</div>
@@ -3252,7 +3492,7 @@
         if (!l) return '';
         return `
           <div class="continue-item" onclick="showLessonDetail('${l.id}')">
-            <span class="icon">${l.icon}</span>
+            <span class="icon ${getIconAnimClass(l.icon)}">${l.icon}</span>
             <div class="info">
               <div class="title">${l.title}</div>
               <div class="sub"><i class="fas fa-star" style="color:var(--color-amber);"></i> Yêu thích</div>
@@ -3270,7 +3510,7 @@
       const top = sorted.slice(0, 5);
       container.innerHTML = top.map(l => `
         <div class="continue-item" onclick="showLessonDetail('${l.id}')">
-          <span class="icon">${l.icon}</span>
+          <span class="icon ${getIconAnimClass(l.icon)}">${l.icon}</span>
           <div class="info">
             <div class="title">${l.title}</div>
             <div class="sub"><i class="fas fa-eye"></i> ${views[l.id] || 0} lượt xem</div>
@@ -3352,7 +3592,7 @@
         return `
           <div class="lesson-card anim-fade-in-up gradient-border ${staggerClass}" onclick="showLessonDetail('${l.id}')">
             <div class="card-header" style="background:${bg};">
-              <span class="icon">${l.icon}</span>
+              <span class="icon ${getIconAnimClass(l.icon)}">${l.icon}</span>
               <span class="title">${l.title}</span>
             </div>
             <div class="card-body">
@@ -3403,7 +3643,7 @@
       if (!container) return;
       container.innerHTML = lessons.map(l => `
         <div onclick="switchToLesson('${l.id}')" class="sidebar-item ${activeId === l.id ? 'active' : ''}">
-          <span class="icon">${l.icon}</span>
+          <span class="icon ${getIconAnimClass(l.icon)}">${l.icon}</span>
           <span class="label">${l.title}</span>
         </div>
       `).join('');
@@ -3426,10 +3666,11 @@
       const labelPhanLoai = customLabels.phanLoai || 'Phân loại';
       const labelQuyTrinh = customLabels.quyTrinh || 'Quy trình';
 
-      function accordionItem(title, content, icon, open = true) {
+      function accordionItem(title, content, icon, open = true, animClass = 'anim-slide-in-left') {
         if (!content) return '';
+        const delayClass = animClass.includes('stagger') ? '' : 'stagger-1';
         return `
-          <div class="accordion-item">
+          <div class="accordion-item ${animClass} ${delayClass}">
             <div class="accordion-header ${open ? 'open' : ''}" onclick="toggleAccordion(this)">
               <span><i class="fas ${icon}"></i> ${title}</span>
               <i class="fas fa-chevron-down"></i>
@@ -3448,19 +3689,19 @@
 
       let dauHieuContent = '';
       if (c.dauHieuChacChan?.length) {
-        dauHieuContent += `<div class="infobox important"><div class="icon">⚠️</div><div class="content"><strong>Dấu hiệu chắc chắn</strong><ul>${c.dauHieuChacChan.map(i=>`<li>${i}</li>`).join('')}</ul></div></div>`;
+        dauHieuContent += `<div class="infobox important anim-scale-in stagger-1"><div class="icon">⚠️</div><div class="content"><strong>Dấu hiệu chắc chắn</strong><ul>${c.dauHieuChacChan.map(i=>`<li>${i}</li>`).join('')}</ul></div></div>`;
       }
       if (c.dauHieuNghiVan?.length) {
-        dauHieuContent += `<div class="infobox warning"><div class="icon">🔍</div><div class="content"><strong>Dấu hiệu nghi vấn</strong><ul>${c.dauHieuNghiVan.map(i=>`<li>${i}</li>`).join('')}</ul></div></div>`;
+        dauHieuContent += `<div class="infobox warning anim-scale-in stagger-2"><div class="icon">🔍</div><div class="content"><strong>Dấu hiệu nghi vấn</strong><ul>${c.dauHieuNghiVan.map(i=>`<li>${i}</li>`).join('')}</ul></div></div>`;
       }
       if (!dauHieuContent) dauHieuContent = '<p style="color:var(--text-muted);">Không có dấu hiệu cụ thể.</p>';
 
       let phanLoaiContent = '';
       if (c.phanLoai?.length) {
-        phanLoaiContent = `<div class="class-grid">${c.phanLoai.map(p => {
+        phanLoaiContent = `<div class="class-grid">${c.phanLoai.map((p, idx) => {
           const pc = p.color || 'gray';
           const pcode = getColorCode(pc);
-          return `<div class="class-card" style="border-left:4px solid ${pcode};"><div class="class-header"><span class="dot" style="background:${pcode};"></span><h4>${p.ten}</h4></div><div class="class-desc">${p.moTa}</div></div>`;
+          return `<div class="class-card anim-scale-in stagger-${idx+1}" style="border-left:4px solid ${pcode};"><div class="class-header"><span class="dot" style="background:${pcode};"></span><h4>${p.ten}</h4></div><div class="class-desc">${p.moTa}</div></div>`;
         }).join('')}</div>`;
       } else {
         phanLoaiContent = '<p style="color:var(--text-muted);">Không có phân loại.</p>';
@@ -3473,13 +3714,13 @@
           if (step.toLowerCase().includes('115') || step.toLowerCase().includes('cấp cứu') || step.toLowerCase().includes('ngay')) cls = 'danger';
           else if (step.toLowerCase().includes('theo dõi') || step.toLowerCase().includes('kiểm tra')) cls = 'warning';
           let clean = step.replace(/^\d+\.\s*/, '');
-          return `<div class="flow-step ${cls}"><div class="line"><div class="dot">${idx+1}</div><div class="bar"></div></div><div class="content">${clean}</div></div>`;
+          return `<div class="flow-step ${cls} anim-fade-in-left stagger-${idx+1}"><div class="line"><div class="dot">${idx+1}</div><div class="bar"></div></div><div class="content">${clean}</div></div>`;
         }).join('')}</div>`;
       } else {
         quyTrinhContent = '<p style="color:var(--text-muted);">Chưa có quy trình.</p>';
       }
 
-      let luuYContent = c.luuY ? `<div class="infobox remember"><div class="icon">📌</div><div class="content"><strong>Lưu ý</strong><br>${c.luuY}</div></div>` :
+      let luuYContent = c.luuY ? `<div class="infobox remember anim-scale-in stagger-1"><div class="icon">📌</div><div class="content"><strong>Lưu ý</strong><br>${c.luuY}</div></div>` :
         '<p style="color:var(--text-muted);">Không có lưu ý đặc biệt.</p>';
 
       const bm = isBookmarked(lessonId);
@@ -3489,7 +3730,7 @@
       const hasSteps = c.quyTrinh?.length > 0;
       const hasTypes = c.phanLoai?.length > 0;
       const overview = `
-        <div class="detail-overview">
+        <div class="detail-overview anim-fade-in-up stagger-1">
           <div class="stat-item"><span class="label">Mức độ</span><span class="value" style="color:${colorCode};">${color === 'red' ? '⚠️ Nghiêm trọng' : color === 'orange' ? '🔶 Khẩn cấp' : color === 'yellow' ? '🟡 Cần chú ý' : '📌 Tư vấn'}</span></div>
           <div class="stat-item"><span class="label">Phân loại</span><span class="value">${hasTypes ? c.phanLoai.length : '0'} nhóm</span></div>
           <div class="stat-item"><span class="label">Quy trình</span><span class="value">${hasSteps ? c.quyTrinh.length : '0'} bước</span></div>
@@ -3525,30 +3766,30 @@
       const contentHtml = `
         <div style="display:flex;gap:24px;flex-wrap:wrap;">
           <div style="flex:1;min-width:0;">
-            ${breadcrumb}
-            <div style="display:flex;align-items:center;gap:16px;margin-bottom:16px;flex-wrap:wrap;">
-              <span style="font-size:2.8rem;filter:drop-shadow(0 4px 8px rgba(0,0,0,0.1));">${lesson.icon}</span>
+            <div class="breadcrumb anim-fade-in-up">${breadcrumb.replace('<div class="breadcrumb">', '').replace('</div>', '')}</div>
+            <div style="display:flex;align-items:center;gap:16px;margin-bottom:16px;flex-wrap:wrap;" class="anim-fade-in-up stagger-1">
+              <span class="${getIconAnimClass(lesson.icon)}" style="font-size:2.8rem;filter:drop-shadow(0 4px 8px rgba(0,0,0,0.1));display:inline-block;">${lesson.icon}</span>
               <h1 style="font-family:var(--font-display);font-weight:700;font-size:1.6rem;color:var(--text-primary);flex:1;">${lesson.title}</h1>
-              <button onclick="toggleBookmark('${lesson.id}')" style="background:none;border:none;font-size:1.6rem;cursor:pointer;color:var(--color-amber);transition:transform var(--transition);" onmouseenter="this.style.transform='scale(1.2)'" onmouseleave="this.style.transform='scale(1)'">
+              <button onclick="toggleBookmark('${lesson.id}')" style="background:none;border:none;font-size:1.6rem;cursor:pointer;color:var(--color-amber);transition:transform var(--transition);" onmouseenter="this.style.transform='scale(1.2)'" onmouseleave="this.style.transform='scale(1)'" class="anim-heartbeat">
                 <i class="${bmIcon}" id="bookmarkIcon-${lesson.id}"></i>
               </button>
-              <button onclick="markComplete('${lesson.id}')" class="btn-primary" style="padding:10px 24px;font-size:0.9rem;">
+              <button onclick="markComplete('${lesson.id}')" class="btn-primary ripple anim-pop-in" style="padding:10px 24px;font-size:0.9rem;">
                 <i class="fas fa-check"></i> Đánh dấu hoàn thành
               </button>
             </div>
             <div id="overview">${overview}</div>
-            <div class="section-divider"></div>
-            <div id="intro">${accordionItem('Giới thiệu & Đối tượng nguy cơ', introContent, 'fa-info-circle', true)}</div>
-            <div id="dau-hieu">${accordionItem('Dấu hiệu', dauHieuContent, 'fa-search', true)}</div>
-            <div id="phan-loai">${accordionItem(labelPhanLoai, phanLoaiContent, 'fa-tags', true)}</div>
-            <div id="quy-trinh">${accordionItem(labelQuyTrinh, quyTrinhContent, 'fa-list-ol', true)}</div>
-            <div id="luu-y">${accordionItem('Lưu ý', luuYContent, 'fa-lightbulb', true)}</div>
-            ${c.illustration ? `<div style="margin:20px 0;">${c.illustration}</div>` : ''}
-            <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-top:24px;padding-top:20px;border-top:1px solid var(--border-color);">
-              <button onclick="showGrid()" class="btn-secondary ripple" style="padding:10px 24px;"><i class="fas fa-th-large"></i> Danh sách</button>
-              <button onclick="window.print()" class="btn-secondary ripple" style="padding:10px 24px;"><i class="fas fa-print"></i> Xuất PDF</button>
-              <button onclick="openFlashcard('${lesson.id}')" class="btn-secondary ripple" style="padding:10px 24px;"><i class="fas fa-layer-group"></i> Flashcard</button>
-              <button onclick="openQuiz('${lesson.id}')" class="btn-secondary ripple" style="padding:10px 24px;"><i class="fas fa-question-circle"></i> Quiz</button>
+            <div class="section-divider anim-fade-in-up stagger-2"></div>
+            <div id="intro">${accordionItem('Giới thiệu & Đối tượng nguy cơ', introContent, 'fa-info-circle', true, 'anim-slide-in-left stagger-3')}</div>
+            <div id="dau-hieu">${accordionItem('Dấu hiệu', dauHieuContent, 'fa-search', true, 'anim-slide-in-left stagger-4')}</div>
+            <div id="phan-loai">${accordionItem(labelPhanLoai, phanLoaiContent, 'fa-tags', true, 'anim-slide-in-right stagger-5')}</div>
+            <div id="quy-trinh">${accordionItem(labelQuyTrinh, quyTrinhContent, 'fa-list-ol', true, 'anim-slide-in-left stagger-6')}</div>
+            <div id="luu-y">${accordionItem('Lưu ý', luuYContent, 'fa-lightbulb', true, 'anim-slide-in-right stagger-7')}</div>
+            ${c.illustration ? `<div style="margin:20px 0;background:${getPlaceholderColor(color)};border-radius:var(--radius-md);overflow:hidden;" class="anim-fade-in-up stagger-8">${processImageUrls(c.illustration)}</div>` : ''}
+            <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-top:24px;padding-top:20px;border-top:1px solid var(--border-color);" class="anim-fade-in-up stagger-8">
+              <button onclick="showGrid()" class="btn-secondary ripple anim-pop-in stagger-1" style="padding:10px 24px;"><i class="fas fa-th-large"></i> Danh sách</button>
+              <button onclick="window.print()" class="btn-secondary ripple anim-pop-in stagger-2" style="padding:10px 24px;"><i class="fas fa-print"></i> Xuất PDF</button>
+              <button onclick="openFlashcard('${lesson.id}')" class="btn-secondary ripple anim-pop-in stagger-3" style="padding:10px 24px;"><i class="fas fa-layer-group"></i> Flashcard</button>
+              <button onclick="openQuiz('${lesson.id}')" class="btn-secondary ripple anim-pop-in stagger-4" style="padding:10px 24px;"><i class="fas fa-question-circle"></i> Quiz</button>
             </div>
           </div>
           ${toc}
@@ -3732,36 +3973,48 @@
       let flipped = false;
 
       const flashcardHtml = `
-        <div style="position:fixed;inset:0;background:rgba(0,0,0,0.55);backdrop-filter:blur(12px);z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px;" id="flashcardModal" onclick="if(event.target===this) this.remove()">
-          <div class="anim-bounce-in" style="background:linear-gradient(145deg, var(--bg-card), var(--bg-primary));border-radius:var(--radius-xl);max-width:560px;width:100%;padding:32px;box-shadow:var(--shadow-xl), 0 0 40px rgba(37,99,235,0.15);position:relative;border:1px solid var(--border-color);">
+        <div style="position:fixed;inset:0;background:rgba(0,0,0,0.6);backdrop-filter:blur(16px);z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px;" id="flashcardModal" onclick="if(event.target===this) this.remove()">
+          <div class="flashcard-modal anim-bounce-in" style="max-width:580px;width:100%;padding:36px;position:relative;border-radius:var(--radius-xl);">
             <style>
-              @keyframes popIn { from { transform:scale(0.95); opacity:0; } to { transform:scale(1); opacity:1; } }
-              .flashcard-3d { perspective:1000px; width:100%; min-height:180px; cursor:pointer; }
-              .flashcard-3d-inner { position:relative; width:100%; height:100%; transition:transform 0.8s cubic-bezier(0.22, 1, 0.36, 1); transform-style:preserve-3d; }
-              .flashcard-3d-inner.flipped { transform:rotateY(180deg); }
-              .flashcard-3d-face { position:absolute; width:100%; min-height:180px; backface-visibility:hidden; border-radius:var(--radius-md); padding:32px 24px; display:flex; align-items:center; justify-content:center; text-align:center; font-size:1.1rem; line-height:1.6; border:2px solid var(--border-color); }
-              .flashcard-3d-front { background:linear-gradient(135deg, var(--bg-primary), var(--bg-secondary)); box-shadow:var(--shadow-sm); }
-              .flashcard-3d-back { background:linear-gradient(135deg, var(--color-cyan-bg), var(--bg-secondary)); border-color:var(--color-cyan); transform:rotateY(180deg); box-shadow:0 0 20px rgba(8,145,178,0.15); }
+              .flashcard-3d-container { perspective:1200px; width:100%; min-height:220px; cursor:pointer; transition:transform 0.3s ease; }
+              .flashcard-3d-container:hover { transform:scale(1.02); }
+              .flashcard-3d-inner-enhanced { position:relative; width:100%; min-height:220px; transition:transform 0.8s cubic-bezier(0.22, 1, 0.36, 1); transform-style:preserve-3d; }
+              .flashcard-3d-inner-enhanced.flipped { transform:rotateY(180deg); }
+              .flashcard-3d-face-enhanced { position:absolute; width:100%; min-height:220px; backface-visibility:hidden; border-radius:var(--radius-lg); padding:36px; display:flex; align-items:center; justify-content:center; text-align:center; font-size:1.15rem; line-height:1.7; border:2px solid var(--border-color); box-shadow:var(--shadow-md); }
+              .flashcard-3d-front-enhanced { background:linear-gradient(135deg, var(--bg-primary), var(--bg-secondary)); box-shadow:var(--shadow-md), inset 0 1px 0 rgba(255,255,255,0.5); }
+              .flashcard-3d-back-enhanced { background:linear-gradient(135deg, var(--color-cyan-bg), var(--bg-secondary)); border-color:var(--color-cyan); transform:rotateY(180deg); box-shadow:0 0 30px rgba(8,145,178,0.2); }
+              .flashcard-progress { display:flex; align-items:center; gap:8px; margin-top:20px; }
+              .flashcard-progress-bar { flex:1; height:6px; background:var(--border-color); border-radius:3px; overflow:hidden; }
+              .flashcard-progress-fill { height:100%; background:linear-gradient(90deg, var(--accent), var(--color-purple)); border-radius:3px; transition:width 0.5s ease; }
+              .flashcard-icon { font-size:2rem; margin-bottom:12px; display:block; animation:float 3s ease-in-out infinite; }
             </style>
-            <button onclick="document.getElementById('flashcardModal').remove()" style="position:absolute;top:16px;right:20px;background:var(--border-color);border:none;width:36px;height:36px;border-radius:50%;font-size:1.2rem;cursor:pointer;color:var(--text-muted);transition:all 0.2s;display:flex;align-items:center;justify-content:center;">&times;</button>
-            <h3 style="font-family:var(--font-display);margin-bottom:4px;font-size:1.2rem;background:linear-gradient(135deg, var(--accent), var(--color-purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">📇 Flashcard</h3>
-            <p style="color:var(--text-muted);font-size:0.8rem;margin-bottom:16px;">Nhấn vào thẻ để lật xem đáp án</p>
-            <div class="flashcard-3d" id="flashcardFace" onclick="flipCard()">
-              <div class="flashcard-3d-inner" id="flashcardInner">
-                <div class="flashcard-3d-face flashcard-3d-front">
+            <button onclick="document.getElementById('flashcardModal').remove()" class="ripple" style="position:absolute;top:16px;right:20px;background:var(--border-color);border:none;width:38px;height:38px;border-radius:50%;font-size:1.2rem;cursor:pointer;color:var(--text-muted);transition:all 0.2s;display:flex;align-items:center;justify-content:center;">&times;</button>
+            <h3 style="font-family:var(--font-display);margin-bottom:6px;font-size:1.3rem;background:linear-gradient(135deg, var(--accent), var(--color-purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-align:center;">📇 Flashcard</h3>
+            <p style="color:var(--text-muted);font-size:0.85rem;margin-bottom:20px;text-align:center;">Nhấn vào thẻ để lật xem đáp án</p>
+            <div class="flashcard-3d-container anim-float" id="flashcardFace" onclick="flipCard()">
+              <div class="flashcard-3d-inner-enhanced" id="flashcardInner">
+                <div class="flashcard-3d-face-enhanced flashcard-3d-front-enhanced">
+                  <span class="flashcard-icon" id="flashcardFrontIcon">❓</span>
                   <span id="flashcardQuestion">${cards[0].q}</span>
                 </div>
-                <div class="flashcard-3d-face flashcard-3d-back">
+                <div class="flashcard-3d-face-enhanced flashcard-3d-back-enhanced">
+                  <span class="flashcard-icon" id="flashcardBackIcon">💡</span>
                   <span id="flashcardAnswer">${cards[0].a}</span>
                 </div>
               </div>
             </div>
-            <div style="display:flex;justify-content:space-between;margin-top:20px;gap:12px;">
-              <button class="btn-secondary ripple" onclick="prevCard()" style="padding:8px 20px;font-size:0.9rem;"><i class="fas fa-arrow-left"></i> Trước</button>
-              <span style="display:flex;align-items:center;color:var(--text-muted);font-size:0.9rem;font-weight:500;" id="flashcardCounter">1/${cards.length}</span>
-              <button class="btn-secondary ripple" onclick="nextCard()" style="padding:8px 20px;font-size:0.9rem;">Sau <i class="fas fa-arrow-right"></i></button>
+            <div class="flashcard-progress anim-fade-in-up stagger-1">
+              <div class="flashcard-progress-bar">
+                <div class="flashcard-progress-fill" id="flashcardProgressFill" style="width:${(1/cards.length)*100}%"></div>
+              </div>
+              <span style="font-size:0.8rem;color:var(--text-muted);font-weight:500;" id="flashcardCounter">1/${cards.length}</span>
             </div>
-            <p style="font-size:0.7rem;color:var(--text-muted);margin-top:14px;text-align:center;">Tổng số thẻ: ${cards.length}</p>
+            <div style="display:flex;justify-content:space-between;margin-top:20px;gap:12px;" class="anim-fade-in-up stagger-2">
+              <button class="btn-secondary ripple" onclick="prevCard()" style="padding:10px 24px;font-size:0.95rem;"><i class="fas fa-arrow-left"></i> Trước</button>
+              <button class="btn-primary ripple anim-heartbeat" onclick="flipCard()" style="padding:10px 24px;font-size:0.95rem;"><i class="fas fa-sync-alt"></i> Lật thẻ</button>
+              <button class="btn-secondary ripple" onclick="nextCard()" style="padding:10px 24px;font-size:0.95rem;">Sau <i class="fas fa-arrow-right"></i></button>
+            </div>
+            <p style="font-size:0.75rem;color:var(--text-muted);margin-top:14px;text-align:center;" class="anim-fade-in-up stagger-3">Tổng số thẻ: ${cards.length} • Thẻ ${current + 1}</p>
           </div>
         </div>
       `;
@@ -3771,15 +4024,25 @@
       const inner = document.getElementById('flashcardInner');
       const qEl = document.getElementById('flashcardQuestion');
       const aEl = document.getElementById('flashcardAnswer');
+      const counterEl = document.getElementById('flashcardCounter');
+      const progressFill = document.getElementById('flashcardProgressFill');
+
+      function updateFlashcardProgress() {
+        const pct = ((current + 1) / cards.length) * 100;
+        if (progressFill) progressFill.style.width = pct + '%';
+        if (counterEl) counterEl.textContent = `${current + 1}/${cards.length}`;
+      }
 
       window.flipCard = function() {
         if (!flipped) {
           aEl.textContent = cards[current].a;
           inner.classList.add('flipped');
+          inner.classList.add('anim-flip-in');
           flipped = true;
         } else {
           qEl.textContent = cards[current].q;
           inner.classList.remove('flipped');
+          inner.classList.remove('anim-flip-in');
           flipped = false;
         }
       };
@@ -3787,10 +4050,21 @@
       window.prevCard = function() {
         if (current > 0) {
           current--;
-          qEl.textContent = cards[current].q;
-          document.getElementById('flashcardCounter').textContent = (current + 1) + '/' + cards.length;
-          inner.classList.remove('flipped');
-          flipped = false;
+          qEl.style.opacity = '0';
+          qEl.style.transform = 'translateX(-10px)';
+          aEl.style.opacity = '0';
+          aEl.style.transform = 'translateX(-10px)';
+          setTimeout(() => {
+            qEl.textContent = cards[current].q;
+            aEl.textContent = '';
+            qEl.style.transition = 'all 0.4s ease';
+            aEl.style.transition = 'all 0.4s ease';
+            qEl.style.opacity = '1';
+            qEl.style.transform = 'translateX(0)';
+            inner.classList.remove('flipped');
+            flipped = false;
+          }, 200);
+          updateFlashcardProgress();
         } else {
           showToast('Đã đến thẻ đầu tiên.', 'info');
         }
@@ -3799,14 +4073,27 @@
       window.nextCard = function() {
         if (current < cards.length - 1) {
           current++;
-          qEl.textContent = cards[current].q;
-          document.getElementById('flashcardCounter').textContent = (current + 1) + '/' + cards.length;
-          inner.classList.remove('flipped');
-          flipped = false;
+          qEl.style.opacity = '0';
+          qEl.style.transform = 'translateX(10px)';
+          aEl.style.opacity = '0';
+          aEl.style.transform = 'translateX(10px)';
+          setTimeout(() => {
+            qEl.textContent = cards[current].q;
+            aEl.textContent = '';
+            qEl.style.transition = 'all 0.4s ease';
+            aEl.style.transition = 'all 0.4s ease';
+            qEl.style.opacity = '1';
+            qEl.style.transform = 'translateX(0)';
+            inner.classList.remove('flipped');
+            flipped = false;
+          }, 200);
+          updateFlashcardProgress();
         } else {
           showToast('Đã đến thẻ cuối cùng.', 'info');
         }
       };
+
+      updateFlashcardProgress();
     }
 
     // ================================================================
@@ -3853,24 +4140,38 @@
       let answered = false;
 
       const quizHtml = `
-        <div style="position:fixed;inset:0;background:rgba(0,0,0,0.55);backdrop-filter:blur(12px);z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px;" id="quizModal" onclick="if(event.target===this) this.remove()">
-          <div class="anim-bounce-in" style="background:linear-gradient(145deg, var(--bg-card), var(--bg-primary));border-radius:var(--radius-xl);max-width:600px;width:100%;padding:32px;box-shadow:var(--shadow-xl), 0 0 40px rgba(124,58,237,0.15);position:relative;max-height:90vh;overflow-y:auto;border:1px solid var(--border-color);">
+        <div style="position:fixed;inset:0;background:rgba(0,0,0,0.6);backdrop-filter:blur(16px);z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px;" id="quizModal" onclick="if(event.target===this) this.remove()">
+          <div class="quiz-modal anim-bounce-in" style="max-width:620px;width:100%;padding:36px;position:relative;border-radius:var(--radius-xl);">
             <style>
-              @keyframes popIn { from { transform:scale(0.95); opacity:0; } to { transform:scale(1); opacity:1; } }
+              .quiz-option-enhanced { position:relative; overflow:hidden; padding:16px 20px !important; border:2px solid var(--border-color) !important; border-radius:var(--radius-md) !important; background:linear-gradient(135deg, var(--bg-primary), var(--bg-secondary)) !important; cursor:pointer !important; text-align:left !important; font-size:0.95rem !important; transition:all 0.3s ease !important; width:100% !important; box-shadow:var(--shadow-sm) !important; opacity:0; animation:popIn 0.4s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+              .quiz-option-enhanced:hover { border-color:var(--accent) !important; transform:translateX(4px); box-shadow:var(--shadow-md) !important; }
+              .quiz-option-enhanced.correct { border-color:var(--color-green) !important; background:linear-gradient(135deg, var(--color-green-bg), var(--bg-secondary)) !important; animation:correctPulse 0.6s ease !important; opacity:1 !important; }
+              .quiz-option-enhanced.wrong { border-color:var(--color-red) !important; background:linear-gradient(135deg, var(--color-red-bg), var(--bg-secondary)) !important; animation:shakeHard 0.6s ease !important; opacity:1 !important; }
+              @keyframes correctPulse { 0% { transform:scale(1); box-shadow:0 0 0 0 rgba(34,197,94,0.4); } 50% { transform:scale(1.03); box-shadow:0 0 0 12px rgba(34,197,94,0); } 100% { transform:scale(1); box-shadow:0 0 0 0 rgba(34,197,94,0); } }
+              @keyframes shakeHard { 0%, 100% { transform:translateX(0); } 10% { transform:translateX(-8px); } 20% { transform:translateX(8px); } 30% { transform:translateX(-6px); } 40% { transform:translateX(6px); } 50% { transform:translateX(-4px); } 60% { transform:translateX(4px); } 70% { transform:translateX(-2px); } 80% { transform:translateX(2px); } }
+              @keyframes progressGlow { 0%, 100% { box-shadow:0 0 4px rgba(37,99,235,0.3); } 50% { box-shadow:0 0 14px rgba(37,99,235,0.6); } }
+              .quiz-progress { display:flex; align-items:center; gap:8px; margin-top:20px; padding-top:16px; border-top:1px solid var(--border-color); }
+              .quiz-progress-bar { flex:1; height:8px; background:var(--border-color); border-radius:4px; overflow:hidden; }
+              .quiz-progress-fill { height:100%; background:linear-gradient(90deg, var(--color-purple), var(--color-pink), var(--color-red)); border-radius:4px; transition:width 0.5s ease; animation:progressGlow 2s ease-in-out infinite; }
+              .quiz-score-display { font-size:1.2rem; font-weight:700; background:linear-gradient(135deg, var(--accent), var(--color-purple)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; animation:scoreBounce 0.5s ease; }
+              .quiz-option-letter { display:inline-flex; align-items:center; justify-content:center; width:28px; height:28px; border-radius:50%; background:var(--accent); color:#fff; font-weight:700; font-size:0.85rem; margin-right:10px; flex-shrink:0; }
             </style>
-            <button onclick="document.getElementById('quizModal').remove()" style="position:absolute;top:16px;right:20px;background:var(--border-color);border:none;width:36px;height:36px;border-radius:50%;font-size:1.2rem;cursor:pointer;color:var(--text-muted);transition:all 0.2s;display:flex;align-items:center;justify-content:center;">&times;</button>
-            <h3 style="font-family:var(--font-display);margin-bottom:8px;font-size:1.2rem;background:linear-gradient(135deg, var(--color-purple), var(--color-pink));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">🧠 Quiz</h3>
-            <p style="color:var(--text-muted);font-size:0.85rem;margin-bottom:16px;">Chọn đáp án đúng</p>
+            <button onclick="document.getElementById('quizModal').remove()" class="ripple" style="position:absolute;top:16px;right:20px;background:var(--border-color);border:none;width:38px;height:38px;border-radius:50%;font-size:1.2rem;cursor:pointer;color:var(--text-muted);transition:all 0.2s;display:flex;align-items:center;justify-content:center;">&times;</button>
+            <h3 style="font-family:var(--font-display);margin-bottom:8px;font-size:1.3rem;background:linear-gradient(135deg, var(--color-purple), var(--color-pink));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-align:center;">🧠 Quiz</h3>
+            <p style="color:var(--text-muted);font-size:0.9rem;margin-bottom:20px;text-align:center;">Chọn đáp án đúng</p>
             <div id="quizContainer">
-              <div id="quizQuestion" style="font-weight:600;font-size:1.05rem;margin-bottom:16px;white-space:pre-line;line-height:1.5;">${quizQuestions[0].question}</div>
-              <div id="quizOptions" style="display:flex;flex-direction:column;gap:10px;">
+              <div id="quizQuestion" class="anim-fade-in-up" style="font-weight:600;font-size:1.1rem;margin-bottom:20px;white-space:pre-line;line-height:1.6;">${quizQuestions[0].question}</div>
+              <div id="quizOptions" style="display:flex;flex-direction:column;gap:12px;">
                 ${quizQuestions[0].options.map((opt, i) => `
-                  <button class="quiz-option" data-answer="${opt}" style="padding:12px 16px;border:2px solid var(--border-color);border-radius:var(--radius-md);background:linear-gradient(135deg, var(--bg-primary), var(--bg-secondary));cursor:pointer;text-align:left;font-size:0.95rem;transition:all 0.2s;width:100%;box-shadow:var(--shadow-sm);">${opt}</button>
+                  <button class="quiz-option-enhanced" data-answer="${opt}" style="animation-delay:${i * 0.08}s;"><span class="quiz-option-letter">${String.fromCharCode(65+i)}</span>${opt}</button>
                 `).join('')}
               </div>
-              <div style="display:flex;justify-content:space-between;margin-top:20px;align-items:center;">
-                <span style="color:var(--text-muted);font-weight:500;" id="quizCounter">1/${quizQuestions.length}</span>
-                <span style="font-weight:700;color:var(--accent);font-size:1.1rem;" id="quizScore">0 điểm</span>
+              <div class="quiz-progress anim-fade-in-up stagger-1">
+                <div class="quiz-progress-bar">
+                  <div class="quiz-progress-fill" id="quizProgressFill" style="width:${(1/quizQuestions.length)*100}%"></div>
+                </div>
+                <span style="font-size:0.85rem;color:var(--text-muted);font-weight:500;" id="quizCounter">1/${quizQuestions.length}</span>
+                <span class="quiz-score-display" id="quizScore">0 điểm</span>
               </div>
             </div>
           </div>
@@ -3886,15 +4187,24 @@
 
       function loadQuestion(index) {
         const q = quizQuestions[index];
-        questionEl.textContent = q.question;
+        questionEl.style.opacity = '0';
+        questionEl.style.transform = 'translateY(-8px)';
+        setTimeout(() => {
+          questionEl.textContent = q.question;
+          questionEl.style.transition = 'all 0.4s ease';
+          questionEl.style.opacity = '1';
+          questionEl.style.transform = 'translateY(0)';
+        }, 150);
         optionsEl.innerHTML = q.options.map((opt, i) => `
-          <button class="quiz-option" data-answer="${opt}" style="padding:12px 16px;border:2px solid var(--border-color);border-radius:var(--radius-md);background:linear-gradient(135deg, var(--bg-primary), var(--bg-secondary));cursor:pointer;text-align:left;font-size:0.95rem;transition:all 0.2s;width:100%;box-shadow:var(--shadow-sm);">${opt}</button>
+          <button class="quiz-option-enhanced" data-answer="${opt}" style="animation-delay:${i * 0.1}s;"><span class="quiz-option-letter">${String.fromCharCode(65+i)}</span>${opt}</button>
         `).join('');
         counterEl.textContent = `${index+1}/${quizQuestions.length}`;
+        const progressPct = ((index + 1) / quizQuestions.length) * 100;
+        const progressBar = document.getElementById('quizProgressFill');
+        if (progressBar) progressBar.style.width = progressPct + '%';
         answered = false;
-        document.querySelectorAll('.quiz-option').forEach(btn => {
-          btn.style.borderColor = 'var(--border-color)';
-          btn.style.background = 'linear-gradient(135deg, var(--bg-primary), var(--bg-secondary))';
+        document.querySelectorAll('.quiz-option-enhanced').forEach(btn => {
+          btn.classList.remove('correct', 'wrong');
           btn.disabled = false;
           btn.onclick = function() {
             if (answered) return;
@@ -3902,44 +4212,44 @@
             const correct = q.answer;
             if (selected === correct) {
               score++;
-              this.style.borderColor = 'var(--color-green)';
-              this.style.background = 'var(--color-green-bg)';
+              this.classList.add('correct');
               showToast('✅ Chính xác!', 'success');
             } else {
-              this.style.borderColor = 'var(--color-red)';
-              this.style.background = 'var(--color-red-bg)';
-              document.querySelectorAll('.quiz-option').forEach(b => {
+              this.classList.add('wrong');
+              document.querySelectorAll('.quiz-option-enhanced').forEach(b => {
                 if (b.dataset.answer === correct) {
-                  b.style.borderColor = 'var(--color-green)';
-                  b.style.background = 'var(--color-green-bg)';
+                  b.classList.add('correct');
                 }
               });
               showToast('❌ Sai rồi. Đáp án đúng đã được tô xanh.', 'error');
             }
             answered = true;
-            document.querySelectorAll('.quiz-option').forEach(b => b.disabled = true);
+            document.querySelectorAll('.quiz-option-enhanced').forEach(b => b.disabled = true);
             scoreEl.textContent = `${score} điểm`;
+            scoreEl.style.animation = 'none';
+            void scoreEl.offsetWidth;
+            scoreEl.style.animation = 'scoreBounce 0.5s ease';
 
             if (index < quizQuestions.length - 1) {
               setTimeout(() => loadQuestion(index + 1), 1500);
             } else {
-               setTimeout(() => {
-                 const total = quizQuestions.length;
-                 const pct = Math.round((score / total) * 100);
-                 let msg = pct === 100 ? '🎉 Xuất sắc!' : pct >= 70 ? '👍 Tốt!' : '📖 Học lại nhé!';
-                 showToast(`${msg} Bạn được ${score}/${total} (${pct}%)`, 'info');
-                 if (pct === 100) {
-                   launchConfetti();
-                   launchConfetti();
-                   launchConfetti();
-                 } else if (pct >= 70) {
-                   launchConfetti();
-                 }
-                 const results = getData('quizResults', {});
-                 results[lessonId] = { score, total, pct };
-                 setData('quizResults', results);
-                 setTimeout(() => { document.getElementById('quizModal')?.remove(); }, 3000);
-               }, 1500);
+              setTimeout(() => {
+                const total = quizQuestions.length;
+                const pct = Math.round((score / total) * 100);
+                let msg = pct === 100 ? '🎉 Xuất sắc!' : pct >= 70 ? '👍 Tốt!' : '📖 Học lại nhé!';
+                showToast(`${msg} Bạn được ${score}/${total} (${pct}%)`, 'info');
+                if (pct === 100) {
+                  launchConfetti();
+                  launchConfetti();
+                  launchConfetti();
+                } else if (pct >= 70) {
+                  launchConfetti();
+                }
+                const results = getData('quizResults', {});
+                results[lessonId] = { score, total, pct };
+                setData('quizResults', results);
+                setTimeout(() => { document.getElementById('quizModal')?.remove(); }, 3000);
+              }, 1500);
             }
           };
         });
@@ -4211,9 +4521,29 @@
     init();
 
     document.addEventListener('DOMContentLoaded', function() {
+      function optimizeImageSrc(img) {
+        const src = img.getAttribute('src');
+        if (!src || !src.includes('i.postimg.cc')) return;
+        const original = img.getAttribute('data-original-src') || src;
+        if (!img.hasAttribute('data-original-src')) {
+          img.setAttribute('data-original-src', original);
+        }
+        const optimized = getOptimizedImageUrl(original);
+        if (optimized !== original) {
+          img.removeAttribute('onerror');
+          img.setAttribute('src', optimized);
+          img.addEventListener('error', function() {
+            if (img.getAttribute('src') !== original) {
+              img.setAttribute('src', original);
+            }
+          }, { once: true });
+        }
+      }
+
       document.querySelectorAll('img').forEach(img => {
         if (!img.hasAttribute('loading')) img.setAttribute('loading', 'lazy');
         if (!img.hasAttribute('decoding')) img.setAttribute('decoding', 'async');
+        optimizeImageSrc(img);
         
         if (!img.complete) {
           img.parentElement?.classList.add('img-loading');
@@ -4228,6 +4558,32 @@
           img.classList.add('loaded');
         }
       });
+
+      const observer = new MutationObserver(mutations => {
+        mutations.forEach(mutation => {
+          mutation.addedNodes.forEach(node => {
+            if (node.nodeType === 1) {
+              if (node.tagName === 'IMG') {
+                optimizeImageSrc(node);
+                if (!node.complete) {
+                  node.parentElement?.classList.add('img-loading');
+                  node.addEventListener('load', () => {
+                    node.classList.add('loaded');
+                    node.parentElement?.classList.remove('img-loading');
+                  });
+                  node.addEventListener('error', () => {
+                    node.parentElement?.classList.remove('img-loading');
+                  });
+                } else {
+                  node.classList.add('loaded');
+                }
+              }
+              node.querySelectorAll?.('img').forEach(optimizeImageSrc);
+            }
+          });
+        });
+      });
+      observer.observe(document.body, { childList: true, subtree: true });
     });
   </script>
 </body>

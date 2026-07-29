@@ -415,7 +415,7 @@ function createMobileObserver(callback, options) { return new IntersectionObserv
 
 // === Animations ===
 // Init
-
+function init() {
    // Chỉ kích hoạt chuyển động khi khối landing sắp đi vào vùng nhìn thấy.
    const revealLandingSections = () => {
      const targets = document.querySelectorAll('.landing-reveal');

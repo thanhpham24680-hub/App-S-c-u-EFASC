@@ -1,0 +1,71 @@
+// 1. Tiếp cận nạn nhân - DRs. ABC (SSVN - 4 phút vàng)
+videoUrl: "Q8VYrGMkbyo" 
+
+// 2. Gãy xương (SSVN)
+videoUrl: "MHjtFaphAiY"
+
+// 3. Dị vật đường thở (SSVN - Thủ thuật Heimlich)
+videoUrl: "tbRcZWNX0uw"
+
+// 4. Chảy máu / Mất máu (Bác sĩ Wellbeing)
+videoUrl: "mSiQV-EPEfQ"
+
+// 5. Sốc giảm thể tích (Bệnh viện Hoàn Mỹ - Xử trí choáng ngất)
+videoUrl: "jNi1nCk_sNc"
+
+// 6. Bong gân (Bệnh viện Đại học Y Dược TPHCM - Chấn thương phần mềm)
+videoUrl: "hCpQRAAhs94"
+
+// 7. Trật khớp (Bệnh viện Đại học Y Dược TPHCM - Chấn thương phần mềm)
+videoUrl: "hCpQRAAhs94"
+
+// 8. Dị ứng / Sốc phản vệ (Hội Chữ thập đỏ VN)
+videoUrl: "O_gXXNJnAkU"
+
+// 9. Chó cắn (VNVC)
+videoUrl: "KhXGYTx5lbw"
+
+// 10. Rắn cắn (SSVN)
+videoUrl: "HIQfbR9sekQ"
+
+// 11. Ong đốt (Bệnh viện Hoàn Mỹ Thủ Đức - Sơ cứu côn trùng/động vật cắn)
+videoUrl: "cv_Aw3umRhQ"
+
+// 12. Đột quỵ (Bệnh viện Đại học Y Dược TPHCM)
+videoUrl: "SKs8EKh_3SQ"
+
+// 13. Đuối nước (SSVN)
+videoUrl: "5nje70dIJlY"
+
+// 14. Bỏng / Phỏng (SSVN)
+videoUrl: "VofLtYWyKHs"
+
+// 15. Điện giật (Bệnh viện Đa khoa Tâm Anh)
+videoUrl: "jnEPlXDqdy8"
+
+// 16. CPR / Hồi sinh tim phổi (SSVN)
+videoUrl: "MS4mESUI9Oc"
+
+// 17. Hạ thân nhiệt (Vinmec - Cấp cứu môi trường/đuối nước)
+videoUrl: "FlC6Z-k8yuY"
+
+// 18. Ngộ độc thực phẩm (AloBacsi / BS chuyên khoa)
+videoUrl: "d1w2rjYuqgo"
+
+// 19. Co giật / Động kinh (Hướng dẫn xử trí nạn nhân bất tỉnh/co giật)
+videoUrl: "3sypXJceRfI"
+
+// 20. Chấn thương cột sống (SSVN - Cách di chuyển nạn nhân an toàn)
+videoUrl: "Rf-OBHpbVQY"
+
+// 21. Nhồi máu cơ tim (Vinmec)
+videoUrl: "FlC6Z-k8yuY"
+
+// 22. Hạ đường huyết (Bệnh viện Hoàn Mỹ - Xử trí choáng/ngất)
+videoUrl: "jNi1nCk_sNc"
+
+// 23. Vết thương phần mềm, bầm tím (Bệnh viện Đại học Y Dược TPHCM)
+videoUrl: "hCpQRAAhs94"
+
+// 24. Say nắng / Sốc nhiệt (Bệnh viện Đa khoa Tâm Anh)
+videoUrl: "UCHbYZjZ4vg"

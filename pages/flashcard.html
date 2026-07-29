@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flashcard - Cẩm nang Sơ cấp cứu</title>
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body class="bg-pattern">
+  <!-- Nền động nhẹ, chỉ trang trí và không chặn thao tác. -->
+  <div class="animated-background ambient-background" aria-hidden="true">
+    <div class="ambient-blobs">
+      <span class="ambient-orb orb-one"></span>
+      <span class="ambient-orb orb-two"></span>
+      <span class="ambient-orb orb-three"></span>
+      <span class="ambient-orb orb-four"></span>
+      <span class="ambient-orb orb-five"></span>
+      <span class="ambient-orb orb-six"></span>
+    </div>
+    <canvas class="particle-layer"></canvas>
+    <span class="ambient-noise"></span>
+  </div>
+  <header class="header-wrap no-print">
+    <div class="header-inner">
+      <div class="header-left">
+        <a href="../index.html" class="header-logo">
+          <img src="https://i.postimg.cc/HL7rV6Sm/473696083-122233458776025387-106385360309955310-n.jpg" alt="Logo" />
+          <div class="header-brand"><span class="name">Cẩm nang Sơ cấp cứu</span><span class="sub">ĐHYD TP.HCM</span></div>
+        </a>
+      </div>
+      <div class="header-right">
+        <a href="../index.html" class="btn-secondary" style="padding:8px 18px;font-size:0.85rem;"><i class="fas fa-home"></i> Trang chủ</a>
+        <a href="quiz.html" class="btn-secondary" style="padding:8px 18px;font-size:0.85rem;"><i class="fas fa-question-circle"></i> Quiz</a>
+        <a href="search.html" class="btn-secondary" style="padding:8px 18px;font-size:0.85rem;"><i class="fas fa-search"></i> Tìm kiếm</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="fc-page">
+    <div class="fc-header">
+      <h1>📇 Flashcard Sơ cấp cứu</h1>
+      <p>Học và ôn tập toàn bộ kiến thức sơ cấp cứu bằng flashcard</p>
+    </div>
+
+    <div id="fcStats" class="fc-stats"></div>
+
+    <div class="fc-toolbar">
+      <input type="text" id="fcSearch" placeholder="Tìm flashcard..." />
+      <select id="fcCategoryFilter">
+        <option value="all">Tất cả chủ đề</option>
+        <option value="cấp cứu">Cấp cứu</option>
+        <option value="chấn thương">Chấn thương</option>
+        <option value="tim mạch">Tim mạch</option>
+        <option value="môi trường">Môi trường</option>
+        <option value="dị ứng">Dị ứng</option>
+        <option value="động vật">Động vật</option>
+      </select>
+      <select id="fcLessonFilter"><option value="all">Tất cả bài học</option></select>
+    </div>
+
+    <div class="fc-toolbar">
+      <button class="fc-mode-btn active" data-mode="all"><i class="fas fa-layer-group"></i> Tất cả</button>
+      <button class="fc-mode-btn" data-mode="due"><i class="fas fa-clock"></i> Cần ôn</button>
+      <button class="fc-mode-btn" data-mode="bookmarked"><i class="fas fa-star"></i> Đánh dấu</button>
+      <button class="fc-mode-btn" data-mode="learned"><i class="fas fa-check-circle"></i> Đã học</button>
+      <button class="fc-mode-btn" data-mode="unlearned"><i class="fas fa-circle"></i> Chưa học</button>
+      <button id="fcShuffle"><i class="fas fa-shuffle"></i> Xáo trộn</button>
+      <button id="fcListToggle"><i class="fas fa-list"></i> Danh sách thẻ</button>
+    </div>
+
+    <div id="fcCardContainer"></div>
+
+    <div id="fcSrsButtons" style="display:none;gap:10px;justify-content:center;margin-bottom:16px;">
+      <button class="btn-secondary" id="fcHard" style="padding:10px 20px;font-size:0.85rem;"><i class="fas fa-times"></i> Khó</button>
+      <button class="btn-primary" id="fcGood" style="padding:10px 20px;font-size:0.85rem;"><i class="fas fa-check"></i> Đã học</button>
+      <button class="btn-secondary" id="fcEasy" style="padding:10px 20px;font-size:0.85rem;"><i class="fas fa-star"></i> Dễ</button>
+    </div>
+
+    <div id="fcNav" class="fc-nav">
+      <button class="btn-secondary" id="fcPrev" style="padding:10px 20px;"><i class="fas fa-arrow-left"></i> Trước</button>
+      <div class="fc-progress-bar"><div class="fc-progress-fill" id="fcProgressFill"></div></div>
+      <span style="font-size:0.85rem;color:var(--text-muted);font-weight:500;" id="fcCounter">0/0</span>
+      <button class="btn-secondary" id="fcBookmarkBtn" style="padding:10px 16px;background:none;border:none;font-size:1.2rem;cursor:pointer;"><i class="far fa-star"></i></button>
+      <button class="btn-primary" id="fcFlip" style="padding:10px 20px;"><i class="fas fa-sync-alt"></i> Lật</button>
+      <button class="btn-secondary" id="fcNext" style="padding:10px 20px;">Sau <i class="fas fa-arrow-right"></i></button>
+    </div>
+
+    <div id="fcList" style="display:none;" class="fc-list"></div>
+  </div>
+
+  <div class="toast-container" id="toastContainer"></div>
+  <div class="confetti-container" id="confettiContainer"></div>
+
+  <script src="../assets/js/data.js"></script>
+  <script src="../assets/js/app.js"></script>
+  <script src="../assets/js/flashcard.js"></script>
+  <script>document.addEventListener('DOMContentLoaded', initFlashcardPage);</script>
+</body>
+</html>

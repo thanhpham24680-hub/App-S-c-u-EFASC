@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tìm kiếm - Cẩm nang Sơ cấp cứu</title>
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body class="bg-pattern">
+  <!-- Nền động nhẹ, chỉ trang trí và không chặn thao tác. -->
+  <div class="animated-background ambient-background" aria-hidden="true">
+    <div class="ambient-blobs">
+      <span class="ambient-orb orb-one"></span>
+      <span class="ambient-orb orb-two"></span>
+      <span class="ambient-orb orb-three"></span>
+      <span class="ambient-orb orb-four"></span>
+      <span class="ambient-orb orb-five"></span>
+      <span class="ambient-orb orb-six"></span>
+    </div>
+    <canvas class="particle-layer"></canvas>
+    <span class="ambient-noise"></span>
+  </div>
+  <header class="header-wrap no-print">
+    <div class="header-inner">
+      <div class="header-left">
+        <a href="../index.html" class="header-logo">
+          <img src="https://i.postimg.cc/HL7rV6Sm/473696083-122233458776025387-106385360309955310-n.jpg" alt="Logo" />
+          <div class="header-brand"><span class="name">Cẩm nang Sơ cấp cứu</span><span class="sub">ĐHYD TP.HCM</span></div>
+        </a>
+      </div>
+      <div class="header-right">
+        <a href="../index.html" class="btn-secondary" style="padding:8px 18px;font-size:0.85rem;"><i class="fas fa-home"></i> Trang chủ</a>
+        <a href="flashcard.html" class="btn-secondary" style="padding:8px 18px;font-size:0.85rem;"><i class="fas fa-layer-group"></i> Flashcard</a>
+        <a href="quiz.html" class="btn-secondary" style="padding:8px 18px;font-size:0.85rem;"><i class="fas fa-question-circle"></i> Quiz</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="search-page">
+    <div class="search-header">
+      <h1>🔍 Tìm kiếm toàn văn</h1>
+      <p>Tìm kiếm bài học, flashcard, và câu hỏi quiz theo từ khóa</p>
+    </div>
+
+    <div class="search-box-large">
+      <i class="fas fa-search"></i>
+      <input type="text" id="searchMainInput" placeholder="Nhập từ khóa cần tìm..." autocomplete="off" />
+    </div>
+
+    <div class="search-filters">
+      <select id="searchTypeFilter">
+        <option value="all">Tất cả loại nội dung</option>
+        <option value="lesson">Bài học</option>
+        <option value="flashcard">Flashcard</option>
+        <option value="quiz">Quiz</option>
+      </select>
+      <select id="searchCategoryFilter">
+        <option value="all">Tất cả chủ đề</option>
+        <option value="cấp cứu">Cấp cứu</option>
+        <option value="chấn thương">Chấn thương</option>
+        <option value="tim mạch">Tim mạch</option>
+        <option value="môi trường">Môi trường</option>
+        <option value="dị ứng">Dị ứng</option>
+        <option value="động vật">Động vật</option>
+      </select>
+    </div>
+
+    <div class="search-suggestions" id="searchSuggestions">
+      <span style="font-size:0.8rem;color:var(--text-muted);margin-right:8px;">Gợi ý:</span>
+    </div>
+
+    <div style="margin-bottom:12px;font-size:0.85rem;color:var(--text-muted);" id="searchResultCount">Nhập từ khóa để tìm kiếm</div>
+
+    <div id="searchResults" class="search-results">
+      <div class="no-results"><i class="fas fa-search"></i>Nhập từ khóa để bắt đầu tìm kiếm.</div>
+    </div>
+  </div>
+
+  <div class="toast-container" id="toastContainer"></div>
+  <div class="confetti-container" id="confettiContainer"></div>
+
+  <script src="../assets/js/data.js"></script>
+  <script src="../assets/js/app.js"></script>
+  <script src="../assets/js/search.js"></script>
+  <script>document.addEventListener('DOMContentLoaded', initSearchPage);</script>
+</body>
+</html>

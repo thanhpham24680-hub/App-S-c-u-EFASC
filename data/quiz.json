@@ -1,0 +1,4070 @@
+[
+  {
+    "id": "q-001",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "\"Tiếp cận nạn nhân - DRs. ABC\" được hiểu đúng nhất là:",
+    "options": [
+      "Quy trình DRs. ABC là nền tảng của sơ cứu, giúp đánh giá và xử trí nạn nhân một cách có hệ thống.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Quy trình DRs. ABC là nền tảng của sơ cứu, giúp đánh giá và xử trí nạn nhân một cách có hệ thống.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Tiếp cận nạn nhân - DRs. ABC là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Tiếp cận nạn nhân - DRs. ABC đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Tiếp cận nạn nhân - DRs. ABC là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Quy trình DRs. ABC là nền tảng của sơ cứu, giúp đánh giá và xử trí nạn nhân một cách có hệ thống.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-002",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Tiếp cận nạn nhân - DRs. ABC\", bước đầu tiên cần làm là:",
+    "options": [
+      "D (Danger): Quan sát hiện trường, loại bỏ nguy cơ (tắt cầu dao điện, dẹp xe cộ, dập lửa...). Bảo vệ bản thân trước khi tiếp cận.",
+      "R (Response): Lay gọi nạn nhân. Nếu không trả lời, hãy kích thích đau ở vùng da mỏng (mặt trong cánh tay).",
+      "S (Send for help): Gọi 115 hoặc nhờ người khác gọi. Báo rõ địa điểm, tình trạng nạn nhân.",
+      "A (Airway): Đặt nạn nhân nằm ngửa. Nếu không nghi chấn thương cột sống, một tay đặt lên trán ấn nhẹ, tay kia nâng cằm. Nếu nghi chấn thương cột sống, dùng hai tay nâng hàm (không ngửa đầu)."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: D (Danger): Quan sát hiện trường, loại bỏ nguy cơ (tắt cầu dao điện, dẹp xe cộ, dập lửa...). Bảo vệ bản thân trước khi tiếp cận.",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. D (Danger): Quan sát hiện trường, loại bỏ nguy cơ (tắt cầu dao điện, dẹp xe cộ, dập lửa...). Bảo vệ bản thân trước khi tiếp cận.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-003",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Có lưu ý quan trọng khi sơ cứu Tiếp cận nạn nhân - DRs. ABC.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Quy trình này cần hoàn thành trong vòng 5 phút đầu. Nếu ở bất kỳ bước nào phát hiện vấn đề đe dọa tính mạng (như ngưng thở, ngưng tim), hãy can thiệp ngay trước khi chuyển bước tiếp theo. Ghi nhớ: DRs. ABC = Cứu người trong 'phút vàng'.",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "Quy trình này cần hoàn thành trong vòng 5 phút đầu. Nếu ở bất kỳ bước nào phát hiện vấn đề đe dọa tính mạng (như ngưng thở, ngưng tim), hãy can thiệp ngay trước khi chuyển bước tiếp theo. Ghi nhớ: DRs. ABC = Cứu người trong 'phút vàng'.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-004",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Tiếp cận nạn nhân - DRs. ABC\": \"Nạn nhân bất _____ không phản ứng\"",
+    "options": [
+      "tỉnh,",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"tỉnh,\". Dấu hiệu đầy đủ: \"Nạn nhân bất tỉnh, không phản ứng\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Nạn nhân bất tỉnh, không phản ứng",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-005",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Tiếp cận nạn nhân - DRs. ABC\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Tiếp cận nạn nhân - DRs. ABC\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Quy trình DRs. ABC là nền tảng của sơ cứu, giúp đánh giá và xử trí nạn nhân một cách có hệ thống.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-006",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Nạn nhân bất tỉnh, không phản ứng; Không thở hoặc thở bất thường; Không bắt được mạch\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Tiếp cận nạn nhân - DRs. ABC",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Tiếp cận nạn nhân - DRs. ABC\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Tiếp cận nạn nhân - DRs. ABC.",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Nạn nhân bất tỉnh, không phản ứng; Không thở hoặc thở bất thường; Không bắt được mạch",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-007",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "type": "classification",
+    "question": "Phân loại: \"Đảm bảo hiện trường an toàn (điện, cháy nổ, xe cộ). Không mạo hiểm sự an toàn của bản thân. Nếu có nguy cơ, di chuyển nạn nhân ra xa (chỉ khi an toàn).\" Thuộc loại nào của \"Tiếp cận nạn nhân - DRs. ABC\"?",
+    "options": [
+      "D - Danger (Nguy hiểm)",
+      "R - Response (Đáp ứng)",
+      "S - Send for help (Kêu gọi)",
+      "A - Airway (Đường thở)",
+      "B - Breathing (Hô hấp)",
+      "C - Circulation (Tuần hoàn)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Đảm bảo hiện trường an toàn (điện, cháy nổ, xe cộ). Không mạo hiểm sự an toàn của bản thân. Nếu có nguy cơ, di chuyển nạn nhân ra xa (chỉ khi an toàn).\" là đặc điểm của \"D - Danger (Nguy hiểm)\".",
+    "wrongExplanations": [
+      "\"R - Response (Đáp ứng)\" có đặc điểm: \"Kiểm tra nạn nhân có tỉnh không bằng cách lay gọi 'Bạn có ổn không?' hoặc kích thích đau (véo vào mặt trong cánh tay). Nếu không đáp ứng → bất tỉnh.\" - khác với mô tả trong câu hỏi.",
+      "\"S - Send for help (Kêu gọi)\" có đặc điểm: \"Gọi ngay tổng đài 115, hô hoán người xung quanh đến giúp đỡ. Càng sớm càng tốt.\" - khác với mô tả trong câu hỏi.",
+      "\"A - Airway (Đường thở)\" có đặc điểm: \"Khai thông đường thở: nếu nạn nhân bất tỉnh, dùng kỹ thuật ngửa đầu nâng cằm (trừ khi nghi ngờ chấn thương cột sống cổ thì dùng nâng hàm). Loại bỏ dị vật nếu có.\" - khác với mô tả trong câu hỏi.",
+      "\"B - Breathing (Hô hấp)\" có đặc điểm: \"Nhìn, nghe, cảm nhận hơi thở trong 5-10 giây. Nếu không thở → bắt đầu CPR ngay lập tức (ép tim 30:2).\" - khác với mô tả trong câu hỏi.",
+      "\"C - Circulation (Tuần hoàn)\" có đặc điểm: \"Đánh giá màu da (hồng hào hay tái nhợt), nhiệt độ chi, kiểm tra thời gian đổ đầy mao mạch (ấn đầu ngón tay, thả ra, nếu lâu hơn 2 giây → tưới máu kém). Kiểm soát chảy máu nếu có.\" - khác với mô tả trong câu hỏi."
+    ],
+    "knowledgeRef": "D - Danger (Nguy hiểm): Đảm bảo hiện trường an toàn (điện, cháy nổ, xe cộ). Không mạo hiểm sự an toàn của bản thân. Nếu có nguy cơ, di chuyển nạn nhân ra xa (chỉ khi an toàn).; R - Response (Đáp ứng): Kiểm tra nạn nhân có tỉnh không bằng cách lay gọi 'Bạn có ổn không?' hoặc kích thích đau (véo vào mặt trong cánh tay). Nếu không đáp ứng → bất tỉnh.; S - Send for help (Kêu gọi): Gọi ngay tổng đài 115, hô hoán người xung quanh đến giúp đỡ. Càng sớm càng tốt.; A - Airway (Đường thở): Khai thông đường thở: nếu nạn nhân bất tỉnh, dùng kỹ thuật ngửa đầu nâng cằm (trừ khi nghi ngờ chấn thương cột sống cổ thì dùng nâng hàm). Loại bỏ dị vật nếu có.; B - Breathing (Hô hấp): Nhìn, nghe, cảm nhận hơi thở trong 5-10 giây. Nếu không thở → bắt đầu CPR ngay lập tức (ép tim 30:2).; C - Circulation (Tuần hoàn): Đánh giá màu da (hồng hào hay tái nhợt), nhiệt độ chi, kiểm tra thời gian đổ đầy mao mạch (ấn đầu ngón tay, thả ra, nếu lâu hơn 2 giây → tưới máu kém). Kiểm soát chảy máu nếu có.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-008",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Tiếp cận nạn nhân - DRs. ABC\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. Quy trình này cần hoàn thành trong vòng 5 phút đầu. Nếu ở bất kỳ bước nào phát hiện vấn đề đe dọa tính mạng (như ngưng thở, ngưng tim), hãy can thiệp ngay trước khi chuyển bước tiếp theo. Ghi nhớ: DRs. ABC = Cứu người trong 'phút vàng'.",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "Quy trình này cần hoàn thành trong vòng 5 phút đầu. Nếu ở bất kỳ bước nào phát hiện vấn đề đe dọa tính mạng (như ngưng thở, ngưng tim), hãy can thiệp ngay trước khi chuyển bước tiếp theo. Ghi nhớ: DRs. ABC = Cứu người trong 'phút vàng'.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-009",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "type": "multiple_choice",
+    "question": "\"Gãy xương\" được hiểu đúng nhất là:",
+    "options": [
+      "Gãy xương là tổn thương thường gặp do tai nạn, ngã. Sơ cứu đúng cách giúp giảm đau và ngăn biến chứng.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Gãy xương là tổn thương thường gặp do tai nạn, ngã. Sơ cứu đúng cách giúp giảm đau và ngăn biến chứng.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Gãy xương là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Gãy xương đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Gãy xương là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Gãy xương là tổn thương thường gặp do tai nạn, ngã. Sơ cứu đúng cách giúp giảm đau và ngăn biến chứng.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-010",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Gãy xương\", bước đầu tiên cần làm là:",
+    "options": [
+      "Gọi 115 ngay sau khi sơ cứu ban đầu, đồng thời kiểm tra ABC (đường thở, hô hấp, tuần hoàn).",
+      "Kiểm tra mạch và cảm giác ở đầu chi trước khi cố định.",
+      "Đặt nạn nhân ở tư thế thoải mái, ít đau nhất. Không cố gắng nắn hoặc kéo thẳng xương gãy.",
+      "Bất động vùng gãy bằng nẹp tạm (que, báo cuộn) hoặc đệm quần áo, cố định ít nhất hai khớp trên và dưới vị trí gãy."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: Gọi 115 ngay sau khi sơ cứu ban đầu, đồng thời kiểm tra ABC (đường thở, hô hấp, tuần hoàn).",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. Gọi 115 ngay sau khi sơ cứu ban đầu, đồng thời kiểm tra ABC (đường thở, hô hấp, tuần hoàn).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-011",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Trong sơ cứuGãy xương, có những điều cấm kỵ cần tuyệt đối tránh.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tuyệt đối không tự ý kéo thẳng xương gãy, không di chuyển nạn nhân khi chưa cố định. Với nghi ngờ gãy xương đùi, xương chậu, đa chấn thương, ưu tiên bất động toàn thân và chống sốc.",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "Tuyệt đối không tự ý kéo thẳng xương gãy, không di chuyển nạn nhân khi chưa cố định. Với nghi ngờ gãy xương đùi, xương chậu, đa chấn thương, ưu tiên bất động toàn thân và chống sốc.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-012",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Gãy xương\": \"Biến dạng chi (gập góc, ngắn lại, xoay bất _____\"",
+    "options": [
+      "thường)",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"thường)\". Dấu hiệu đầy đủ: \"Biến dạng chi (gập góc, ngắn lại, xoay bất thường)\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Biến dạng chi (gập góc, ngắn lại, xoay bất thường)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-013",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Gãy xương\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Gãy xương\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Gãy xương là tổn thương thường gặp do tai nạn, ngã. Sơ cứu đúng cách giúp giảm đau và ngăn biến chứng.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-014",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Biến dạng chi (gập góc, ngắn lại, xoay bất thường); Tiếng lạo xạo của xương khi sờ hoặc cử động nhẹ; Cử động bất thường ở vùng không có khớp (cử động như khớp giả)\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Gãy xương",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Gãy xương\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Gãy xương.",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Biến dạng chi (gập góc, ngắn lại, xoay bất thường); Tiếng lạo xạo của xương khi sờ hoặc cử động nhẹ; Cử động bất thường ở vùng không có khớp (cử động như khớp giả)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-015",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "type": "classification",
+    "question": "Phân loại: \"Xương gãy nhưng không rách da, nguy cơ nhiễm trùng thấp, nhưng có thể mất máu trong vùng gãy.\" Thuộc loại nào của \"Gãy xương\"?",
+    "options": [
+      "Gãy kín",
+      "Gãy hở"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Xương gãy nhưng không rách da, nguy cơ nhiễm trùng thấp, nhưng có thể mất máu trong vùng gãy.\" là đặc điểm của \"Gãy kín\".",
+    "wrongExplanations": [
+      "\"Gãy hở\" có đặc điểm: \"Đầu xương gãy đâm thủng da, vết thương hở, nguy cơ nhiễm trùng cao, mất máu nhiều. Cần che phủ vết thương sạch, không ấn trực tiếp vào xương lộ.\" - khác với mô tả trong câu hỏi."
+    ],
+    "knowledgeRef": "Gãy kín: Xương gãy nhưng không rách da, nguy cơ nhiễm trùng thấp, nhưng có thể mất máu trong vùng gãy.; Gãy hở: Đầu xương gãy đâm thủng da, vết thương hở, nguy cơ nhiễm trùng cao, mất máu nhiều. Cần che phủ vết thương sạch, không ấn trực tiếp vào xương lộ.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-016",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Gãy xương\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. Tuyệt đối không tự ý kéo thẳng xương gãy, không di chuyển nạn nhân khi chưa cố định. Với nghi ngờ gãy xương đùi, xương chậu, đa chấn thương, ưu tiên bất động toàn thân và chống sốc.",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "Tuyệt đối không tự ý kéo thẳng xương gãy, không di chuyển nạn nhân khi chưa cố định. Với nghi ngờ gãy xương đùi, xương chậu, đa chấn thương, ưu tiên bất động toàn thân và chống sốc.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-017",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "\"Dị vật đường thở\" được hiểu đúng nhất là:",
+    "options": [
+      "Dị vật đường thở là tình huống nguy kịch, có thể dẫn đến ngạt thở nếu không xử trí kịp thời.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dị vật đường thở là tình huống nguy kịch, có thể dẫn đến ngạt thở nếu không xử trí kịp thời.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Dị vật đường thở là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Dị vật đường thở đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Dị vật đường thở là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Dị vật đường thở là tình huống nguy kịch, có thể dẫn đến ngạt thở nếu không xử trí kịp thời.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-018",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Dị vật đường thở\", bước đầu tiên cần làm là:",
+    "options": [
+      "HÓC KHÔNG HOÀN TOÀN (người tỉnh): khuyến khích ho mạnh. KHÔNG can thiệp nếu ho hiệu quả.",
+      "HÓC HOÀN TOÀN - Người lớn/trẻ >1 tuổi:",
+      "   a. Đứng sau, một chân giữa hai chân nạn nhân.",
+      "   b. Nắm đấm đặt trên thượng vị (trên rốn, dưới mũi ức)."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: HÓC KHÔNG HOÀN TOÀN (người tỉnh): khuyến khích ho mạnh. KHÔNG can thiệp nếu ho hiệu quả.",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. HÓC KHÔNG HOÀN TOÀN (người tỉnh): khuyến khích ho mạnh. KHÔNG can thiệp nếu ho hiệu quả.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-019",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Trong sơ cứuDị vật đường thở, có những điều cấm kỵ cần tuyệt đối tránh.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tuyệt đối không vỗ lưng khi hóc hoàn toàn ở người lớn (có thể làm dị vật tụt sâu hơn). Không móc họng khi chưa nhìn thấy dị vật. Trẻ em dưới 1 tuổi: KHÔNG ép bụng (Heimlich), chỉ dùng vỗ lưng + ấn ngực.",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "Tuyệt đối không vỗ lưng khi hóc hoàn toàn ở người lớn (có thể làm dị vật tụt sâu hơn). Không móc họng khi chưa nhìn thấy dị vật. Trẻ em dưới 1 tuổi: KHÔNG ép bụng (Heimlich), chỉ dùng vỗ lưng + ấn ngực.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-020",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Dị vật đường thở\": \"Hóc hoàn _____ nạn nhân không thở, không ho, không nói được, hai tay ôm cổ\"",
+    "options": [
+      "toàn:",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"toàn:\". Dấu hiệu đầy đủ: \"Hóc hoàn toàn: nạn nhân không thở, không ho, không nói được, hai tay ôm cổ\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Hóc hoàn toàn: nạn nhân không thở, không ho, không nói được, hai tay ôm cổ",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-021",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Dị vật đường thở\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Dị vật đường thở\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Dị vật đường thở là tình huống nguy kịch, có thể dẫn đến ngạt thở nếu không xử trí kịp thời.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-022",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Hóc hoàn toàn: nạn nhân không thở, không ho, không nói được, hai tay ôm cổ; Nhanh chóng tím tái, mất ý thức\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Dị vật đường thở",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Dị vật đường thở\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Dị vật đường thở.",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Hóc hoàn toàn: nạn nhân không thở, không ho, không nói được, hai tay ôm cổ; Nhanh chóng tím tái, mất ý thức",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-023",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "type": "classification",
+    "question": "Phân loại: \"Còn thở, khuyến khích ho mạnh, theo dõi sát.\" Thuộc loại nào của \"Dị vật đường thở\"?",
+    "options": [
+      "Hóc không hoàn toàn",
+      "Hóc hoàn toàn"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Còn thở, khuyến khích ho mạnh, theo dõi sát.\" là đặc điểm của \"Hóc không hoàn toàn\".",
+    "wrongExplanations": [
+      "\"Hóc hoàn toàn\" có đặc điểm: \"Cần thực hiện thủ thuật ngay. Nếu nạn nhân bất tỉnh, bắt đầu CPR.\" - khác với mô tả trong câu hỏi."
+    ],
+    "knowledgeRef": "Hóc không hoàn toàn: Còn thở, khuyến khích ho mạnh, theo dõi sát.; Hóc hoàn toàn: Cần thực hiện thủ thuật ngay. Nếu nạn nhân bất tỉnh, bắt đầu CPR.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-024",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Dị vật đường thở\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. Tuyệt đối không vỗ lưng khi hóc hoàn toàn ở người lớn (có thể làm dị vật tụt sâu hơn). Không móc họng khi chưa nhìn thấy dị vật. Trẻ em dưới 1 tuổi: KHÔNG ép bụng (Heimlich), chỉ dùng vỗ lưng + ấn ngực.",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "Tuyệt đối không vỗ lưng khi hóc hoàn toàn ở người lớn (có thể làm dị vật tụt sâu hơn). Không móc họng khi chưa nhìn thấy dị vật. Trẻ em dưới 1 tuổi: KHÔNG ép bụng (Heimlich), chỉ dùng vỗ lưng + ấn ngực.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-025",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "\"Chảy máu / Mất máu\" được hiểu đúng nhất là:",
+    "options": [
+      "Mất máu cấp tính có thể gây sốc và tử vong. Cầm máu nhanh là kỹ năng sống còn theo hướng dẫn cấp cứu 2024.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mất máu cấp tính có thể gây sốc và tử vong. Cầm máu nhanh là kỹ năng sống còn theo hướng dẫn cấp cứu 2024.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Chảy máu / Mất máu là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Chảy máu / Mất máu đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Chảy máu / Mất máu là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Mất máu cấp tính có thể gây sốc và tử vong. Cầm máu nhanh là kỹ năng sống còn theo hướng dẫn cấp cứu 2024.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-026",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Chảy máu / Mất máu\", bước đầu tiên cần làm là:",
+    "options": [
+      "Đảm bảo an toàn: đeo găng tay (hoặc dùng túi nilon, vải sạch).",
+      "Ép trực tiếp lên vết thương bằng gạc hoặc vải sạch, giữ chặt ít nhất 10 phút không gián đoạn. Nếu gạc thấm máu, đặt thêm lớp mới lên trên, không bỏ lớp cũ ra.",
+      "Nâng cao chi bị thương (nếu không có gãy xương) để giảm chảy máu.",
+      "Băng ép cố định gạc, nhưng không quá chặt gây hoại tử đầu chi."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: Đảm bảo an toàn: đeo găng tay (hoặc dùng túi nilon, vải sạch).",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. Đảm bảo an toàn: đeo găng tay (hoặc dùng túi nilon, vải sạch).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-027",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Trong sơ cứuChảy máu / Mất máu, có những điều cấm kỵ cần tuyệt đối tránh.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Không rút dị vật đâm trong vết thương (dao, mảnh thủy tinh) vì có thể gây chảy máu ồ ạt. Không băng quá chặt. Gọi 115 ngay nếu chảy máu nhiều hoặc nghi ngờ chảy máu trong. Nếu buộc phải dùng garo tự chế, bắt buộc dùng dây bản to (vải rộng 3-5cm) và có thanh vặn (cành cây, bút to) xoắn chặt. Tuyệt đối không dùng dây thun nhỏ, dây giày hay dây thép để tránh hội chứng garo tĩnh mạch làm máu chảy ồ ạt hơn.",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "Không rút dị vật đâm trong vết thương (dao, mảnh thủy tinh) vì có thể gây chảy máu ồ ạt. Không băng quá chặt. Gọi 115 ngay nếu chảy máu nhiều hoặc nghi ngờ chảy máu trong. Nếu buộc phải dùng garo tự chế, bắt buộc dùng dây bản to (vải rộng 3-5cm) và có thanh vặn (cành cây, bút to) xoắn chặt. Tuyệt đối không dùng dây thun nhỏ, dây giày hay dây thép để tránh hội chứng garo tĩnh mạch làm máu chảy ồ ạt hơn.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-028",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Chảy máu / Mất máu\": \"Máu chảy _____ tia (động mạch) hoặc chảy ồ ạt, thấm nhanh qua băng\"",
+    "options": [
+      "thành",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"thành\". Dấu hiệu đầy đủ: \"Máu chảy thành tia (động mạch) hoặc chảy ồ ạt, thấm nhanh qua băng\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Máu chảy thành tia (động mạch) hoặc chảy ồ ạt, thấm nhanh qua băng",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-029",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Chảy máu / Mất máu\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Chảy máu / Mất máu\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Mất máu cấp tính có thể gây sốc và tử vong. Cầm máu nhanh là kỹ năng sống còn theo hướng dẫn cấp cứu 2024.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-030",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Máu chảy thành tia (động mạch) hoặc chảy ồ ạt, thấm nhanh qua băng; Nạn nhân có dấu hiệu sốc giảm thể tích: da xanh, vã mồ hôi lạnh, mạch nhanh nhỏ, huyết áp tụt.\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Chảy máu / Mất máu",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Chảy máu / Mất máu\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Chảy máu / Mất máu.",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Máu chảy thành tia (động mạch) hoặc chảy ồ ạt, thấm nhanh qua băng; Nạn nhân có dấu hiệu sốc giảm thể tích: da xanh, vã mồ hôi lạnh, mạch nhanh nhỏ, huyết áp tụt.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-031",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "type": "classification",
+    "question": "Phân loại: \"Máu đỏ tươi, phun thành tia theo nhịp tim. Nguy cơ mất máu nhanh. Cần ép trực tiếp và garo nếu cần.\" Thuộc loại nào của \"Chảy máu / Mất máu\"?",
+    "options": [
+      "Chảy máu động mạch",
+      "Chảy máu tĩnh mạch",
+      "Chảy máu trong"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Máu đỏ tươi, phun thành tia theo nhịp tim. Nguy cơ mất máu nhanh. Cần ép trực tiếp và garo nếu cần.\" là đặc điểm của \"Chảy máu động mạch\".",
+    "wrongExplanations": [
+      "\"Chảy máu tĩnh mạch\" có đặc điểm: \"Máu đỏ sẫm, chảy đều. Cầm bằng ép trực tiếp và băng ép.\" - khác với mô tả trong câu hỏi.",
+      "\"Chảy máu trong\" có đặc điểm: \"Nghi ngờ khi có chấn thương vùng bụng/ngực, nạn nhân sốc không rõ nguyên nhân, cần cấp cứu ngay.\" - khác với mô tả trong câu hỏi."
+    ],
+    "knowledgeRef": "Chảy máu động mạch: Máu đỏ tươi, phun thành tia theo nhịp tim. Nguy cơ mất máu nhanh. Cần ép trực tiếp và garo nếu cần.; Chảy máu tĩnh mạch: Máu đỏ sẫm, chảy đều. Cầm bằng ép trực tiếp và băng ép.; Chảy máu trong: Nghi ngờ khi có chấn thương vùng bụng/ngực, nạn nhân sốc không rõ nguyên nhân, cần cấp cứu ngay.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-032",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Chảy máu / Mất máu\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. Không rút dị vật đâm trong vết thương (dao, mảnh thủy tinh) vì có thể gây chảy máu ồ ạt. Không băng quá chặt. Gọi 115 ngay nếu chảy máu nhiều hoặc nghi ngờ chảy máu trong. Nếu buộc phải dùng garo tự chế, bắt buộc dùng dây bản to (vải rộng 3-5cm) và có thanh vặn (cành cây, bút to) xoắn chặt. Tuyệt đối không dùng dây thun nhỏ, dây giày hay dây thép để tránh hội chứng garo tĩnh mạch làm máu chảy ồ ạt hơn.",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "Không rút dị vật đâm trong vết thương (dao, mảnh thủy tinh) vì có thể gây chảy máu ồ ạt. Không băng quá chặt. Gọi 115 ngay nếu chảy máu nhiều hoặc nghi ngờ chảy máu trong. Nếu buộc phải dùng garo tự chế, bắt buộc dùng dây bản to (vải rộng 3-5cm) và có thanh vặn (cành cây, bút to) xoắn chặt. Tuyệt đối không dùng dây thun nhỏ, dây giày hay dây thép để tránh hội chứng garo tĩnh mạch làm máu chảy ồ ạt hơn.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-033",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "\"Sốc giảm thể tích\" được hiểu đúng nhất là:",
+    "options": [
+      "Sốc giảm thể tích là tình trạng mất máu hoặc mất dịch nghiêm trọng, đe dọa tính mạng.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sốc giảm thể tích là tình trạng mất máu hoặc mất dịch nghiêm trọng, đe dọa tính mạng.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Sốc giảm thể tích là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Sốc giảm thể tích đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Sốc giảm thể tích là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Sốc giảm thể tích là tình trạng mất máu hoặc mất dịch nghiêm trọng, đe dọa tính mạng.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-034",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Sốc giảm thể tích\", bước đầu tiên cần làm là:",
+    "options": [
+      "Gọi 115 ngay, cầm máu nếu có.",
+      "Nạn nhân nằm, nâng chân cao hơn đầu (30-45°).",
+      "Đắp chăn giữ ấm, không cho ăn uống.",
+      "Theo dõi ABC, sẵn sàng CPR."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: Gọi 115 ngay, cầm máu nếu có.",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. Gọi 115 ngay, cầm máu nếu có.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-035",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Có lưu ý quan trọng khi sơ cứu Sốc giảm thể tích.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sốc mất máu có thể tử vong trong vài phút. Ưu tiên cầm máu và gọi 115.",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "Sốc mất máu có thể tử vong trong vài phút. Ưu tiên cầm máu và gọi 115.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-036",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Sốc giảm thể tích\": \"Nhịp tim _____ (>100), thở nhanh\"",
+    "options": [
+      "nhanh",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"nhanh\". Dấu hiệu đầy đủ: \"Nhịp tim nhanh (>100), thở nhanh\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Nhịp tim nhanh (>100), thở nhanh",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-037",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Sốc giảm thể tích\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Sốc giảm thể tích\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Sốc giảm thể tích là tình trạng mất máu hoặc mất dịch nghiêm trọng, đe dọa tính mạng.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-038",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Nhịp tim nhanh (>100), thở nhanh; Da xanh, tái, lạnh, vã mồ hôi; Tụt huyết áp, lơ mơ, mất ý thức\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Sốc giảm thể tích",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Sốc giảm thể tích\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Sốc giảm thể tích.",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Nhịp tim nhanh (>100), thở nhanh; Da xanh, tái, lạnh, vã mồ hôi; Tụt huyết áp, lơ mơ, mất ý thức",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-039",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "type": "classification",
+    "question": "Phân loại: \"Chảy máu cấp tính, mất >20% thể tích máu.\" Thuộc loại nào của \"Sốc giảm thể tích\"?",
+    "options": [
+      "Sốc do mất máu",
+      "Sốc do mất dịch"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Chảy máu cấp tính, mất >20% thể tích máu.\" là đặc điểm của \"Sốc do mất máu\".",
+    "wrongExplanations": [
+      "\"Sốc do mất dịch\" có đặc điểm: \"Tiêu chảy, nôn ói, bỏng mất dịch lớn.\" - khác với mô tả trong câu hỏi."
+    ],
+    "knowledgeRef": "Sốc do mất máu: Chảy máu cấp tính, mất >20% thể tích máu.; Sốc do mất dịch: Tiêu chảy, nôn ói, bỏng mất dịch lớn.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-040",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Sốc giảm thể tích\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. Sốc mất máu có thể tử vong trong vài phút. Ưu tiên cầm máu và gọi 115.",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "Sốc mất máu có thể tử vong trong vài phút. Ưu tiên cầm máu và gọi 115.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-041",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "type": "multiple_choice",
+    "question": "\"Bong gân\" được hiểu đúng nhất là:",
+    "options": [
+      "Bong gân là tổn thương dây chằng do vận động sai tư thế. Sơ cứu kịp thời theo nguyên tắc PRICE giúp giảm sưng đau.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bong gân là tổn thương dây chằng do vận động sai tư thế. Sơ cứu kịp thời theo nguyên tắc PRICE giúp giảm sưng đau.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Bong gân là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Bong gân đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Bong gân là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Bong gân là tổn thương dây chằng do vận động sai tư thế. Sơ cứu kịp thời theo nguyên tắc PRICE giúp giảm sưng đau.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-042",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Bong gân\", bước đầu tiên cần làm là:",
+    "options": [
+      "P (Protection): dừng vận động, bảo vệ khớp.",
+      "R (Rest): nghỉ ngơi hoàn toàn.",
+      "I (Ice): chườm lạnh bọc vải 15-20 phút/lần, cách 2-3h.",
+      "C (Compression): băng ép băng thun, không quá chặt."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: P (Protection): dừng vận động, bảo vệ khớp.",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. P (Protection): dừng vận động, bảo vệ khớp.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-043",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Trong sơ cứuBong gân, có những điều cấm kỵ cần tuyệt đối tránh.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sau 48h có thể chườm ấm. Nếu không cải thiện sau 3-5 ngày, đi khám chuyên khoa. Tránh HARM trong 72 giờ đầu.",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "Sau 48h có thể chườm ấm. Nếu không cải thiện sau 3-5 ngày, đi khám chuyên khoa. Tránh HARM trong 72 giờ đầu.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-044",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Bong gân\": \"Đau nhói đột ngột tại điểm dây _____\"",
+    "options": [
+      "chằng",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"chằng\". Dấu hiệu đầy đủ: \"Đau nhói đột ngột tại điểm dây chằng\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Đau nhói đột ngột tại điểm dây chằng",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-045",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Bong gân\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Bong gân\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Bong gân là tổn thương dây chằng do vận động sai tư thế. Sơ cứu kịp thời theo nguyên tắc PRICE giúp giảm sưng đau.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-046",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Đau nhói đột ngột tại điểm dây chằng; Sưng nề, bầm tím nhanh; Hạn chế cử động khớp, không thể chịu lực\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Bong gân",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Bong gân\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Bong gân.",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Đau nhói đột ngột tại điểm dây chằng; Sưng nề, bầm tím nhanh; Hạn chế cử động khớp, không thể chịu lực",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-047",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "type": "classification",
+    "question": "Phân loại: \"Dây chằng giãn, đau ít, không bất động khớp.\" Thuộc loại nào của \"Bong gân\"?",
+    "options": [
+      "Độ 1 (nhẹ)",
+      "Độ 2 (vừa)",
+      "Độ 3 (nặng)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Dây chằng giãn, đau ít, không bất động khớp.\" là đặc điểm của \"Độ 1 (nhẹ)\".",
+    "wrongExplanations": [
+      "\"Độ 2 (vừa)\" có đặc điểm: \"Rách một phần, sưng bầm, hạn chế vận động.\" - khác với mô tả trong câu hỏi.",
+      "\"Độ 3 (nặng)\" có đặc điểm: \"Đứt hoàn toàn, khớp mất vững, không chịu lực được.\" - khác với mô tả trong câu hỏi."
+    ],
+    "knowledgeRef": "Độ 1 (nhẹ): Dây chằng giãn, đau ít, không bất động khớp.; Độ 2 (vừa): Rách một phần, sưng bầm, hạn chế vận động.; Độ 3 (nặng): Đứt hoàn toàn, khớp mất vững, không chịu lực được.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-048",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Bong gân\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. Sau 48h có thể chườm ấm. Nếu không cải thiện sau 3-5 ngày, đi khám chuyên khoa. Tránh HARM trong 72 giờ đầu.",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "Sau 48h có thể chườm ấm. Nếu không cải thiện sau 3-5 ngày, đi khám chuyên khoa. Tránh HARM trong 72 giờ đầu.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-049",
+    "lessonId": "trat-khop",
+    "lessonTitle": "Trật khớp",
+    "category": "chấn thương",
+    "type": "multiple_choice",
+    "question": "\"Trật khớp\" được hiểu đúng nhất là:",
+    "options": [
+      "Trật khớp xảy ra khi đầu xương bị lệch khỏi vị trí, gây đau và mất chức năng vận động.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trật khớp xảy ra khi đầu xương bị lệch khỏi vị trí, gây đau và mất chức năng vận động.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Trật khớp là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Trật khớp đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Trật khớp là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Trật khớp xảy ra khi đầu xương bị lệch khỏi vị trí, gây đau và mất chức năng vận động.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-050",
+    "lessonId": "trat-khop",
+    "lessonTitle": "Trật khớp",
+    "category": "chấn thương",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Trật khớp\", bước đầu tiên cần làm là:",
+    "options": [
+      "Kiểm tra mạch và cảm giác ở đầu chi trước khi cố định.",
+      "Trấn an nạn nhân, không cố nắn khớp.",
+      "Gọi 115 ngay.",
+      "Bất động khớp ở tư thế hiện tại bằng nẹp hoặc địu."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: Kiểm tra mạch và cảm giác ở đầu chi trước khi cố định.",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. Kiểm tra mạch và cảm giác ở đầu chi trước khi cố định.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-051",
+    "lessonId": "trat-khop",
+    "lessonTitle": "Trật khớp",
+    "category": "chấn thương",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Trong sơ cứuTrật khớp, có những điều cấm kỵ cần tuyệt đối tránh.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tuyệt đối không tự nắn, có thể gây gãy xương hoặc tổn thương mạch máu, dây thần kinh. Trật khớp vai dễ tái phát, cần theo dõi chuyên khoa.",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "Tuyệt đối không tự nắn, có thể gây gãy xương hoặc tổn thương mạch máu, dây thần kinh. Trật khớp vai dễ tái phát, cần theo dõi chuyên khoa.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-052",
+    "lessonId": "trat-khop",
+    "lessonTitle": "Trật khớp",
+    "category": "chấn thương",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Trật khớp\": \"Biến dạng rõ tại khớp _____ bên lành)\"",
+    "options": [
+      "(khác",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"(khác\". Dấu hiệu đầy đủ: \"Biến dạng rõ tại khớp (khác bên lành)\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Biến dạng rõ tại khớp (khác bên lành)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-053",
+    "lessonId": "trat-khop",
+    "lessonTitle": "Trật khớp",
+    "category": "chấn thương",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Trật khớp\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Trật khớp\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Trật khớp xảy ra khi đầu xương bị lệch khỏi vị trí, gây đau và mất chức năng vận động.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-054",
+    "lessonId": "trat-khop",
+    "lessonTitle": "Trật khớp",
+    "category": "chấn thương",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Biến dạng rõ tại khớp (khác bên lành); Sờ thấy ổ khớp rỗng; Dấu hiệu lò xo (cố nắn thì bật lại)\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Trật khớp",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Trật khớp\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Trật khớp.",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Biến dạng rõ tại khớp (khác bên lành); Sờ thấy ổ khớp rỗng; Dấu hiệu lò xo (cố nắn thì bật lại)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-055",
+    "lessonId": "trat-khop",
+    "lessonTitle": "Trật khớp",
+    "category": "chấn thương",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Trật khớp\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. Tuyệt đối không tự nắn, có thể gây gãy xương hoặc tổn thương mạch máu, dây thần kinh. Trật khớp vai dễ tái phát, cần theo dõi chuyên khoa.",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "Tuyệt đối không tự nắn, có thể gây gãy xương hoặc tổn thương mạch máu, dây thần kinh. Trật khớp vai dễ tái phát, cần theo dõi chuyên khoa.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-056",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "type": "multiple_choice",
+    "question": "\"Dị ứng / Sốc phản vệ\" được hiểu đúng nhất là:",
+    "options": [
+      "Phản ứng dị ứng có thể từ nhẹ đến sốc phản vệ đe dọa tính mạng. Sơ cứu đúng cách theo hướng dẫn quốc tế 2024.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Phản ứng dị ứng có thể từ nhẹ đến sốc phản vệ đe dọa tính mạng. Sơ cứu đúng cách theo hướng dẫn quốc tế 2024.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Dị ứng / Sốc phản vệ là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Dị ứng / Sốc phản vệ đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Dị ứng / Sốc phản vệ là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Phản ứng dị ứng có thể từ nhẹ đến sốc phản vệ đe dọa tính mạng. Sơ cứu đúng cách theo hướng dẫn quốc tế 2024.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-057",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Dị ứng / Sốc phản vệ\", bước đầu tiên cần làm là:",
+    "options": [
+      "Gọi 115 ngay lập tức.",
+      "Ngừng ngay tiếp xúc dị nguyên (thuốc, thức ăn, nọc côn trùng).",
+      "Nếu có bơm epinephrine tự động: tiêm vào mặt ngoài đùi (có thể xuyên quần áo). Giữ 10 giây rồi rút.",
+      "Đặt nạn nhân nằm ngửa, nâng chân 30-45cm nếu tụt HA. Nếu khó thở hoặc nôn, nghiêng sang bên."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: Gọi 115 ngay lập tức.",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. Gọi 115 ngay lập tức.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-058",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Trong sơ cứuDị ứng / Sốc phản vệ, có những điều cấm kỵ cần tuyệt đối tránh.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Epinephrine (adrenaline) là thuốc số 1, tiêm càng sớm càng tốt. KHÔNG chờ triệu chứng nặng mới tiêm. Người có cơ địa dị ứng nặng cần mang theo ống tiêm epinephrine và cài đặt cảnh báo y tế. Nếu nạn nhân tỉnh sau tiêm epinephrine, vẫn cần theo dõi ít nhất 1 giờ (vì có thể tái phát).",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "Epinephrine (adrenaline) là thuốc số 1, tiêm càng sớm càng tốt. KHÔNG chờ triệu chứng nặng mới tiêm. Người có cơ địa dị ứng nặng cần mang theo ống tiêm epinephrine và cài đặt cảnh báo y tế. Nếu nạn nhân tỉnh sau tiêm epinephrine, vẫn cần theo dõi ít nhất 1 giờ (vì có thể tái phát).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-059",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Dị ứng / Sốc phản vệ\": \"Sốc phản vệ: da hồng nóng hoặc tím tái, mạch _____ nhỏ, tụt huyết áp, choáng\"",
+    "options": [
+      "nhanh",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"nhanh\". Dấu hiệu đầy đủ: \"Sốc phản vệ: da hồng nóng hoặc tím tái, mạch nhanh nhỏ, tụt huyết áp, choáng\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Sốc phản vệ: da hồng nóng hoặc tím tái, mạch nhanh nhỏ, tụt huyết áp, choáng",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-060",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Dị ứng / Sốc phản vệ\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Dị ứng / Sốc phản vệ\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Phản ứng dị ứng có thể từ nhẹ đến sốc phản vệ đe dọa tính mạng. Sơ cứu đúng cách theo hướng dẫn quốc tế 2024.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-061",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Sốc phản vệ: da hồng nóng hoặc tím tái, mạch nhanh nhỏ, tụt huyết áp, choáng; Khó thở, thở rít, khàn tiếng, nuốt vướng, phù thanh quản; Phù mạch (môi, lưỡi, thanh quản)\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Dị ứng / Sốc phản vệ",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Dị ứng / Sốc phản vệ\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Dị ứng / Sốc phản vệ.",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Sốc phản vệ: da hồng nóng hoặc tím tái, mạch nhanh nhỏ, tụt huyết áp, choáng; Khó thở, thở rít, khàn tiếng, nuốt vướng, phù thanh quản; Phù mạch (môi, lưỡi, thanh quản)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-062",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "type": "classification",
+    "question": "Phân loại: \"Da, niêm mạc: mề đay, ngứa, phù môi/lưỡi.\" Thuộc loại nào của \"Dị ứng / Sốc phản vệ\"?",
+    "options": [
+      "Độ 1 - Nhẹ",
+      "Độ 2 - Vừa",
+      "Độ 3 - Nặng (Sốc phản vệ)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Da, niêm mạc: mề đay, ngứa, phù môi/lưỡi.\" là đặc điểm của \"Độ 1 - Nhẹ\".",
+    "wrongExplanations": [
+      "\"Độ 2 - Vừa\" có đặc điểm: \"Hô hấp, tiêu hóa, tim mạch nhẹ: khó thở, đau bụng, mạch nhanh.\" - khác với mô tả trong câu hỏi.",
+      "\"Độ 3 - Nặng (Sốc phản vệ)\" có đặc điểm: \"Đe dọa tính mạng: tụt HA, khó thở nặng, ngất.\" - khác với mô tả trong câu hỏi."
+    ],
+    "knowledgeRef": "Độ 1 - Nhẹ: Da, niêm mạc: mề đay, ngứa, phù môi/lưỡi.; Độ 2 - Vừa: Hô hấp, tiêu hóa, tim mạch nhẹ: khó thở, đau bụng, mạch nhanh.; Độ 3 - Nặng (Sốc phản vệ): Đe dọa tính mạng: tụt HA, khó thở nặng, ngất.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-063",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Dị ứng / Sốc phản vệ\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. Epinephrine (adrenaline) là thuốc số 1, tiêm càng sớm càng tốt. KHÔNG chờ triệu chứng nặng mới tiêm. Người có cơ địa dị ứng nặng cần mang theo ống tiêm epinephrine và cài đặt cảnh báo y tế. Nếu nạn nhân tỉnh sau tiêm epinephrine, vẫn cần theo dõi ít nhất 1 giờ (vì có thể tái phát).",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "Epinephrine (adrenaline) là thuốc số 1, tiêm càng sớm càng tốt. KHÔNG chờ triệu chứng nặng mới tiêm. Người có cơ địa dị ứng nặng cần mang theo ống tiêm epinephrine và cài đặt cảnh báo y tế. Nếu nạn nhân tỉnh sau tiêm epinephrine, vẫn cần theo dõi ít nhất 1 giờ (vì có thể tái phát).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-064",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "type": "multiple_choice",
+    "question": "\"Chó cắn\" được hiểu đúng nhất là:",
+    "options": [
+      "Vết cắn của chó có nguy cơ nhiễm trùng và bệnh dại. Sơ cứu đúng cách giảm nguy cơ biến chứng.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Vết cắn của chó có nguy cơ nhiễm trùng và bệnh dại. Sơ cứu đúng cách giảm nguy cơ biến chứng.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Chó cắn là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Chó cắn đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Chó cắn là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Vết cắn của chó có nguy cơ nhiễm trùng và bệnh dại. Sơ cứu đúng cách giảm nguy cơ biến chứng.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-065",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Chó cắn\", bước đầu tiên cần làm là:",
+    "options": [
+      "Rửa vết thương dưới vòi nước chảy + xà phòng liên tục 15 phút.",
+      "Sát khuẩn bằng cồn 70° hoặc povidone-iodine.",
+      "Đến cơ sở y tế ngay để tiêm phòng dại và uốn ván (ngay cả vết xước nhẹ).",
+      "Ghi nhận thông tin về con chó (chủ, tình trạng sức khỏe) để theo dõi."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: Rửa vết thương dưới vòi nước chảy + xà phòng liên tục 15 phút.",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. Rửa vết thương dưới vòi nước chảy + xà phòng liên tục 15 phút.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-066",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Trong sơ cứuChó cắn, có những điều cấm kỵ cần tuyệt đối tránh.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Không nặn máu, không băng kín vết thương, không đắp lá. Tiêm vắc-xin dại càng sớm càng tốt, không chờ đến khi có triệu chứng (vì khi lên cơn dại thì tỉ lệ tử vong gần như 100%).",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "Không nặn máu, không băng kín vết thương, không đắp lá. Tiêm vắc-xin dại càng sớm càng tốt, không chờ đến khi có triệu chứng (vì khi lên cơn dại thì tỉ lệ tử vong gần như 100%).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-067",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Chó cắn\": \"_____ rách da, chảy máu, sưng đau\"",
+    "options": [
+      "Vết",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"Vết\". Dấu hiệu đầy đủ: \"Vết rách da, chảy máu, sưng đau\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Vết rách da, chảy máu, sưng đau",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-068",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Chó cắn\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Chó cắn\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Vết cắn của chó có nguy cơ nhiễm trùng và bệnh dại. Sơ cứu đúng cách giảm nguy cơ biến chứng.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-069",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Vết rách da, chảy máu, sưng đau; Nguy cơ nhiễm trùng cao (Pasteurella, tụ cầu); Nguy cơ bệnh dại và uốn ván\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Chó cắn",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Chó cắn\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Chó cắn.",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Vết rách da, chảy máu, sưng đau; Nguy cơ nhiễm trùng cao (Pasteurella, tụ cầu); Nguy cơ bệnh dại và uốn ván",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-070",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "type": "classification",
+    "question": "Phân loại: \"Tiếp xúc da lành (không nguy cơ nhiễm trùng).\" Thuộc loại nào của \"Chó cắn\"?",
+    "options": [
+      "Cắn độ 1",
+      "Độ 2",
+      "Độ 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Tiếp xúc da lành (không nguy cơ nhiễm trùng).\" là đặc điểm của \"Cắn độ 1\".",
+    "wrongExplanations": [
+      "\"Độ 2\" có đặc điểm: \"Vết xước nhẹ, trầy da, chảy máu ít.\" - khác với mô tả trong câu hỏi.",
+      "\"Độ 3\" có đặc điểm: \"Vết cắn sâu, thủng da, chảy máu nhiều, có thể tổn thương cơ, gân, xương.\" - khác với mô tả trong câu hỏi."
+    ],
+    "knowledgeRef": "Cắn độ 1: Tiếp xúc da lành (không nguy cơ nhiễm trùng).; Độ 2: Vết xước nhẹ, trầy da, chảy máu ít.; Độ 3: Vết cắn sâu, thủng da, chảy máu nhiều, có thể tổn thương cơ, gân, xương.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-071",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Chó cắn\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. Không nặn máu, không băng kín vết thương, không đắp lá. Tiêm vắc-xin dại càng sớm càng tốt, không chờ đến khi có triệu chứng (vì khi lên cơn dại thì tỉ lệ tử vong gần như 100%).",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "Không nặn máu, không băng kín vết thương, không đắp lá. Tiêm vắc-xin dại càng sớm càng tốt, không chờ đến khi có triệu chứng (vì khi lên cơn dại thì tỉ lệ tử vong gần như 100%).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-072",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "type": "multiple_choice",
+    "question": "\"Rắn cắn\" được hiểu đúng nhất là:",
+    "options": [
+      "Rắn độc cắn gây nguy hiểm tính mạng do nọc độc. Sơ cứu đúng cách theo WHO 2024 giúp giảm tổn thương.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Rắn độc cắn gây nguy hiểm tính mạng do nọc độc. Sơ cứu đúng cách theo WHO 2024 giúp giảm tổn thương.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Rắn cắn là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Rắn cắn đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Rắn cắn là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Rắn độc cắn gây nguy hiểm tính mạng do nọc độc. Sơ cứu đúng cách theo WHO 2024 giúp giảm tổn thương.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-073",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Rắn cắn\", bước đầu tiên cần làm là:",
+    "options": [
+      "Di chuyển nạn nhân ra xa khu vực rắn, trấn an, giữ bình tĩnh.",
+      "Gọi 115 ngay. Giữ nạn nhân nằm yên, bất động hoàn toàn.",
+      "Tháo trang sức, quần áo chật ở vùng bị cắn.",
+      "Bất động chi bị cắn bằng nẹp (que, báo cuộn). Đặt chi ở mức tim, không cao hơn tim."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: Di chuyển nạn nhân ra xa khu vực rắn, trấn an, giữ bình tĩnh.",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. Di chuyển nạn nhân ra xa khu vực rắn, trấn an, giữ bình tĩnh.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-074",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Trong sơ cứuRắn cắn, có những điều cấm kỵ cần tuyệt đối tránh.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "KHÔNG dùng garo (tourniquet). KHÔNG rạch hút nọc độc. KHÔNG đắp lá, bôi thuốc. KHÔNG chườm đá. KHÔNG hút bằng miệng. Cố gắng nhận dạng rắn (chụp ảnh từ xa) nhưng đảm bảo an toàn. Paracetamol có thể dùng cho đau.",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "KHÔNG dùng garo (tourniquet). KHÔNG rạch hút nọc độc. KHÔNG đắp lá, bôi thuốc. KHÔNG chườm đá. KHÔNG hút bằng miệng. Cố gắng nhận dạng rắn (chụp ảnh từ xa) nhưng đảm bảo an toàn. Paracetamol có thể dùng cho đau.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-075",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Rắn cắn\": \"Hai vết răng nanh cách nhau _____ (rắn độc)\"",
+    "options": [
+      "1-2cm",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"1-2cm\". Dấu hiệu đầy đủ: \"Hai vết răng nanh cách nhau 1-2cm (rắn độc)\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Hai vết răng nanh cách nhau 1-2cm (rắn độc)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-076",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Rắn cắn\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Rắn cắn\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Rắn độc cắn gây nguy hiểm tính mạng do nọc độc. Sơ cứu đúng cách theo WHO 2024 giúp giảm tổn thương.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-077",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Hai vết răng nanh cách nhau 1-2cm (rắn độc); Sưng nề, bầm tím lan nhanh, đau tăng dần; Rối loạn đông máu (chảy máu chân răng, bầm da, nôn ra máu)\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Rắn cắn",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Rắn cắn\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Rắn cắn.",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Hai vết răng nanh cách nhau 1-2cm (rắn độc); Sưng nề, bầm tím lan nhanh, đau tăng dần; Rối loạn đông máu (chảy máu chân răng, bầm da, nôn ra máu); Liệt cơ (sụp mi, nói khó, nuốt khó, suy hô hấp)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-078",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "type": "classification",
+    "question": "Phân loại: \"Độc tố thần kinh: liệt, sụp mi, suy hô hấp.\" Thuộc loại nào của \"Rắn cắn\"?",
+    "options": [
+      "Rắn hổ (Elapidae)",
+      "Rắn lục (Viperidae)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Độc tố thần kinh: liệt, sụp mi, suy hô hấp.\" là đặc điểm của \"Rắn hổ (Elapidae)\".",
+    "wrongExplanations": [
+      "\"Rắn lục (Viperidae)\" có đặc điểm: \"Độc tố gây rối loạn đông máu, hoại tử, suy thận.\" - khác với mô tả trong câu hỏi."
+    ],
+    "knowledgeRef": "Rắn hổ (Elapidae): Độc tố thần kinh: liệt, sụp mi, suy hô hấp.; Rắn lục (Viperidae): Độc tố gây rối loạn đông máu, hoại tử, suy thận.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-079",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Rắn cắn\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. KHÔNG dùng garo (tourniquet). KHÔNG rạch hút nọc độc. KHÔNG đắp lá, bôi thuốc. KHÔNG chườm đá. KHÔNG hút bằng miệng. Cố gắng nhận dạng rắn (chụp ảnh từ xa) nhưng đảm bảo an toàn. Paracetamol có thể dùng cho đau.",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "KHÔNG dùng garo (tourniquet). KHÔNG rạch hút nọc độc. KHÔNG đắp lá, bôi thuốc. KHÔNG chườm đá. KHÔNG hút bằng miệng. Cố gắng nhận dạng rắn (chụp ảnh từ xa) nhưng đảm bảo an toàn. Paracetamol có thể dùng cho đau.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-080",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "type": "multiple_choice",
+    "question": "\"Ong đốt\" được hiểu đúng nhất là:",
+    "options": [
+      "Ong đốt gây đau, sưng và có thể dị ứng nghiêm trọng. Sơ cứu đúng cách làm giảm triệu chứng.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ong đốt gây đau, sưng và có thể dị ứng nghiêm trọng. Sơ cứu đúng cách làm giảm triệu chứng.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Ong đốt là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Ong đốt đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Ong đốt là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Ong đốt gây đau, sưng và có thể dị ứng nghiêm trọng. Sơ cứu đúng cách làm giảm triệu chứng.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-081",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Ong đốt\", bước đầu tiên cần làm là:",
+    "options": [
+      "Di chuyển nạn nhân đến nơi an toàn, tránh ong đốt tiếp.",
+      "Loại bỏ ngòi (nếu ong mật còn ngòi) bằng cách cạo nhẹ bằng móng tay hoặc thẻ, không nặn, không kẹp.",
+      "Rửa vết đốt bằng xà phòng và nước lạnh.",
+      "Chườm lạnh bọc vải 15-20 phút, nâng chi bị đốt."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: Di chuyển nạn nhân đến nơi an toàn, tránh ong đốt tiếp.",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. Di chuyển nạn nhân đến nơi an toàn, tránh ong đốt tiếp.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-082",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Trong sơ cứuOng đốt, có những điều cấm kỵ cần tuyệt đối tránh.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Không bôi vôi, kem đánh răng, dầu gió. Không gãi, không xoa bóp. Nếu ong bắp cày hoặc ong vò vẽ đốt, có thể gây hoại tử, cần rửa bằng nước muối và đến bệnh viện.",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "Không bôi vôi, kem đánh răng, dầu gió. Không gãi, không xoa bóp. Nếu ong bắp cày hoặc ong vò vẽ đốt, có thể gây hoại tử, cần rửa bằng nước muối và đến bệnh viện.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-083",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Ong đốt\": \"Đau _____ sưng đỏ, ngứa tại chỗ\"",
+    "options": [
+      "chói,",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"chói,\". Dấu hiệu đầy đủ: \"Đau chói, sưng đỏ, ngứa tại chỗ\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Đau chói, sưng đỏ, ngứa tại chỗ",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-084",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Ong đốt\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Ong đốt\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Ong đốt gây đau, sưng và có thể dị ứng nghiêm trọng. Sơ cứu đúng cách làm giảm triệu chứng.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-085",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Đau chói, sưng đỏ, ngứa tại chỗ; Nhiều vết đốt hoặc có dị ứng: nổi mề đay toàn thân, khó thở, tụt HA, phù thanh quản\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Ong đốt",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Ong đốt\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Ong đốt.",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Đau chói, sưng đỏ, ngứa tại chỗ; Nhiều vết đốt hoặc có dị ứng: nổi mề đay toàn thân, khó thở, tụt HA, phù thanh quản",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-086",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "type": "classification",
+    "question": "Phân loại: \"Sưng đỏ dưới 10cm, tự hết sau vài giờ\" Thuộc loại nào của \"Ong đốt\"?",
+    "options": [
+      "Phản ứng tại chỗ",
+      "Phản ứng toàn thân"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Sưng đỏ dưới 10cm, tự hết sau vài giờ\" là đặc điểm của \"Phản ứng tại chỗ\".",
+    "wrongExplanations": [
+      "\"Phản ứng toàn thân\" có đặc điểm: \"Sốc phản vệ, nguy hiểm\" - khác với mô tả trong câu hỏi."
+    ],
+    "knowledgeRef": "Phản ứng tại chỗ: Sưng đỏ dưới 10cm, tự hết sau vài giờ; Phản ứng toàn thân: Sốc phản vệ, nguy hiểm",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-087",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Ong đốt\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. Không bôi vôi, kem đánh răng, dầu gió. Không gãi, không xoa bóp. Nếu ong bắp cày hoặc ong vò vẽ đốt, có thể gây hoại tử, cần rửa bằng nước muối và đến bệnh viện.",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "Không bôi vôi, kem đánh răng, dầu gió. Không gãi, không xoa bóp. Nếu ong bắp cày hoặc ong vò vẽ đốt, có thể gây hoại tử, cần rửa bằng nước muối và đến bệnh viện.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-088",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "\"Đột quỵ\" được hiểu đúng nhất là:",
+    "options": [
+      "Đột quỵ là cấp cứu thần kinh hàng đầu, cần nhận biết sớm bằng FAST và gọi cấp cứu ngay. Thời gian là não (Time is Brain).",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Đột quỵ là cấp cứu thần kinh hàng đầu, cần nhận biết sớm bằng FAST và gọi cấp cứu ngay. Thời gian là não (Time is Brain).",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Đột quỵ là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Đột quỵ đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Đột quỵ là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Đột quỵ là cấp cứu thần kinh hàng đầu, cần nhận biết sớm bằng FAST và gọi cấp cứu ngay. Thời gian là não (Time is Brain).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-089",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Đột quỵ\", bước đầu tiên cần làm là:",
+    "options": [
+      "Gọi 115 ngay lập tức – ghi nhớ thời điểm khởi phát (giờ vàng 3-4,5h).",
+      "Kiểm tra FAST: Face (mặt lệch), Arms (giơ tay một bên rơi), Speech (nói khó), Time (thời gian gọi cấp cứu).",
+      "Đặt nạn nhân nằm nghiêng an toàn nếu nôn, đầu cao 30° nếu tỉnh và không có chấn thương cột sống.",
+      "Nới lỏng quần áo, không cho ăn uống bất kỳ thứ gì (kể cả thuốc)."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: Gọi 115 ngay lập tức – ghi nhớ thời điểm khởi phát (giờ vàng 3-4,5h).",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. Gọi 115 ngay lập tức – ghi nhớ thời điểm khởi phát (giờ vàng 3-4,5h).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-090",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Trong sơ cứuĐột quỵ, có những điều cấm kỵ cần tuyệt đối tránh.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "KHÔNG tự ý cho uống aspirin, không chích lể, cạo gió, không tự lái xe đến bệnh viện. Đột quỵ cần can thiệp chuyên khoa càng sớm càng tốt. 'Time is Brain' - mỗi phút trễ làm chết 1,9 triệu tế bào não.",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "KHÔNG tự ý cho uống aspirin, không chích lể, cạo gió, không tự lái xe đến bệnh viện. Đột quỵ cần can thiệp chuyên khoa càng sớm càng tốt. 'Time is Brain' - mỗi phút trễ làm chết 1,9 triệu tế bào não.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-091",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Đột quỵ\": \"Mặt méo _____ lệch, nhân giữa lệch) - FACE\"",
+    "options": [
+      "(cười",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"(cười\". Dấu hiệu đầy đủ: \"Mặt méo (cười lệch, nhân giữa lệch) - FACE\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Mặt méo (cười lệch, nhân giữa lệch) - FACE",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-092",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Đột quỵ\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Đột quỵ\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Đột quỵ là cấp cứu thần kinh hàng đầu, cần nhận biết sớm bằng FAST và gọi cấp cứu ngay. Thời gian là não (Time is Brain).",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-093",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Mặt méo (cười lệch, nhân giữa lệch) - FACE; Yếu liệt tay chân một bên (thử giơ hai tay, một tay rơi xuống) - ARM; Nói khó, nói ngọng, không nói được - SPEECH\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Đột quỵ",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Đột quỵ\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Đột quỵ.",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Mặt méo (cười lệch, nhân giữa lệch) - FACE; Yếu liệt tay chân một bên (thử giơ hai tay, một tay rơi xuống) - ARM; Nói khó, nói ngọng, không nói được - SPEECH",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-094",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "type": "classification",
+    "question": "Phân loại: \"Tắc mạch, có thể dùng thuốc tiêu sợi huyết trong 4,5 giờ (giờ vàng).\" Thuộc loại nào của \"Đột quỵ\"?",
+    "options": [
+      "Nhồi máu não (85%)",
+      "Xuất huyết não (15%)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Tắc mạch, có thể dùng thuốc tiêu sợi huyết trong 4,5 giờ (giờ vàng).\" là đặc điểm của \"Nhồi máu não (85%)\".",
+    "wrongExplanations": [
+      "\"Xuất huyết não (15%)\" có đặc điểm: \"Vỡ mạch, nguy hiểm hơn, cần phẫu thuật sớm.\" - khác với mô tả trong câu hỏi."
+    ],
+    "knowledgeRef": "Nhồi máu não (85%): Tắc mạch, có thể dùng thuốc tiêu sợi huyết trong 4,5 giờ (giờ vàng).; Xuất huyết não (15%): Vỡ mạch, nguy hiểm hơn, cần phẫu thuật sớm.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-095",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Đột quỵ\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. KHÔNG tự ý cho uống aspirin, không chích lể, cạo gió, không tự lái xe đến bệnh viện. Đột quỵ cần can thiệp chuyên khoa càng sớm càng tốt. 'Time is Brain' - mỗi phút trễ làm chết 1,9 triệu tế bào não.",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "KHÔNG tự ý cho uống aspirin, không chích lể, cạo gió, không tự lái xe đến bệnh viện. Đột quỵ cần can thiệp chuyên khoa càng sớm càng tốt. 'Time is Brain' - mỗi phút trễ làm chết 1,9 triệu tế bào não.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-096",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "\"Đuối nước\" được hiểu đúng nhất là:",
+    "options": [
+      "Đuối nước là nguyên nhân hàng đầu gây tử vong ở trẻ em. Sơ cứu kịp thời theo DRs. ABC có thể cứu sống.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Đuối nước là nguyên nhân hàng đầu gây tử vong ở trẻ em. Sơ cứu kịp thời theo DRs. ABC có thể cứu sống.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Đuối nước là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Đuối nước đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Đuối nước là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Đuối nước là nguyên nhân hàng đầu gây tử vong ở trẻ em. Sơ cứu kịp thời theo DRs. ABC có thể cứu sống.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-097",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Đuối nước\", bước đầu tiên cần làm là:",
+    "options": [
+      "Đưa lên khỏi mặt nước an toàn. Gọi 115 ngay.",
+      "Đặt nằm ngửa trên mặt phẳng cứng, cởi quần áo ướt.",
+      "Mở đường thở, kiểm tra hô hấp.",
+      "Nếu không thở: thổi ngạt 2 cái ngay (mỗi cái 1 giây), sau đó bắt đầu CPR."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: Đưa lên khỏi mặt nước an toàn. Gọi 115 ngay.",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. Đưa lên khỏi mặt nước an toàn. Gọi 115 ngay.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-098",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Trong sơ cứuĐuối nước, có những điều cấm kỵ cần tuyệt đối tránh.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "KHÔNG dốc nước bằng cách xốc chân, không lãng phí thời gian. KHÔNG cố gắng làm sạch đường thở trước khi thổi ngạt. Ưu tiên thổi ngạt và ép tim ngay. Người đuối nước có thể sống sót ngay cả sau ngừng tim kéo dài.",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "KHÔNG dốc nước bằng cách xốc chân, không lãng phí thời gian. KHÔNG cố gắng làm sạch đường thở trước khi thổi ngạt. Ưu tiên thổi ngạt và ép tim ngay. Người đuối nước có thể sống sót ngay cả sau ngừng tim kéo dài.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-099",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Đuối nước\": \"_____ thở, ngừng tim\"",
+    "options": [
+      "Ngừng",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"Ngừng\". Dấu hiệu đầy đủ: \"Ngừng thở, ngừng tim\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Ngừng thở, ngừng tim",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-100",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Đuối nước\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Đuối nước\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Đuối nước là nguyên nhân hàng đầu gây tử vong ở trẻ em. Sơ cứu kịp thời theo DRs. ABC có thể cứu sống.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-101",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Ngừng thở, ngừng tim; Da tím tái, bụng chướng (do nuốt nước); Mất ý thức\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Đuối nước",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Đuối nước\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Đuối nước.",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Ngừng thở, ngừng tim; Da tím tái, bụng chướng (do nuốt nước); Mất ý thức",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-102",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Đuối nước\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. KHÔNG dốc nước bằng cách xốc chân, không lãng phí thời gian. KHÔNG cố gắng làm sạch đường thở trước khi thổi ngạt. Ưu tiên thổi ngạt và ép tim ngay. Người đuối nước có thể sống sót ngay cả sau ngừng tim kéo dài.",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "KHÔNG dốc nước bằng cách xốc chân, không lãng phí thời gian. KHÔNG cố gắng làm sạch đường thở trước khi thổi ngạt. Ưu tiên thổi ngạt và ép tim ngay. Người đuối nước có thể sống sót ngay cả sau ngừng tim kéo dài.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-103",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "\"Bỏng / Phỏng\" được hiểu đúng nhất là:",
+    "options": [
+      "Bỏng là tổn thương da do nhiệt, hóa chất hoặc điện. Sơ cứu đúng cách giúp giảm đau và hạn chế sẹo.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bỏng là tổn thương da do nhiệt, hóa chất hoặc điện. Sơ cứu đúng cách giúp giảm đau và hạn chế sẹo.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Bỏng / Phỏng là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Bỏng / Phỏng đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Bỏng / Phỏng là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Bỏng là tổn thương da do nhiệt, hóa chất hoặc điện. Sơ cứu đúng cách giúp giảm đau và hạn chế sẹo.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-104",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Bỏng / Phỏng\", bước đầu tiên cần làm là:",
+    "options": [
+      "Loại bỏ nguồn nhiệt, ngắt điện. Cởi quần áo bị cháy (nếu không dính vào da).",
+      "Làm mát bằng nước chảy mát 15-25°C trong 20 phút. Phải thực hiện ngay lập tức, tối ưu nhất là trong 30 phút đầu tiên sau khi bị bỏng.",
+      "Che phủ vết bỏng bằng gạc ẩm hoặc khăn sạch, không bôi gì (không dùng đá, không dùng dầu, không bôi kem đánh răng).",
+      "Nếu bỏng hóa chất: rửa dưới vòi nước chảy 20 phút, cởi quần áo bị nhiễm hóa chất."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: Loại bỏ nguồn nhiệt, ngắt điện. Cởi quần áo bị cháy (nếu không dính vào da).",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. Loại bỏ nguồn nhiệt, ngắt điện. Cởi quần áo bị cháy (nếu không dính vào da).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-105",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Trong sơ cứuBỏng / Phỏng, có những điều cấm kỵ cần tuyệt đối tránh.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "KHÔNG dùng đá, nước đá, khăn ướp đá. KHÔNG bôi kem đánh răng, vôi, dầu cá, mật ong. KHÔNG làm vỡ nốt phỏng. KHÔNG dùng cồn rửa. Giữ ấm những phần không bị bỏng để tránh hạ thân nhiệt.",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "KHÔNG dùng đá, nước đá, khăn ướp đá. KHÔNG bôi kem đánh răng, vôi, dầu cá, mật ong. KHÔNG làm vỡ nốt phỏng. KHÔNG dùng cồn rửa. Giữ ấm những phần không bị bỏng để tránh hạ thân nhiệt.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-106",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Bỏng / Phỏng\": \"Đỏ da, _____ rộp, đau rát, da có thể cháy đen\"",
+    "options": [
+      "phồng",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"phồng\". Dấu hiệu đầy đủ: \"Đỏ da, phồng rộp, đau rát, da có thể cháy đen\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Đỏ da, phồng rộp, đau rát, da có thể cháy đen",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-107",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Bỏng / Phỏng\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Bỏng / Phỏng\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Bỏng là tổn thương da do nhiệt, hóa chất hoặc điện. Sơ cứu đúng cách giúp giảm đau và hạn chế sẹo.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-108",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Đỏ da, phồng rộp, đau rát, da có thể cháy đen; Bỏng hóa chất có thể không đau ngay nhưng tiến triển nặng\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Bỏng / Phỏng",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Bỏng / Phỏng\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Bỏng / Phỏng.",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Đỏ da, phồng rộp, đau rát, da có thể cháy đen; Bỏng hóa chất có thể không đau ngay nhưng tiến triển nặng",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-109",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "type": "classification",
+    "question": "Phân loại: \"Đỏ, đau, không phồng nước. Tổn thương lớp biểu bì.\" Thuộc loại nào của \"Bỏng / Phỏng\"?",
+    "options": [
+      "Độ 1",
+      "Độ 2",
+      "Độ 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Đỏ, đau, không phồng nước. Tổn thương lớp biểu bì.\" là đặc điểm của \"Độ 1\".",
+    "wrongExplanations": [
+      "\"Độ 2\" có đặc điểm: \"Phồng nước, nền hồng, đau nhiều. Tổn thương lớp bì và hạ bì.\" - khác với mô tả trong câu hỏi.",
+      "\"Độ 3\" có đặc điểm: \"Da cháy đen/trắng, không đau, tổn thương sâu. Cần ghép da.\" - khác với mô tả trong câu hỏi."
+    ],
+    "knowledgeRef": "Độ 1: Đỏ, đau, không phồng nước. Tổn thương lớp biểu bì.; Độ 2: Phồng nước, nền hồng, đau nhiều. Tổn thương lớp bì và hạ bì.; Độ 3: Da cháy đen/trắng, không đau, tổn thương sâu. Cần ghép da.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-110",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Bỏng / Phỏng\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. KHÔNG dùng đá, nước đá, khăn ướp đá. KHÔNG bôi kem đánh răng, vôi, dầu cá, mật ong. KHÔNG làm vỡ nốt phỏng. KHÔNG dùng cồn rửa. Giữ ấm những phần không bị bỏng để tránh hạ thân nhiệt.",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "KHÔNG dùng đá, nước đá, khăn ướp đá. KHÔNG bôi kem đánh răng, vôi, dầu cá, mật ong. KHÔNG làm vỡ nốt phỏng. KHÔNG dùng cồn rửa. Giữ ấm những phần không bị bỏng để tránh hạ thân nhiệt.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-111",
+    "lessonId": "dien-giat",
+    "lessonTitle": "Điện giật",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "\"Điện giật\" được hiểu đúng nhất là:",
+    "options": [
+      "Điện giật có thể gây ngừng tim, bỏng và tổn thương thần kinh. Cần xử trí nhanh chóng.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Điện giật có thể gây ngừng tim, bỏng và tổn thương thần kinh. Cần xử trí nhanh chóng.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Điện giật là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Điện giật đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Điện giật là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Điện giật có thể gây ngừng tim, bỏng và tổn thương thần kinh. Cần xử trí nhanh chóng.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-112",
+    "lessonId": "dien-giat",
+    "lessonTitle": "Điện giật",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Điện giật\", bước đầu tiên cần làm là:",
+    "options": [
+      "Ngắt nguồn điện ngay (cầu dao, dùng gậy khô hất dây).",
+      "KHÔNG chạm trực tiếp nạn nhân nếu vẫn còn tiếp xúc điện.",
+      "Kiểm tra ABC ngay. Gọi 115.",
+      "Nếu ngưng thở/ngưng tim → CPR ngay."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: Ngắt nguồn điện ngay (cầu dao, dùng gậy khô hất dây).",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. Ngắt nguồn điện ngay (cầu dao, dùng gậy khô hất dây).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-113",
+    "lessonId": "dien-giat",
+    "lessonTitle": "Điện giật",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Có lưu ý quan trọng khi sơ cứu Điện giật.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sau điện giật, dù tỉnh vẫn cần đến bệnh viện kiểm tra tim mạch (rối loạn nhịp muộn) và thận (hoại tử cơ). Có thể có chấn thương cột sống nếu ngã từ cao.",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "Sau điện giật, dù tỉnh vẫn cần đến bệnh viện kiểm tra tim mạch (rối loạn nhịp muộn) và thận (hoại tử cơ). Có thể có chấn thương cột sống nếu ngã từ cao.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-114",
+    "lessonId": "dien-giat",
+    "lessonTitle": "Điện giật",
+    "category": "cấp cứu",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Điện giật\": \"Bất _____ co giật, ngừng thở, ngừng tim\"",
+    "options": [
+      "tỉnh,",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"tỉnh,\". Dấu hiệu đầy đủ: \"Bất tỉnh, co giật, ngừng thở, ngừng tim\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Bất tỉnh, co giật, ngừng thở, ngừng tim",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-115",
+    "lessonId": "dien-giat",
+    "lessonTitle": "Điện giật",
+    "category": "cấp cứu",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Điện giật\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Điện giật\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Điện giật có thể gây ngừng tim, bỏng và tổn thương thần kinh. Cần xử trí nhanh chóng.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-116",
+    "lessonId": "dien-giat",
+    "lessonTitle": "Điện giật",
+    "category": "cấp cứu",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Bất tỉnh, co giật, ngừng thở, ngừng tim; Vết bỏng sâu tại điểm tiếp xúc\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Điện giật",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Điện giật\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Điện giật.",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Bất tỉnh, co giật, ngừng thở, ngừng tim; Vết bỏng sâu tại điểm tiếp xúc",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-117",
+    "lessonId": "dien-giat",
+    "lessonTitle": "Điện giật",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Điện giật\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. Sau điện giật, dù tỉnh vẫn cần đến bệnh viện kiểm tra tim mạch (rối loạn nhịp muộn) và thận (hoại tử cơ). Có thể có chấn thương cột sống nếu ngã từ cao.",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "Sau điện giật, dù tỉnh vẫn cần đến bệnh viện kiểm tra tim mạch (rối loạn nhịp muộn) và thận (hoại tử cơ). Có thể có chấn thương cột sống nếu ngã từ cao.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-118",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "\"CPR (Hồi sinh tim phổi)\" được hiểu đúng nhất là:",
+    "options": [
+      "CPR là kỹ thuật cấp cứu ngưng tim, giúp duy trì tuần hoàn và hô hấp cho đến khi có trợ giúp.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CPR là kỹ thuật cấp cứu ngưng tim, giúp duy trì tuần hoàn và hô hấp cho đến khi có trợ giúp.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "CPR (Hồi sinh tim phổi) là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "CPR (Hồi sinh tim phổi) đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "CPR (Hồi sinh tim phổi) là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "CPR là kỹ thuật cấp cứu ngưng tim, giúp duy trì tuần hoàn và hô hấp cho đến khi có trợ giúp.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-119",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"CPR (Hồi sinh tim phổi)\", bước đầu tiên cần làm là:",
+    "options": [
+      "Đảm bảo an toàn, gọi 115 ngay hoặc nhờ người xung quanh gọi.",
+      "Đặt nạn nhân nằm ngửa trên mặt phẳng cứng, cởi áo.",
+      "Vị trí ép: Nửa dưới xương ức (đặt cườm tay vào giữa ngực, ngay trên đường nối hai núm vú). Hai tay đan chồng, ép thẳng, sâu 5-6 cm, tần số 100-120 lần/phút.",
+      "Để lồng ngực nổi hoàn toàn sau mỗi cú ép (cho phép hồi phục hoàn toàn)."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: Đảm bảo an toàn, gọi 115 ngay hoặc nhờ người xung quanh gọi.",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. Đảm bảo an toàn, gọi 115 ngay hoặc nhờ người xung quanh gọi.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-120",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Trong sơ cứuCPR (Hồi sinh tim phổi), có những điều cấm kỵ cần tuyệt đối tránh.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Nếu không được đào tạo, chỉ ép tay không (hands-only). Giữ nhịp 100-120 lần/phút, ép sâu 5-6 cm. Cho phép lồng ngực hồi phục hoàn toàn. Kiên trì, thay người mỗi 2 phút.",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "Nếu không được đào tạo, chỉ ép tay không (hands-only). Giữ nhịp 100-120 lần/phút, ép sâu 5-6 cm. Cho phép lồng ngực hồi phục hoàn toàn. Kiên trì, thay người mỗi 2 phút.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-121",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"CPR (Hồi sinh tim phổi)\": \"_____ tim (không bắt mạch cảnh, mạch bẹn)\"",
+    "options": [
+      "Ngừng",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"Ngừng\". Dấu hiệu đầy đủ: \"Ngừng tim (không bắt mạch cảnh, mạch bẹn)\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Ngừng tim (không bắt mạch cảnh, mạch bẹn)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-122",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"CPR (Hồi sinh tim phổi)\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"CPR (Hồi sinh tim phổi)\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "CPR là kỹ thuật cấp cứu ngưng tim, giúp duy trì tuần hoàn và hô hấp cho đến khi có trợ giúp.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-123",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Ngừng tim (không bắt mạch cảnh, mạch bẹn); Ngừng thở (lồng ngực không di động); Mất ý thức\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "CPR (Hồi sinh tim phổi)",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"CPR (Hồi sinh tim phổi)\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với CPR (Hồi sinh tim phổi).",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Ngừng tim (không bắt mạch cảnh, mạch bẹn); Ngừng thở (lồng ngực không di động); Mất ý thức",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-124",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "type": "classification",
+    "question": "Phân loại: \"Ép tim 30 cái + thổi ngạt 2 cái. Dành cho người được đào tạo.\" Thuộc loại nào của \"CPR (Hồi sinh tim phổi)\"?",
+    "options": [
+      "CPR truyền thống (30:2)",
+      "CPR chỉ ép tim (Hands-only)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Ép tim 30 cái + thổi ngạt 2 cái. Dành cho người được đào tạo.\" là đặc điểm của \"CPR truyền thống (30:2)\".",
+    "wrongExplanations": [
+      "\"CPR chỉ ép tim (Hands-only)\" có đặc điểm: \"Chỉ ép tim liên tục 100-120 lần/phút. Dành cho người chưa được đào tạo hoặc không muốn thổi ngạt.\" - khác với mô tả trong câu hỏi."
+    ],
+    "knowledgeRef": "CPR truyền thống (30:2): Ép tim 30 cái + thổi ngạt 2 cái. Dành cho người được đào tạo.; CPR chỉ ép tim (Hands-only): Chỉ ép tim liên tục 100-120 lần/phút. Dành cho người chưa được đào tạo hoặc không muốn thổi ngạt.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-125",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"CPR (Hồi sinh tim phổi)\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. Nếu không được đào tạo, chỉ ép tay không (hands-only). Giữ nhịp 100-120 lần/phút, ép sâu 5-6 cm. Cho phép lồng ngực hồi phục hoàn toàn. Kiên trì, thay người mỗi 2 phút.",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "Nếu không được đào tạo, chỉ ép tay không (hands-only). Giữ nhịp 100-120 lần/phút, ép sâu 5-6 cm. Cho phép lồng ngực hồi phục hoàn toàn. Kiên trì, thay người mỗi 2 phút.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-126",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "type": "multiple_choice",
+    "question": "\"Hạ thân nhiệt\" được hiểu đúng nhất là:",
+    "options": [
+      "Hạ thân nhiệt là tình trạng cơ thể mất nhiệt quá nhanh. Cần xử trí nhẹ nhàng và hâm nóng từ từ.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Hạ thân nhiệt là tình trạng cơ thể mất nhiệt quá nhanh. Cần xử trí nhẹ nhàng và hâm nóng từ từ.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Hạ thân nhiệt là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Hạ thân nhiệt đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Hạ thân nhiệt là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Hạ thân nhiệt là tình trạng cơ thể mất nhiệt quá nhanh. Cần xử trí nhẹ nhàng và hâm nóng từ từ.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-127",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Hạ thân nhiệt\", bước đầu tiên cần làm là:",
+    "options": [
+      "Đưa vào nơi khô ráo, tránh gió.",
+      "Thay quần áo ướt bằng khô, ấm.",
+      "Hâm nóng từ từ: ủ ấm vùng ngực, cổ, đầu, bẹn (không xoa bóp chân tay).",
+      "Dùng chăn, túi ấm, chai nước ấm (bọc khăn) đặt ở nách, bẹn, cổ."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: Đưa vào nơi khô ráo, tránh gió.",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. Đưa vào nơi khô ráo, tránh gió.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-128",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Trong sơ cứuHạ thân nhiệt, có những điều cấm kỵ cần tuyệt đối tránh.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "KHÔNG xoa bóp chân tay (gây sốc tim, rối loạn nhịp). KHÔNG tắm nước nóng, chườm nóng quá nhanh (gây giãn mạch ngoại vi, tụt HA). Hạ thân nhiệt nặng có thể hồi sinh ngay cả sau ngừng tim lâu.",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "KHÔNG xoa bóp chân tay (gây sốc tim, rối loạn nhịp). KHÔNG tắm nước nóng, chườm nóng quá nhanh (gây giãn mạch ngoại vi, tụt HA). Hạ thân nhiệt nặng có thể hồi sinh ngay cả sau ngừng tim lâu.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-129",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Hạ thân nhiệt\": \"_____ độ thân dưới 35°C\"",
+    "options": [
+      "Nhiệt",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"Nhiệt\". Dấu hiệu đầy đủ: \"Nhiệt độ thân dưới 35°C\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Nhiệt độ thân dưới 35°C",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-130",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Hạ thân nhiệt\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Hạ thân nhiệt\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Hạ thân nhiệt là tình trạng cơ thể mất nhiệt quá nhanh. Cần xử trí nhẹ nhàng và hâm nóng từ từ.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-131",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Nhiệt độ thân dưới 35°C; Nạn nhân lơ mơ, run không kiểm soát (run run rung) hoặc không run (nặng); Da lạnh, tái nhợt, có thể bị phù phổi\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Hạ thân nhiệt",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Hạ thân nhiệt\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Hạ thân nhiệt.",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Nhiệt độ thân dưới 35°C; Nạn nhân lơ mơ, run không kiểm soát (run run rung) hoặc không run (nặng); Da lạnh, tái nhợt, có thể bị phù phổi",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-132",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "type": "classification",
+    "question": "Phân loại: \"Run run, tỉnh táo. Hâm nóng được.\" Thuộc loại nào của \"Hạ thân nhiệt\"?",
+    "options": [
+      "Nhẹ (32-35°C)",
+      "Trung bình (28-32°C)",
+      "Nặng (<28°C)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Run run, tỉnh táo. Hâm nóng được.\" là đặc điểm của \"Nhẹ (32-35°C)\".",
+    "wrongExplanations": [
+      "\"Trung bình (28-32°C)\" có đặc điểm: \"Lơ mơ, run giảm. Cần CPR nếu ngừng tim.\" - khác với mô tả trong câu hỏi.",
+      "\"Nặng (<28°C)\" có đặc điểm: \"Hôn mê, không run. Có vẻ đã chết nhưng vẫn có thể hồi sinh.\" - khác với mô tả trong câu hỏi."
+    ],
+    "knowledgeRef": "Nhẹ (32-35°C): Run run, tỉnh táo. Hâm nóng được.; Trung bình (28-32°C): Lơ mơ, run giảm. Cần CPR nếu ngừng tim.; Nặng (<28°C): Hôn mê, không run. Có vẻ đã chết nhưng vẫn có thể hồi sinh.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-133",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Hạ thân nhiệt\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. KHÔNG xoa bóp chân tay (gây sốc tim, rối loạn nhịp). KHÔNG tắm nước nóng, chườm nóng quá nhanh (gây giãn mạch ngoại vi, tụt HA). Hạ thân nhiệt nặng có thể hồi sinh ngay cả sau ngừng tim lâu.",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "KHÔNG xoa bóp chân tay (gây sốc tim, rối loạn nhịp). KHÔNG tắm nước nóng, chườm nóng quá nhanh (gây giãn mạch ngoại vi, tụt HA). Hạ thân nhiệt nặng có thể hồi sinh ngay cả sau ngừng tim lâu.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-134",
+    "lessonId": "ngo-doc-thuc-pham",
+    "lessonTitle": "Ngộ độc thực phẩm",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "\"Ngộ độc thực phẩm\" được hiểu đúng nhất là:",
+    "options": [
+      "Ngộ độc thực phẩm thường gây nôn, tiêu chảy, mất nước. Cần bù nước và theo dõi.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ngộ độc thực phẩm thường gây nôn, tiêu chảy, mất nước. Cần bù nước và theo dõi.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Ngộ độc thực phẩm là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Ngộ độc thực phẩm đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Ngộ độc thực phẩm là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Ngộ độc thực phẩm thường gây nôn, tiêu chảy, mất nước. Cần bù nước và theo dõi.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-135",
+    "lessonId": "ngo-doc-thuc-pham",
+    "lessonTitle": "Ngộ độc thực phẩm",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Ngộ độc thực phẩm\", bước đầu tiên cần làm là:",
+    "options": [
+      "Ngưng ăn thực phẩm nghi ngờ.",
+      "Nếu nạn nhân tỉnh: cho uống nước, oresol từ từ.",
+      "Nếu nôn: đặt tư thế hồi phục, không cho ăn uống.",
+      "Nếu hôn mê, khó thở: gọi 115 ngay, bắt đầu CPR nếu ngừng tim."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: Ngưng ăn thực phẩm nghi ngờ.",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. Ngưng ăn thực phẩm nghi ngờ.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-136",
+    "lessonId": "ngo-doc-thuc-pham",
+    "lessonTitle": "Ngộ độc thực phẩm",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Trong sơ cứuNgộ độc thực phẩm, có những điều cấm kỵ cần tuyệt đối tránh.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Không tự ý dùng thuốc chống nôn hoặc cầm tiêu chảy khi chưa có chỉ định. KHÔNG cố gắng gây nôn (gây tổn thương thêm thực quản). Nếu nghi ngờ ngộ độc hóa chất, kim loại nặng: gọi 115 ngay.",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "Không tự ý dùng thuốc chống nôn hoặc cầm tiêu chảy khi chưa có chỉ định. KHÔNG cố gắng gây nôn (gây tổn thương thêm thực quản). Nếu nghi ngờ ngộ độc hóa chất, kim loại nặng: gọi 115 ngay.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-137",
+    "lessonId": "ngo-doc-thuc-pham",
+    "lessonTitle": "Ngộ độc thực phẩm",
+    "category": "cấp cứu",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Ngộ độc thực phẩm\": \"Buồn nôn, nôn, tiêu _____ đau bụng, sốt\"",
+    "options": [
+      "chảy,",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"chảy,\". Dấu hiệu đầy đủ: \"Buồn nôn, nôn, tiêu chảy, đau bụng, sốt\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Buồn nôn, nôn, tiêu chảy, đau bụng, sốt",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-138",
+    "lessonId": "ngo-doc-thuc-pham",
+    "lessonTitle": "Ngộ độc thực phẩm",
+    "category": "cấp cứu",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Ngộ độc thực phẩm\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Ngộ độc thực phẩm\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Ngộ độc thực phẩm thường gây nôn, tiêu chảy, mất nước. Cần bù nước và theo dõi.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-139",
+    "lessonId": "ngo-doc-thuc-pham",
+    "lessonTitle": "Ngộ độc thực phẩm",
+    "category": "cấp cứu",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Buồn nôn, nôn, tiêu chảy, đau bụng, sốt; Mất nước (khô miệng, tiểu ít, da nhăn nheo); Nhìn mờ, nói khó, yếu cơ, khó thở (ngộ độc nặng)\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Ngộ độc thực phẩm",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Ngộ độc thực phẩm\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Ngộ độc thực phẩm.",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Buồn nôn, nôn, tiêu chảy, đau bụng, sốt; Mất nước (khô miệng, tiểu ít, da nhăn nheo); Nhìn mờ, nói khó, yếu cơ, khó thở (ngộ độc nặng)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-140",
+    "lessonId": "ngo-doc-thuc-pham",
+    "lessonTitle": "Ngộ độc thực phẩm",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Ngộ độc thực phẩm\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. Không tự ý dùng thuốc chống nôn hoặc cầm tiêu chảy khi chưa có chỉ định. KHÔNG cố gắng gây nôn (gây tổn thương thêm thực quản). Nếu nghi ngờ ngộ độc hóa chất, kim loại nặng: gọi 115 ngay.",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "Không tự ý dùng thuốc chống nôn hoặc cầm tiêu chảy khi chưa có chỉ định. KHÔNG cố gắng gây nôn (gây tổn thương thêm thực quản). Nếu nghi ngờ ngộ độc hóa chất, kim loại nặng: gọi 115 ngay.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-141",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "\"Co giật / Động kinh\" được hiểu đúng nhất là:",
+    "options": [
+      "Cơn co giật do động kinh hoặc sốt cao, cần bảo vệ nạn nhân khỏi chấn thương và theo dõi.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cơn co giật do động kinh hoặc sốt cao, cần bảo vệ nạn nhân khỏi chấn thương và theo dõi.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Co giật / Động kinh là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Co giật / Động kinh đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Co giật / Động kinh là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Cơn co giật do động kinh hoặc sốt cao, cần bảo vệ nạn nhân khỏi chấn thương và theo dõi.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-142",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Co giật / Động kinh\", bước đầu tiên cần làm là:",
+    "options": [
+      "Đặt nạn nhân nằm an toàn, kê mềm dưới đầu, nới lỏng quần áo.",
+      "Nghiêng đầu sang bên để chất nôn hoặc bọt chảy ra, tránh sặc.",
+      "Ghi nhận thời gian cơn.",
+      "Nếu >5 phút hoặc nhiều cơn liên tiếp → gọi 115."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: Đặt nạn nhân nằm an toàn, kê mềm dưới đầu, nới lỏng quần áo.",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. Đặt nạn nhân nằm an toàn, kê mềm dưới đầu, nới lỏng quần áo.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-143",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Trong sơ cứuCo giật / Động kinh, có những điều cấm kỵ cần tuyệt đối tránh.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Không ghì chặt nạn nhân, không cố ngừng cơn. Hầu hết cơn tự hết trong 1-3 phút. Sau cơn nạn nhân thường buồn ngủ, mệt mỏi.",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "Không ghì chặt nạn nhân, không cố ngừng cơn. Hầu hết cơn tự hết trong 1-3 phút. Sau cơn nạn nhân thường buồn ngủ, mệt mỏi.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-144",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Co giật / Động kinh\": \"Mất ý thức đột _____ co cứng rồi giật nhịp nhàng toàn thân\"",
+    "options": [
+      "ngột,",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"ngột,\". Dấu hiệu đầy đủ: \"Mất ý thức đột ngột, co cứng rồi giật nhịp nhàng toàn thân\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Mất ý thức đột ngột, co cứng rồi giật nhịp nhàng toàn thân",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-145",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Co giật / Động kinh\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Co giật / Động kinh\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Cơn co giật do động kinh hoặc sốt cao, cần bảo vệ nạn nhân khỏi chấn thương và theo dõi.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-146",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Mất ý thức đột ngột, co cứng rồi giật nhịp nhàng toàn thân; Mắt trợn ngược, sùi bọt mép; Cắn lưỡi, tiểu tiện không tự chủ\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Co giật / Động kinh",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Co giật / Động kinh\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Co giật / Động kinh.",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Mất ý thức đột ngột, co cứng rồi giật nhịp nhàng toàn thân; Mắt trợn ngược, sùi bọt mép; Cắn lưỡi, tiểu tiện không tự chủ",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-147",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "type": "classification",
+    "question": "Phân loại: \"Co giật toàn thân, mất ý thức.\" Thuộc loại nào của \"Co giật / Động kinh\"?",
+    "options": [
+      "Toàn thể (Generalized)",
+      "Cơn sốt (Febrile)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Co giật toàn thân, mất ý thức.\" là đặc điểm của \"Toàn thể (Generalized)\".",
+    "wrongExplanations": [
+      "\"Cơn sốt (Febrile)\" có đặc điểm: \"Co giật do sốt cao ở trẻ 6 tháng-5 tuổi, thường tự hết.\" - khác với mô tả trong câu hỏi."
+    ],
+    "knowledgeRef": "Toàn thể (Generalized): Co giật toàn thân, mất ý thức.; Cơn sốt (Febrile): Co giật do sốt cao ở trẻ 6 tháng-5 tuổi, thường tự hết.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-148",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Co giật / Động kinh\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. Không ghì chặt nạn nhân, không cố ngừng cơn. Hầu hết cơn tự hết trong 1-3 phút. Sau cơn nạn nhân thường buồn ngủ, mệt mỏi.",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "Không ghì chặt nạn nhân, không cố ngừng cơn. Hầu hết cơn tự hết trong 1-3 phút. Sau cơn nạn nhân thường buồn ngủ, mệt mỏi.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-149",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "type": "multiple_choice",
+    "question": "\"Chấn thương cột sống\" được hiểu đúng nhất là:",
+    "options": [
+      "Chấn thương cột sống có thể gây liệt vĩnh viễn. Cần cố định đầu và cột sống, giữ thẳng hàng, gọi cấp cứu.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chấn thương cột sống có thể gây liệt vĩnh viễn. Cần cố định đầu và cột sống, giữ thẳng hàng, gọi cấp cứu.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Chấn thương cột sống là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Chấn thương cột sống đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Chấn thương cột sống là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Chấn thương cột sống có thể gây liệt vĩnh viễn. Cần cố định đầu và cột sống, giữ thẳng hàng, gọi cấp cứu.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-150",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Chấn thương cột sống\", bước đầu tiên cần làm là:",
+    "options": [
+      "Giữ đầu và cơ thể thẳng hàng bằng tay (manual in-line stabilization).",
+      "KHÔNG cử động, lay, xoay đầu/cổ nạn nhân.",
+      "KHÔNG để nạn nhân ngồi dậy hoặc đứng.",
+      "Nếu cần di chuyển: dùng kỹ thuật lăn log-roll (lăn người) với ít nhất 3 người, giữ đầu thẳng hàng."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: Giữ đầu và cơ thể thẳng hàng bằng tay (manual in-line stabilization).",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. Giữ đầu và cơ thể thẳng hàng bằng tay (manual in-line stabilization).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-151",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Trong sơ cứuChấn thương cột sống, có những điều cấm kỵ cần tuyệt đối tránh.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ngay cả khi nạn nhân tỉnh táo và không đau, vẫn phải nghi ngờ chấn thương cột sống vì có thể trì hoãn biểu hiện. Khi nghi ngờ → bất động toàn bộ cột sống.",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "Ngay cả khi nạn nhân tỉnh táo và không đau, vẫn phải nghi ngờ chấn thương cột sống vì có thể trì hoãn biểu hiện. Khi nghi ngờ → bất động toàn bộ cột sống.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-152",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Chấn thương cột sống\": \"Đau chói vùng _____\"",
+    "options": [
+      "cổ/lưng",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"cổ/lưng\". Dấu hiệu đầy đủ: \"Đau chói vùng cổ/lưng\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Đau chói vùng cổ/lưng",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-153",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Chấn thương cột sống\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Chấn thương cột sống\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Chấn thương cột sống có thể gây liệt vĩnh viễn. Cần cố định đầu và cột sống, giữ thẳng hàng, gọi cấp cứu.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-154",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Đau chói vùng cổ/lưng; Tê bì, yếu hoặc liệt tay chân; Mất kiểm soát cơ vòng (tiểu tiện không tự chủ)\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Chấn thương cột sống",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Chấn thương cột sống\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Chấn thương cột sống.",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Đau chói vùng cổ/lưng; Tê bì, yếu hoặc liệt tay chân; Mất kiểm soát cơ vòng (tiểu tiện không tự chủ)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-155",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Chấn thương cột sống\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. Ngay cả khi nạn nhân tỉnh táo và không đau, vẫn phải nghi ngờ chấn thương cột sống vì có thể trì hoãn biểu hiện. Khi nghi ngờ → bất động toàn bộ cột sống.",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "Ngay cả khi nạn nhân tỉnh táo và không đau, vẫn phải nghi ngờ chấn thương cột sống vì có thể trì hoãn biểu hiện. Khi nghi ngờ → bất động toàn bộ cột sống.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-156",
+    "lessonId": "nhoi-mau-co-tim",
+    "lessonTitle": "Nhồi máu cơ tim",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "\"Nhồi máu cơ tim\" được hiểu đúng nhất là:",
+    "options": [
+      "Nhồi máu cơ tim là cấp cứu tim mạch nguy hiểm. Gọi cấp cứu ngay khi nghi ngờ.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Nhồi máu cơ tim là cấp cứu tim mạch nguy hiểm. Gọi cấp cứu ngay khi nghi ngờ.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Nhồi máu cơ tim là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Nhồi máu cơ tim đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Nhồi máu cơ tim là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Nhồi máu cơ tim là cấp cứu tim mạch nguy hiểm. Gọi cấp cứu ngay khi nghi ngờ.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-157",
+    "lessonId": "nhoi-mau-co-tim",
+    "lessonTitle": "Nhồi máu cơ tim",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Nhồi máu cơ tim\", bước đầu tiên cần làm là:",
+    "options": [
+      "Gọi 115 ngay lập tức. Ghi nhận thời gian khởi phát.",
+      "Cho nạn nhân nghỉ ở tư thế nửa nằm nửa ngồi, chân duỗi.",
+      "Nới lỏng quần áo cổ, ngực.",
+      "Nếu nạn nhân tỉnh, không dị ứng aspirin, không chảy máu dạ dày: cho nhai viên Aspirin 300mg."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: Gọi 115 ngay lập tức. Ghi nhận thời gian khởi phát.",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. Gọi 115 ngay lập tức. Ghi nhận thời gian khởi phát.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-158",
+    "lessonId": "nhoi-mau-co-tim",
+    "lessonTitle": "Nhồi máu cơ tim",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Trong sơ cứuNhồi máu cơ tim, có những điều cấm kỵ cần tuyệt đối tránh.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Không tự lái xe đến bệnh viện. Không để nạn nhân nằm nếu họ khó thở. Không cho ăn uống. Ghi nhận thời gian khởi phát đau để báo cho bác sĩ.",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "Không tự lái xe đến bệnh viện. Không để nạn nhân nằm nếu họ khó thở. Không cho ăn uống. Ghi nhận thời gian khởi phát đau để báo cho bác sĩ.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-159",
+    "lessonId": "nhoi-mau-co-tim",
+    "lessonTitle": "Nhồi máu cơ tim",
+    "category": "cấp cứu",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Nhồi máu cơ tim\": \"Đau thắt ngực dữ dội, cảm giác bóp _____ đè ép giữa ngực, lan lên vai trái, cổ, hàm\"",
+    "options": [
+      "nghẹt,",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"nghẹt,\". Dấu hiệu đầy đủ: \"Đau thắt ngực dữ dội, cảm giác bóp nghẹt, đè ép giữa ngực, lan lên vai trái, cổ, hàm\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Đau thắt ngực dữ dội, cảm giác bóp nghẹt, đè ép giữa ngực, lan lên vai trái, cổ, hàm",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-160",
+    "lessonId": "nhoi-mau-co-tim",
+    "lessonTitle": "Nhồi máu cơ tim",
+    "category": "cấp cứu",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Nhồi máu cơ tim\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Nhồi máu cơ tim\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Nhồi máu cơ tim là cấp cứu tim mạch nguy hiểm. Gọi cấp cứu ngay khi nghi ngờ.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-161",
+    "lessonId": "nhoi-mau-co-tim",
+    "lessonTitle": "Nhồi máu cơ tim",
+    "category": "cấp cứu",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Đau thắt ngực dữ dội, cảm giác bóp nghẹt, đè ép giữa ngực, lan lên vai trái, cổ, hàm; Khó thở, vã mồ hôi lạnh, buồn nôn, choáng\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Nhồi máu cơ tim",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Nhồi máu cơ tim\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Nhồi máu cơ tim.",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Đau thắt ngực dữ dội, cảm giác bóp nghẹt, đè ép giữa ngực, lan lên vai trái, cổ, hàm; Khó thở, vã mồ hôi lạnh, buồn nôn, choáng",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-162",
+    "lessonId": "nhoi-mau-co-tim",
+    "lessonTitle": "Nhồi máu cơ tim",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Nhồi máu cơ tim\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. Không tự lái xe đến bệnh viện. Không để nạn nhân nằm nếu họ khó thở. Không cho ăn uống. Ghi nhận thời gian khởi phát đau để báo cho bác sĩ.",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "Không tự lái xe đến bệnh viện. Không để nạn nhân nằm nếu họ khó thở. Không cho ăn uống. Ghi nhận thời gian khởi phát đau để báo cho bác sĩ.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-163",
+    "lessonId": "ha-duong-huyet",
+    "lessonTitle": "Hạ đường huyết",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "\"Hạ đường huyết\" được hiểu đúng nhất là:",
+    "options": [
+      "Hạ đường huyết thường gặp ở người đái tháo đường, có thể dẫn đến hôn mê nếu không xử trí.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Hạ đường huyết thường gặp ở người đái tháo đường, có thể dẫn đến hôn mê nếu không xử trí.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Hạ đường huyết là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Hạ đường huyết đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Hạ đường huyết là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Hạ đường huyết thường gặp ở người đái tháo đường, có thể dẫn đến hôn mê nếu không xử trí.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-164",
+    "lessonId": "ha-duong-huyet",
+    "lessonTitle": "Hạ đường huyết",
+    "category": "cấp cứu",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Hạ đường huyết\", bước đầu tiên cần làm là:",
+    "options": [
+      "Nếu còn tỉnh: cho uống/ăn 15-20g đường hấp thu nhanh (3-4 viên đường, 1/2 lon nước ngọt, 2 thìa mật ong).",
+      "Sau 15 phút kiểm tra lại, nếu không đỡ thì lặp lại.",
+      "Khi tỉnh táo hoàn toàn, cho ăn thêm thức ăn tinh bột (bánh mì, cơm).",
+      "Nếu hôn mê hoặc không tỉnh: đặt tư thế an toàn, không đổ bất cứ thứ gì vào miệng, gọi 115."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: Nếu còn tỉnh: cho uống/ăn 15-20g đường hấp thu nhanh (3-4 viên đường, 1/2 lon nước ngọt, 2 thìa mật ong).",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. Nếu còn tỉnh: cho uống/ăn 15-20g đường hấp thu nhanh (3-4 viên đường, 1/2 lon nước ngọt, 2 thìa mật ong).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-165",
+    "lessonId": "ha-duong-huyet",
+    "lessonTitle": "Hạ đường huyết",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Có lưu ý quan trọng khi sơ cứu Hạ đường huyết.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Người bệnh đái tháo đường nên luôn mang theo kẹo, nước đường bên mình. Nếu hôn mê do hạ đường huyết: tiêm glucagon nếu có, gọi 115.",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "Người bệnh đái tháo đường nên luôn mang theo kẹo, nước đường bên mình. Nếu hôn mê do hạ đường huyết: tiêm glucagon nếu có, gọi 115.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-166",
+    "lessonId": "ha-duong-huyet",
+    "lessonTitle": "Hạ đường huyết",
+    "category": "cấp cứu",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Hạ đường huyết\": \"Run tay, đói cồn cào, tim đập _____ vã mồ hôi, choáng váng\"",
+    "options": [
+      "nhanh,",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"nhanh,\". Dấu hiệu đầy đủ: \"Run tay, đói cồn cào, tim đập nhanh, vã mồ hôi, choáng váng\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Run tay, đói cồn cào, tim đập nhanh, vã mồ hôi, choáng váng",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-167",
+    "lessonId": "ha-duong-huyet",
+    "lessonTitle": "Hạ đường huyết",
+    "category": "cấp cứu",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Hạ đường huyết\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Hạ đường huyết\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Hạ đường huyết thường gặp ở người đái tháo đường, có thể dẫn đến hôn mê nếu không xử trí.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-168",
+    "lessonId": "ha-duong-huyet",
+    "lessonTitle": "Hạ đường huyết",
+    "category": "cấp cứu",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Run tay, đói cồn cào, tim đập nhanh, vã mồ hôi, choáng váng; Nói khó, lú lẫn, hung dữ bất thường; Co giật, mất ý thức (nặng)\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Hạ đường huyết",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Hạ đường huyết\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Hạ đường huyết.",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Run tay, đói cồn cào, tim đập nhanh, vã mồ hôi, choáng váng; Nói khó, lú lẫn, hung dữ bất thường; Co giật, mất ý thức (nặng)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-169",
+    "lessonId": "ha-duong-huyet",
+    "lessonTitle": "Hạ đường huyết",
+    "category": "cấp cứu",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Hạ đường huyết\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. Người bệnh đái tháo đường nên luôn mang theo kẹo, nước đường bên mình. Nếu hôn mê do hạ đường huyết: tiêm glucagon nếu có, gọi 115.",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "Người bệnh đái tháo đường nên luôn mang theo kẹo, nước đường bên mình. Nếu hôn mê do hạ đường huyết: tiêm glucagon nếu có, gọi 115.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-170",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "type": "multiple_choice",
+    "question": "\"Vết thương phần mềm, bầm tím\" được hiểu đúng nhất là:",
+    "options": [
+      "Vết thương phần mềm thường gặp trong sinh hoạt và thể thao. Sơ cứu đúng cách theo nguyên tắc PRICE giúp mau lành.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Vết thương phần mềm thường gặp trong sinh hoạt và thể thao. Sơ cứu đúng cách theo nguyên tắc PRICE giúp mau lành.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Vết thương phần mềm, bầm tím là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Vết thương phần mềm, bầm tím đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Vết thương phần mềm, bầm tím là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Vết thương phần mềm thường gặp trong sinh hoạt và thể thao. Sơ cứu đúng cách theo nguyên tắc PRICE giúp mau lành.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-171",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Vết thương phần mềm, bầm tím\", bước đầu tiên cần làm là:",
+    "options": [
+      "P (Protection): bảo vệ vùng thương, dừng hoạt động ngay.",
+      "R (Rest): nghỉ ngơi hoàn toàn, không vận động vùng bị thương.",
+      "I (Ice): chườm lạnh bọc vải 15-20 phút mỗi lần, cách 2-3 tiếng trong 48 giờ đầu.",
+      "C (Compression): băng ép băng thun, không quá chặt."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: P (Protection): bảo vệ vùng thương, dừng hoạt động ngay.",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. P (Protection): bảo vệ vùng thương, dừng hoạt động ngay.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-172",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Trong sơ cứuVết thương phần mềm, bầm tím, có những điều cấm kỵ cần tuyệt đối tránh.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tránh HARM trong 72 giờ đầu: KHÔNG Heat (nóng), KHÔNG Alcohol (rượu), KHÔNG Running (chạy/vận động mạnh), KHÔNG Massage (xoa bóp). Không dùng oxy già, cồn mạnh trực tiếp vào vết thương hở vì gây tổn thương mô.",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "Tránh HARM trong 72 giờ đầu: KHÔNG Heat (nóng), KHÔNG Alcohol (rượu), KHÔNG Running (chạy/vận động mạnh), KHÔNG Massage (xoa bóp). Không dùng oxy già, cồn mạnh trực tiếp vào vết thương hở vì gây tổn thương mô.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-173",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Vết thương phần mềm, bầm tím\": \"_____ to, biến dạng\"",
+    "options": [
+      "Sưng",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"Sưng\". Dấu hiệu đầy đủ: \"Sưng to, biến dạng\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Sưng to, biến dạng",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-174",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Vết thương phần mềm, bầm tím\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Vết thương phần mềm, bầm tím\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Vết thương phần mềm thường gặp trong sinh hoạt và thể thao. Sơ cứu đúng cách theo nguyên tắc PRICE giúp mau lành.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-175",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Sưng to, biến dạng; Đau dữ dội khi cử động; Mất khả năng cử động bình thường\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Vết thương phần mềm, bầm tím",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Vết thương phần mềm, bầm tím\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Vết thương phần mềm, bầm tím.",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Sưng to, biến dạng; Đau dữ dội khi cử động; Mất khả năng cử động bình thường",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-176",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Vết thương phần mềm, bầm tím\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. Tránh HARM trong 72 giờ đầu: KHÔNG Heat (nóng), KHÔNG Alcohol (rượu), KHÔNG Running (chạy/vận động mạnh), KHÔNG Massage (xoa bóp). Không dùng oxy già, cồn mạnh trực tiếp vào vết thương hở vì gây tổn thương mô.",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "Tránh HARM trong 72 giờ đầu: KHÔNG Heat (nóng), KHÔNG Alcohol (rượu), KHÔNG Running (chạy/vận động mạnh), KHÔNG Massage (xoa bóp). Không dùng oxy già, cồn mạnh trực tiếp vào vết thương hở vì gây tổn thương mô.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-177",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "type": "multiple_choice",
+    "question": "\"Say nắng (Sốc nhiệt - sơ cứu như nhau)\" được hiểu đúng nhất là:",
+    "options": [
+      "Say nắng là tình trạng tăng thân nhiệt nguy hiểm. Cần hạ nhiệt cấp tốc theo hướng dẫn quốc tế.",
+      "Một bệnh lý mạn tính cần điều trị dài ngày",
+      "Một tình trạng không cần sơ cứu khẩn cấp",
+      "Một phương pháp phòng ngừa bệnh tật"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Say nắng là tình trạng tăng thân nhiệt nguy hiểm. Cần hạ nhiệt cấp tốc theo hướng dẫn quốc tế.",
+    "wrongExplanations": [
+      "Đáp án A là định nghĩa chính xác.",
+      "Say nắng (Sốc nhiệt - sơ cứu như nhau) là tình huống khẩn cấp, không phải bệnh mạn tính.",
+      "Say nắng (Sốc nhiệt - sơ cứu như nhau) đòi hỏi sơ cứu kịp thời, không phải bỏ qua.",
+      "Say nắng (Sốc nhiệt - sơ cứu như nhau) là tình huống xử trí, không phải phương pháp phòng ngừa."
+    ],
+    "knowledgeRef": "Say nắng là tình trạng tăng thân nhiệt nguy hiểm. Cần hạ nhiệt cấp tốc theo hướng dẫn quốc tế.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-178",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "type": "multiple_choice",
+    "question": "Khi sơ cứu \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\", bước đầu tiên cần làm là:",
+    "options": [
+      "Gọi 115 ngay lập tức – đây là cấp cứu tối khẩn.",
+      "Di chuyển nạn nhân vào nơi mát, thoáng gió, cởi bỏ quần áo thừa.",
+      "Hạ nhiệt cấp tốc: ngâm mình trong nước mát (10-15°C) hoặc đắp khăn ướt mát lên toàn thân, kết hợp quạt lớn.",
+      "Chườm đá bọc khăn vào nách, bẹn, cổ để hạ nhiệt nhanh."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bước đầu tiên là: Gọi 115 ngay lập tức – đây là cấp cứu tối khẩn.",
+    "wrongExplanations": [
+      "Đây là bước 2, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 3, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình.",
+      "Đây là bước 4, không phải bước đầu tiên. Phải làm theo đúng thứ tự quy trình."
+    ],
+    "knowledgeRef": "1. Gọi 115 ngay lập tức – đây là cấp cứu tối khẩn.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-179",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Trong sơ cứuSay nắng (Sốc nhiệt - sơ cứu như nhau), có những điều cấm kỵ cần tuyệt đối tránh.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mục tiêu: hạ nhiệt độ xuống dưới 39°C trong vòng 30 phút. Tuyệt đối không cho uống bất kỳ thứ gì nếu nạn nhân bất tỉnh hoặc nôn nhiều. Không dùng aspirin hay paracetamol để hạ nhiệt (không có tác dụng).",
+    "wrongExplanations": [
+      "Đúng - có lưu ý quan trọng cần ghi nhớ để tránh gây hại thêm cho nạn nhân."
+    ],
+    "knowledgeRef": "Mục tiêu: hạ nhiệt độ xuống dưới 39°C trong vòng 30 phút. Tuyệt đối không cho uống bất kỳ thứ gì nếu nạn nhân bất tỉnh hoặc nôn nhiều. Không dùng aspirin hay paracetamol để hạ nhiệt (không có tác dụng).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-180",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "type": "fill_blank",
+    "question": "Điền từ còn thiếu vào dấu hiệu chắc chắn của \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\": \"_____ độ thân >40°C\"",
+    "options": [
+      "Nhiệt",
+      "không liên quan",
+      "không chính xác",
+      "thiếu cơ sở y khoa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Từ đúng là \"Nhiệt\". Dấu hiệu đầy đủ: \"Nhiệt độ thân >40°C\"",
+    "wrongExplanations": [
+      "\"không liên quan\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"không chính xác\" không phù hợp về mặt y khoa với dấu hiệu này.",
+      "\"thiếu cơ sở y khoa\" không phù hợp về mặt y khoa với dấu hiệu này."
+    ],
+    "knowledgeRef": "Nhiệt độ thân >40°C",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-181",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "type": "case_study",
+    "question": "Tình huống lâm sàng: Bạn gặp nạn nhân có biểu hiện phù hợp với \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\". Hành động ưu tiên đầu tiên là gì?",
+    "options": [
+      "Đảm bảo an toàn hiện trường, gọi 115 ngay lập tức",
+      "Di chuyển nạn nhân ngay đến bệnh viện gần nhất",
+      "Cho nạn nhân uống nước và nghỉ ngơi",
+      "Chờ đợi người có chuyên môn đến xử lý"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trong mọi tình huống sơ cứu, ưu tiên hàng đầu là đảm bảo an toàn hiện trường và gọi cấp cứu 115. Sau đó mới làm các bước sơ cứu theo quy trình \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - an toàn và gọi 115 là ưu tiên số 1.",
+      "Tự di chuyển nạn nhân có thể gây thêm tổn thương, đặc biệt nếu nghi ngờ chấn thương cột sống.",
+      "Cho ăn uống có thể gây sặc, đặc biệt khi nạn nhân bất tỉnh hoặc khó thở.",
+      "Chờ đợi mất thời gian vàng - sơ cứu cần được bắt đầu ngay lập tức."
+    ],
+    "knowledgeRef": "Say nắng là tình trạng tăng thân nhiệt nguy hiểm. Cần hạ nhiệt cấp tốc theo hướng dẫn quốc tế.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-182",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "type": "identification",
+    "question": "Nhận diện: Nạn nhân có các dấu hiệu sau: \"Nhiệt độ thân >40°C; Rối loạn ý thức (lơ mơ, nói nhảm, co giật hoặc hôn mê); Da rất nóng, đỏ hoặc đỏ bừng. Có thể có hoặc không còn ra mồ hôi.\". Đây khả năng nhất là tình trạng nào?",
+    "options": [
+      "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+      "Ngừng tim - cần CPR ngay",
+      "Sốc giảm thể tích",
+      "Đột quỵ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dấu hiệu trên đặc trưng cho \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\".",
+    "wrongExplanations": [
+      "Đáp án A đúng - các dấu hiệu khớp với Say nắng (Sốc nhiệt - sơ cứu như nhau).",
+      "Ngừng tim có dấu hiệu không bắt được mạch, không thở, mất ý thức - khác với dấu hiệu mô tả.",
+      "Sốc giảm thể tích có dấu hiệu da xanh, mạch nhanh nhỏ, tụt HA - khác với mô tả.",
+      "Đột quỵ có dấu hiệu mặt méo, yếu nửa người, nói khó (FAST) - khác với mô tả."
+    ],
+    "knowledgeRef": "Nhiệt độ thân >40°C; Rối loạn ý thức (lơ mơ, nói nhảm, co giật hoặc hôn mê); Da rất nóng, đỏ hoặc đỏ bừng. Có thể có hoặc không còn ra mồ hôi.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-183",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "type": "classification",
+    "question": "Phân loại: \"Xảy ra khi tiếp xúc với nhiệt độ cao kéo dài (người già, trẻ nhỏ, bệnh mạn tính)\" Thuộc loại nào của \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\"?",
+    "options": [
+      "Say nắng cổ điển",
+      "Say nắng do gắng sức"
+    ],
+    "correctAnswer": 0,
+    "explanation": "\"Xảy ra khi tiếp xúc với nhiệt độ cao kéo dài (người già, trẻ nhỏ, bệnh mạn tính)\" là đặc điểm của \"Say nắng cổ điển\".",
+    "wrongExplanations": [
+      "\"Say nắng do gắng sức\" có đặc điểm: \"Xảy ra ở người trẻ hoạt động thể lực mạnh trong môi trường nóng\" - khác với mô tả trong câu hỏi."
+    ],
+    "knowledgeRef": "Say nắng cổ điển: Xảy ra khi tiếp xúc với nhiệt độ cao kéo dài (người già, trẻ nhỏ, bệnh mạn tính); Say nắng do gắng sức: Xảy ra ở người trẻ hoạt động thể lực mạnh trong môi trường nóng",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-184",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "type": "true_false",
+    "question": "Đúng hay Sai: Khi sơ cứu \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\", nên tự ý di chuyển nạn nhân đến bệnh viện thay vì gọi 115 chờ xe cấp cứu.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sai - Không nên tự ý di chuyển nạn nhân khi chưa cố định và sơ cứu ban đầu. Gọi 115 là ưu tiên. Mục tiêu: hạ nhiệt độ xuống dưới 39°C trong vòng 30 phút. Tuyệt đối không cho uống bất kỳ thứ gì nếu nạn nhân bất tỉnh hoặc nôn nhiều. Không dùng aspirin hay paracetamol để hạ nhiệt (không có tác dụng).",
+    "wrongExplanations": [
+      "Sai - Tự di chuyển có thể gây thêm tổn thương. Nên gọi 115 và làm sơ cứu tại chỗ theo quy trình."
+    ],
+    "knowledgeRef": "Mục tiêu: hạ nhiệt độ xuống dưới 39°C trong vòng 30 phút. Tuyệt đối không cho uống bất kỳ thứ gì nếu nạn nhân bất tỉnh hoặc nôn nhiều. Không dùng aspirin hay paracetamol để hạ nhiệt (không có tác dụng).",
+    "difficulty": "easy"
+  }
+]

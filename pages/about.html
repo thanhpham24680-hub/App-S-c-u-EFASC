@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Giới thiệu - Cẩm nang Sơ cấp cứu</title>
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body class="bg-pattern">
+  <!-- Nền động nhẹ, chỉ trang trí và không chặn thao tác. -->
+  <div class="animated-background ambient-background" aria-hidden="true">
+    <div class="ambient-blobs">
+      <span class="ambient-orb orb-one"></span>
+      <span class="ambient-orb orb-two"></span>
+      <span class="ambient-orb orb-three"></span>
+      <span class="ambient-orb orb-four"></span>
+      <span class="ambient-orb orb-five"></span>
+      <span class="ambient-orb orb-six"></span>
+    </div>
+    <canvas class="particle-layer"></canvas>
+    <span class="ambient-noise"></span>
+  </div>
+  <header class="header-wrap no-print">
+    <div class="header-inner">
+      <div class="header-left">
+        <a href="../index.html" class="header-logo">
+          <img src="https://i.postimg.cc/HL7rV6Sm/473696083-122233458776025387-106385360309955310-n.jpg" alt="Logo" />
+          <div class="header-brand"><span class="name">Cẩm nang Sơ cấp cứu</span><span class="sub">ĐHYD TP.HCM</span></div>
+        </a>
+      </div>
+      <div class="header-right">
+        <a href="../index.html" class="btn-secondary" style="padding:8px 18px;font-size:0.85rem;"><i class="fas fa-home"></i> Trang chủ</a>
+        <a href="flashcard.html" class="btn-secondary" style="padding:8px 18px;font-size:0.85rem;"><i class="fas fa-layer-group"></i> Flashcard</a>
+        <a href="quiz.html" class="btn-secondary" style="padding:8px 18px;font-size:0.85rem;"><i class="fas fa-question-circle"></i> Quiz</a>
+        <a href="search.html" class="btn-secondary" style="padding:8px 18px;font-size:0.85rem;"><i class="fas fa-search"></i> Tìm kiếm</a>
+      </div>
+    </div>
+  </header>
+
+  <div id="root" class="max-w-7xl mx-auto px-4 py-4 md:py-6">
+    <div id="about-page visible">
+      <div class="about-container page-transition">
+        <a href="../index.html" class="btn-secondary" style="padding:10px 24px;font-size:0.9rem;margin-bottom:20px;text-decoration:none;display:inline-flex;align-items:center;gap:10px;">
+          <i class="fas fa-arrow-left"></i> Quay lại
+        </a>
+
+        <h1>🏥 Giới thiệu Trung tâm EFASC</h1>
+        <p class="subtitle">Trung tâm Phổ cập Kỹ năng Sơ cấp cứu – ĐHYD TP.HCM</p>
+        <hr class="divider" />
+
+        <div class="video-wrapper">
+          <iframe src="https://www.youtube.com/embed/JUMOmRPz1K0?si=laekMEzugIvBq1fZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+        </div>
+
+        <h2>I. Toàn cảnh về Trung tâm EFASC</h2>
+        <h3>1. Nguồn gốc và Sứ mệnh</h3>
+        <div class="highlight-box"><p><strong>🏆 Khởi nguồn:</strong> EFASC vươn mình mạnh mẽ từ dự án đạt ngôi vị <strong>Quán quân cuộc thi Sinh Viên thế hệ mới toàn quốc 2023</strong>.</p></div>
+        <div class="highlight-box green"><p><strong>🎯 Sứ mệnh:</strong> Trung tâm mang trên mình sứ mệnh phụng sự và trao quyền cho cộng đồng để tự bảo vệ sức khỏe bản thân.</p></div>
+        <div class="highlight-box purple"><p><strong>🌱 Biểu tượng:</strong> Chữ <strong>V</strong> được cách điệu như mầm cây vươn lên, tượng trưng cho sự hồi sinh từ bờ vực nguy hiểm.</p></div>
+        <div class="highlight-box orange"><p><strong>🚀 Tầm nhìn:</strong> Trở thành ngọn cờ đầu của sinh viên trong lĩnh vực phổ cập sơ cấp cứu, hướng tới mục tiêu <strong>"vì một Việt Nam khỏe mạnh và an toàn"</strong>.</p></div>
+
+        <h3>2. Cơ cấu tổ chức (Các Ban chức năng)</h3>
+        <p>Để hiện thực hóa mục tiêu, trung tâm vận hành với bộ máy gồm 6 ban chủ chốt:</p>
+        <ul>
+          <li><strong>Ban Cố vấn:</strong> Gồm các thầy cô giàu kinh nghiệm, tâm huyết và uy tín tại Đại học Y Dược Thành phố Hồ Chí Minh.</li>
+          <li><strong>Ban Điều hành:</strong> Đảm nhận vai trò quản lý tổng thể, lập kế hoạch, điều phối nguồn lực.</li>
+          <li><strong>Ban Chuyên môn:</strong> Nơi hội tụ tri thức, liên tục cập nhật thông tin y khoa hiện đại.</li>
+          <li><strong>Ban Hoạt động:</strong> Biến kiến thức chuyên môn thành hành động thực tiễn thông qua các buổi thực hành, tập huấn sáng tạo.</li>
+          <li><strong>Ban Truyền thông:</strong> Đóng vai trò cầu nối, quảng bá hình ảnh, lan tỏa thông điệp.</li>
+          <li><strong>Ban Đối ngoại:</strong> Xây dựng mạng lưới đối tác vững mạnh, mở rộng tầm ảnh hưởng của Trung tâm.</li>
+        </ul>
+
+        <h3>3. Những dấu ấn tiêu biểu</h3>
+        <ul>
+          <li>Cuộc thi <strong>First Aid First Action</strong> thu hút gần 1.000 sinh viên.</li>
+          <li>Chương trình <strong>Chủ động không chủ quan</strong> tại Đường sách, tiếp cận hàng trăm bạn trẻ.</li>
+          <li>Giảng dạy sơ cấp cứu cho hơn <strong>450 học sinh cấp 3</strong>.</li>
+        </ul>
+
+        <hr class="divider" />
+        <h2>📬 Liên hệ với Trung tâm</h2>
+        <div class="contact-card">
+          <a href="https://www.facebook.com/EFASCUMP" target="_blank" class="item facebook-item"><i class="fab fa-facebook"></i><div class="info"><span class="label">Facebook</span><span class="value">EFASCUMP</span></div></a>
+          <a href="mailto:vuc.faump@ump.edu.vn" class="item email-item"><i class="fas fa-envelope"></i><div class="info"><span class="label">Email 1</span><span class="value">vuc.faump@ump.edu.vn</span></div></a>
+          <a href="mailto:bandieuhanh2604@gmail.com" class="item email-item"><i class="fas fa-envelope"></i><div class="info"><span class="label">Email 2</span><span class="value">bandieuhanh2604@gmail.com</span></div></a>
+        </div>
+        <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">
+          <i class="fas fa-heart" style="color:var(--color-red);"></i> Hãy kết nối với chúng tôi để cùng chung tay xây dựng cộng đồng an toàn!
+        </p>
+      </div>
+    </div>
+
+    <footer class="footer-wrap no-print">
+      <div class="footer-inner">
+        <div class="glass rounded-2xl p-6 max-w-2xl mx-auto" style="background:var(--bg-glass);border:1px solid var(--bg-glass-border);">
+          <div class="center-logo">
+            <span class="logo-placeholder"><img src="https://i.postimg.cc/HL7rV6Sm/473696083-122233458776025387-106385360309955310-n.jpg" alt="Logo" /></span>
+            <span class="center-name">Trung tâm Phổ cập Kỹ năng Sơ cấp cứu – ĐHYD TP.HCM</span>
+          </div>
+          <p class="text-sm text-muted" style="color:var(--text-muted);">© 2023 – Demo 2026 | Biên soạn bởi</p>
+          <p class="author">Phạm Duy Thanh</p>
+          <p class="font-medium" style="color:var(--text-secondary);">Thành viên Trung tâm Phổ cập Kỹ năng Sơ cấp cứu – ĐHYD TP.HCM</p>
+          <div class="emergency pulse">
+            <i class="fas fa-phone-alt anim-heartbeat" style="color:#dc2626;font-size:1.2rem;"></i>
+            <span style="color:var(--text-secondary);">🚨 Trong trường hợp khẩn cấp, hãy gọi</span>
+            <span class="phone">115</span>
+            <span style="color:var(--text-secondary);">ngay lập tức.</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="../assets/js/data.js"></script>
+  <script src="../assets/js/app.js"></script>
+</body>
+</html>

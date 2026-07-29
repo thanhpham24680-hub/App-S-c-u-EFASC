@@ -1,0 +1,3746 @@
+[
+  {
+    "id": "fc-001",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "front": "Tiếp cận nạn nhân - DRs. ABC là gì?",
+    "back": "Quy trình DRs. ABC là nền tảng của sơ cứu, giúp đánh giá và xử trí nạn nhân một cách có hệ thống.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-002",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "front": "Đối tượng nguy cơ cao của \"Tiếp cận nạn nhân - DRs. ABC\" là ai?",
+    "back": "Mọi đối tượng trong tình huống khẩn cấp, đặc biệt là tai nạn giao thông, đuối nước, ngã cao.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-003",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #1 của \"Tiếp cận nạn nhân - DRs. ABC\" là gì?",
+    "back": "Nạn nhân bất tỉnh, không phản ứng",
+    "type": "sign"
+  },
+  {
+    "id": "fc-004",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #2 của \"Tiếp cận nạn nhân - DRs. ABC\" là gì?",
+    "back": "Không thở hoặc thở bất thường",
+    "type": "sign"
+  },
+  {
+    "id": "fc-005",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #3 của \"Tiếp cận nạn nhân - DRs. ABC\" là gì?",
+    "back": "Không bắt được mạch",
+    "type": "sign"
+  },
+  {
+    "id": "fc-006",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #1 của \"Tiếp cận nạn nhân - DRs. ABC\" là gì?",
+    "back": "Quy trình DRs. ABC là bộ công cụ giúp xác định nhanh và can thiệp kịp thời các tình trạng đe dọa tính mạng.",
+    "type": "sign"
+  },
+  {
+    "id": "fc-007",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #2 của \"Tiếp cận nạn nhân - DRs. ABC\" là gì?",
+    "back": "Nguyên tắc: Giải quyết triệt để từng bước theo thứ tự trước khi chuyển sang bước tiếp theo.",
+    "type": "sign"
+  },
+  {
+    "id": "fc-008",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #3 của \"Tiếp cận nạn nhân - DRs. ABC\" là gì?",
+    "back": "Đặc biệt: Nếu nghi ngờ chấn thương cột sống (tai nạn giao thông, ngã cao, đau vùng cổ/lưng, tê bì chân tay) → KHÔNG ngửa đầu, chỉ dùng kỹ thuật nâng hàm.",
+    "type": "sign"
+  },
+  {
+    "id": "fc-009",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "front": "Phân loại \"D - Danger (Nguy hiểm)\" trong \"Tiếp cận nạn nhân - DRs. ABC\" nghĩa là gì?",
+    "back": "Đảm bảo hiện trường an toàn (điện, cháy nổ, xe cộ). Không mạo hiểm sự an toàn của bản thân. Nếu có nguy cơ, di chuyển nạn nhân ra xa (chỉ khi an toàn).",
+    "type": "classification"
+  },
+  {
+    "id": "fc-010",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "front": "Phân loại \"R - Response (Đáp ứng)\" trong \"Tiếp cận nạn nhân - DRs. ABC\" nghĩa là gì?",
+    "back": "Kiểm tra nạn nhân có tỉnh không bằng cách lay gọi 'Bạn có ổn không?' hoặc kích thích đau (véo vào mặt trong cánh tay). Nếu không đáp ứng → bất tỉnh.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-011",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "front": "Phân loại \"S - Send for help (Kêu gọi)\" trong \"Tiếp cận nạn nhân - DRs. ABC\" nghĩa là gì?",
+    "back": "Gọi ngay tổng đài 115, hô hoán người xung quanh đến giúp đỡ. Càng sớm càng tốt.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-012",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "front": "Phân loại \"A - Airway (Đường thở)\" trong \"Tiếp cận nạn nhân - DRs. ABC\" nghĩa là gì?",
+    "back": "Khai thông đường thở: nếu nạn nhân bất tỉnh, dùng kỹ thuật ngửa đầu nâng cằm (trừ khi nghi ngờ chấn thương cột sống cổ thì dùng nâng hàm). Loại bỏ dị vật nếu có.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-013",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "front": "Phân loại \"B - Breathing (Hô hấp)\" trong \"Tiếp cận nạn nhân - DRs. ABC\" nghĩa là gì?",
+    "back": "Nhìn, nghe, cảm nhận hơi thở trong 5-10 giây. Nếu không thở → bắt đầu CPR ngay lập tức (ép tim 30:2).",
+    "type": "classification"
+  },
+  {
+    "id": "fc-014",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "front": "Phân loại \"C - Circulation (Tuần hoàn)\" trong \"Tiếp cận nạn nhân - DRs. ABC\" nghĩa là gì?",
+    "back": "Đánh giá màu da (hồng hào hay tái nhợt), nhiệt độ chi, kiểm tra thời gian đổ đầy mao mạch (ấn đầu ngón tay, thả ra, nếu lâu hơn 2 giây → tưới máu kém). Kiểm soát chảy máu nếu có.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-015",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "front": "Bước 1 trong quy trình sơ cứu \"Tiếp cận nạn nhân - DRs. ABC\": Hành động cần làm là gì?",
+    "back": "D (Danger): Quan sát hiện trường, loại bỏ nguy cơ (tắt cầu dao điện, dẹp xe cộ, dập lửa...). Bảo vệ bản thân trước khi tiếp cận.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-016",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "front": "Bước 2 trong quy trình sơ cứu \"Tiếp cận nạn nhân - DRs. ABC\": Hành động cần làm là gì?",
+    "back": "R (Response): Lay gọi nạn nhân. Nếu không trả lời, hãy kích thích đau ở vùng da mỏng (mặt trong cánh tay).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-017",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "front": "Bước 3 trong quy trình sơ cứu \"Tiếp cận nạn nhân - DRs. ABC\": Hành động cần làm là gì?",
+    "back": "S (Send for help): Gọi 115 hoặc nhờ người khác gọi. Báo rõ địa điểm, tình trạng nạn nhân.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-018",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "front": "Bước 4 trong quy trình sơ cứu \"Tiếp cận nạn nhân - DRs. ABC\": Hành động cần làm là gì?",
+    "back": "A (Airway): Đặt nạn nhân nằm ngửa. Nếu không nghi chấn thương cột sống, một tay đặt lên trán ấn nhẹ, tay kia nâng cằm. Nếu nghi chấn thương cột sống, dùng hai tay nâng hàm (không ngửa đầu).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-019",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "front": "Bước 5 trong quy trình sơ cứu \"Tiếp cận nạn nhân - DRs. ABC\": Hành động cần làm là gì?",
+    "back": "B (Breathing): Áp tai sát miệng nạn nhân, nhìn lồng ngực. Nếu không thở → thổi ngạt 2 cái (mỗi cái 1 giây).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-020",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "front": "Bước 6 trong quy trình sơ cứu \"Tiếp cận nạn nhân - DRs. ABC\": Hành động cần làm là gì?",
+    "back": "C (Circulation): Bắt mạch cảnh (nếu không có mạch và nạn nhân bất tỉnh → ép tim). Nếu có chảy máu ngoài → ép trực tiếp cầm máu.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-021",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Tiếp cận nạn nhân - DRs. ABC\" là gì?",
+    "back": "Quy trình này cần hoàn thành trong vòng 5 phút đầu. Nếu ở bất kỳ bước nào phát hiện vấn đề đe dọa tính mạng (như ngưng thở, ngưng tim), hãy can thiệp ngay trước khi chuyển bước tiếp theo. Ghi nhớ: DRs. ABC = Cứu người trong 'phút vàng'.",
+    "type": "caution"
+  },
+  {
+    "id": "fc-022",
+    "lessonId": "drs-abc",
+    "lessonTitle": "Tiếp cận nạn nhân - DRs. ABC",
+    "category": "cấp cứu",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Tiếp cận nạn nhân - DRs. ABC\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Quy trình DRs. ABC là nền tảng của sơ cứu, giúp đánh giá và xử trí nạn nhân một cách có hệ thống. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-023",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "front": "Gãy xương là gì?",
+    "back": "Gãy xương là tổn thương thường gặp do tai nạn, ngã. Sơ cứu đúng cách giúp giảm đau và ngăn biến chứng.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-024",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "front": "Đối tượng nguy cơ cao của \"Gãy xương\" là ai?",
+    "back": "Người già (loãng xương), trẻ em hiếu động, vận động viên, công nhân xây dựng.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-025",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "front": "Dấu hiệu chắc chắn #1 của \"Gãy xương\" là gì?",
+    "back": "Biến dạng chi (gập góc, ngắn lại, xoay bất thường)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-026",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "front": "Dấu hiệu chắc chắn #2 của \"Gãy xương\" là gì?",
+    "back": "Tiếng lạo xạo của xương khi sờ hoặc cử động nhẹ",
+    "type": "sign"
+  },
+  {
+    "id": "fc-027",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "front": "Dấu hiệu chắc chắn #3 của \"Gãy xương\" là gì?",
+    "back": "Cử động bất thường ở vùng không có khớp (cử động như khớp giả)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-028",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "front": "Dấu hiệu nghi vấn #1 của \"Gãy xương\" là gì?",
+    "back": "Đau dữ dội, sưng to tại vùng bị thương",
+    "type": "sign"
+  },
+  {
+    "id": "fc-029",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "front": "Dấu hiệu nghi vấn #2 của \"Gãy xương\" là gì?",
+    "back": "Bầm tím rộng, có thể kèm vết thương hở (gãy hở)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-030",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "front": "Dấu hiệu nghi vấn #3 của \"Gãy xương\" là gì?",
+    "back": "Nạn nhân không thể cử động hoặc chịu lực lên chi bị thương",
+    "type": "sign"
+  },
+  {
+    "id": "fc-031",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "front": "Phân loại \"Gãy kín\" trong \"Gãy xương\" nghĩa là gì?",
+    "back": "Xương gãy nhưng không rách da, nguy cơ nhiễm trùng thấp, nhưng có thể mất máu trong vùng gãy.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-032",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "front": "Phân loại \"Gãy hở\" trong \"Gãy xương\" nghĩa là gì?",
+    "back": "Đầu xương gãy đâm thủng da, vết thương hở, nguy cơ nhiễm trùng cao, mất máu nhiều. Cần che phủ vết thương sạch, không ấn trực tiếp vào xương lộ.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-033",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "front": "Bước 1 trong quy trình sơ cứu \"Gãy xương\": Hành động cần làm là gì?",
+    "back": "Gọi 115 ngay sau khi sơ cứu ban đầu, đồng thời kiểm tra ABC (đường thở, hô hấp, tuần hoàn).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-034",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "front": "Bước 2 trong quy trình sơ cứu \"Gãy xương\": Hành động cần làm là gì?",
+    "back": "Kiểm tra mạch và cảm giác ở đầu chi trước khi cố định.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-035",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "front": "Bước 3 trong quy trình sơ cứu \"Gãy xương\": Hành động cần làm là gì?",
+    "back": "Đặt nạn nhân ở tư thế thoải mái, ít đau nhất. Không cố gắng nắn hoặc kéo thẳng xương gãy.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-036",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "front": "Bước 4 trong quy trình sơ cứu \"Gãy xương\": Hành động cần làm là gì?",
+    "back": "Bất động vùng gãy bằng nẹp tạm (que, báo cuộn) hoặc đệm quần áo, cố định ít nhất hai khớp trên và dưới vị trí gãy.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-037",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "front": "Bước 5 trong quy trình sơ cứu \"Gãy xương\": Hành động cần làm là gì?",
+    "back": "Nếu gãy hở, dùng gạc vô trùng hoặc vải sạch che phủ vết thương, không ấn trực tiếp vào xương lộ. Cầm máu nhẹ nhàng xung quanh.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-038",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "front": "Bước 6 trong quy trình sơ cứu \"Gãy xương\": Hành động cần làm là gì?",
+    "back": "Giữ ấm nạn nhân, nâng cao chi bị thương nếu không gây đau thêm, chờ xe cấp cứu.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-039",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Gãy xương\" là gì?",
+    "back": "Tuyệt đối không tự ý kéo thẳng xương gãy, không di chuyển nạn nhân khi chưa cố định. Với nghi ngờ gãy xương đùi, xương chậu, đa chấn thương, ưu tiên bất động toàn thân và chống sốc.",
+    "type": "caution"
+  },
+  {
+    "id": "fc-040",
+    "lessonId": "gay-xuong",
+    "lessonTitle": "Gãy xương",
+    "category": "chấn thương",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Gãy xương\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Gãy xương là tổn thương thường gặp do tai nạn, ngã. Sơ cứu đúng cách giúp giảm đau và ngăn biến chứng. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-041",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "front": "Dị vật đường thở là gì?",
+    "back": "Dị vật đường thở là tình huống nguy kịch, có thể dẫn đến ngạt thở nếu không xử trí kịp thời.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-042",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "front": "Đối tượng nguy cơ cao của \"Dị vật đường thở\" là ai?",
+    "back": "Trẻ nhỏ, người già, người vừa ăn vừa nói chuyện, bệnh nhân rối loạn nuốt.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-043",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #1 của \"Dị vật đường thở\" là gì?",
+    "back": "Hóc hoàn toàn: nạn nhân không thở, không ho, không nói được, hai tay ôm cổ",
+    "type": "sign"
+  },
+  {
+    "id": "fc-044",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #2 của \"Dị vật đường thở\" là gì?",
+    "back": "Nhanh chóng tím tái, mất ý thức",
+    "type": "sign"
+  },
+  {
+    "id": "fc-045",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #1 của \"Dị vật đường thở\" là gì?",
+    "back": "Hóc không hoàn toàn: nạn nhân vẫn thở được, ho dữ dội, kích thích, có thể nói được.",
+    "type": "sign"
+  },
+  {
+    "id": "fc-046",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #2 của \"Dị vật đường thở\" là gì?",
+    "back": "Có thể ho khạc ra được dị vật.",
+    "type": "sign"
+  },
+  {
+    "id": "fc-047",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "front": "Phân loại \"Hóc không hoàn toàn\" trong \"Dị vật đường thở\" nghĩa là gì?",
+    "back": "Còn thở, khuyến khích ho mạnh, theo dõi sát.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-048",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "front": "Phân loại \"Hóc hoàn toàn\" trong \"Dị vật đường thở\" nghĩa là gì?",
+    "back": "Cần thực hiện thủ thuật ngay. Nếu nạn nhân bất tỉnh, bắt đầu CPR.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-049",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "front": "Bước 1 trong quy trình sơ cứu \"Dị vật đường thở\": Hành động cần làm là gì?",
+    "back": "HÓC KHÔNG HOÀN TOÀN (người tỉnh): khuyến khích ho mạnh. KHÔNG can thiệp nếu ho hiệu quả.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-050",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "front": "Bước 2 trong quy trình sơ cứu \"Dị vật đường thở\": Hành động cần làm là gì?",
+    "back": "HÓC HOÀN TOÀN - Người lớn/trẻ >1 tuổi:",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-051",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "front": "Bước 3 trong quy trình sơ cứu \"Dị vật đường thở\": Hành động cần làm là gì?",
+    "back": "   a. Đứng sau, một chân giữa hai chân nạn nhân.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-052",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "front": "Bước 4 trong quy trình sơ cứu \"Dị vật đường thở\": Hành động cần làm là gì?",
+    "back": "   b. Nắm đấm đặt trên thượng vị (trên rốn, dưới mũi ức).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-053",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "front": "Bước 5 trong quy trình sơ cứu \"Dị vật đường thở\": Hành động cần làm là gì?",
+    "back": "   c. Tay kia ôm nắm đấm, thúc mạnh 5 cái từ sau ra trước, từ dưới lên trên.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-054",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "front": "Bước 6 trong quy trình sơ cứu \"Dị vật đường thở\": Hành động cần làm là gì?",
+    "back": "   d. Sau mỗi 5 cái kiểm tra xem dị vật đã bật ra chưa.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-055",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "front": "Bước 7 trong quy trình sơ cứu \"Dị vật đường thở\": Hành động cần làm là gì?",
+    "back": "HÓC HOÀN TOÀN - Trẻ <1 tuổi (em bé):",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-056",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "front": "Bước 8 trong quy trình sơ cứu \"Dị vật đường thở\": Hành động cần làm là gì?",
+    "back": "   a. Đặt em nằm sấp trên cánh tay, đầu thấp hơn ngực.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-057",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "front": "Bước 9 trong quy trình sơ cứu \"Dị vật đường thở\": Hành động cần làm là gì?",
+    "back": "   b. Vỗ lưng 5 cái giữa hai bả vai bằng lòng bàn tay.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-058",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "front": "Bước 10 trong quy trình sơ cứu \"Dị vật đường thở\": Hành động cần làm là gì?",
+    "back": "   c. Nếu chưa ra, lật em nằm ngửa, ấn ngực 5 cái (2 ngón tay ấn vào giữa ngực, ngay dưới đường nối hai núm vú).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-059",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "front": "Bước 11 trong quy trình sơ cứu \"Dị vật đường thở\": Hành động cần làm là gì?",
+    "back": "   d. Lặp lại vỗ lưng 5 + ấn ngực 5 cho đến khi dị vật ra hoặc em bất tỉnh.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-060",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "front": "Bước 12 trong quy trình sơ cứu \"Dị vật đường thở\": Hành động cần làm là gì?",
+    "back": "Nếu nạn nhân hôn mê: đặt nằm ngửa, bắt đầu CPR ngay với tỉ lệ 30:2. Kiểm tra miệng trước mỗi chu kỳ thổi ngạt.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-061",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Dị vật đường thở\" là gì?",
+    "back": "Tuyệt đối không vỗ lưng khi hóc hoàn toàn ở người lớn (có thể làm dị vật tụt sâu hơn). Không móc họng khi chưa nhìn thấy dị vật. Trẻ em dưới 1 tuổi: KHÔNG ép bụng (Heimlich), chỉ dùng vỗ lưng + ấn ngực.",
+    "type": "caution"
+  },
+  {
+    "id": "fc-062",
+    "lessonId": "dich-vat-duong-tho",
+    "lessonTitle": "Dị vật đường thở",
+    "category": "cấp cứu",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Dị vật đường thở\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Dị vật đường thở là tình huống nguy kịch, có thể dẫn đến ngạt thở nếu không xử trí kịp thời. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-063",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "front": "Chảy máu / Mất máu là gì?",
+    "back": "Mất máu cấp tính có thể gây sốc và tử vong. Cầm máu nhanh là kỹ năng sống còn theo hướng dẫn cấp cứu 2024.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-064",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "front": "Đối tượng nguy cơ cao của \"Chảy máu / Mất máu\" là ai?",
+    "back": "Nạn nhân tai nạn, phẫu thuật, bệnh nhân rối loạn đông máu, người dùng thuốc chống đông.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-065",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #1 của \"Chảy máu / Mất máu\" là gì?",
+    "back": "Máu chảy thành tia (động mạch) hoặc chảy ồ ạt, thấm nhanh qua băng",
+    "type": "sign"
+  },
+  {
+    "id": "fc-066",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #2 của \"Chảy máu / Mất máu\" là gì?",
+    "back": "Nạn nhân có dấu hiệu sốc giảm thể tích: da xanh, vã mồ hôi lạnh, mạch nhanh nhỏ, huyết áp tụt.",
+    "type": "sign"
+  },
+  {
+    "id": "fc-067",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #1 của \"Chảy máu / Mất máu\" là gì?",
+    "back": "Chảy máu chậm hơn từ tĩnh mạch, máu đỏ sẫm, chảy đều.",
+    "type": "sign"
+  },
+  {
+    "id": "fc-068",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #2 của \"Chảy máu / Mất máu\" là gì?",
+    "back": "Chảy máu trong: sau chấn thương bụng/ngực, nạn nhân đau, bụng chướng, da xanh, không có vết thương ngoài.",
+    "type": "sign"
+  },
+  {
+    "id": "fc-069",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "front": "Phân loại \"Chảy máu động mạch\" trong \"Chảy máu / Mất máu\" nghĩa là gì?",
+    "back": "Máu đỏ tươi, phun thành tia theo nhịp tim. Nguy cơ mất máu nhanh. Cần ép trực tiếp và garo nếu cần.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-070",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "front": "Phân loại \"Chảy máu tĩnh mạch\" trong \"Chảy máu / Mất máu\" nghĩa là gì?",
+    "back": "Máu đỏ sẫm, chảy đều. Cầm bằng ép trực tiếp và băng ép.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-071",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "front": "Phân loại \"Chảy máu trong\" trong \"Chảy máu / Mất máu\" nghĩa là gì?",
+    "back": "Nghi ngờ khi có chấn thương vùng bụng/ngực, nạn nhân sốc không rõ nguyên nhân, cần cấp cứu ngay.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-072",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "front": "Bước 1 trong quy trình sơ cứu \"Chảy máu / Mất máu\": Hành động cần làm là gì?",
+    "back": "Đảm bảo an toàn: đeo găng tay (hoặc dùng túi nilon, vải sạch).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-073",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "front": "Bước 2 trong quy trình sơ cứu \"Chảy máu / Mất máu\": Hành động cần làm là gì?",
+    "back": "Ép trực tiếp lên vết thương bằng gạc hoặc vải sạch, giữ chặt ít nhất 10 phút không gián đoạn. Nếu gạc thấm máu, đặt thêm lớp mới lên trên, không bỏ lớp cũ ra.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-074",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "front": "Bước 3 trong quy trình sơ cứu \"Chảy máu / Mất máu\": Hành động cần làm là gì?",
+    "back": "Nâng cao chi bị thương (nếu không có gãy xương) để giảm chảy máu.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-075",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "front": "Bước 4 trong quy trình sơ cứu \"Chảy máu / Mất máu\": Hành động cần làm là gì?",
+    "back": "Băng ép cố định gạc, nhưng không quá chặt gây hoại tử đầu chi.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-076",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "front": "Bước 5 trong quy trình sơ cứu \"Chảy máu / Mất máu\": Hành động cần làm là gì?",
+    "back": "Nếu máu vẫn chảy nhiều, ép thêm điểm ép động mạch phía trên vết thương (cánh tay, bẹn). Trường hợp đe dọa tính mạng có thể dùng garo (ga-rô) nhưng phải ghi rõ thời gian và thông báo cho nhân viên y tế.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-077",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "front": "Bước 6 trong quy trình sơ cứu \"Chảy máu / Mất máu\": Hành động cần làm là gì?",
+    "back": "Chảy máu mũi: cúi đầu về phía trước, bóp phần mềm mũi 10-15 phút, chườm lạnh sống mũi.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-078",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Chảy máu / Mất máu\" là gì?",
+    "back": "Không rút dị vật đâm trong vết thương (dao, mảnh thủy tinh) vì có thể gây chảy máu ồ ạt. Không băng quá chặt. Gọi 115 ngay nếu chảy máu nhiều hoặc nghi ngờ chảy máu trong. Nếu buộc phải dùng garo tự chế, bắt buộc dùng dây bản to (vải rộng 3-5cm) và có thanh vặn (cành cây, bút to) xoắn chặt. Tuyệt đối không dùng dây thun nhỏ, dây giày hay dây thép để tránh hội chứng garo tĩnh mạch làm máu chảy ồ ạt hơn.",
+    "type": "caution"
+  },
+  {
+    "id": "fc-079",
+    "lessonId": "chay-mau",
+    "lessonTitle": "Chảy máu / Mất máu",
+    "category": "cấp cứu",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Chảy máu / Mất máu\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Mất máu cấp tính có thể gây sốc và tử vong. Cầm máu nhanh là kỹ năng sống còn theo hướng dẫn cấp cứu 2024. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-080",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "front": "Sốc giảm thể tích là gì?",
+    "back": "Sốc giảm thể tích là tình trạng mất máu hoặc mất dịch nghiêm trọng, đe dọa tính mạng.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-081",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "front": "Đối tượng nguy cơ cao của \"Sốc giảm thể tích\" là ai?",
+    "back": "Nạn nhân chấn thương, bỏng, tiêu chảy kéo dài, nôn ói nhiều.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-082",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #1 của \"Sốc giảm thể tích\" là gì?",
+    "back": "Nhịp tim nhanh (>100), thở nhanh",
+    "type": "sign"
+  },
+  {
+    "id": "fc-083",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #2 của \"Sốc giảm thể tích\" là gì?",
+    "back": "Da xanh, tái, lạnh, vã mồ hôi",
+    "type": "sign"
+  },
+  {
+    "id": "fc-084",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #3 của \"Sốc giảm thể tích\" là gì?",
+    "back": "Tụt huyết áp, lơ mơ, mất ý thức",
+    "type": "sign"
+  },
+  {
+    "id": "fc-085",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #1 của \"Sốc giảm thể tích\" là gì?",
+    "back": "Mạch nhanh nhỏ, huyết áp tụt",
+    "type": "sign"
+  },
+  {
+    "id": "fc-086",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #2 của \"Sốc giảm thể tích\" là gì?",
+    "back": "Thở nhanh, nông",
+    "type": "sign"
+  },
+  {
+    "id": "fc-087",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #3 của \"Sốc giảm thể tích\" là gì?",
+    "back": "Tiểu ít hoặc không tiểu",
+    "type": "sign"
+  },
+  {
+    "id": "fc-088",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "front": "Phân loại \"Sốc do mất máu\" trong \"Sốc giảm thể tích\" nghĩa là gì?",
+    "back": "Chảy máu cấp tính, mất >20% thể tích máu.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-089",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "front": "Phân loại \"Sốc do mất dịch\" trong \"Sốc giảm thể tích\" nghĩa là gì?",
+    "back": "Tiêu chảy, nôn ói, bỏng mất dịch lớn.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-090",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "front": "Bước 1 trong quy trình sơ cứu \"Sốc giảm thể tích\": Hành động cần làm là gì?",
+    "back": "Gọi 115 ngay, cầm máu nếu có.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-091",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "front": "Bước 2 trong quy trình sơ cứu \"Sốc giảm thể tích\": Hành động cần làm là gì?",
+    "back": "Nạn nhân nằm, nâng chân cao hơn đầu (30-45°).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-092",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "front": "Bước 3 trong quy trình sơ cứu \"Sốc giảm thể tích\": Hành động cần làm là gì?",
+    "back": "Đắp chăn giữ ấm, không cho ăn uống.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-093",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "front": "Bước 4 trong quy trình sơ cứu \"Sốc giảm thể tích\": Hành động cần làm là gì?",
+    "back": "Theo dõi ABC, sẵn sàng CPR.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-094",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Sốc giảm thể tích\" là gì?",
+    "back": "Sốc mất máu có thể tử vong trong vài phút. Ưu tiên cầm máu và gọi 115.",
+    "type": "caution"
+  },
+  {
+    "id": "fc-095",
+    "lessonId": "soc-giam-the-tich",
+    "lessonTitle": "Sốc giảm thể tích",
+    "category": "cấp cứu",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Sốc giảm thể tích\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Sốc giảm thể tích là tình trạng mất máu hoặc mất dịch nghiêm trọng, đe dọa tính mạng. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-096",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "front": "Bong gân là gì?",
+    "back": "Bong gân là tổn thương dây chằng do vận động sai tư thế. Sơ cứu kịp thời theo nguyên tắc PRICE giúp giảm sưng đau.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-097",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "front": "Đối tượng nguy cơ cao của \"Bong gân\" là ai?",
+    "back": "Vận động viên, người chơi thể thao, người đi bộ không ổn định.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-098",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "front": "Dấu hiệu chắc chắn #1 của \"Bong gân\" là gì?",
+    "back": "Đau nhói đột ngột tại điểm dây chằng",
+    "type": "sign"
+  },
+  {
+    "id": "fc-099",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "front": "Dấu hiệu chắc chắn #2 của \"Bong gân\" là gì?",
+    "back": "Sưng nề, bầm tím nhanh",
+    "type": "sign"
+  },
+  {
+    "id": "fc-100",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "front": "Dấu hiệu chắc chắn #3 của \"Bong gân\" là gì?",
+    "back": "Hạn chế cử động khớp, không thể chịu lực",
+    "type": "sign"
+  },
+  {
+    "id": "fc-101",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "front": "Dấu hiệu nghi vấn #1 của \"Bong gân\" là gì?",
+    "back": "Có tiếng 'rách' hoặc 'bùng' khi bị thương",
+    "type": "sign"
+  },
+  {
+    "id": "fc-102",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "front": "Dấu hiệu nghi vấn #2 của \"Bong gân\" là gì?",
+    "back": "Khớp cảm giác lỏng lẻo, không vững",
+    "type": "sign"
+  },
+  {
+    "id": "fc-103",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "front": "Dấu hiệu nghi vấn #3 của \"Bong gân\" là gì?",
+    "back": "Đau tăng dần sau vận động",
+    "type": "sign"
+  },
+  {
+    "id": "fc-104",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "front": "Phân loại \"Độ 1 (nhẹ)\" trong \"Bong gân\" nghĩa là gì?",
+    "back": "Dây chằng giãn, đau ít, không bất động khớp.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-105",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "front": "Phân loại \"Độ 2 (vừa)\" trong \"Bong gân\" nghĩa là gì?",
+    "back": "Rách một phần, sưng bầm, hạn chế vận động.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-106",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "front": "Phân loại \"Độ 3 (nặng)\" trong \"Bong gân\" nghĩa là gì?",
+    "back": "Đứt hoàn toàn, khớp mất vững, không chịu lực được.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-107",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "front": "Bước 1 trong quy trình sơ cứu \"Bong gân\": Hành động cần làm là gì?",
+    "back": "P (Protection): dừng vận động, bảo vệ khớp.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-108",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "front": "Bước 2 trong quy trình sơ cứu \"Bong gân\": Hành động cần làm là gì?",
+    "back": "R (Rest): nghỉ ngơi hoàn toàn.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-109",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "front": "Bước 3 trong quy trình sơ cứu \"Bong gân\": Hành động cần làm là gì?",
+    "back": "I (Ice): chườm lạnh bọc vải 15-20 phút/lần, cách 2-3h.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-110",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "front": "Bước 4 trong quy trình sơ cứu \"Bong gân\": Hành động cần làm là gì?",
+    "back": "C (Compression): băng ép băng thun, không quá chặt.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-111",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "front": "Bước 5 trong quy trình sơ cứu \"Bong gân\": Hành động cần làm là gì?",
+    "back": "E (Elevate): kê cao chi bị thương.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-112",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "front": "Bước 6 trong quy trình sơ cứu \"Bong gân\": Hành động cần làm là gì?",
+    "back": "Sau 48-72h: chườm ấm, vận động nhẹ dần.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-113",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "front": "Bước 7 trong quy trình sơ cứu \"Bong gân\": Hành động cần làm là gì?",
+    "back": "Nếu đau nhiều, sưng nặng, hoặc nghi ngờ độ 3: đến cơ sở y tế.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-114",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Bong gân\" là gì?",
+    "back": "Sau 48h có thể chườm ấm. Nếu không cải thiện sau 3-5 ngày, đi khám chuyên khoa. Tránh HARM trong 72 giờ đầu.",
+    "type": "caution"
+  },
+  {
+    "id": "fc-115",
+    "lessonId": "bong-gan",
+    "lessonTitle": "Bong gân",
+    "category": "chấn thương",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Bong gân\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Bong gân là tổn thương dây chằng do vận động sai tư thế. Sơ cứu kịp thời theo nguyên tắc PRICE giúp giảm sưng đau. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-116",
+    "lessonId": "trat-khop",
+    "lessonTitle": "Trật khớp",
+    "category": "chấn thương",
+    "front": "Trật khớp là gì?",
+    "back": "Trật khớp xảy ra khi đầu xương bị lệch khỏi vị trí, gây đau và mất chức năng vận động.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-117",
+    "lessonId": "trat-khop",
+    "lessonTitle": "Trật khớp",
+    "category": "chấn thương",
+    "front": "Đối tượng nguy cơ cao của \"Trật khớp\" là ai?",
+    "back": "Người chơi thể thao, người già, người có tiền sử trật khớp vai.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-118",
+    "lessonId": "trat-khop",
+    "lessonTitle": "Trật khớp",
+    "category": "chấn thương",
+    "front": "Dấu hiệu chắc chắn #1 của \"Trật khớp\" là gì?",
+    "back": "Biến dạng rõ tại khớp (khác bên lành)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-119",
+    "lessonId": "trat-khop",
+    "lessonTitle": "Trật khớp",
+    "category": "chấn thương",
+    "front": "Dấu hiệu chắc chắn #2 của \"Trật khớp\" là gì?",
+    "back": "Sờ thấy ổ khớp rỗng",
+    "type": "sign"
+  },
+  {
+    "id": "fc-120",
+    "lessonId": "trat-khop",
+    "lessonTitle": "Trật khớp",
+    "category": "chấn thương",
+    "front": "Dấu hiệu chắc chắn #3 của \"Trật khớp\" là gì?",
+    "back": "Dấu hiệu lò xo (cố nắn thì bật lại)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-121",
+    "lessonId": "trat-khop",
+    "lessonTitle": "Trật khớp",
+    "category": "chấn thương",
+    "front": "Dấu hiệu nghi vấn #1 của \"Trật khớp\" là gì?",
+    "back": "Đau dữ dội, không cử động được khớp",
+    "type": "sign"
+  },
+  {
+    "id": "fc-122",
+    "lessonId": "trat-khop",
+    "lessonTitle": "Trật khớp",
+    "category": "chấn thương",
+    "front": "Dấu hiệu nghi vấn #2 của \"Trật khớp\" là gì?",
+    "back": "Sưng nề vùng khớp",
+    "type": "sign"
+  },
+  {
+    "id": "fc-123",
+    "lessonId": "trat-khop",
+    "lessonTitle": "Trật khớp",
+    "category": "chấn thương",
+    "front": "Bước 1 trong quy trình sơ cứu \"Trật khớp\": Hành động cần làm là gì?",
+    "back": "Kiểm tra mạch và cảm giác ở đầu chi trước khi cố định.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-124",
+    "lessonId": "trat-khop",
+    "lessonTitle": "Trật khớp",
+    "category": "chấn thương",
+    "front": "Bước 2 trong quy trình sơ cứu \"Trật khớp\": Hành động cần làm là gì?",
+    "back": "Trấn an nạn nhân, không cố nắn khớp.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-125",
+    "lessonId": "trat-khop",
+    "lessonTitle": "Trật khớp",
+    "category": "chấn thương",
+    "front": "Bước 3 trong quy trình sơ cứu \"Trật khớp\": Hành động cần làm là gì?",
+    "back": "Gọi 115 ngay.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-126",
+    "lessonId": "trat-khop",
+    "lessonTitle": "Trật khớp",
+    "category": "chấn thương",
+    "front": "Bước 4 trong quy trình sơ cứu \"Trật khớp\": Hành động cần làm là gì?",
+    "back": "Bất động khớp ở tư thế hiện tại bằng nẹp hoặc địu.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-127",
+    "lessonId": "trat-khop",
+    "lessonTitle": "Trật khớp",
+    "category": "chấn thương",
+    "front": "Bước 5 trong quy trình sơ cứu \"Trật khớp\": Hành động cần làm là gì?",
+    "back": "Chườm lạnh giảm đau, nâng chi nếu không gây đau thêm.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-128",
+    "lessonId": "trat-khop",
+    "lessonTitle": "Trật khớp",
+    "category": "chấn thương",
+    "front": "Bước 6 trong quy trình sơ cứu \"Trật khớp\": Hành động cần làm là gì?",
+    "back": "Theo dõi mạch và cảm giác ở đầu chi trong khi chờ cấp cứu.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-129",
+    "lessonId": "trat-khop",
+    "lessonTitle": "Trật khớp",
+    "category": "chấn thương",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Trật khớp\" là gì?",
+    "back": "Tuyệt đối không tự nắn, có thể gây gãy xương hoặc tổn thương mạch máu, dây thần kinh. Trật khớp vai dễ tái phát, cần theo dõi chuyên khoa.",
+    "type": "caution"
+  },
+  {
+    "id": "fc-130",
+    "lessonId": "trat-khop",
+    "lessonTitle": "Trật khớp",
+    "category": "chấn thương",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Trật khớp\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Trật khớp xảy ra khi đầu xương bị lệch khỏi vị trí, gây đau và mất chức năng vận động. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-131",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "front": "Dị ứng / Sốc phản vệ là gì?",
+    "back": "Phản ứng dị ứng có thể từ nhẹ đến sốc phản vệ đe dọa tính mạng. Sơ cứu đúng cách theo hướng dẫn quốc tế 2024.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-132",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "front": "Đối tượng nguy cơ cao của \"Dị ứng / Sốc phản vệ\" là ai?",
+    "back": "Người có tiền sử dị ứng (thuốc, thức ăn, nọc côn trùng), người có cơ địa mẫn cảm.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-133",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "front": "Dấu hiệu chắc chắn #1 của \"Dị ứng / Sốc phản vệ\" là gì?",
+    "back": "Sốc phản vệ: da hồng nóng hoặc tím tái, mạch nhanh nhỏ, tụt huyết áp, choáng",
+    "type": "sign"
+  },
+  {
+    "id": "fc-134",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "front": "Dấu hiệu chắc chắn #2 của \"Dị ứng / Sốc phản vệ\" là gì?",
+    "back": "Khó thở, thở rít, khàn tiếng, nuốt vướng, phù thanh quản",
+    "type": "sign"
+  },
+  {
+    "id": "fc-135",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "front": "Dấu hiệu chắc chắn #3 của \"Dị ứng / Sốc phản vệ\" là gì?",
+    "back": "Phù mạch (môi, lưỡi, thanh quản)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-136",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "front": "Dấu hiệu nghi vấn #1 của \"Dị ứng / Sốc phản vệ\" là gì?",
+    "back": "Mề đay, ngứa toàn thân",
+    "type": "sign"
+  },
+  {
+    "id": "fc-137",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "front": "Dấu hiệu nghi vấn #2 của \"Dị ứng / Sốc phản vệ\" là gì?",
+    "back": "Buồn nôn, đau bụng, tiêu chảy",
+    "type": "sign"
+  },
+  {
+    "id": "fc-138",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "front": "Dấu hiệu nghi vấn #3 của \"Dị ứng / Sốc phản vệ\" là gì?",
+    "back": "Cảm giác lo âu, sợ hãi đột ngột",
+    "type": "sign"
+  },
+  {
+    "id": "fc-139",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "front": "Phân loại \"Độ 1 - Nhẹ\" trong \"Dị ứng / Sốc phản vệ\" nghĩa là gì?",
+    "back": "Da, niêm mạc: mề đay, ngứa, phù môi/lưỡi.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-140",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "front": "Phân loại \"Độ 2 - Vừa\" trong \"Dị ứng / Sốc phản vệ\" nghĩa là gì?",
+    "back": "Hô hấp, tiêu hóa, tim mạch nhẹ: khó thở, đau bụng, mạch nhanh.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-141",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "front": "Phân loại \"Độ 3 - Nặng (Sốc phản vệ)\" trong \"Dị ứng / Sốc phản vệ\" nghĩa là gì?",
+    "back": "Đe dọa tính mạng: tụt HA, khó thở nặng, ngất.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-142",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "front": "Bước 1 trong quy trình sơ cứu \"Dị ứng / Sốc phản vệ\": Hành động cần làm là gì?",
+    "back": "Gọi 115 ngay lập tức.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-143",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "front": "Bước 2 trong quy trình sơ cứu \"Dị ứng / Sốc phản vệ\": Hành động cần làm là gì?",
+    "back": "Ngừng ngay tiếp xúc dị nguyên (thuốc, thức ăn, nọc côn trùng).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-144",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "front": "Bước 3 trong quy trình sơ cứu \"Dị ứng / Sốc phản vệ\": Hành động cần làm là gì?",
+    "back": "Nếu có bơm epinephrine tự động: tiêm vào mặt ngoài đùi (có thể xuyên quần áo). Giữ 10 giây rồi rút.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-145",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "front": "Bước 4 trong quy trình sơ cứu \"Dị ứng / Sốc phản vệ\": Hành động cần làm là gì?",
+    "back": "Đặt nạn nhân nằm ngửa, nâng chân 30-45cm nếu tụt HA. Nếu khó thở hoặc nôn, nghiêng sang bên.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-146",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "front": "Bước 5 trong quy trình sơ cứu \"Dị ứng / Sốc phản vệ\": Hành động cần làm là gì?",
+    "back": "Nếu không cải thiện sau 5 phút, tiêm liều epinephrine thứ 2 (nếu có).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-147",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "front": "Bước 6 trong quy trình sơ cứu \"Dị ứng / Sốc phản vệ\": Hành động cần làm là gì?",
+    "back": "Theo dõi ABC, sẵn sàng CPR nếu ngừng tim.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-148",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Dị ứng / Sốc phản vệ\" là gì?",
+    "back": "Epinephrine (adrenaline) là thuốc số 1, tiêm càng sớm càng tốt. KHÔNG chờ triệu chứng nặng mới tiêm. Người có cơ địa dị ứng nặng cần mang theo ống tiêm epinephrine và cài đặt cảnh báo y tế. Nếu nạn nhân tỉnh sau tiêm epinephrine, vẫn cần theo dõi ít nhất 1 giờ (vì có thể tái phát).",
+    "type": "caution"
+  },
+  {
+    "id": "fc-149",
+    "lessonId": "di-ung",
+    "lessonTitle": "Dị ứng / Sốc phản vệ",
+    "category": "dị ứng",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Dị ứng / Sốc phản vệ\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Phản ứng dị ứng có thể từ nhẹ đến sốc phản vệ đe dọa tính mạng. Sơ cứu đúng cách theo hướng dẫn quốc tế 2024. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-150",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "front": "Chó cắn là gì?",
+    "back": "Vết cắn của chó có nguy cơ nhiễm trùng và bệnh dại. Sơ cứu đúng cách giảm nguy cơ biến chứng.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-151",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "front": "Đối tượng nguy cơ cao của \"Chó cắn\" là ai?",
+    "back": "Người tiếp xúc với chó lạ, trẻ em, người làm việc với động vật.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-152",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "front": "Dấu hiệu chắc chắn #1 của \"Chó cắn\" là gì?",
+    "back": "Vết rách da, chảy máu, sưng đau",
+    "type": "sign"
+  },
+  {
+    "id": "fc-153",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "front": "Dấu hiệu chắc chắn #2 của \"Chó cắn\" là gì?",
+    "back": "Nguy cơ nhiễm trùng cao (Pasteurella, tụ cầu)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-154",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "front": "Dấu hiệu chắc chắn #3 của \"Chó cắn\" là gì?",
+    "back": "Nguy cơ bệnh dại và uốn ván",
+    "type": "sign"
+  },
+  {
+    "id": "fc-155",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "front": "Dấu hiệu nghi vấn #1 của \"Chó cắn\" là gì?",
+    "back": "Vết xước nhẹ, trầy da, chảy máu ít",
+    "type": "sign"
+  },
+  {
+    "id": "fc-156",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "front": "Dấu hiệu nghi vấn #2 của \"Chó cắn\" là gì?",
+    "back": "Sưng nề, đỏ quanh vết thương",
+    "type": "sign"
+  },
+  {
+    "id": "fc-157",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "front": "Dấu hiệu nghi vấn #3 của \"Chó cắn\" là gì?",
+    "back": "Sốt, đau tăng dần (nhiễm trùng)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-158",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "front": "Phân loại \"Cắn độ 1\" trong \"Chó cắn\" nghĩa là gì?",
+    "back": "Tiếp xúc da lành (không nguy cơ nhiễm trùng).",
+    "type": "classification"
+  },
+  {
+    "id": "fc-159",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "front": "Phân loại \"Độ 2\" trong \"Chó cắn\" nghĩa là gì?",
+    "back": "Vết xước nhẹ, trầy da, chảy máu ít.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-160",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "front": "Phân loại \"Độ 3\" trong \"Chó cắn\" nghĩa là gì?",
+    "back": "Vết cắn sâu, thủng da, chảy máu nhiều, có thể tổn thương cơ, gân, xương.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-161",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "front": "Bước 1 trong quy trình sơ cứu \"Chó cắn\": Hành động cần làm là gì?",
+    "back": "Rửa vết thương dưới vòi nước chảy + xà phòng liên tục 15 phút.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-162",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "front": "Bước 2 trong quy trình sơ cứu \"Chó cắn\": Hành động cần làm là gì?",
+    "back": "Sát khuẩn bằng cồn 70° hoặc povidone-iodine.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-163",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "front": "Bước 3 trong quy trình sơ cứu \"Chó cắn\": Hành động cần làm là gì?",
+    "back": "Đến cơ sở y tế ngay để tiêm phòng dại và uốn ván (ngay cả vết xước nhẹ).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-164",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "front": "Bước 4 trong quy trình sơ cứu \"Chó cắn\": Hành động cần làm là gì?",
+    "back": "Ghi nhận thông tin về con chó (chủ, tình trạng sức khỏe) để theo dõi.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-165",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "front": "Bước 5 trong quy trình sơ cứu \"Chó cắn\": Hành động cần làm là gì?",
+    "back": "Theo dõi con chó trong 10 ngày (nếu có thể) để phát hiện dấu hiệu dại.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-166",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Chó cắn\" là gì?",
+    "back": "Không nặn máu, không băng kín vết thương, không đắp lá. Tiêm vắc-xin dại càng sớm càng tốt, không chờ đến khi có triệu chứng (vì khi lên cơn dại thì tỉ lệ tử vong gần như 100%).",
+    "type": "caution"
+  },
+  {
+    "id": "fc-167",
+    "lessonId": "cho-can",
+    "lessonTitle": "Chó cắn",
+    "category": "động vật",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Chó cắn\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Vết cắn của chó có nguy cơ nhiễm trùng và bệnh dại. Sơ cứu đúng cách giảm nguy cơ biến chứng. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-168",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "front": "Rắn cắn là gì?",
+    "back": "Rắn độc cắn gây nguy hiểm tính mạng do nọc độc. Sơ cứu đúng cách theo WHO 2024 giúp giảm tổn thương.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-169",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "front": "Đối tượng nguy cơ cao của \"Rắn cắn\" là ai?",
+    "back": "Người làm nông, đi rừng, leo núi, sống gần môi trường hoang dã.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-170",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "front": "Dấu hiệu chắc chắn #1 của \"Rắn cắn\" là gì?",
+    "back": "Hai vết răng nanh cách nhau 1-2cm (rắn độc)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-171",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "front": "Dấu hiệu chắc chắn #2 của \"Rắn cắn\" là gì?",
+    "back": "Sưng nề, bầm tím lan nhanh, đau tăng dần",
+    "type": "sign"
+  },
+  {
+    "id": "fc-172",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "front": "Dấu hiệu chắc chắn #3 của \"Rắn cắn\" là gì?",
+    "back": "Rối loạn đông máu (chảy máu chân răng, bầm da, nôn ra máu)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-173",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "front": "Dấu hiệu chắc chắn #4 của \"Rắn cắn\" là gì?",
+    "back": "Liệt cơ (sụp mi, nói khó, nuốt khó, suy hô hấp)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-174",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "front": "Dấu hiệu nghi vấn #1 của \"Rắn cắn\" là gì?",
+    "back": "Sưng nề lan rộng quanh vết cắn",
+    "type": "sign"
+  },
+  {
+    "id": "fc-175",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "front": "Dấu hiệu nghi vấn #2 của \"Rắn cắn\" là gì?",
+    "back": "Đau dữ dội, nôn ói, tiêu chảy",
+    "type": "sign"
+  },
+  {
+    "id": "fc-176",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "front": "Dấu hiệu nghi vấn #3 của \"Rắn cắn\" là gì?",
+    "back": "Nhịp tim nhanh, hạ huyết áp",
+    "type": "sign"
+  },
+  {
+    "id": "fc-177",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "front": "Phân loại \"Rắn hổ (Elapidae)\" trong \"Rắn cắn\" nghĩa là gì?",
+    "back": "Độc tố thần kinh: liệt, sụp mi, suy hô hấp.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-178",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "front": "Phân loại \"Rắn lục (Viperidae)\" trong \"Rắn cắn\" nghĩa là gì?",
+    "back": "Độc tố gây rối loạn đông máu, hoại tử, suy thận.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-179",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "front": "Bước 1 trong quy trình sơ cứu \"Rắn cắn\": Hành động cần làm là gì?",
+    "back": "Di chuyển nạn nhân ra xa khu vực rắn, trấn an, giữ bình tĩnh.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-180",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "front": "Bước 2 trong quy trình sơ cứu \"Rắn cắn\": Hành động cần làm là gì?",
+    "back": "Gọi 115 ngay. Giữ nạn nhân nằm yên, bất động hoàn toàn.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-181",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "front": "Bước 3 trong quy trình sơ cứu \"Rắn cắn\": Hành động cần làm là gì?",
+    "back": "Tháo trang sức, quần áo chật ở vùng bị cắn.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-182",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "front": "Bước 4 trong quy trình sơ cứu \"Rắn cắn\": Hành động cần làm là gì?",
+    "back": "Bất động chi bị cắn bằng nẹp (que, báo cuộn). Đặt chi ở mức tim, không cao hơn tim.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-183",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "front": "Bước 5 trong quy trình sơ cứu \"Rắn cắn\": Hành động cần làm là gì?",
+    "back": "Không băng ép. Chỉ rửa vết thương, nẹp bất động lỏng lẻo chi bị cắn ở ngang mức tim và chuyển viện cấp tốc.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-184",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "front": "Bước 6 trong quy trình sơ cứu \"Rắn cắn\": Hành động cần làm là gì?",
+    "back": "Chuyển đến bệnh viện có sẵn huyết thanh kháng nọc càng sớm càng tốc.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-185",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "front": "Bước 7 trong quy trình sơ cứu \"Rắn cắn\": Hành động cần làm là gì?",
+    "back": "Nếu nạn nhân hôn mê, ngừng thở, ngừng tim → bắt đầu CPR ngay.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-186",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Rắn cắn\" là gì?",
+    "back": "KHÔNG dùng garo (tourniquet). KHÔNG rạch hút nọc độc. KHÔNG đắp lá, bôi thuốc. KHÔNG chườm đá. KHÔNG hút bằng miệng. Cố gắng nhận dạng rắn (chụp ảnh từ xa) nhưng đảm bảo an toàn. Paracetamol có thể dùng cho đau.",
+    "type": "caution"
+  },
+  {
+    "id": "fc-187",
+    "lessonId": "ran-can",
+    "lessonTitle": "Rắn cắn",
+    "category": "động vật",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Rắn cắn\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Rắn độc cắn gây nguy hiểm tính mạng do nọc độc. Sơ cứu đúng cách theo WHO 2024 giúp giảm tổn thương. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-188",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "front": "Ong đốt là gì?",
+    "back": "Ong đốt gây đau, sưng và có thể dị ứng nghiêm trọng. Sơ cứu đúng cách làm giảm triệu chứng.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-189",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "front": "Đối tượng nguy cơ cao của \"Ong đốt\" là ai?",
+    "back": "Người đi bộ ngoài trời, người có tiền sử dị ứng nọc ong.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-190",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "front": "Dấu hiệu chắc chắn #1 của \"Ong đốt\" là gì?",
+    "back": "Đau chói, sưng đỏ, ngứa tại chỗ",
+    "type": "sign"
+  },
+  {
+    "id": "fc-191",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "front": "Dấu hiệu chắc chắn #2 của \"Ong đốt\" là gì?",
+    "back": "Nhiều vết đốt hoặc có dị ứng: nổi mề đay toàn thân, khó thở, tụt HA, phù thanh quản",
+    "type": "sign"
+  },
+  {
+    "id": "fc-192",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "front": "Dấu hiệu nghi vấn #1 của \"Ong đốt\" là gì?",
+    "back": "Phản ứng toàn thân chậm (vài giờ đến vài ngày sau): sốt, nổi mề đay lan rộng",
+    "type": "sign"
+  },
+  {
+    "id": "fc-193",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "front": "Dấu hiệu nghi vấn #2 của \"Ong đốt\" là gì?",
+    "back": "Đau bụng, nôn (dị ứng hệ thống)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-194",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "front": "Phân loại \"Phản ứng tại chỗ\" trong \"Ong đốt\" nghĩa là gì?",
+    "back": "Sưng đỏ dưới 10cm, tự hết sau vài giờ",
+    "type": "classification"
+  },
+  {
+    "id": "fc-195",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "front": "Phân loại \"Phản ứng toàn thân\" trong \"Ong đốt\" nghĩa là gì?",
+    "back": "Sốc phản vệ, nguy hiểm",
+    "type": "classification"
+  },
+  {
+    "id": "fc-196",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "front": "Bước 1 trong quy trình sơ cứu \"Ong đốt\": Hành động cần làm là gì?",
+    "back": "Di chuyển nạn nhân đến nơi an toàn, tránh ong đốt tiếp.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-197",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "front": "Bước 2 trong quy trình sơ cứu \"Ong đốt\": Hành động cần làm là gì?",
+    "back": "Loại bỏ ngòi (nếu ong mật còn ngòi) bằng cách cạo nhẹ bằng móng tay hoặc thẻ, không nặn, không kẹp.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-198",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "front": "Bước 3 trong quy trình sơ cứu \"Ong đốt\": Hành động cần làm là gì?",
+    "back": "Rửa vết đốt bằng xà phòng và nước lạnh.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-199",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "front": "Bước 4 trong quy trình sơ cứu \"Ong đốt\": Hành động cần làm là gì?",
+    "back": "Chườm lạnh bọc vải 15-20 phút, nâng chi bị đốt.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-200",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "front": "Bước 5 trong quy trình sơ cứu \"Ong đốt\": Hành động cần làm là gì?",
+    "back": "Nếu có dị ứng toàn thân: gọi 115 ngay, tiêm epinephrine nếu có, chuẩn bị CPR.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-201",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Ong đốt\" là gì?",
+    "back": "Không bôi vôi, kem đánh răng, dầu gió. Không gãi, không xoa bóp. Nếu ong bắp cày hoặc ong vò vẽ đốt, có thể gây hoại tử, cần rửa bằng nước muối và đến bệnh viện.",
+    "type": "caution"
+  },
+  {
+    "id": "fc-202",
+    "lessonId": "ong-dot",
+    "lessonTitle": "Ong đốt",
+    "category": "động vật",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Ong đốt\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Ong đốt gây đau, sưng và có thể dị ứng nghiêm trọng. Sơ cứu đúng cách làm giảm triệu chứng. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-203",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "front": "Đột quỵ là gì?",
+    "back": "Đột quỵ là cấp cứu thần kinh hàng đầu, cần nhận biết sớm bằng FAST và gọi cấp cứu ngay. Thời gian là não (Time is Brain).",
+    "type": "definition"
+  },
+  {
+    "id": "fc-204",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "front": "Đối tượng nguy cơ cao của \"Đột quỵ\" là ai?",
+    "back": "Người cao tuổi, tăng huyết áp, đái tháo đường, rối loạn mỡ máu, hút thuốc lá.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-205",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #1 của \"Đột quỵ\" là gì?",
+    "back": "Mặt méo (cười lệch, nhân giữa lệch) - FACE",
+    "type": "sign"
+  },
+  {
+    "id": "fc-206",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #2 của \"Đột quỵ\" là gì?",
+    "back": "Yếu liệt tay chân một bên (thử giơ hai tay, một tay rơi xuống) - ARM",
+    "type": "sign"
+  },
+  {
+    "id": "fc-207",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #3 của \"Đột quỵ\" là gì?",
+    "back": "Nói khó, nói ngọng, không nói được - SPEECH",
+    "type": "sign"
+  },
+  {
+    "id": "fc-208",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #1 của \"Đột quỵ\" là gì?",
+    "back": "Đau đầu dữ dội đột ngột (đột ngột, không rõ lý do)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-209",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #2 của \"Đột quỵ\" là gì?",
+    "back": "Chóng mặt, mất thăng bằng, nhìn mờ một bên",
+    "type": "sign"
+  },
+  {
+    "id": "fc-210",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #3 của \"Đột quỵ\" là gì?",
+    "back": "Mất ý thức, nôn ói nhiều",
+    "type": "sign"
+  },
+  {
+    "id": "fc-211",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "front": "Phân loại \"Nhồi máu não (85%)\" trong \"Đột quỵ\" nghĩa là gì?",
+    "back": "Tắc mạch, có thể dùng thuốc tiêu sợi huyết trong 4,5 giờ (giờ vàng).",
+    "type": "classification"
+  },
+  {
+    "id": "fc-212",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "front": "Phân loại \"Xuất huyết não (15%)\" trong \"Đột quỵ\" nghĩa là gì?",
+    "back": "Vỡ mạch, nguy hiểm hơn, cần phẫu thuật sớm.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-213",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "front": "Bước 1 trong quy trình sơ cứu \"Đột quỵ\": Hành động cần làm là gì?",
+    "back": "Gọi 115 ngay lập tức – ghi nhớ thời điểm khởi phát (giờ vàng 3-4,5h).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-214",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "front": "Bước 2 trong quy trình sơ cứu \"Đột quỵ\": Hành động cần làm là gì?",
+    "back": "Kiểm tra FAST: Face (mặt lệch), Arms (giơ tay một bên rơi), Speech (nói khó), Time (thời gian gọi cấp cứu).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-215",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "front": "Bước 3 trong quy trình sơ cứu \"Đột quỵ\": Hành động cần làm là gì?",
+    "back": "Đặt nạn nhân nằm nghiêng an toàn nếu nôn, đầu cao 30° nếu tỉnh và không có chấn thương cột sống.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-216",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "front": "Bước 4 trong quy trình sơ cứu \"Đột quỵ\": Hành động cần làm là gì?",
+    "back": "Nới lỏng quần áo, không cho ăn uống bất kỳ thứ gì (kể cả thuốc).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-217",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "front": "Bước 5 trong quy trình sơ cứu \"Đột quỵ\": Hành động cần làm là gì?",
+    "back": "Ghi nhận các triệu chứng và thời gian để cung cấp cho nhân viên y tế.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-218",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "front": "Bước 6 trong quy trình sơ cứu \"Đột quỵ\": Hành động cần làm là gì?",
+    "back": "Nếu ngừng thở, ngưng tim, bắt đầu CPR ngay.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-219",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Đột quỵ\" là gì?",
+    "back": "KHÔNG tự ý cho uống aspirin, không chích lể, cạo gió, không tự lái xe đến bệnh viện. Đột quỵ cần can thiệp chuyên khoa càng sớm càng tốt. 'Time is Brain' - mỗi phút trễ làm chết 1,9 triệu tế bào não.",
+    "type": "caution"
+  },
+  {
+    "id": "fc-220",
+    "lessonId": "dot-quy",
+    "lessonTitle": "Đột quỵ",
+    "category": "cấp cứu",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Đột quỵ\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Đột quỵ là cấp cứu thần kinh hàng đầu, cần nhận biết sớm bằng FAST và gọi cấp cứu ngay. Thời gian là não (Time is Brain). Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-221",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "front": "Đuối nước là gì?",
+    "back": "Đuối nước là nguyên nhân hàng đầu gây tử vong ở trẻ em. Sơ cứu kịp thời theo DRs. ABC có thể cứu sống.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-222",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "front": "Đối tượng nguy cơ cao của \"Đuối nước\" là ai?",
+    "back": "Trẻ em, người không biết bơi, người bơi ở khu vực nguy hiểm.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-223",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #1 của \"Đuối nước\" là gì?",
+    "back": "Ngừng thở, ngừng tim",
+    "type": "sign"
+  },
+  {
+    "id": "fc-224",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #2 của \"Đuối nước\" là gì?",
+    "back": "Da tím tái, bụng chướng (do nuốt nước)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-225",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #3 của \"Đuối nước\" là gì?",
+    "back": "Mất ý thức",
+    "type": "sign"
+  },
+  {
+    "id": "fc-226",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #1 của \"Đuối nước\" là gì?",
+    "back": "Ho, khạc nước, thở khò khè",
+    "type": "sign"
+  },
+  {
+    "id": "fc-227",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #2 của \"Đuối nước\" là gì?",
+    "back": "Lơ mơ, lo âu, lạnh run",
+    "type": "sign"
+  },
+  {
+    "id": "fc-228",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "front": "Bước 1 trong quy trình sơ cứu \"Đuối nước\": Hành động cần làm là gì?",
+    "back": "Đưa lên khỏi mặt nước an toàn. Gọi 115 ngay.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-229",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "front": "Bước 2 trong quy trình sơ cứu \"Đuối nước\": Hành động cần làm là gì?",
+    "back": "Đặt nằm ngửa trên mặt phẳng cứng, cởi quần áo ướt.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-230",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "front": "Bước 3 trong quy trình sơ cứu \"Đuối nước\": Hành động cần làm là gì?",
+    "back": "Mở đường thở, kiểm tra hô hấp.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-231",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "front": "Bước 4 trong quy trình sơ cứu \"Đuối nước\": Hành động cần làm là gì?",
+    "back": "Nếu không thở: thổi ngạt 2 cái ngay (mỗi cái 1 giây), sau đó bắt đầu CPR.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-232",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "front": "Bước 5 trong quy trình sơ cứu \"Đuối nước\": Hành động cần làm là gì?",
+    "back": "Ép tim 30 lần : thổi ngạt 2 cái. Tần số 100-120 lần/phút.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-233",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "front": "Bước 6 trong quy trình sơ cứu \"Đuối nước\": Hành động cần làm là gì?",
+    "back": "Tiếp tục CPR đến khi nạn nhân tỉnh hoặc cấp cứu đến.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-234",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "front": "Bước 7 trong quy trình sơ cứu \"Đuối nước\": Hành động cần làm là gì?",
+    "back": "Cho CPR ngay cả khi nạn nhân đã ngừng thở lâu (người đuối nước có thể sống sót sau ngừng tim dài).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-235",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Đuối nước\" là gì?",
+    "back": "KHÔNG dốc nước bằng cách xốc chân, không lãng phí thời gian. KHÔNG cố gắng làm sạch đường thở trước khi thổi ngạt. Ưu tiên thổi ngạt và ép tim ngay. Người đuối nước có thể sống sót ngay cả sau ngừng tim kéo dài.",
+    "type": "caution"
+  },
+  {
+    "id": "fc-236",
+    "lessonId": "duoi-nuoc",
+    "lessonTitle": "Đuối nước",
+    "category": "cấp cứu",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Đuối nước\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Đuối nước là nguyên nhân hàng đầu gây tử vong ở trẻ em. Sơ cứu kịp thời theo DRs. ABC có thể cứu sống. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-237",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "front": "Bỏng / Phỏng là gì?",
+    "back": "Bỏng là tổn thương da do nhiệt, hóa chất hoặc điện. Sơ cứu đúng cách giúp giảm đau và hạn chế sẹo.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-238",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "front": "Đối tượng nguy cơ cao của \"Bỏng / Phỏng\" là ai?",
+    "back": "Trẻ em, người làm bếp, công nhân, người tiếp xúc với hóa chất.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-239",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #1 của \"Bỏng / Phỏng\" là gì?",
+    "back": "Đỏ da, phồng rộp, đau rát, da có thể cháy đen",
+    "type": "sign"
+  },
+  {
+    "id": "fc-240",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #2 của \"Bỏng / Phỏng\" là gì?",
+    "back": "Bỏng hóa chất có thể không đau ngay nhưng tiến triển nặng",
+    "type": "sign"
+  },
+  {
+    "id": "fc-241",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #1 của \"Bỏng / Phỏng\" là gì?",
+    "back": "Da trắng, xém, cứng (bỏng độ 3)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-242",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #2 của \"Bỏng / Phỏng\" là gì?",
+    "back": "Bỏng hóa chất: đỏ, rát, có vết trợt",
+    "type": "sign"
+  },
+  {
+    "id": "fc-243",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "front": "Phân loại \"Độ 1\" trong \"Bỏng / Phỏng\" nghĩa là gì?",
+    "back": "Đỏ, đau, không phồng nước. Tổn thương lớp biểu bì.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-244",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "front": "Phân loại \"Độ 2\" trong \"Bỏng / Phỏng\" nghĩa là gì?",
+    "back": "Phồng nước, nền hồng, đau nhiều. Tổn thương lớp bì và hạ bì.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-245",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "front": "Phân loại \"Độ 3\" trong \"Bỏng / Phỏng\" nghĩa là gì?",
+    "back": "Da cháy đen/trắng, không đau, tổn thương sâu. Cần ghép da.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-246",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "front": "Bước 1 trong quy trình sơ cứu \"Bỏng / Phỏng\": Hành động cần làm là gì?",
+    "back": "Loại bỏ nguồn nhiệt, ngắt điện. Cởi quần áo bị cháy (nếu không dính vào da).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-247",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "front": "Bước 2 trong quy trình sơ cứu \"Bỏng / Phỏng\": Hành động cần làm là gì?",
+    "back": "Làm mát bằng nước chảy mát 15-25°C trong 20 phút. Phải thực hiện ngay lập tức, tối ưu nhất là trong 30 phút đầu tiên sau khi bị bỏng.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-248",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "front": "Bước 3 trong quy trình sơ cứu \"Bỏng / Phỏng\": Hành động cần làm là gì?",
+    "back": "Che phủ vết bỏng bằng gạc ẩm hoặc khăn sạch, không bôi gì (không dùng đá, không dùng dầu, không bôi kem đánh răng).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-249",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "front": "Bước 4 trong quy trình sơ cứu \"Bỏng / Phỏng\": Hành động cần làm là gì?",
+    "back": "Nếu bỏng hóa chất: rửa dưới vòi nước chảy 20 phút, cởi quần áo bị nhiễm hóa chất.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-250",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "front": "Bước 5 trong quy trình sơ cứu \"Bỏng / Phỏng\": Hành động cần làm là gì?",
+    "back": "Gọi 115 nếu bỏng nặng (sâu, mặt, bộ phận sinh dục, diện rộng >10% cơ thể, trẻ <5 tuổi hoặc người già).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-251",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "front": "Bước 6 trong quy trình sơ cứu \"Bỏng / Phỏng\": Hành động cần làm là gì?",
+    "back": "Bù nước, điện giải (oresol). Theo dõi dấu hiệu sốc.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-252",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Bỏng / Phỏng\" là gì?",
+    "back": "KHÔNG dùng đá, nước đá, khăn ướp đá. KHÔNG bôi kem đánh răng, vôi, dầu cá, mật ong. KHÔNG làm vỡ nốt phỏng. KHÔNG dùng cồn rửa. Giữ ấm những phần không bị bỏng để tránh hạ thân nhiệt.",
+    "type": "caution"
+  },
+  {
+    "id": "fc-253",
+    "lessonId": "bong",
+    "lessonTitle": "Bỏng / Phỏng",
+    "category": "cấp cứu",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Bỏng / Phỏng\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Bỏng là tổn thương da do nhiệt, hóa chất hoặc điện. Sơ cứu đúng cách giúp giảm đau và hạn chế sẹo. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-254",
+    "lessonId": "dien-giat",
+    "lessonTitle": "Điện giật",
+    "category": "cấp cứu",
+    "front": "Điện giật là gì?",
+    "back": "Điện giật có thể gây ngừng tim, bỏng và tổn thương thần kinh. Cần xử trí nhanh chóng.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-255",
+    "lessonId": "dien-giat",
+    "lessonTitle": "Điện giật",
+    "category": "cấp cứu",
+    "front": "Đối tượng nguy cơ cao của \"Điện giật\" là ai?",
+    "back": "Công nhân xây dựng, thợ điện, người sử dụng thiết bị điện không an toàn.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-256",
+    "lessonId": "dien-giat",
+    "lessonTitle": "Điện giật",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #1 của \"Điện giật\" là gì?",
+    "back": "Bất tỉnh, co giật, ngừng thở, ngừng tim",
+    "type": "sign"
+  },
+  {
+    "id": "fc-257",
+    "lessonId": "dien-giat",
+    "lessonTitle": "Điện giật",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #2 của \"Điện giật\" là gì?",
+    "back": "Vết bỏng sâu tại điểm tiếp xúc",
+    "type": "sign"
+  },
+  {
+    "id": "fc-258",
+    "lessonId": "dien-giat",
+    "lessonTitle": "Điện giật",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #1 của \"Điện giật\" là gì?",
+    "back": "Mất ý thức tạm thời, co giật nhẹ",
+    "type": "sign"
+  },
+  {
+    "id": "fc-259",
+    "lessonId": "dien-giat",
+    "lessonTitle": "Điện giật",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #2 của \"Điện giật\" là gì?",
+    "back": "Đau cơ, yếu chi, rối loạn nhịp tim",
+    "type": "sign"
+  },
+  {
+    "id": "fc-260",
+    "lessonId": "dien-giat",
+    "lessonTitle": "Điện giật",
+    "category": "cấp cứu",
+    "front": "Bước 1 trong quy trình sơ cứu \"Điện giật\": Hành động cần làm là gì?",
+    "back": "Ngắt nguồn điện ngay (cầu dao, dùng gậy khô hất dây).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-261",
+    "lessonId": "dien-giat",
+    "lessonTitle": "Điện giật",
+    "category": "cấp cứu",
+    "front": "Bước 2 trong quy trình sơ cứu \"Điện giật\": Hành động cần làm là gì?",
+    "back": "KHÔNG chạm trực tiếp nạn nhân nếu vẫn còn tiếp xúc điện.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-262",
+    "lessonId": "dien-giat",
+    "lessonTitle": "Điện giật",
+    "category": "cấp cứu",
+    "front": "Bước 3 trong quy trình sơ cứu \"Điện giật\": Hành động cần làm là gì?",
+    "back": "Kiểm tra ABC ngay. Gọi 115.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-263",
+    "lessonId": "dien-giat",
+    "lessonTitle": "Điện giật",
+    "category": "cấp cứu",
+    "front": "Bước 4 trong quy trình sơ cứu \"Điện giật\": Hành động cần làm là gì?",
+    "back": "Nếu ngưng thở/ngưng tim → CPR ngay.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-264",
+    "lessonId": "dien-giat",
+    "lessonTitle": "Điện giật",
+    "category": "cấp cứu",
+    "front": "Bước 5 trong quy trình sơ cứu \"Điện giật\": Hành động cần làm là gì?",
+    "back": "Xử lý vết bỏng như bỏng thường (làm mát 20 phút).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-265",
+    "lessonId": "dien-giat",
+    "lessonTitle": "Điện giật",
+    "category": "cấp cứu",
+    "front": "Bước 6 trong quy trình sơ cứu \"Điện giật\": Hành động cần làm là gì?",
+    "back": "Theo dõi dấu hiệu sốc.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-266",
+    "lessonId": "dien-giat",
+    "lessonTitle": "Điện giật",
+    "category": "cấp cứu",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Điện giật\" là gì?",
+    "back": "Sau điện giật, dù tỉnh vẫn cần đến bệnh viện kiểm tra tim mạch (rối loạn nhịp muộn) và thận (hoại tử cơ). Có thể có chấn thương cột sống nếu ngã từ cao.",
+    "type": "caution"
+  },
+  {
+    "id": "fc-267",
+    "lessonId": "dien-giat",
+    "lessonTitle": "Điện giật",
+    "category": "cấp cứu",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Điện giật\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Điện giật có thể gây ngừng tim, bỏng và tổn thương thần kinh. Cần xử trí nhanh chóng. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-268",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "front": "CPR (Hồi sinh tim phổi) là gì?",
+    "back": "CPR là kỹ thuật cấp cứu ngưng tim, giúp duy trì tuần hoàn và hô hấp cho đến khi có trợ giúp.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-269",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "front": "Đối tượng nguy cơ cao của \"CPR (Hồi sinh tim phổi)\" là ai?",
+    "back": "Mọi người, đặc biệt là người có bệnh tim mạch, người cao tuổi.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-270",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #1 của \"CPR (Hồi sinh tim phổi)\" là gì?",
+    "back": "Ngừng tim (không bắt mạch cảnh, mạch bẹn)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-271",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #2 của \"CPR (Hồi sinh tim phổi)\" là gì?",
+    "back": "Ngừng thở (lồng ngực không di động)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-272",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #3 của \"CPR (Hồi sinh tim phổi)\" là gì?",
+    "back": "Mất ý thức",
+    "type": "sign"
+  },
+  {
+    "id": "fc-273",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "front": "Phân loại \"CPR truyền thống (30:2)\" trong \"CPR (Hồi sinh tim phổi)\" nghĩa là gì?",
+    "back": "Ép tim 30 cái + thổi ngạt 2 cái. Dành cho người được đào tạo.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-274",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "front": "Phân loại \"CPR chỉ ép tim (Hands-only)\" trong \"CPR (Hồi sinh tim phổi)\" nghĩa là gì?",
+    "back": "Chỉ ép tim liên tục 100-120 lần/phút. Dành cho người chưa được đào tạo hoặc không muốn thổi ngạt.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-275",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "front": "Bước 1 trong quy trình sơ cứu \"CPR (Hồi sinh tim phổi)\": Hành động cần làm là gì?",
+    "back": "Đảm bảo an toàn, gọi 115 ngay hoặc nhờ người xung quanh gọi.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-276",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "front": "Bước 2 trong quy trình sơ cứu \"CPR (Hồi sinh tim phổi)\": Hành động cần làm là gì?",
+    "back": "Đặt nạn nhân nằm ngửa trên mặt phẳng cứng, cởi áo.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-277",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "front": "Bước 3 trong quy trình sơ cứu \"CPR (Hồi sinh tim phổi)\": Hành động cần làm là gì?",
+    "back": "Vị trí ép: Nửa dưới xương ức (đặt cườm tay vào giữa ngực, ngay trên đường nối hai núm vú). Hai tay đan chồng, ép thẳng, sâu 5-6 cm, tần số 100-120 lần/phút.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-278",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "front": "Bước 4 trong quy trình sơ cứu \"CPR (Hồi sinh tim phổi)\": Hành động cần làm là gì?",
+    "back": "Để lồng ngực nổi hoàn toàn sau mỗi cú ép (cho phép hồi phục hoàn toàn).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-279",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "front": "Bước 5 trong quy trình sơ cứu \"CPR (Hồi sinh tim phổi)\": Hành động cần làm là gì?",
+    "back": "Nếu được đào tạo: mở đường thở (ngửa đầu nâng cằm), bịt mũi, thổi 2 cái (1 giây/cái) làm lồng ngực nổi. Tỉ lệ 30:2.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-280",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "front": "Bước 6 trong quy trình sơ cứu \"CPR (Hồi sinh tim phổi)\": Hành động cần làm là gì?",
+    "back": "Nếu không được đào tạo: chỉ ép tim liên tục không cần thổi ngạt (hands-only CPR).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-281",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "front": "Bước 7 trong quy trình sơ cứu \"CPR (Hồi sinh tim phổi)\": Hành động cần làm là gì?",
+    "back": "Thay người ép mỗi 2 phút nếu mệt, tránh gián đoạn ép tim.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-282",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "front": "Bước 8 trong quy trình sơ cứu \"CPR (Hồi sinh tim phổi)\": Hành động cần làm là gì?",
+    "back": "Tiếp tục cho đến khi nạn nhân tỉnh hoặc xe cấp cứu đến.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-283",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "front": "Lưu ý quan trọng khi sơ cứu \"CPR (Hồi sinh tim phổi)\" là gì?",
+    "back": "Nếu không được đào tạo, chỉ ép tay không (hands-only). Giữ nhịp 100-120 lần/phút, ép sâu 5-6 cm. Cho phép lồng ngực hồi phục hoàn toàn. Kiên trì, thay người mỗi 2 phút.",
+    "type": "caution"
+  },
+  {
+    "id": "fc-284",
+    "lessonId": "cpr",
+    "lessonTitle": "CPR (Hồi sinh tim phổi)",
+    "category": "cấp cứu",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"CPR (Hồi sinh tim phổi)\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: CPR là kỹ thuật cấp cứu ngưng tim, giúp duy trì tuần hoàn và hô hấp cho đến khi có trợ giúp. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-285",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "front": "Hạ thân nhiệt là gì?",
+    "back": "Hạ thân nhiệt là tình trạng cơ thể mất nhiệt quá nhanh. Cần xử trí nhẹ nhàng và hâm nóng từ từ.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-286",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "front": "Đối tượng nguy cơ cao của \"Hạ thân nhiệt\" là ai?",
+    "back": "Người làm việc ngoài trời lạnh, người già, trẻ nhỏ, người say rượu.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-287",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "front": "Dấu hiệu chắc chắn #1 của \"Hạ thân nhiệt\" là gì?",
+    "back": "Nhiệt độ thân dưới 35°C",
+    "type": "sign"
+  },
+  {
+    "id": "fc-288",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "front": "Dấu hiệu chắc chắn #2 của \"Hạ thân nhiệt\" là gì?",
+    "back": "Nạn nhân lơ mơ, run không kiểm soát (run run rung) hoặc không run (nặng)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-289",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "front": "Dấu hiệu chắc chắn #3 của \"Hạ thân nhiệt\" là gì?",
+    "back": "Da lạnh, tái nhợt, có thể bị phù phổi",
+    "type": "sign"
+  },
+  {
+    "id": "fc-290",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "front": "Dấu hiệu nghi vấn #1 của \"Hạ thân nhiệt\" là gì?",
+    "back": "Rét run không kiểm soát, nói lắp bắp, lơ mơ",
+    "type": "sign"
+  },
+  {
+    "id": "fc-291",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "front": "Dấu hiệu nghi vấn #2 của \"Hạ thân nhiệt\" là gì?",
+    "back": "Mạch chậm, thở chậm, da lạnh",
+    "type": "sign"
+  },
+  {
+    "id": "fc-292",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "front": "Phân loại \"Nhẹ (32-35°C)\" trong \"Hạ thân nhiệt\" nghĩa là gì?",
+    "back": "Run run, tỉnh táo. Hâm nóng được.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-293",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "front": "Phân loại \"Trung bình (28-32°C)\" trong \"Hạ thân nhiệt\" nghĩa là gì?",
+    "back": "Lơ mơ, run giảm. Cần CPR nếu ngừng tim.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-294",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "front": "Phân loại \"Nặng (<28°C)\" trong \"Hạ thân nhiệt\" nghĩa là gì?",
+    "back": "Hôn mê, không run. Có vẻ đã chết nhưng vẫn có thể hồi sinh.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-295",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "front": "Bước 1 trong quy trình sơ cứu \"Hạ thân nhiệt\": Hành động cần làm là gì?",
+    "back": "Đưa vào nơi khô ráo, tránh gió.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-296",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "front": "Bước 2 trong quy trình sơ cứu \"Hạ thân nhiệt\": Hành động cần làm là gì?",
+    "back": "Thay quần áo ướt bằng khô, ấm.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-297",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "front": "Bước 3 trong quy trình sơ cứu \"Hạ thân nhiệt\": Hành động cần làm là gì?",
+    "back": "Hâm nóng từ từ: ủ ấm vùng ngực, cổ, đầu, bẹn (không xoa bóp chân tay).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-298",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "front": "Bước 4 trong quy trình sơ cứu \"Hạ thân nhiệt\": Hành động cần làm là gì?",
+    "back": "Dùng chăn, túi ấm, chai nước ấm (bọc khăn) đặt ở nách, bẹn, cổ.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-299",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "front": "Bước 5 trong quy trình sơ cứu \"Hạ thân nhiệt\": Hành động cần làm là gì?",
+    "back": "Nếu nạn nhân tỉnh: cho uống nước ấm, đường từ từ.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-300",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "front": "Bước 6 trong quy trình sơ cứu \"Hạ thân nhiệt\": Hành động cần làm là gì?",
+    "back": "Nếu hôn mê hoặc nặng: đặt tư thế hồi phục, gọi 115.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-301",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "front": "Bước 7 trong quy trình sơ cứu \"Hạ thân nhiệt\": Hành động cần làm là gì?",
+    "back": "Nếu ngừng tim: bắt đầu CPR ngay và tiếp tục cho đến khi nạn nhân ấm lên hoặc cấp cứu đến.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-302",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Hạ thân nhiệt\" là gì?",
+    "back": "KHÔNG xoa bóp chân tay (gây sốc tim, rối loạn nhịp). KHÔNG tắm nước nóng, chườm nóng quá nhanh (gây giãn mạch ngoại vi, tụt HA). Hạ thân nhiệt nặng có thể hồi sinh ngay cả sau ngừng tim lâu.",
+    "type": "caution"
+  },
+  {
+    "id": "fc-303",
+    "lessonId": "ha-than-nhiet",
+    "lessonTitle": "Hạ thân nhiệt",
+    "category": "môi trường",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Hạ thân nhiệt\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Hạ thân nhiệt là tình trạng cơ thể mất nhiệt quá nhanh. Cần xử trí nhẹ nhàng và hâm nóng từ từ. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-304",
+    "lessonId": "ngo-doc-thuc-pham",
+    "lessonTitle": "Ngộ độc thực phẩm",
+    "category": "cấp cứu",
+    "front": "Ngộ độc thực phẩm là gì?",
+    "back": "Ngộ độc thực phẩm thường gây nôn, tiêu chảy, mất nước. Cần bù nước và theo dõi.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-305",
+    "lessonId": "ngo-doc-thuc-pham",
+    "lessonTitle": "Ngộ độc thực phẩm",
+    "category": "cấp cứu",
+    "front": "Đối tượng nguy cơ cao của \"Ngộ độc thực phẩm\" là ai?",
+    "back": "Mọi người, đặc biệt là trẻ em, người già, người có hệ miễn dịch yếu.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-306",
+    "lessonId": "ngo-doc-thuc-pham",
+    "lessonTitle": "Ngộ độc thực phẩm",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #1 của \"Ngộ độc thực phẩm\" là gì?",
+    "back": "Buồn nôn, nôn, tiêu chảy, đau bụng, sốt",
+    "type": "sign"
+  },
+  {
+    "id": "fc-307",
+    "lessonId": "ngo-doc-thuc-pham",
+    "lessonTitle": "Ngộ độc thực phẩm",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #2 của \"Ngộ độc thực phẩm\" là gì?",
+    "back": "Mất nước (khô miệng, tiểu ít, da nhăn nheo)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-308",
+    "lessonId": "ngo-doc-thuc-pham",
+    "lessonTitle": "Ngộ độc thực phẩm",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #3 của \"Ngộ độc thực phẩm\" là gì?",
+    "back": "Nhìn mờ, nói khó, yếu cơ, khó thở (ngộ độc nặng)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-309",
+    "lessonId": "ngo-doc-thuc-pham",
+    "lessonTitle": "Ngộ độc thực phẩm",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #1 của \"Ngộ độc thực phẩm\" là gì?",
+    "back": "Mệt mỏi, choáng váng",
+    "type": "sign"
+  },
+  {
+    "id": "fc-310",
+    "lessonId": "ngo-doc-thuc-pham",
+    "lessonTitle": "Ngộ độc thực phẩm",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #2 của \"Ngộ độc thực phẩm\" là gì?",
+    "back": "Đau đầu, run tay",
+    "type": "sign"
+  },
+  {
+    "id": "fc-311",
+    "lessonId": "ngo-doc-thuc-pham",
+    "lessonTitle": "Ngộ độc thực phẩm",
+    "category": "cấp cứu",
+    "front": "Bước 1 trong quy trình sơ cứu \"Ngộ độc thực phẩm\": Hành động cần làm là gì?",
+    "back": "Ngưng ăn thực phẩm nghi ngờ.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-312",
+    "lessonId": "ngo-doc-thuc-pham",
+    "lessonTitle": "Ngộ độc thực phẩm",
+    "category": "cấp cứu",
+    "front": "Bước 2 trong quy trình sơ cứu \"Ngộ độc thực phẩm\": Hành động cần làm là gì?",
+    "back": "Nếu nạn nhân tỉnh: cho uống nước, oresol từ từ.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-313",
+    "lessonId": "ngo-doc-thuc-pham",
+    "lessonTitle": "Ngộ độc thực phẩm",
+    "category": "cấp cứu",
+    "front": "Bước 3 trong quy trình sơ cứu \"Ngộ độc thực phẩm\": Hành động cần làm là gì?",
+    "back": "Nếu nôn: đặt tư thế hồi phục, không cho ăn uống.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-314",
+    "lessonId": "ngo-doc-thuc-pham",
+    "lessonTitle": "Ngộ độc thực phẩm",
+    "category": "cấp cứu",
+    "front": "Bước 4 trong quy trình sơ cứu \"Ngộ độc thực phẩm\": Hành động cần làm là gì?",
+    "back": "Nếu hôn mê, khó thở: gọi 115 ngay, bắt đầu CPR nếu ngừng tim.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-315",
+    "lessonId": "ngo-doc-thuc-pham",
+    "lessonTitle": "Ngộ độc thực phẩm",
+    "category": "cấp cứu",
+    "front": "Bước 5 trong quy trình sơ cứu \"Ngộ độc thực phẩm\": Hành động cần làm là gì?",
+    "back": "Giữ mẫu thực phẩm nghi ngờ để mang đến bệnh viện.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-316",
+    "lessonId": "ngo-doc-thuc-pham",
+    "lessonTitle": "Ngộ độc thực phẩm",
+    "category": "cấp cứu",
+    "front": "Bước 6 trong quy trình sơ cứu \"Ngộ độc thực phẩm\": Hành động cần làm là gì?",
+    "back": "Ghi nhận thời gian ăn, triệu chứng để thông báo cho bác sĩ.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-317",
+    "lessonId": "ngo-doc-thuc-pham",
+    "lessonTitle": "Ngộ độc thực phẩm",
+    "category": "cấp cứu",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Ngộ độc thực phẩm\" là gì?",
+    "back": "Không tự ý dùng thuốc chống nôn hoặc cầm tiêu chảy khi chưa có chỉ định. KHÔNG cố gắng gây nôn (gây tổn thương thêm thực quản). Nếu nghi ngờ ngộ độc hóa chất, kim loại nặng: gọi 115 ngay.",
+    "type": "caution"
+  },
+  {
+    "id": "fc-318",
+    "lessonId": "ngo-doc-thuc-pham",
+    "lessonTitle": "Ngộ độc thực phẩm",
+    "category": "cấp cứu",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Ngộ độc thực phẩm\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Ngộ độc thực phẩm thường gây nôn, tiêu chảy, mất nước. Cần bù nước và theo dõi. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-319",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "front": "Co giật / Động kinh là gì?",
+    "back": "Cơn co giật do động kinh hoặc sốt cao, cần bảo vệ nạn nhân khỏi chấn thương và theo dõi.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-320",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "front": "Đối tượng nguy cơ cao của \"Co giật / Động kinh\" là ai?",
+    "back": "Trẻ em (sốt cao), người có tiền sử động kinh, người bị chấn thương sọ não.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-321",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #1 của \"Co giật / Động kinh\" là gì?",
+    "back": "Mất ý thức đột ngột, co cứng rồi giật nhịp nhàng toàn thân",
+    "type": "sign"
+  },
+  {
+    "id": "fc-322",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #2 của \"Co giật / Động kinh\" là gì?",
+    "back": "Mắt trợn ngược, sùi bọt mép",
+    "type": "sign"
+  },
+  {
+    "id": "fc-323",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #3 của \"Co giật / Động kinh\" là gì?",
+    "back": "Cắn lưỡi, tiểu tiện không tự chủ",
+    "type": "sign"
+  },
+  {
+    "id": "fc-324",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #1 của \"Co giật / Động kinh\" là gì?",
+    "back": "Cơn khu trú (một chi, một bên mặt)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-325",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #2 của \"Co giật / Động kinh\" là gì?",
+    "back": "Cảm giác bất thường trước cơn (hồi hộp, ù tai, nhìn mờ)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-326",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #3 của \"Co giật / Động kinh\" là gì?",
+    "back": "Trẻ em: co giật sốt (sốt >38°C, co giật <15 phút)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-327",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "front": "Phân loại \"Toàn thể (Generalized)\" trong \"Co giật / Động kinh\" nghĩa là gì?",
+    "back": "Co giật toàn thân, mất ý thức.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-328",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "front": "Phân loại \"Cơn sốt (Febrile)\" trong \"Co giật / Động kinh\" nghĩa là gì?",
+    "back": "Co giật do sốt cao ở trẻ 6 tháng-5 tuổi, thường tự hết.",
+    "type": "classification"
+  },
+  {
+    "id": "fc-329",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "front": "Bước 1 trong quy trình sơ cứu \"Co giật / Động kinh\": Hành động cần làm là gì?",
+    "back": "Đặt nạn nhân nằm an toàn, kê mềm dưới đầu, nới lỏng quần áo.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-330",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "front": "Bước 2 trong quy trình sơ cứu \"Co giật / Động kinh\": Hành động cần làm là gì?",
+    "back": "Nghiêng đầu sang bên để chất nôn hoặc bọt chảy ra, tránh sặc.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-331",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "front": "Bước 3 trong quy trình sơ cứu \"Co giật / Động kinh\": Hành động cần làm là gì?",
+    "back": "Ghi nhận thời gian cơn.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-332",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "front": "Bước 4 trong quy trình sơ cứu \"Co giật / Động kinh\": Hành động cần làm là gì?",
+    "back": "Nếu >5 phút hoặc nhiều cơn liên tiếp → gọi 115.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-333",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "front": "Bước 5 trong quy trình sơ cứu \"Co giật / Động kinh\": Hành động cần làm là gì?",
+    "back": "Sau cơn: đặt tư thế hồi phục, không cho ăn uống ngay.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-334",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "front": "Bước 6 trong quy trình sơ cứu \"Co giật / Động kinh\": Hành động cần làm là gì?",
+    "back": "KHÔNG nhét bất cứ thứ gì vào miệng.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-335",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "front": "Bước 7 trong quy trình sơ cứu \"Co giật / Động kinh\": Hành động cần làm là gì?",
+    "back": "Nếu trẻ sốt: hạ nhiệt (paracetamol sau cơn), gọi 115 nếu cơn kéo dài.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-336",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Co giật / Động kinh\" là gì?",
+    "back": "Không ghì chặt nạn nhân, không cố ngừng cơn. Hầu hết cơn tự hết trong 1-3 phút. Sau cơn nạn nhân thường buồn ngủ, mệt mỏi.",
+    "type": "caution"
+  },
+  {
+    "id": "fc-337",
+    "lessonId": "co-giat-dong-kinh",
+    "lessonTitle": "Co giật / Động kinh",
+    "category": "cấp cứu",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Co giật / Động kinh\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Cơn co giật do động kinh hoặc sốt cao, cần bảo vệ nạn nhân khỏi chấn thương và theo dõi. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-338",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "front": "Chấn thương cột sống là gì?",
+    "back": "Chấn thương cột sống có thể gây liệt vĩnh viễn. Cần cố định đầu và cột sống, giữ thẳng hàng, gọi cấp cứu.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-339",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "front": "Đối tượng nguy cơ cao của \"Chấn thương cột sống\" là ai?",
+    "back": "Nạn nhân tai nạn giao thông, ngã cao, chấn thương thể thao, người già bị té.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-340",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "front": "Dấu hiệu chắc chắn #1 của \"Chấn thương cột sống\" là gì?",
+    "back": "Đau chói vùng cổ/lưng",
+    "type": "sign"
+  },
+  {
+    "id": "fc-341",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "front": "Dấu hiệu chắc chắn #2 của \"Chấn thương cột sống\" là gì?",
+    "back": "Tê bì, yếu hoặc liệt tay chân",
+    "type": "sign"
+  },
+  {
+    "id": "fc-342",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "front": "Dấu hiệu chắc chắn #3 của \"Chấn thương cột sống\" là gì?",
+    "back": "Mất kiểm soát cơ vòng (tiểu tiện không tự chủ)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-343",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "front": "Dấu hiệu nghi vấn #1 của \"Chấn thương cột sống\" là gì?",
+    "back": "Sau tai nạn giao thông, ngã cao, chấn thương thể thao",
+    "type": "sign"
+  },
+  {
+    "id": "fc-344",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "front": "Dấu hiệu nghi vấn #2 của \"Chấn thương cột sống\" là gì?",
+    "back": "Đau cổ, cứng cổ",
+    "type": "sign"
+  },
+  {
+    "id": "fc-345",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "front": "Dấu hiệu nghi vấn #3 của \"Chấn thương cột sống\" là gì?",
+    "back": "Rối loạn cảm giác vùng chi",
+    "type": "sign"
+  },
+  {
+    "id": "fc-346",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "front": "Bước 1 trong quy trình sơ cứu \"Chấn thương cột sống\": Hành động cần làm là gì?",
+    "back": "Giữ đầu và cơ thể thẳng hàng bằng tay (manual in-line stabilization).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-347",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "front": "Bước 2 trong quy trình sơ cứu \"Chấn thương cột sống\": Hành động cần làm là gì?",
+    "back": "KHÔNG cử động, lay, xoay đầu/cổ nạn nhân.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-348",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "front": "Bước 3 trong quy trình sơ cứu \"Chấn thương cột sống\": Hành động cần làm là gì?",
+    "back": "KHÔNG để nạn nhân ngồi dậy hoặc đứng.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-349",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "front": "Bước 4 trong quy trình sơ cứu \"Chấn thương cột sống\": Hành động cần làm là gì?",
+    "back": "Nếu cần di chuyển: dùng kỹ thuật lăn log-roll (lăn người) với ít nhất 3 người, giữ đầu thẳng hàng.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-350",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "front": "Bước 5 trong quy trình sơ cứu \"Chấn thương cột sống\": Hành động cần làm là gì?",
+    "back": "Cố định bằng nẹp cột sống nếu có, gọi 115 ngay.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-351",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "front": "Bước 6 trong quy trình sơ cứu \"Chấn thương cột sống\": Hành động cần làm là gì?",
+    "back": "Nếu nạn nhân bất tỉnh nhưng thở: đặt tư thế hồi phục, giữ đầu ổn định.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-352",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Chấn thương cột sống\" là gì?",
+    "back": "Ngay cả khi nạn nhân tỉnh táo và không đau, vẫn phải nghi ngờ chấn thương cột sống vì có thể trì hoãn biểu hiện. Khi nghi ngờ → bất động toàn bộ cột sống.",
+    "type": "caution"
+  },
+  {
+    "id": "fc-353",
+    "lessonId": "cham-thuong-cot-song",
+    "lessonTitle": "Chấn thương cột sống",
+    "category": "chấn thương",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Chấn thương cột sống\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Chấn thương cột sống có thể gây liệt vĩnh viễn. Cần cố định đầu và cột sống, giữ thẳng hàng, gọi cấp cứu. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-354",
+    "lessonId": "nhoi-mau-co-tim",
+    "lessonTitle": "Nhồi máu cơ tim",
+    "category": "cấp cứu",
+    "front": "Nhồi máu cơ tim là gì?",
+    "back": "Nhồi máu cơ tim là cấp cứu tim mạch nguy hiểm. Gọi cấp cứu ngay khi nghi ngờ.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-355",
+    "lessonId": "nhoi-mau-co-tim",
+    "lessonTitle": "Nhồi máu cơ tim",
+    "category": "cấp cứu",
+    "front": "Đối tượng nguy cơ cao của \"Nhồi máu cơ tim\" là ai?",
+    "back": "Người cao tuổi, hút thuốc, tăng huyết áp, đái tháo đường, béo phì.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-356",
+    "lessonId": "nhoi-mau-co-tim",
+    "lessonTitle": "Nhồi máu cơ tim",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #1 của \"Nhồi máu cơ tim\" là gì?",
+    "back": "Đau thắt ngực dữ dội, cảm giác bóp nghẹt, đè ép giữa ngực, lan lên vai trái, cổ, hàm",
+    "type": "sign"
+  },
+  {
+    "id": "fc-357",
+    "lessonId": "nhoi-mau-co-tim",
+    "lessonTitle": "Nhồi máu cơ tim",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #2 của \"Nhồi máu cơ tim\" là gì?",
+    "back": "Khó thở, vã mồ hôi lạnh, buồn nôn, choáng",
+    "type": "sign"
+  },
+  {
+    "id": "fc-358",
+    "lessonId": "nhoi-mau-co-tim",
+    "lessonTitle": "Nhồi máu cơ tim",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #1 của \"Nhồi máu cơ tim\" là gì?",
+    "back": "Đau bụng trên, ợ chua, khó tiêu (đặc biệt ở phụ nữ, người già)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-359",
+    "lessonId": "nhoi-mau-co-tim",
+    "lessonTitle": "Nhồi máu cơ tim",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #2 của \"Nhồi máu cơ tim\" là gì?",
+    "back": "Mệt mỏi bất thường, ho khan",
+    "type": "sign"
+  },
+  {
+    "id": "fc-360",
+    "lessonId": "nhoi-mau-co-tim",
+    "lessonTitle": "Nhồi máu cơ tim",
+    "category": "cấp cứu",
+    "front": "Bước 1 trong quy trình sơ cứu \"Nhồi máu cơ tim\": Hành động cần làm là gì?",
+    "back": "Gọi 115 ngay lập tức. Ghi nhận thời gian khởi phát.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-361",
+    "lessonId": "nhoi-mau-co-tim",
+    "lessonTitle": "Nhồi máu cơ tim",
+    "category": "cấp cứu",
+    "front": "Bước 2 trong quy trình sơ cứu \"Nhồi máu cơ tim\": Hành động cần làm là gì?",
+    "back": "Cho nạn nhân nghỉ ở tư thế nửa nằm nửa ngồi, chân duỗi.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-362",
+    "lessonId": "nhoi-mau-co-tim",
+    "lessonTitle": "Nhồi máu cơ tim",
+    "category": "cấp cứu",
+    "front": "Bước 3 trong quy trình sơ cứu \"Nhồi máu cơ tim\": Hành động cần làm là gì?",
+    "back": "Nới lỏng quần áo cổ, ngực.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-363",
+    "lessonId": "nhoi-mau-co-tim",
+    "lessonTitle": "Nhồi máu cơ tim",
+    "category": "cấp cứu",
+    "front": "Bước 4 trong quy trình sơ cứu \"Nhồi máu cơ tim\": Hành động cần làm là gì?",
+    "back": "Nếu nạn nhân tỉnh, không dị ứng aspirin, không chảy máu dạ dày: cho nhai viên Aspirin 300mg.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-364",
+    "lessonId": "nhoi-mau-co-tim",
+    "lessonTitle": "Nhồi máu cơ tim",
+    "category": "cấp cứu",
+    "front": "Bước 5 trong quy trình sơ cứu \"Nhồi máu cơ tim\": Hành động cần làm là gì?",
+    "back": "KHÔNG cho ăn uống trừ khi được hướng dẫn.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-365",
+    "lessonId": "nhoi-mau-co-tim",
+    "lessonTitle": "Nhồi máu cơ tim",
+    "category": "cấp cứu",
+    "front": "Bước 6 trong quy trình sơ cứu \"Nhồi máu cơ tim\": Hành động cần làm là gì?",
+    "back": "Nếu có thuốc nitroglycerin dưới lưỡi: cho dùng theo hướng dẫn.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-366",
+    "lessonId": "nhoi-mau-co-tim",
+    "lessonTitle": "Nhồi máu cơ tim",
+    "category": "cấp cứu",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Nhồi máu cơ tim\" là gì?",
+    "back": "Không tự lái xe đến bệnh viện. Không để nạn nhân nằm nếu họ khó thở. Không cho ăn uống. Ghi nhận thời gian khởi phát đau để báo cho bác sĩ.",
+    "type": "caution"
+  },
+  {
+    "id": "fc-367",
+    "lessonId": "nhoi-mau-co-tim",
+    "lessonTitle": "Nhồi máu cơ tim",
+    "category": "cấp cứu",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Nhồi máu cơ tim\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Nhồi máu cơ tim là cấp cứu tim mạch nguy hiểm. Gọi cấp cứu ngay khi nghi ngờ. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-368",
+    "lessonId": "ha-duong-huyet",
+    "lessonTitle": "Hạ đường huyết",
+    "category": "cấp cứu",
+    "front": "Hạ đường huyết là gì?",
+    "back": "Hạ đường huyết thường gặp ở người đái tháo đường, có thể dẫn đến hôn mê nếu không xử trí.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-369",
+    "lessonId": "ha-duong-huyet",
+    "lessonTitle": "Hạ đường huyết",
+    "category": "cấp cứu",
+    "front": "Đối tượng nguy cơ cao của \"Hạ đường huyết\" là ai?",
+    "back": "Người đái tháo đường, người nhịn ăn, vận động quá sức.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-370",
+    "lessonId": "ha-duong-huyet",
+    "lessonTitle": "Hạ đường huyết",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #1 của \"Hạ đường huyết\" là gì?",
+    "back": "Run tay, đói cồn cào, tim đập nhanh, vã mồ hôi, choáng váng",
+    "type": "sign"
+  },
+  {
+    "id": "fc-371",
+    "lessonId": "ha-duong-huyet",
+    "lessonTitle": "Hạ đường huyết",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #2 của \"Hạ đường huyết\" là gì?",
+    "back": "Nói khó, lú lẫn, hung dữ bất thường",
+    "type": "sign"
+  },
+  {
+    "id": "fc-372",
+    "lessonId": "ha-duong-huyet",
+    "lessonTitle": "Hạ đường huyết",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu chắc chắn #3 của \"Hạ đường huyết\" là gì?",
+    "back": "Co giật, mất ý thức (nặng)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-373",
+    "lessonId": "ha-duong-huyet",
+    "lessonTitle": "Hạ đường huyết",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #1 của \"Hạ đường huyết\" là gì?",
+    "back": "Nhìn mờ, đau đầu, yếu chi",
+    "type": "sign"
+  },
+  {
+    "id": "fc-374",
+    "lessonId": "ha-duong-huyet",
+    "lessonTitle": "Hạ đường huyết",
+    "category": "cấp cứu",
+    "front": "Dấu hiệu nghi vấn #2 của \"Hạ đường huyết\" là gì?",
+    "back": "Nói ngọng, hành vi bất thường",
+    "type": "sign"
+  },
+  {
+    "id": "fc-375",
+    "lessonId": "ha-duong-huyet",
+    "lessonTitle": "Hạ đường huyết",
+    "category": "cấp cứu",
+    "front": "Bước 1 trong quy trình sơ cứu \"Hạ đường huyết\": Hành động cần làm là gì?",
+    "back": "Nếu còn tỉnh: cho uống/ăn 15-20g đường hấp thu nhanh (3-4 viên đường, 1/2 lon nước ngọt, 2 thìa mật ong).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-376",
+    "lessonId": "ha-duong-huyet",
+    "lessonTitle": "Hạ đường huyết",
+    "category": "cấp cứu",
+    "front": "Bước 2 trong quy trình sơ cứu \"Hạ đường huyết\": Hành động cần làm là gì?",
+    "back": "Sau 15 phút kiểm tra lại, nếu không đỡ thì lặp lại.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-377",
+    "lessonId": "ha-duong-huyet",
+    "lessonTitle": "Hạ đường huyết",
+    "category": "cấp cứu",
+    "front": "Bước 3 trong quy trình sơ cứu \"Hạ đường huyết\": Hành động cần làm là gì?",
+    "back": "Khi tỉnh táo hoàn toàn, cho ăn thêm thức ăn tinh bột (bánh mì, cơm).",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-378",
+    "lessonId": "ha-duong-huyet",
+    "lessonTitle": "Hạ đường huyết",
+    "category": "cấp cứu",
+    "front": "Bước 4 trong quy trình sơ cứu \"Hạ đường huyết\": Hành động cần làm là gì?",
+    "back": "Nếu hôn mê hoặc không tỉnh: đặt tư thế an toàn, không đổ bất cứ thứ gì vào miệng, gọi 115.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-379",
+    "lessonId": "ha-duong-huyet",
+    "lessonTitle": "Hạ đường huyết",
+    "category": "cấp cứu",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Hạ đường huyết\" là gì?",
+    "back": "Người bệnh đái tháo đường nên luôn mang theo kẹo, nước đường bên mình. Nếu hôn mê do hạ đường huyết: tiêm glucagon nếu có, gọi 115.",
+    "type": "caution"
+  },
+  {
+    "id": "fc-380",
+    "lessonId": "ha-duong-huyet",
+    "lessonTitle": "Hạ đường huyết",
+    "category": "cấp cứu",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Hạ đường huyết\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Hạ đường huyết thường gặp ở người đái tháo đường, có thể dẫn đến hôn mê nếu không xử trí. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-381",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "front": "Vết thương phần mềm, bầm tím là gì?",
+    "back": "Vết thương phần mềm thường gặp trong sinh hoạt và thể thao. Sơ cứu đúng cách theo nguyên tắc PRICE giúp mau lành.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-382",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "front": "Đối tượng nguy cơ cao của \"Vết thương phần mềm, bầm tím\" là ai?",
+    "back": "Trẻ em, người chơi thể thao, người lao động chân tay.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-383",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "front": "Dấu hiệu chắc chắn #1 của \"Vết thương phần mềm, bầm tím\" là gì?",
+    "back": "Sưng to, biến dạng",
+    "type": "sign"
+  },
+  {
+    "id": "fc-384",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "front": "Dấu hiệu chắc chắn #2 của \"Vết thương phần mềm, bầm tím\" là gì?",
+    "back": "Đau dữ dội khi cử động",
+    "type": "sign"
+  },
+  {
+    "id": "fc-385",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "front": "Dấu hiệu chắc chắn #3 của \"Vết thương phần mềm, bầm tím\" là gì?",
+    "back": "Mất khả năng cử động bình thường",
+    "type": "sign"
+  },
+  {
+    "id": "fc-386",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "front": "Dấu hiệu nghi vấn #1 của \"Vết thương phần mềm, bầm tím\" là gì?",
+    "back": "Sưng nề, bầm tím (chấn thương kín)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-387",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "front": "Dấu hiệu nghi vấn #2 của \"Vết thương phần mềm, bầm tím\" là gì?",
+    "back": "Vết thương hở, rách da, chảy máu",
+    "type": "sign"
+  },
+  {
+    "id": "fc-388",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "front": "Dấu hiệu nghi vấn #3 của \"Vết thương phần mềm, bầm tím\" là gì?",
+    "back": "Đau tăng dần sau vận động",
+    "type": "sign"
+  },
+  {
+    "id": "fc-389",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "front": "Bước 1 trong quy trình sơ cứu \"Vết thương phần mềm, bầm tím\": Hành động cần làm là gì?",
+    "back": "P (Protection): bảo vệ vùng thương, dừng hoạt động ngay.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-390",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "front": "Bước 2 trong quy trình sơ cứu \"Vết thương phần mềm, bầm tím\": Hành động cần làm là gì?",
+    "back": "R (Rest): nghỉ ngơi hoàn toàn, không vận động vùng bị thương.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-391",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "front": "Bước 3 trong quy trình sơ cứu \"Vết thương phần mềm, bầm tím\": Hành động cần làm là gì?",
+    "back": "I (Ice): chườm lạnh bọc vải 15-20 phút mỗi lần, cách 2-3 tiếng trong 48 giờ đầu.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-392",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "front": "Bước 4 trong quy trình sơ cứu \"Vết thương phần mềm, bầm tím\": Hành động cần làm là gì?",
+    "back": "C (Compression): băng ép băng thun, không quá chặt.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-393",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "front": "Bước 5 trong quy trình sơ cứu \"Vết thương phần mềm, bầm tím\": Hành động cần làm là gì?",
+    "back": "E (Elevate): kê cao chi bị thương cao hơn tim.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-394",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "front": "Bước 6 trong quy trình sơ cứu \"Vết thương phần mềm, bầm tím\": Hành động cần làm là gì?",
+    "back": "Sau 48-72 giờ: có thể chườm ấm nhẹ, bắt đầu vận động nhẹ.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-395",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "front": "Bước 7 trong quy trình sơ cứu \"Vết thương phần mềm, bầm tím\": Hành động cần làm là gì?",
+    "back": "Vết thương hở: rửa sạch dưới vòi nước chảy, rửa vùng da quanh bằng xà phòng (tránh xà phòng vào sâu vết thương), băng ép cầm máu.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-396",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Vết thương phần mềm, bầm tím\" là gì?",
+    "back": "Tránh HARM trong 72 giờ đầu: KHÔNG Heat (nóng), KHÔNG Alcohol (rượu), KHÔNG Running (chạy/vận động mạnh), KHÔNG Massage (xoa bóp). Không dùng oxy già, cồn mạnh trực tiếp vào vết thương hở vì gây tổn thương mô.",
+    "type": "caution"
+  },
+  {
+    "id": "fc-397",
+    "lessonId": "vet-thuong-phan-mem",
+    "lessonTitle": "Vết thương phần mềm, bầm tím",
+    "category": "chấn thương",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Vết thương phần mềm, bầm tím\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Vết thương phần mềm thường gặp trong sinh hoạt và thể thao. Sơ cứu đúng cách theo nguyên tắc PRICE giúp mau lành. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  },
+  {
+    "id": "fc-398",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "front": "Say nắng (Sốc nhiệt - sơ cứu như nhau) là gì?",
+    "back": "Say nắng là tình trạng tăng thân nhiệt nguy hiểm. Cần hạ nhiệt cấp tốc theo hướng dẫn quốc tế.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-399",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "front": "Đối tượng nguy cơ cao của \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\" là ai?",
+    "back": "Người làm việc ngoài trời nắng, trẻ nhỏ, người già, người vận động mạnh trong thời tiết nóng.",
+    "type": "definition"
+  },
+  {
+    "id": "fc-400",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "front": "Dấu hiệu chắc chắn #1 của \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\" là gì?",
+    "back": "Nhiệt độ thân >40°C",
+    "type": "sign"
+  },
+  {
+    "id": "fc-401",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "front": "Dấu hiệu chắc chắn #2 của \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\" là gì?",
+    "back": "Rối loạn ý thức (lơ mơ, nói nhảm, co giật hoặc hôn mê)",
+    "type": "sign"
+  },
+  {
+    "id": "fc-402",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "front": "Dấu hiệu chắc chắn #3 của \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\" là gì?",
+    "back": "Da rất nóng, đỏ hoặc đỏ bừng. Có thể có hoặc không còn ra mồ hôi.",
+    "type": "sign"
+  },
+  {
+    "id": "fc-403",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "front": "Dấu hiệu nghi vấn #1 của \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\" là gì?",
+    "back": "Nhức đầu dữ dội, chóng mặt, buồn nôn, nôn",
+    "type": "sign"
+  },
+  {
+    "id": "fc-404",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "front": "Dấu hiệu nghi vấn #2 của \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\" là gì?",
+    "back": "Da đỏ, mạch nhanh và mạnh, thở nhanh",
+    "type": "sign"
+  },
+  {
+    "id": "fc-405",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "front": "Dấu hiệu nghi vấn #3 của \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\" là gì?",
+    "back": "Chuột rút hoặc yếu cơ",
+    "type": "sign"
+  },
+  {
+    "id": "fc-406",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "front": "Dấu hiệu nghi vấn #4 của \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\" là gì?",
+    "back": "Rối loạn hành vi, lú lẫn, kích thích, nói không rõ, đi loạng choạng",
+    "type": "sign"
+  },
+  {
+    "id": "fc-407",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "front": "Phân loại \"Say nắng cổ điển\" trong \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\" nghĩa là gì?",
+    "back": "Xảy ra khi tiếp xúc với nhiệt độ cao kéo dài (người già, trẻ nhỏ, bệnh mạn tính)",
+    "type": "classification"
+  },
+  {
+    "id": "fc-408",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "front": "Phân loại \"Say nắng do gắng sức\" trong \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\" nghĩa là gì?",
+    "back": "Xảy ra ở người trẻ hoạt động thể lực mạnh trong môi trường nóng",
+    "type": "classification"
+  },
+  {
+    "id": "fc-409",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "front": "Bước 1 trong quy trình sơ cứu \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\": Hành động cần làm là gì?",
+    "back": "Gọi 115 ngay lập tức – đây là cấp cứu tối khẩn.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-410",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "front": "Bước 2 trong quy trình sơ cứu \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\": Hành động cần làm là gì?",
+    "back": "Di chuyển nạn nhân vào nơi mát, thoáng gió, cởi bỏ quần áo thừa.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-411",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "front": "Bước 3 trong quy trình sơ cứu \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\": Hành động cần làm là gì?",
+    "back": "Hạ nhiệt cấp tốc: ngâm mình trong nước mát (10-15°C) hoặc đắp khăn ướt mát lên toàn thân, kết hợp quạt lớn.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-412",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "front": "Bước 4 trong quy trình sơ cứu \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\": Hành động cần làm là gì?",
+    "back": "Chườm đá bọc khăn vào nách, bẹn, cổ để hạ nhiệt nhanh.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-413",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "front": "Bước 5 trong quy trình sơ cứu \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\": Hành động cần làm là gì?",
+    "back": "Nếu nạn nhân tỉnh, cho uống nước mát (không có caffeine) từ từ.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-414",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "front": "Bước 6 trong quy trình sơ cứu \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\": Hành động cần làm là gì?",
+    "back": "Theo dõi ABC, sẵn sàng CPR nếu ngừng tim.",
+    "type": "procedure"
+  },
+  {
+    "id": "fc-415",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "front": "Lưu ý quan trọng khi sơ cứu \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\" là gì?",
+    "back": "Mục tiêu: hạ nhiệt độ xuống dưới 39°C trong vòng 30 phút. Tuyệt đối không cho uống bất kỳ thứ gì nếu nạn nhân bất tỉnh hoặc nôn nhiều. Không dùng aspirin hay paracetamol để hạ nhiệt (không có tác dụng).",
+    "type": "caution"
+  },
+  {
+    "id": "fc-416",
+    "lessonId": "say-nang",
+    "lessonTitle": "Say nắng (Sốc nhiệt - sơ cứu như nhau)",
+    "category": "môi trường",
+    "front": "Tình huống: Bạn gặp một nạn nhân có dấu hiệu thuộc \"Say nắng (Sốc nhiệt - sơ cứu như nhau)\". Nguyên tắc đầu tiên bạn cần nhớ là gì?",
+    "back": "Nguyên tắc: Say nắng là tình trạng tăng thân nhiệt nguy hiểm. Cần hạ nhiệt cấp tốc theo hướng dẫn quốc tế. Hãy đảm bảo an toàn bản thân trước, gọi 115 ngay, và làm theo quy trình sơ cứu chuẩn.",
+    "type": "case"
+  }
+]

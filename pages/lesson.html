@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bài học - Cẩm nang Sơ cấp cứu</title>
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body class="bg-pattern">
+  <!-- Nền động nhẹ, chỉ trang trí và không chặn thao tác. -->
+  <div class="animated-background ambient-background" aria-hidden="true">
+    <div class="ambient-blobs">
+      <span class="ambient-orb orb-one"></span>
+      <span class="ambient-orb orb-two"></span>
+      <span class="ambient-orb orb-three"></span>
+      <span class="ambient-orb orb-four"></span>
+      <span class="ambient-orb orb-five"></span>
+      <span class="ambient-orb orb-six"></span>
+    </div>
+    <canvas class="particle-layer"></canvas>
+    <span class="ambient-noise"></span>
+  </div>
+  <header class="header-wrap no-print">
+    <div class="header-inner">
+      <div class="header-left">
+        <a href="../index.html" class="header-logo">
+          <img src="https://i.postimg.cc/HL7rV6Sm/473696083-122233458776025387-106385360309955310-n.jpg" alt="Logo" />
+          <div class="header-brand"><span class="name">Cẩm nang Sơ cấp cứu</span><span class="sub">ĐHYD TP.HCM</span></div>
+        </a>
+      </div>
+      <div class="header-right">
+        <a href="../index.html" class="btn-secondary" style="padding:8px 18px;font-size:0.85rem;"><i class="fas fa-home"></i> Trang chủ</a>
+        <a href="flashcard.html" class="btn-secondary" style="padding:8px 18px;font-size:0.85rem;"><i class="fas fa-layer-group"></i> Flashcard</a>
+        <a href="quiz.html" class="btn-secondary" style="padding:8px 18px;font-size:0.85rem;"><i class="fas fa-question-circle"></i> Quiz</a>
+        <a href="search.html" class="btn-secondary" style="padding:8px 18px;font-size:0.85rem;"><i class="fas fa-search"></i> Tìm kiếm</a>
+      </div>
+    </div>
+  </header>
+
+  <div id="root" class="max-w-7xl mx-auto px-4 py-4 md:py-6">
+    <div id="detail-layout">
+      <div id="detail-content-area" class="detail-content"></div>
+    </div>
+
+    <footer class="footer-wrap no-print">
+      <div class="footer-inner">
+        <div class="glass rounded-2xl p-6 max-w-2xl mx-auto" style="background:var(--bg-glass);border:1px solid var(--bg-glass-border);">
+          <div class="center-logo">
+            <span class="logo-placeholder"><img src="https://i.postimg.cc/HL7rV6Sm/473696083-122233458776025387-106385360309955310-n.jpg" alt="Logo" /></span>
+            <span class="center-name">Trung tâm Phổ cập Kỹ năng Sơ cấp cứu – ĐHYD TP.HCM</span>
+          </div>
+          <p class="text-sm text-muted" style="color:var(--text-muted);">© 2023 – Demo 2026 | Biên soạn bởi</p>
+          <p class="author">Phạm Duy Thanh</p>
+          <p class="font-medium" style="color:var(--text-secondary);">Thành viên Trung tâm Phổ cập Kỹ năng Sơ cấp cứu – ĐHYD TP.HCM</p>
+          <div class="emergency pulse">
+            <i class="fas fa-phone-alt anim-heartbeat" style="color:#dc2626;font-size:1.2rem;"></i>
+            <span style="color:var(--text-secondary);">🚨 Trong trường hợp khẩn cấp, hãy gọi</span>
+            <span class="phone">115</span>
+            <span style="color:var(--text-secondary);">ngay lập tức.</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div class="toast-container" id="toastContainer"></div>
+  <div class="confetti-container" id="confettiContainer"></div>
+  <div class="image-modal" id="imageModal" onclick="closeImageModal(event)">
+    <button class="close-btn" onclick="closeImageModal()">&times;</button>
+    <img id="modalImage" src="" alt="Xem ảnh" />
+    <div class="zoom-controls" style="position:absolute;bottom:30px;left:50%;transform:translateX(-50%);display:flex;gap:16px;background:rgba(0,0,0,0.5);padding:10px 18px;border-radius:40px;">
+      <button onclick="zoomImage(-0.2)" style="background:none;border:none;color:white;font-size:1.4rem;cursor:pointer;">−</button>
+      <button onclick="resetZoom()" style="background:none;border:none;color:white;font-size:1.4rem;cursor:pointer;">⟲</button>
+      <button onclick="zoomImage(0.2)" style="background:none;border:none;color:white;font-size:1.4rem;cursor:pointer;">+</button>
+    </div>
+  </div>
+
+  <script src="../assets/js/data.js"></script>
+  <script src="../assets/js/app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const id = urlParams.get('id');
+      if (id && lessons.find(l => l.id === id)) {
+        document.getElementById('detail-layout').classList.remove('hidden-layout');
+        renderDetailContent(id);
+      } else {
+        document.getElementById('detail-content-area').innerHTML = '<div style="text-align:center;padding:60px;"><h1>Không tìm thấy bài học</h1><a href="../index.html" class="btn-primary" style="margin-top:20px;">Về trang chủ</a></div>';
+      }
+    });
+  </script>
+</body>
+</html>

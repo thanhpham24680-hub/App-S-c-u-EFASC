@@ -252,14 +252,16 @@ function initAnimatedBackground() {
   let pixelRatio = 1;
 
 function createParticles() {
-     const count = mobileQuery.matches ? 0 : tabletQuery.matches ? 30 : 50;
+     const count = mobileQuery.matches ? 0 : tabletQuery.matches ? 50 : 90;
     particles = Array.from({ length: count }, () => ({
       x: Math.random() * width,
       y: Math.random() * height,
-      radius: 0.7 + Math.random() * 1.8,
-      speedX: (Math.random() - 0.5) * 0.045,
-      speedY: -0.018 - Math.random() * 0.045,
-      alpha: 0.08 + Math.random() * 0.15,
+      radius: 0.5 + Math.random() * 2.8,
+      speedX: (Math.random() - 0.5) * 0.1,
+      speedY: -0.04 - Math.random() * 0.1,
+      alpha: 0.05 + Math.random() * 0.22,
+      pulse: Math.random() * Math.PI * 2,
+      pulseSpeed: 0.008 + Math.random() * 0.015,
     }));
   }
 
@@ -280,13 +282,22 @@ function createParticles() {
     particles.forEach((particle) => {
       particle.x += particle.speedX;
       particle.y += particle.speedY;
+      particle.pulse += particle.pulseSpeed;
       if (particle.x < -4) particle.x = width + 4;
       if (particle.x > width + 4) particle.x = -4;
       if (particle.y < -4) particle.y = height + 4;
+      const currentAlpha = particle.alpha * (0.6 + 0.4 * Math.sin(particle.pulse));
+      const currentRadius = particle.radius * (0.8 + 0.2 * Math.sin(particle.pulse));
       context.beginPath();
-      context.fillStyle = `rgba(82, 168, 214, ${particle.alpha})`;
-      context.arc(particle.x, particle.y, particle.radius, 0, Math.PI * 2);
+      context.fillStyle = `rgba(82, 168, 214, ${currentAlpha.toFixed(3)})`;
+      context.arc(particle.x, particle.y, Math.max(0.5, currentRadius), 0, Math.PI * 2);
       context.fill();
+      if (currentRadius > 1.5) {
+        context.beginPath();
+        context.fillStyle = `rgba(82, 168, 214, ${(currentAlpha * 0.25).toFixed(3)})`;
+        context.arc(particle.x, particle.y, currentRadius * 3, 0, Math.PI * 2);
+        context.fill();
+      }
     });
     animationFrame = window.requestAnimationFrame(drawParticles);
   }
@@ -296,8 +307,8 @@ function createParticles() {
   let currentX = 0;
   let currentY = 0;
   function updateParallax() {
-    currentX += (targetX - currentX) * 0.055;
-    currentY += (targetY - currentY) * 0.055;
+    currentX += (targetX - currentX) * 0.08;
+    currentY += (targetY - currentY) * 0.08;
     background.style.setProperty('--parallax-x', `${currentX.toFixed(2)}px`);
     background.style.setProperty('--parallax-y', `${currentY.toFixed(2)}px`);
     window.requestAnimationFrame(updateParallax);
@@ -306,10 +317,10 @@ function createParticles() {
   resizeCanvas();
   drawParticles();
   window.addEventListener('resize', resizeCanvas, { passive: true });
-  if (!tabletQuery.matches) {
+  if (!mobileQuery.matches) {
     window.addEventListener('pointermove', (event) => {
-      targetX = ((event.clientX / width) - 0.5) * 20;
-      targetY = ((event.clientY / height) - 0.5) * 16;
+      targetX = ((event.clientX / width) - 0.5) * 40;
+      targetY = ((event.clientY / height) - 0.5) * 30;
     }, { passive: true });
     updateParallax();
   }

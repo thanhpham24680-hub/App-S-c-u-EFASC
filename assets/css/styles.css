@@ -241,9 +241,9 @@ a:hover { text-decoration: underline; }
 /* Hero glow effect — ánh sáng nhẹ phía sau slogan */
 .hero-glow { position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%); width: clamp(400px, 60vw, 800px); height: clamp(300px, 40vw, 600px); background: radial-gradient(circle, rgba(37,99,235,0.10) 0%, rgba(124,58,237,0.06) 30%, rgba(255,255,255,0) 70%); border-radius: 50%; pointer-events: none; z-index: 0; filter: blur(40px); animation: glowPulse 8s ease-in-out infinite alternate; }
 @keyframes glowPulse { 0% { opacity: 0.6; transform: translate(-50%, -50%) scale(1); } 100% { opacity: 1; transform: translate(-50%, -50%) scale(1.15); } }
-.hero-section { padding: 60px 0 40px; text-align: center; position: relative; overflow: hidden; isolation: isolate; background: radial-gradient(circle at 10% 30%, rgba(37,99,235,0.08) 0%, transparent 60%), radial-gradient(circle at 90% 70%, rgba(124,58,237,0.08) 0%, transparent 60%); }
-.hero-section > :not(.floating-shapes) { position: relative; z-index: 1; }
-.hero-badge { display: inline-flex; align-items: center; gap: 10px; background: var(--bg-glass); backdrop-filter: blur(14px); padding: 6px 18px 6px 12px; border-radius: 40px; font-size: clamp(0.85rem, 1.6vw, 0.95rem); font-weight: 700; border: 1px solid var(--bg-glass-border); color: var(--text-secondary); margin-bottom: 20px; animation: fadeInDown 0.6s ease forwards; opacity: 0; line-height: 1.45; box-shadow: var(--shadow-sm); }
+.hero-section { padding: -24px 0 40px; text-align: center; position: relative; overflow: hidden; isolation: isolate; background: radial-gradient(circle at 10% 30%, rgba(37,99,235,0.08) 0%, transparent 60%), radial-gradient(circle at 90% 70%, rgba(124,58,237,0.08) 0%, transparent 60%); }
+.hero-section > :not(.floating-shapes):not(.hero-glow) { position: relative; z-index: 1; }
+.hero-badge { display: inline-flex; align-items: center; gap: 10px; background: var(--bg-glass); backdrop-filter: blur(14px); padding: 6px 18px 6px 12px; border-radius: 40px; font-size: clamp(0.85rem, 1.6vw, 0.95rem); font-weight: 700; border: 1px solid var(--bg-glass-border); color: var(--text-secondary); margin-bottom: 20px; animation: fadeInDown 0.6s ease forwards; line-height: 1.45; box-shadow: var(--shadow-sm); }
 .hero-badge .logo-placeholder { width: 40px; height: 40px; border-radius: 50%; background: var(--bg-card); border: 2px solid var(--border-color); display: flex; align-items: center; justify-content: center; overflow: hidden; }
 .hero-badge .logo-placeholder img { width: 100%; height: 100%; object-fit: cover; }
 .hero-badge > span:last-child { text-align: center; line-height: 1.45; }
@@ -934,7 +934,7 @@ a:hover { text-decoration: underline; }
   .lessons-grid-container { grid-template-columns: 1fr !important; gap: 14px; }
   #detail-content-area { padding: 14px 16px !important; }
   .detail-overview { grid-template-columns: 1fr 1fr; gap: 10px; }
-  .hero-section { padding: 32px 0 20px; }
+  .hero-section { padding: -16px 0 20px; }
   .hero-badge { max-width: 100%; padding: 10px 16px; flex-wrap: wrap; justify-content: center; gap: 6px; }
   .hero-badge .logo-placeholder { flex: 0 0 auto; }
   .hero-badge > span:last-child { flex: 0 0 auto; min-width: 0; text-align: center; line-height: 1.45; }
@@ -1309,4 +1309,38 @@ a:hover { text-decoration: underline; }
   #detail-content-area { padding: 20px !important; }
   .detail-overview { display: none !important; }
   body { background: white !important; font-size: 11pt !important; }
+}
+/* Xóa padding-top của root để landing sát lên trên */
+#root {
+  padding-top: 0 !important;
+}
+
+/* Điều chỉnh lại padding cho hero để cân đối */
+.hero-section {
+  padding: 20px 0 40px !important;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 10px 0 20px !important;
+  }
+
+  /* Fix: Ngăn khoảng trống do animation bắt đầu từ trạng thái ẩn */
+  #landing-page {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+  }
+
+  .hero-badge {
+    opacity: 1 !important;
+    animation: none !important;
+  }
+
+  .anim-fade-in-up,
+  .anim-fade-in-down {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+  }
 }
